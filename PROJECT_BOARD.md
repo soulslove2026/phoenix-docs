@@ -54,7 +54,7 @@ The present focus is:
 ### Phoenix Engineering Handbook
 
 **Target Release:** `v0.3.0`  
-**Status:** In Progress  
+**Status:** Part 1 Ready for Upload  
 **Priority:** Critical  
 
 ### Planned Documents
@@ -99,7 +99,7 @@ The present focus is:
 | Product Roadmap | Completed | 100% |
 | Domain-Driven Design | Completed | 100% |
 | Enterprise Architecture | Completed | 100% |
-| Engineering Handbook | In Progress | 10% |
+| Engineering Handbook | In Progress | 30% |
 | Database Bible | Planned | 0% |
 | API Bible | Planned | 0% |
 | Flutter Bible | Planned | 0% |
@@ -217,7 +217,7 @@ The foundation stage is complete only when:
 
 ## 13. Next Milestone
 
-> Publish Phoenix Docs `v0.3.0 — Engineering Handbook`.
+> Upload `v0.3.0 — Part 1: Engineering Foundation`, then produce Part 2.
 
 After this milestone, the project moves to:
 

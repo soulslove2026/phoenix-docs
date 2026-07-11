@@ -5,7 +5,7 @@ Phoenix is an AI-native, globally scalable social platform centered on voice com
 This repository is the canonical documentation source for the project. It is designed for both human engineering teams and AI coding agents.
 
 ## Repository Status
-- Version: `0.2.0`
+- Version: `0.3.0-part1`
 - Phase: Foundation and Architecture Baseline
 - Implementation status: Documentation-first; production code not yet generated
 
@@ -16,6 +16,7 @@ This repository is the canonical documentation source for the project. It is des
 4. `docs/01_Executive/001_Executive_Blueprint.md`
 5. `docs/06_DDD/006_Domain_Driven_Design.md`
 6. `docs/07_Architecture/007_Enterprise_System_Architecture.md`
+7. `docs/04_Engineering/000_Engineering_Handbook.md`
 
 ## AI Agent Rule
 Before generating or modifying code, an AI agent must read `AI_CONTEXT.md`, the relevant domain documents, and applicable ADRs. No agent may invent architecture, database entities, API contracts, or business rules that conflict with approved documentation.

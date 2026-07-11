@@ -22,6 +22,18 @@
 - [ADR-002 — Incremental Delivery](adr/ADR-002-incremental-delivery.md)
 - [ADR-003 — Modular Monolith First](adr/ADR-003-modular-monolith-first.md)
 - [ADR-004 — Event-Driven Boundaries](adr/ADR-004-event-driven-boundaries.md)
+- [ADR-005 — Engineering Handbook as Navigation Hub](adr/ADR-005-engineering-handbook-navigation-hub.md)
+- [ADR-006 — AI-First Engineering](adr/ADR-006-ai-first-engineering.md)
+
+
+## Engineering Handbook
+
+- [Engineering Directory](docs/04_Engineering/README.md)
+- [PEH-000 — Engineering Handbook](docs/04_Engineering/000_Engineering_Handbook.md)
+- [PEH-001 — Engineering Philosophy](docs/04_Engineering/001_Engineering_Philosophy.md)
+- [PEH-002 — Architecture Principles](docs/04_Engineering/002_Architecture_Principles.md)
+- [PEH-003 — Coding Standards](docs/04_Engineering/003_Coding_Standards.md)
+- [PEH-004 — Naming Conventions](docs/04_Engineering/004_Naming_Conventions.md)
 
 ## API and Engineering
 - [OpenAPI Baseline](api/openapi/phoenix-api.yaml)

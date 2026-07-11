@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0-part1 — 2026-07-11
+
+### Added
+- Phoenix Engineering Handbook navigation hub
+- Engineering Philosophy
+- Architecture Principles
+- Coding Standards
+- Naming Conventions
+- ADR-005 and ADR-006
+- release record for Engineering Foundation Part 1
+
+
 ## 0.2.0 — 2026-07-11
 
 ### Added
