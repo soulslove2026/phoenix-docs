@@ -1,7 +1,9 @@
 # Phoenix Master Index
 
 ## Foundation
-- [000 — Phoenix Constitution](docs/00_Constitution/000_Phoenix_Constitution.md)
+- [000 — Phoenix Constitution v2.0](docs/00_Constitution/000_Phoenix_Constitution_v2.md)
+- [000-AR — Arabic Executive Summary](docs/00_Constitution/000_Phoenix_Constitution_v2_AR_Summary.md)
+- [000 Legacy — Constitution v1.0](docs/00_Constitution/000_Phoenix_Constitution.md)
 - [001 — Executive Blueprint](docs/01_Executive/001_Executive_Blueprint.md)
 - [002 — Product Vision and Strategy](docs/02_Product/002_Product_Vision_and_Strategy.md)
 - [003 — Global Market Research](docs/03_Market/003_Global_Market_Research.md)
