@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.0-governance-r1 — 2026-07-12
+
+### Added
+- Phoenix Governance entry point
+- Phoenix Charter
+- Founding Principles
+- Project Vision
+- Engineering Manifesto
+- Architecture Oath
+- Document Index
+- Traceability Matrix
+- update and release reporting files
+
+
 ## 0.4.0-part1 — 2026-07-12
 
 ### Added

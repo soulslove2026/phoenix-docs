@@ -1,21 +1,21 @@
 # Release Upload Instructions
 
-**Release:** Phoenix Docs v0.4.0 — Part 1  
-**Name:** Data Platform Foundation
+**Release:** Phoenix Governance v1.0 — Release 1  
+**Name:** Foundation of Excellence
 
 ## Upload with GitHub Desktop
 
-1. Extract the ZIP.
+1. Extract this ZIP.
 2. Open the inner `phoenix-docs` folder.
-3. Copy all contents into the local cloned `phoenix-docs` repository.
+3. Copy all contents into your local cloned `phoenix-docs` repository.
 4. Allow replacement of matching files.
-5. Review the changes in GitHub Desktop.
+5. Review all changes in GitHub Desktop.
 6. Commit and push.
 
 ## Commit Message
 
-`docs(data): add data platform foundation`
+`docs(governance): add foundation of excellence`
 
 ## Description
 
-Adds the Phoenix Data Platform philosophy, domain data model, entity, relationship, identifier, audit, deletion, and ownership standards, plus ADR-007.
+Adds the Phoenix Charter, Founding Principles, Project Vision, Engineering Manifesto, Architecture Oath, Document Index, and Traceability Matrix.

@@ -1,5 +1,18 @@
 # Phoenix Master Index
 
+
+## Governance
+
+- [Governance Read First](docs/00_Governance/000_READ_FIRST.md)
+- [GOV-001 — Phoenix Charter](docs/00_Governance/000_Phoenix_Charter.md)
+- [GOV-002 — Founding Principles](docs/00_Governance/001_Founding_Principles.md)
+- [GOV-003 — Project Vision](docs/00_Governance/002_Project_Vision.md)
+- [GOV-004 — Engineering Manifesto](docs/00_Governance/003_Engineering_Manifesto.md)
+- [GOV-005 — Architecture Oath](docs/00_Governance/004_Architecture_Oath.md)
+- [Document Index](DOCUMENT_INDEX.md)
+- [Traceability Matrix](TRACEABILITY_MATRIX.md)
+
+
 ## Foundation
 - [000 — Phoenix Constitution v2.0](docs/00_Constitution/000_Phoenix_Constitution_v2.md)
 - [000-AR — Arabic Executive Summary](docs/00_Constitution/000_Phoenix_Constitution_v2_AR_Summary.md)
