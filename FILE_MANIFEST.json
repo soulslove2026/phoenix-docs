@@ -1,15 +1,26 @@
 {
+  "project": "phoenix-docs",
+  "version": "1.4.0-data-r2",
+  "release": "Classify, Own, Identify, Evolve",
+  "generated_at": "2026-07-12T18:41:19+00:00",
   "files": [
-    "README.md",
-    "MASTER_INDEX.md",
-    "DOCUMENT_INDEX.md",
     "CHANGELOG.md",
+    "DOCUMENT_INDEX.md",
+    "ENGINEERING_ROADMAP.md",
+    "FILE_MANIFEST.json",
+    "MASTER_INDEX.md",
     "PROJECT_BOARD.md",
-    "TRACEABILITY_MATRIX.md",
-    "VERSION.json",
+    "README.md",
     "RELEASE.md",
-    "UPDATE_GUIDE.md",
     "RELEASE_REPORT.md",
-    "docs/04_Data_Platform/010_Data_Philosophy.md"
+    "TRACEABILITY_MATRIX.md",
+    "UPDATE_GUIDE.md",
+    "VERSION.json",
+    "docs/04_Data_Platform/010_Data_Philosophy.md",
+    "docs/04_Data_Platform/011_Data_Classification.md",
+    "docs/04_Data_Platform/012_Data_Ownership.md",
+    "docs/04_Data_Platform/013_Global_Identifiers.md",
+    "docs/04_Data_Platform/014_Data_Lifecycle.md",
+    "releases/v1.4.0-data-platform-release2.md"
   ]
 }
