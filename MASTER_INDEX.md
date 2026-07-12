@@ -34,6 +34,15 @@
 - [PEH-002 — Architecture Principles](docs/04_Engineering/002_Architecture_Principles.md)
 - [PEH-003 — Coding Standards](docs/04_Engineering/003_Coding_Standards.md)
 - [PEH-004 — Naming Conventions](docs/04_Engineering/004_Naming_Conventions.md)
+- [PEH-005 — Git Workflow](docs/04_Engineering/005_Git_Workflow.md)
+- [PEH-006 — Branching Strategy](docs/04_Engineering/006_Branching_Strategy.md)
+- [PEH-007 — Commit Convention](docs/04_Engineering/007_Commit_Convention.md)
+- [PEH-008 — Pull Request Standards](docs/04_Engineering/008_Pull_Request_Standards.md)
+- [PEH-009 — Code Review Standards](docs/04_Engineering/009_Code_Review_Standards.md)
+- [PEH-010 — Testing Standards](docs/04_Engineering/010_Testing_Standards.md)
+- [PEH-011 — Documentation Standards](docs/04_Engineering/011_Documentation_Standards.md)
+- [PEH-012 — Engineering Checklists](docs/04_Engineering/012_Engineering_Checklists.md)
+- [PEH-013 — Documentation Review Playbook](docs/04_Engineering/013_Document_Review_Playbook.md)
 
 ## API and Engineering
 - [OpenAPI Baseline](api/openapi/phoenix-api.yaml)

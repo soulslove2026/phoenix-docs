@@ -1,20 +1,21 @@
 # Release Upload Instructions
 
-**Release:** Phoenix Docs v0.3.0 — Part 1  
-**Name:** Engineering Foundation
+**Release:** Phoenix Docs v0.3.0 — Part 2  
+**Name:** Engineering Workflow and Quality
 
-## Upload
+## GitHub Desktop
 
 1. Extract the ZIP.
 2. Open the inner `phoenix-docs` folder.
-3. Upload all contents to the root of the GitHub repository.
-4. Allow files with matching names to be replaced.
-5. Commit directly to `main`.
+3. Copy all contents into the local cloned repository.
+4. Allow replacement of matching files.
+5. Review changes in GitHub Desktop.
+6. Commit and push.
 
 ## Commit Message
 
-`docs(engineering): add handbook foundation`
+`docs(engineering): add workflow and quality standards`
 
-## Optional Description
+## Description
 
-Adds the Engineering Handbook navigation hub, engineering philosophy, architecture principles, coding standards, naming conventions, and ADR-005/ADR-006.
+Adds Git workflow, branching, commit, pull request, code review, testing, documentation, checklists, and review playbook standards.

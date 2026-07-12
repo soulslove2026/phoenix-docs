@@ -1,8 +1,8 @@
 {
   "project": "phoenix-docs",
-  "version": "0.3.0-part1",
-  "release": "Engineering Foundation",
-  "generated_at": "2026-07-11T14:59:18Z",
+  "version": "0.3.0-part2",
+  "release": "Engineering Workflow and Quality",
+  "generated_at": "2026-07-12T08:16:27+00:00",
   "files": [
     ".github/ISSUE_TEMPLATE/feature.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
@@ -33,6 +33,8 @@
     "architecture/c4/containers.mmd",
     "architecture/c4/context.mmd",
     "architecture/erd/core-domain-erd.mmd",
+    "checklists/engineering/before-commit.md",
+    "checklists/engineering/before-merge.md",
     "docs/00_Constitution/000_Phoenix_Constitution.md",
     "docs/00_Constitution/000_Phoenix_Constitution_v2.md",
     "docs/00_Constitution/000_Phoenix_Constitution_v2_AR_Summary.md",
@@ -45,6 +47,15 @@
     "docs/04_Engineering/002_Architecture_Principles.md",
     "docs/04_Engineering/003_Coding_Standards.md",
     "docs/04_Engineering/004_Naming_Conventions.md",
+    "docs/04_Engineering/005_Git_Workflow.md",
+    "docs/04_Engineering/006_Branching_Strategy.md",
+    "docs/04_Engineering/007_Commit_Convention.md",
+    "docs/04_Engineering/008_Pull_Request_Standards.md",
+    "docs/04_Engineering/009_Code_Review_Standards.md",
+    "docs/04_Engineering/010_Testing_Standards.md",
+    "docs/04_Engineering/011_Documentation_Standards.md",
+    "docs/04_Engineering/012_Engineering_Checklists.md",
+    "docs/04_Engineering/013_Document_Review_Playbook.md",
     "docs/04_Engineering/README.md",
     "docs/05_Roadmap/005_Product_Roadmap.md",
     "docs/06_DDD/006_Domain_Driven_Design.md",
@@ -63,7 +74,9 @@
     "docs/19_DevOps/README.md",
     "docs/20_Future/README.md",
     "releases/v0.3.0-part1.md",
+    "releases/v0.3.0-part2.md",
     "templates/ADR_TEMPLATE.md",
-    "templates/DOCUMENT_TEMPLATE.md"
+    "templates/DOCUMENT_TEMPLATE.md",
+    "templates/PULL_REQUEST_TEMPLATE_ENGINEERING.md"
   ]
 }

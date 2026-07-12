@@ -39,3 +39,15 @@ The handbook governs:
 ## Rule of Use
 
 No production implementation should begin until the relevant engineering standards and acceptance criteria are available and approved.
+
+## Workflow and Quality
+
+- [PEH-005 — Git Workflow](005_Git_Workflow.md)
+- [PEH-006 — Branching Strategy](006_Branching_Strategy.md)
+- [PEH-007 — Commit Convention](007_Commit_Convention.md)
+- [PEH-008 — Pull Request Standards](008_Pull_Request_Standards.md)
+- [PEH-009 — Code Review Standards](009_Code_Review_Standards.md)
+- [PEH-010 — Testing Standards](010_Testing_Standards.md)
+- [PEH-011 — Documentation Standards](011_Documentation_Standards.md)
+- [PEH-012 — Engineering Checklists](012_Engineering_Checklists.md)
+- [PEH-013 — Documentation Review Playbook](013_Document_Review_Playbook.md)

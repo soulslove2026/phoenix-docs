@@ -99,7 +99,7 @@ The present focus is:
 | Product Roadmap | Completed | 100% |
 | Domain-Driven Design | Completed | 100% |
 | Enterprise Architecture | Completed | 100% |
-| Engineering Handbook | In Progress | 30% |
+| Engineering Handbook | In Progress | 55% |
 | Database Bible | Planned | 0% |
 | API Bible | Planned | 0% |
 | Flutter Bible | Planned | 0% |

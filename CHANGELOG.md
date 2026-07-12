@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0-part2 — 2026-07-12
+
+### Added
+- Engineering workflow and quality standards
+- Git, branching, commits, pull requests, code review, testing, and documentation guidance
+- Engineering checklists and review playbook
+
+
 ## 0.3.0-part1 — 2026-07-11
 
 ### Added
