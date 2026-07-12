@@ -1,4 +1,7 @@
 # Changelog
+## v1.6.0-engineering-framework-r1
+- Added Phoenix Engineering Framework foundation.
+
 
 ## 1.4.0-data-r2 — 2026-07-12
 
