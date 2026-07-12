@@ -1,0 +1,24 @@
+openapi: 3.1.0
+info:
+  title: Phoenix Platform API
+  version: 0.1.0
+  description: Initial contract baseline; domain endpoints remain placeholders until approved.
+servers:
+  - url: https://api.example.com/v1
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      summary: Service health
+      responses:
+        '200':
+          description: Healthy
+  /auth/sessions:
+    post:
+      operationId: createSession
+      summary: Create an authenticated session
+      responses:
+        '201':
+          description: Session created
+        '401':
+          description: Authentication failed

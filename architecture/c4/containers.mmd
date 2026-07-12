@@ -1,0 +1,12 @@
+flowchart TB
+Mobile[Flutter Mobile] --> Gateway[API Gateway / WAF]
+Web[Next.js Web] --> Gateway
+Admin[Next.js Admin] --> Gateway
+Gateway --> App[NestJS Modular Monolith]
+Mobile <--> WS[Realtime Gateway]
+App --> DB[(PostgreSQL)]
+App --> Redis[(Redis)]
+App --> Object[(Object Storage)]
+App --> Worker[Background Workers]
+Worker --> Analytics[(Analytics Warehouse)]
+App <--> RTC[RTC Provider]
