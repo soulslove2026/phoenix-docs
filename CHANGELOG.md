@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.2.0-governance-r3 — 2026-07-12
+
+### Added
+- Project Philosophy
+- Design for Evolution
+- Design for Replacement
+- Design for Failure
+- AI-First Engineering
+- Engineering Decision Patterns
+- System Thinking
+- Tradeoff Framework
+- Long-Lived Architecture
+- Phoenix Project Covenant
+
+
 ## 1.1.0-governance-r2 — 2026-07-12
 
 ### Added

@@ -19,3 +19,14 @@
 | GOV-013 | Architecture Review Board | `docs/00_Governance/012_Architecture_Review_Board.md` | Approved | Architecture Governance |
 
 This index will expand with each release.
+
+| GOV-014 | Project Philosophy | `docs/00_Governance/013_Project_Philosophy.md` | Ratified | Founder & Chief Architect |
+| GOV-015 | Design for Evolution | `docs/00_Governance/014_Design_for_Evolution.md` | Ratified | Architecture Governance |
+| GOV-016 | Design for Replacement | `docs/00_Governance/015_Design_for_Replacement.md` | Ratified | Architecture Governance |
+| GOV-017 | Design for Failure | `docs/00_Governance/016_Design_for_Failure.md` | Ratified | Reliability Governance |
+| GOV-018 | AI-First Engineering | `docs/00_Governance/017_AI_First_Engineering.md` | Ratified | AI Governance |
+| GOV-019 | Engineering Decision Patterns | `docs/00_Governance/018_Engineering_Decision_Patterns.md` | Approved | Engineering Governance |
+| GOV-020 | System Thinking | `docs/00_Governance/019_System_Thinking.md` | Approved | Architecture Governance |
+| GOV-021 | Tradeoff Framework | `docs/00_Governance/020_Tradeoff_Framework.md` | Approved | Decision Governance |
+| GOV-022 | Long-Lived Architecture | `docs/00_Governance/021_Long_Lived_Architecture.md` | Ratified | Chief Software Architect |
+| GOV-023 | Project Covenant | `docs/00_Governance/022_Project_Covenant.md` | Ratified | Founder & Chief Architect |

@@ -99,3 +99,16 @@
 016 Communities and Agencies Domain Bible  
 017 Wallet and Ledger Domain Bible  
 018 Payments and Withdrawals Domain Bible
+
+## Governance Release 3
+
+- [GOV-014 — Project Philosophy](docs/00_Governance/013_Project_Philosophy.md)
+- [GOV-015 — Design for Evolution](docs/00_Governance/014_Design_for_Evolution.md)
+- [GOV-016 — Design for Replacement](docs/00_Governance/015_Design_for_Replacement.md)
+- [GOV-017 — Design for Failure](docs/00_Governance/016_Design_for_Failure.md)
+- [GOV-018 — AI-First Engineering](docs/00_Governance/017_AI_First_Engineering.md)
+- [GOV-019 — Engineering Decision Patterns](docs/00_Governance/018_Engineering_Decision_Patterns.md)
+- [GOV-020 — System Thinking](docs/00_Governance/019_System_Thinking.md)
+- [GOV-021 — Tradeoff Framework](docs/00_Governance/020_Tradeoff_Framework.md)
+- [GOV-022 — Long-Lived Architecture](docs/00_Governance/021_Long_Lived_Architecture.md)
+- [GOV-023 — Project Covenant](docs/00_Governance/022_Project_Covenant.md)

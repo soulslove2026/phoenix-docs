@@ -1,21 +1,12 @@
 # Release Upload Instructions
 
-**Release:** Phoenix Governance v1.1.0 — Release 2  
-**Name:** Decision Intelligence
-
-## Upload with GitHub Desktop
-
-1. Extract the ZIP.
-2. Open the inner `phoenix-docs` folder.
-3. Copy all contents into the local cloned repository.
-4. Allow replacement of matching files.
-5. Review changes.
-6. Commit and push.
+**Release:** Phoenix Governance v1.2.0 — Release 3  
+**Name:** Continuously Refined
 
 ## Commit Message
 
-`docs(governance): add decision intelligence`
+`docs(governance): add continuously refined principles`
 
 ## Description
 
-Adds decision, quality, risk, change, authority, and architecture review governance for Phoenix.
+Adds Phoenix project philosophy, evolution, replacement, failure, AI-first engineering, system thinking, tradeoff, long-lived architecture, and the project covenant.
