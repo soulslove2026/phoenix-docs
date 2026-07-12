@@ -1,12 +1,6 @@
-# Release Upload Instructions
+# Release
 
-**Release:** Phoenix Governance v1.2.0 — Release 3  
-**Name:** Continuously Refined
+Name: Truth Before Storage
 
-## Commit Message
-
-`docs(governance): add continuously refined principles`
-
-## Description
-
-Adds Phoenix project philosophy, evolution, replacement, failure, AI-first engineering, system thinking, tradeoff, long-lived architecture, and the project covenant.
+Commit:
+docs(data): add truth before storage

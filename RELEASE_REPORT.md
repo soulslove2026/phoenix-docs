@@ -1,7 +1,4 @@
 # Release Report
 
-**Release:** Phoenix Governance v1.2.0 — Release 3  
-**Name:** Continuously Refined  
-**Status:** Ready for GitHub
-
-This release adds ten governance documents and formalizes the Phoenix Project Covenant.
+Release: v1.3.0 Data Platform Part 2 Release 1
+Status: Ready

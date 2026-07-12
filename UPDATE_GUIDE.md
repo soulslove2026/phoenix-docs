@@ -1,3 +1,1 @@
-# Update Guide
-
-Copy all contents of the inner `phoenix-docs` folder into the local repository, allow replacement, review in GitHub Desktop, commit, and push.
+Copy all files into your local phoenix-docs repository, allow replacement, then Commit and Push.
