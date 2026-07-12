@@ -91,7 +91,7 @@ The present focus is:
 
 | Workstream | Status | Progress |
 |---|---:|---:|
-| Governance Release 1 | Ready for Upload | 20% |
+| Governance | In Progress | 45% |
 | Project Constitution | Completed | 100% |
 | Executive Blueprint | Completed | 100% |
 | Product Vision | Completed | 100% |

@@ -1,21 +1,20 @@
 # Release Report
 
-**Release:** Phoenix Governance v1.0 — Release 1  
-**Name:** Foundation of Excellence  
+**Release:** Phoenix Governance v1.1.0 — Release 2  
+**Name:** Decision Intelligence  
 **Status:** Ready for GitHub
 
-## Summary
+## Scope
 
-This release establishes the first formal governance layer for Phoenix.
+Establishes decision, quality, risk, change, authority, and architecture review governance.
 
 ## New Governance Documents
 
-5 core documents plus governance entry point.
+8
 
-## New Project Indexes
+## New Governance Tools
 
-- Document Index
-- Traceability Matrix
+2
 
 ## Risk Level
 
@@ -23,9 +22,4 @@ Low. Documentation-only release.
 
 ## Next Release
 
-Governance Release 2:
-- Decision Constitution
-- Quality Standard
-- Governance Model
-- Chief Architect Role
-- Founder Role
+Governance Release 3.

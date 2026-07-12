@@ -11,6 +11,16 @@
 - [GOV-005 — Architecture Oath](docs/00_Governance/004_Architecture_Oath.md)
 - [Document Index](DOCUMENT_INDEX.md)
 - [Traceability Matrix](TRACEABILITY_MATRIX.md)
+- [GOV-006 — Decision Constitution](docs/00_Governance/005_Decision_Constitution.md)
+- [GOV-007 — Quality Standard](docs/00_Governance/006_Quality_Standard.md)
+- [GOV-008 — Governance Model](docs/00_Governance/007_Governance_Model.md)
+- [GOV-009 — Chief Software Architect Role](docs/00_Governance/008_Chief_Architect_Role.md)
+- [GOV-010 — Founder Role](docs/00_Governance/009_Founder_Role.md)
+- [GOV-011 — Risk Governance](docs/00_Governance/010_Risk_Governance.md)
+- [GOV-012 — Change Management](docs/00_Governance/011_Change_Management.md)
+- [GOV-013 — Architecture Review Board](docs/00_Governance/012_Architecture_Review_Board.md)
+- [Decision Scorecard](DECISION_SCORECARD.md)
+- [Governance Checklist](GOVERNANCE_CHECKLIST.md)
 
 
 ## Foundation

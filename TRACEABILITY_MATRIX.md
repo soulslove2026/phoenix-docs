@@ -22,3 +22,9 @@ flowchart TD
     DataPlatform --> Algorithms
     Algorithms --> Implementation
 ```
+
+| Decision Constitution | Material decisions | ADRs, RFCs, scorecards |
+| Quality Standard | All deliverables | quality gates, reviews, release checks |
+| Governance Model | Roles and authority | approvals, escalation, ownership |
+| Risk Governance | Risk handling | risk register, controls, contingency plans |
+| Change Management | System changes | release, rollback, monitoring |

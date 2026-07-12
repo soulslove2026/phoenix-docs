@@ -5,7 +5,7 @@ Phoenix is an AI-native, globally scalable social platform centered on voice com
 This repository is the canonical documentation source for the project. It is designed for both human engineering teams and AI coding agents.
 
 ## Repository Status
-- Version: `1.0.0-governance-r1`
+- Version: `1.1.0-governance-r2`
 - Phase: Foundation and Architecture Baseline
 - Implementation status: Documentation-first; production code not yet generated
 

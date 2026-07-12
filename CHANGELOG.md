@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.0-governance-r2 — 2026-07-12
+
+### Added
+- Decision Constitution
+- Phoenix Quality Standard
+- Governance Model
+- Chief Software Architect and Founder roles
+- Risk Governance
+- Change Management
+- Architecture Review Board
+- Decision Scorecard
+- Governance Checklist
+
+
 ## 1.0.0-governance-r1 — 2026-07-12
 
 ### Added
