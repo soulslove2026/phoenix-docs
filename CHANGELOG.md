@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0-part1 — 2026-07-12
+
+### Added
+- Phoenix Data Platform Bible foundation
+- domain data model and ownership rules
+- entity, relationship, identifier, audit, and deletion standards
+- ADR-007 Domain-Driven Data Platform
+
+
 ## 0.3.0-part2 — 2026-07-12
 
 ### Added

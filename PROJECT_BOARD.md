@@ -100,7 +100,7 @@ The present focus is:
 | Domain-Driven Design | Completed | 100% |
 | Enterprise Architecture | Completed | 100% |
 | Engineering Handbook | In Progress | 55% |
-| Database Bible | Planned | 0% |
+| Data Platform Bible | In Progress | 20% |
 | API Bible | Planned | 0% |
 | Flutter Bible | Planned | 0% |
 | Backend Bible | Planned | 0% |

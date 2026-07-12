@@ -24,6 +24,7 @@
 - [ADR-004 — Event-Driven Boundaries](adr/ADR-004-event-driven-boundaries.md)
 - [ADR-005 — Engineering Handbook as Navigation Hub](adr/ADR-005-engineering-handbook-navigation-hub.md)
 - [ADR-006 — AI-First Engineering](adr/ADR-006-ai-first-engineering.md)
+- [ADR-007 — Domain-Driven Data Platform](adr/ADR-007-domain-driven-data-platform.md)
 
 
 ## Engineering Handbook
@@ -43,6 +44,20 @@
 - [PEH-011 — Documentation Standards](docs/04_Engineering/011_Documentation_Standards.md)
 - [PEH-012 — Engineering Checklists](docs/04_Engineering/012_Engineering_Checklists.md)
 - [PEH-013 — Documentation Review Playbook](docs/04_Engineering/013_Document_Review_Playbook.md)
+
+
+## Data Platform
+
+- [Data Platform Directory](docs/05_Data_Platform/README.md)
+- [PDP-000 — Data Platform Philosophy](docs/05_Data_Platform/000_Data_Platform_Philosophy.md)
+- [PDP-001 — Domain Data Model](docs/05_Data_Platform/001_Domain_Data_Model.md)
+- [PDP-002 — Entity Standards](docs/05_Data_Platform/002_Entity_Standards.md)
+- [PDP-003 — Relationship Standards](docs/05_Data_Platform/003_Relationship_Standards.md)
+- [PDP-004 — Primary Key Standard](docs/05_Data_Platform/004_Primary_Key_Standard.md)
+- [PDP-005 — UUID and Identifier Standard](docs/05_Data_Platform/005_UUID_and_Identifier_Standard.md)
+- [PDP-006 — Audit Standard](docs/05_Data_Platform/006_Audit_Standard.md)
+- [PDP-007 — Soft Delete and Deletion Standard](docs/05_Data_Platform/007_Soft_Delete_and_Deletion_Standard.md)
+- [PDP-008 — Data Ownership Standard](docs/05_Data_Platform/008_Data_Ownership_Standard.md)
 
 ## API and Engineering
 - [OpenAPI Baseline](api/openapi/phoenix-api.yaml)
