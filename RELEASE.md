@@ -1,9 +1,9 @@
 # Current Release
 
-## Phoenix Architecture Foundation v2.0.0 — Release 1
+## Phoenix Architecture Foundation v2.1.0 — Release 2
 
-This release establishes Phoenix architecture vision, bounded contexts, domain map, capability map, and system landscape.
+This release completes the Architecture Foundation with communication patterns, deployment philosophy, scalability strategy, failure isolation, and the integrated Phoenix reference architecture.
 
-**Version:** `2.0.0-architecture-r1`  
+**Version:** `2.1.0-architecture-r2`  
 **Status:** Ready for GitHub  
-**Next:** Architecture Foundation v2.1.0 — Release 2
+**Next:** Phoenix Security Foundation v2.2.0 — Release 1

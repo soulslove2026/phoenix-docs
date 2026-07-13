@@ -69,3 +69,30 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 - What service tiers and quantitative SLOs apply to each capability?
 - What partitioning keys support messaging, live rooms, feeds, and economy?
 - How will regional routing, residency, and failover evolve?
+
+## Architecture Foundation Release 2 — 2026-07-13
+
+### Ratified Decisions
+
+1. Cross-context integration uses explicit synchronous contracts, durable events, sagas, and provider adapters; direct database integration remains prohibited.
+2. Phoenix begins with a limited set of deployable units and extracts services only through evidence and ADRs.
+3. Economy, Trust and Safety, Administration, AI workloads, and asynchronous workers receive risk- or workload-based isolation.
+4. Messaging partitions by conversation and live-room control by room; global ordering is not required.
+5. Durable events use outbox/inbox and at-least-once semantics; ambiguous outcomes use idempotency and reconciliation.
+6. Failure policy protects integrity-critical capabilities before derived and decorative work.
+7. Search, cache, analytics, feed projections, and visual effects remain rebuildable and non-authoritative.
+8. Multi-region and active-active writes are deferred until residency, conflict, routing, and recovery rules are proven.
+9. PostgreSQL remains the default transactional source; other technologies require ADRs.
+10. ARC-010 is the reference architecture for Security Foundation and initial phoenix-core planning.
+
+### Rejected Alternatives
+
+- One microservice per bounded context from day one.
+- Long synchronous chains for ordinary user journeys.
+- Infinite retries or exactly-once claims without proof.
+- Caches, search indexes, event streams, or AI outputs as silent authority.
+- Automatic failover that can violate residency or create split brain.
+
+### Next Milestone
+
+**Phoenix Security Foundation v2.2.0 — Release 1**.

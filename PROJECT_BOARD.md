@@ -7,14 +7,16 @@
 - Engineering Framework Release 1 — ratified foundation standards
 - Repository Reconciliation Release 1 — indexes, records, and paths synchronized
 - Architecture Foundation Release 1 — ARC-001 through ARC-005 ratified
+- Architecture Foundation Release 2 — ARC-006 through ARC-010 ratified
+- Architecture Foundation Release 2 — ARC-006 through ARC-010 ratified
 
 ## Current Milestone
 
-**Phoenix Architecture Foundation v2.0.0 — Release 1 — Ready for GitHub**
+**Phoenix Architecture Foundation v2.1.0 — Release 2 — Ready for GitHub**
 
 ## Next Milestone
 
-**Phoenix Architecture Foundation v2.1.0 — Release 2**
+**Phoenix Security Foundation v2.2.0 — Release 1**
 
 Planned documents:
 

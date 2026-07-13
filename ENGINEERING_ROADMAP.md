@@ -17,11 +17,11 @@
 
 ## Current Milestone
 
-Phoenix Architecture Foundation Release 1 (`2.0.0-architecture-r1`).
+Phoenix Architecture Foundation Release 2 (`2.1.0-architecture-r2`).
 
 ## Next Milestone
 
-Phoenix Architecture Foundation v2.1.0 — Release 2.
+Phoenix Security Foundation v2.2.0 — Release 1.
 
 ## Core Implementation Gate
 

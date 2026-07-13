@@ -35,3 +35,11 @@ Phoenix begins as a **modular platform architecture** with strong bounded-contex
 ## Scope of Release 1
 
 Release 1 establishes the vision, initial contexts, domain relationships, capability map, and high-level landscape. Detailed communication, deployment, scalability, failure-isolation, and reference-architecture specifications are reserved for Architecture Foundation Release 2.
+
+## Release 2 Specifications
+
+- [ARC-006 — Communication Patterns](006_Communication_Patterns.md)
+- [ARC-007 — Deployment Philosophy](007_Deployment_Philosophy.md)
+- [ARC-008 — Scalability Strategy](008_Scalability_Strategy.md)
+- [ARC-009 — Failure Isolation](009_Failure_Isolation.md)
+- [ARC-010 — Reference Architecture](010_Reference_Architecture.md)

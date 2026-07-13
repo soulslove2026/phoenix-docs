@@ -25,5 +25,10 @@
 | ARC-003 | Domain Map | `docs/07_Architecture/003_Domain_Map.md` | Ratified | Level 2 |
 | ARC-004 | Capability Map | `docs/07_Architecture/004_Capability_Map.md` | Ratified | Level 2 |
 | ARC-005 | System Landscape | `docs/07_Architecture/005_System_Landscape.md` | Ratified | Level 2 |
+| ARC-006 | Communication Patterns | `docs/07_Architecture/006_Communication_Patterns.md` | Ratified | Level 2 |
+| ARC-007 | Deployment Philosophy | `docs/07_Architecture/007_Deployment_Philosophy.md` | Ratified | Level 2 |
+| ARC-008 | Scalability Strategy | `docs/07_Architecture/008_Scalability_Strategy.md` | Ratified | Level 2 |
+| ARC-009 | Failure Isolation | `docs/07_Architecture/009_Failure_Isolation.md` | Ratified | Level 2 |
+| ARC-010 | Reference Architecture | `docs/07_Architecture/010_Reference_Architecture.md` | Ratified | Level 2 |
 
 Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.

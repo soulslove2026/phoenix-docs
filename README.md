@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `2.0.0-architecture-r1`  
-**Current milestone:** Phoenix Architecture Foundation — Release 1  
-**Next milestone:** Phoenix Architecture Foundation v2.1.0 — Release 2
+**Current repository version:** `2.1.0-architecture-r2`  
+**Current milestone:** Phoenix Architecture Foundation — Release 2  
+**Next milestone:** Phoenix Security Foundation v2.2.0 — Release 1
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 
@@ -22,7 +22,8 @@ Phoenix is an AI-native social platform and platform ecosystem. This repository 
 - Data Platform: DPL-010 through DPL-019 canonical and reconciled.
 - Engineering Framework: foundation standards ratified.
 - Architecture Foundation Release 1: ARC-001 through ARC-005 ratified at Level 2.
-- Architecture Foundation Release 2: next planned milestone.
+- Architecture Foundation Release 2: ARC-006 through ARC-010 ratified at Level 2.
+- Security Foundation Release 1: next planned milestone.
 
 ## Architecture Position
 

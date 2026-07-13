@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.1.0-architecture-r2 — 2026-07-13
+
+### Added
+- ARC-006 Communication Patterns.
+- ARC-007 Deployment Philosophy.
+- ARC-008 Scalability Strategy.
+- ARC-009 Failure Isolation.
+- ARC-010 Reference Architecture.
+
+### Changed
+- Completed the Architecture Foundation and synchronized repository indexes, roadmap, traceability, release metadata, and architect notes.
+- Set Security Foundation v2.2.0 Release 1 as the next milestone.
+
+
 ## 2.0.0-architecture-r1 — 2026-07-13
 
 ### Added

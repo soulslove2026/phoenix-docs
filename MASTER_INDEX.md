@@ -45,6 +45,11 @@
 - [ARC-003 — Domain Map](docs/07_Architecture/003_Domain_Map.md)
 - [ARC-004 — Capability Map](docs/07_Architecture/004_Capability_Map.md)
 - [ARC-005 — System Landscape](docs/07_Architecture/005_System_Landscape.md)
+- [ARC-006 — Communication Patterns](docs/07_Architecture/006_Communication_Patterns.md)
+- [ARC-007 — Deployment Philosophy](docs/07_Architecture/007_Deployment_Philosophy.md)
+- [ARC-008 — Scalability Strategy](docs/07_Architecture/008_Scalability_Strategy.md)
+- [ARC-009 — Failure Isolation](docs/07_Architecture/009_Failure_Isolation.md)
+- [ARC-010 — Reference Architecture](docs/07_Architecture/010_Reference_Architecture.md)
 
 ## Existing Engineering Domains
 
@@ -63,4 +68,4 @@
 ## Releases
 
 - [Release Records](releases/)
-- [Current Release](releases/v2.0.0-architecture-foundation-release1.md)
+- [Current Release](releases/v2.1.0-architecture-foundation-release2.md)

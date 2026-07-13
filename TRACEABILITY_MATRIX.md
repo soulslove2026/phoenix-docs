@@ -24,3 +24,9 @@
 | Domain interaction follows explicit synchronous/asynchronous rules | ARC-003 | Workflows, events, degradation behavior |
 | Product planning maps to technology-independent capabilities | ARC-004 | Roadmap, build/buy, team topology |
 | Trust zones and platform blocks guide system placement | ARC-005 | Security, deployment, provider integration |
+
+| Cross-context communication uses explicit sync, event, saga, and adapter patterns | ARC-006 | APIs, workflows, providers, real-time delivery |
+| Deployable topology follows evidence and trust boundaries | ARC-007 | Cloud, environments, delivery and runtime isolation |
+| Scale preserves invariants and uses governed partitioning/backpressure | ARC-008 | Capacity, performance and extraction decisions |
+| Partial failure is bounded and recoverable | ARC-009 | Resilience, incident response and degraded modes |
+| Architecture Foundation is assembled into an implementation reference | ARC-010 | Security Foundation and phoenix-core planning |
