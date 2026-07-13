@@ -1,17 +1,8 @@
 {
-  "version": "3.0.1-core-bootstrap-verification",
-  "release": "Phoenix Core Bootstrap Verification",
+  "version": "3.1.0-stack-ratification-r1",
+  "release": "Phoenix Production Stack Ratification \u2014 Release 1",
   "release_date": "2026-07-13",
-  "status": "verified",
-  "verified_slice": "Slice 0",
-  "verification_evidence": {
-    "repository": "soulslove2026/phoenix-core",
-    "branch": "main",
-    "commit": "be213f8",
-    "github_actions": "success",
-    "workflow": "CI",
-    "duration_seconds": 24
-  },
-  "next_milestone": "Production Stack Ratification and Identity Slice 1",
+  "status": "ratified",
+  "next_milestone": "Stack Migration and Identity Slice 1",
   "production_ready": false
 }

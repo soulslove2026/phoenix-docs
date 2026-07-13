@@ -39,3 +39,10 @@ Planned documents:
 - Slice 0: Verified ✅
 - GitHub Actions: Success
 - Next: Production Stack Ratification
+
+
+## Production Stack Status
+
+- Ratification: Complete ✅
+- Next: Bootstrap migration to Node.js 24 + TypeScript + Fastify + PostgreSQL
+- Then: Identity Slice 1

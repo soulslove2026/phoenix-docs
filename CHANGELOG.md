@@ -1,5 +1,21 @@
 # Changelog
 
+## 3.1.0-stack-ratification-r1 — 2026-07-13
+
+### Ratified
+- Node.js 24 LTS, TypeScript 5.9, Fastify 5, and PostgreSQL 18.
+- Modular-monolith delivery with schema-first APIs and SQL-first persistence.
+- Transactional outbox as the initial async baseline.
+- OpenTelemetry-compatible observability and OCI/GitHub Actions delivery.
+
+### Deferred
+- Redis, external event broker, and specialized search infrastructure until measured need.
+
+### Next
+- Migrate the verified bootstrap to the ratified stack.
+- Begin Identity Slice 1 after the readiness gate passes.
+
+
 ## 3.0.1-core-bootstrap-verification — 2026-07-13
 
 ### Verified

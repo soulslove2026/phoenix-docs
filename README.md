@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.0.1-core-bootstrap-verification`  
-**Current milestone:** Production Stack Ratification  
-**Next milestone:** Identity Slice 1 after stack approval
+**Current repository version:** `3.1.0-stack-ratification-r1`  
+**Current milestone:** Production Stack Ratification — Complete  
+**Next milestone:** Stack Migration and Identity Slice 1
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 

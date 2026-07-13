@@ -70,3 +70,12 @@
 | CORE-009 | Bootstrap Verification Report | `docs/11_Core_Bootstrap/009_Bootstrap_Verification_Report.md` | Ratified | Level 2 |
 
 Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.
+| STACK-000 | Production Stack Read First | `docs/12_Production_Stack/000_READ_FIRST.md` | Ratified | Level 3 |
+| STACK-001 | Production Stack Decision Record | `docs/12_Production_Stack/001_Stack_Decision_Record.md` | Ratified | Level 3 |
+| STACK-002 | Comparative Decision Matrix | `docs/12_Production_Stack/002_Decision_Matrix.md` | Ratified | Level 3 |
+| STACK-003 | Runtime Framework and API Standard | `docs/12_Production_Stack/003_Runtime_Framework_and_API_Standard.md` | Ratified | Level 3 |
+| STACK-004 | Data and Messaging Standard | `docs/12_Production_Stack/004_Data_and_Messaging_Standard.md` | Ratified | Level 3 |
+| STACK-005 | Engineering Toolchain Standard | `docs/12_Production_Stack/005_Engineering_Toolchain_Standard.md` | Ratified | Level 3 |
+| STACK-006 | Security and Observability Standard | `docs/12_Production_Stack/006_Security_and_Observability_Standard.md` | Ratified | Level 3 |
+| STACK-007 | Bootstrap Migration Plan | `docs/12_Production_Stack/007_Bootstrap_Migration_Plan.md` | Ratified | Level 3 |
+| STACK-008 | Identity Slice 1 Readiness Gate | `docs/12_Production_Stack/008_Identity_Slice_1_Readiness_Gate.md` | Ratified | Level 3 |

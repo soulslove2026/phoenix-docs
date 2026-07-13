@@ -1,0 +1,40 @@
+{
+  "version": "3.1.0",
+  "status": "ratified",
+  "runtime": {
+    "name": "Node.js",
+    "line": "24 LTS"
+  },
+  "language": {
+    "name": "TypeScript",
+    "initial": "5.9",
+    "upgrade_review": "6.x"
+  },
+  "framework": {
+    "name": "Fastify",
+    "major": 5
+  },
+  "database": {
+    "name": "PostgreSQL",
+    "major": 18,
+    "minor_policy": "current supported minor"
+  },
+  "architecture": "modular monolith",
+  "api": [
+    "REST",
+    "JSON Schema",
+    "OpenAPI"
+  ],
+  "async_baseline": "PostgreSQL transactional outbox + idempotent worker",
+  "deferred": [
+    "Redis until measured need",
+    "event broker until measured need",
+    "specialized search store until measured need"
+  ],
+  "observability": "OpenTelemetry compatible",
+  "delivery": [
+    "OCI containers",
+    "GitHub Actions",
+    "npm lockfile"
+  ]
+}

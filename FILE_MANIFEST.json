@@ -1,7 +1,7 @@
 {
-  "repository_version": "3.0.1-core-bootstrap-verification",
+  "repository_version": "3.1.0-stack-ratification-r1",
   "generated_at": "2026-07-13T00:00:00Z",
-  "file_count": 93,
+  "file_count": 104,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -15,6 +15,7 @@
     "RELEASE.md",
     "RELEASE_REPORT.md",
     "REPOSITORY_INTEGRITY_REPORT.md",
+    "TECHNOLOGY_STACK.json",
     "TRACEABILITY_MATRIX.md",
     "UPDATE_GUIDE.md",
     "UPDATE_MANIFEST.md",
@@ -80,6 +81,15 @@
     "docs/11_Core_Bootstrap/007_Security_Bootstrap_Controls.md",
     "docs/11_Core_Bootstrap/008_Observability_Bootstrap.md",
     "docs/11_Core_Bootstrap/009_Bootstrap_Verification_Report.md",
+    "docs/12_Production_Stack/000_READ_FIRST.md",
+    "docs/12_Production_Stack/001_Stack_Decision_Record.md",
+    "docs/12_Production_Stack/002_Decision_Matrix.md",
+    "docs/12_Production_Stack/003_Runtime_Framework_and_API_Standard.md",
+    "docs/12_Production_Stack/004_Data_and_Messaging_Standard.md",
+    "docs/12_Production_Stack/005_Engineering_Toolchain_Standard.md",
+    "docs/12_Production_Stack/006_Security_and_Observability_Standard.md",
+    "docs/12_Production_Stack/007_Bootstrap_Migration_Plan.md",
+    "docs/12_Production_Stack/008_Identity_Slice_1_Readiness_Gate.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -95,6 +105,7 @@
     "releases/v2.3.0-product-foundation-release1.md",
     "releases/v2.4.0-implementation-planning-release1.md",
     "releases/v3.0.0-core-bootstrap-release1.md",
-    "releases/v3.0.1-core-bootstrap-verification.md"
+    "releases/v3.0.1-core-bootstrap-verification.md",
+    "releases/v3.1.0-production-stack-ratification-release1.md"
   ]
 }

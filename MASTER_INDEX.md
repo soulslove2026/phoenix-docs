@@ -126,3 +126,15 @@
 ## Verification Records
 
 - [v3.0.1 Core Bootstrap Verification](releases/v3.0.1-core-bootstrap-verification.md)
+
+## Production Stack Ratification
+
+- [STACK-000 — Read First](docs/12_Production_Stack/000_READ_FIRST.md)
+- [STACK-001 — Decision Record](docs/12_Production_Stack/001_Stack_Decision_Record.md)
+- [STACK-002 — Decision Matrix](docs/12_Production_Stack/002_Decision_Matrix.md)
+- [STACK-003 — Runtime, Framework, and API](docs/12_Production_Stack/003_Runtime_Framework_and_API_Standard.md)
+- [STACK-004 — Data and Messaging](docs/12_Production_Stack/004_Data_and_Messaging_Standard.md)
+- [STACK-005 — Engineering Toolchain](docs/12_Production_Stack/005_Engineering_Toolchain_Standard.md)
+- [STACK-006 — Security and Observability](docs/12_Production_Stack/006_Security_and_Observability_Standard.md)
+- [STACK-007 — Bootstrap Migration Plan](docs/12_Production_Stack/007_Bootstrap_Migration_Plan.md)
+- [STACK-008 — Identity Slice 1 Readiness Gate](docs/12_Production_Stack/008_Identity_Slice_1_Readiness_Gate.md)

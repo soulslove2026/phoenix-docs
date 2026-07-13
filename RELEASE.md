@@ -1,14 +1,8 @@
 # Current Release
 
-## Phoenix Core Bootstrap Verification v3.0.1
+## Phoenix Production Stack Ratification v3.1.0
 
-Slice 0 has passed GitHub Actions and is officially verified.
+The production baseline is ratified.
 
-**Status:** Verified  
-**Verified Commit:** `be213f8`  
-**Workflow:** `CI`  
-**Result:** Success  
-**Duration:** 24 seconds  
-**Next:** Production Stack Ratification and Identity Slice 1
-
-> Verified applies only to Slice 0 bootstrap evidence. Phoenix Core is not production-ready.
+**Status:** Ratified  
+**Next:** Migrate Slice 0 to the ratified stack, then begin Identity Slice 1.

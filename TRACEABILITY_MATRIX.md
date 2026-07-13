@@ -64,3 +64,8 @@
 | CI provides reproducible quality evidence | CORE-006 | Branch protection |
 | Observability begins before product logic | CORE-008 | Runtime evidence |
 | Slice 0 verification is evidence-based | CORE-009 | Gate to Slice 1 |
+| Production runtime uses supported Node.js LTS | STACK-001, STACK-003 | phoenix-core runtime |
+| API boundaries use Fastify and JSON Schema | STACK-003 | HTTP adapters and contracts |
+| PostgreSQL is authoritative transactional truth | STACK-004 | Identity and future domains |
+| Infrastructure is introduced only with evidence | STACK-001, STACK-004 | Architecture evolution |
+| Identity cannot begin before stack migration evidence | STACK-007, STACK-008 | Identity Slice 1 gate |

@@ -213,3 +213,7 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 Slice 0 is now **Verified**.
 
 This closes the bootstrap evidence gate and authorizes Production Stack Ratification. It does not establish production readiness and does not authorize Identity Slice 1 before the stack decision is ratified.
+
+## Production Stack Ratification — 2026-07-13
+
+Ratified Node.js 24 LTS, TypeScript 5.9, Fastify 5, PostgreSQL 18, schema-first REST/OpenAPI, SQL-first repositories, transactional outbox, OpenTelemetry-compatible observability, OCI containers, and GitHub Actions. Redis, an event broker, and specialized search stores remain deferred until evidence. The next action is bootstrap migration, then Identity Slice 1.
