@@ -1,7 +1,7 @@
 {
-  "repository_version": "2.2.0-security-r1",
+  "repository_version": "2.3.0-product-r1",
   "generated_at": "2026-07-13T00:00:00Z",
-  "file_count": 59,
+  "file_count": 69,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -50,6 +50,15 @@
     "docs/08_Security/005_Secrets_and_Key_Management.md",
     "docs/08_Security/006_Data_Protection_and_Privacy_Security.md",
     "docs/08_Security/007_Security_Audit_and_Incident_Readiness.md",
+    "docs/09_Product/000_READ_FIRST.md",
+    "docs/09_Product/001_Product_Vision_and_Value_Proposition.md",
+    "docs/09_Product/002_Users_Segments_and_Jobs_to_Be_Done.md",
+    "docs/09_Product/003_Core_User_Journeys.md",
+    "docs/09_Product/004_MVP_Scope_and_Prioritization.md",
+    "docs/09_Product/005_Product_Capability_Model.md",
+    "docs/09_Product/006_Experience_and_Trust_Principles.md",
+    "docs/09_Product/007_Success_Metrics_and_Experimentation.md",
+    "docs/09_Product/008_Product_Acceptance_and_Release_Criteria.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -61,6 +70,7 @@
     "releases/v1.7.0-repository-reconciliation-release1.md",
     "releases/v2.0.0-architecture-foundation-release1.md",
     "releases/v2.1.0-architecture-foundation-release2.md",
-    "releases/v2.2.0-security-foundation-release1.md"
+    "releases/v2.2.0-security-foundation-release1.md",
+    "releases/v2.3.0-product-foundation-release1.md"
   ]
 }

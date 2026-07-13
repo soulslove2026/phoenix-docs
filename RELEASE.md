@@ -1,9 +1,9 @@
 # Current Release
 
-## Phoenix Security Foundation v2.2.0 — Release 1
+## Phoenix Product Foundation v2.3.0 — Release 1
 
-This release establishes the Phoenix security architecture for threat modeling, identity, authentication, authorization, secrets, key management, data protection, audit, and incident readiness.
+This release defines the product vision, users, journeys, MVP scope, capabilities, experience principles, metrics, experimentation, and release acceptance.
 
-**Version:** `2.2.0-security-r1`  
+**Version:** `2.3.0-product-r1`  
 **Status:** Ready for GitHub  
-**Next:** Phoenix Product Foundation v2.3.0 — Release 1
+**Next:** Phoenix Implementation Planning v2.4.0 — Release 1

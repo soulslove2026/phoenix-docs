@@ -38,3 +38,12 @@
 | Secrets and keys are centrally governed and rotatable | SEC-005 | Infrastructure, services, providers, CI/CD |
 | Data protection follows classification and lifecycle | SEC-006 | Storage, APIs, events, analytics, AI |
 | Security incidents require auditable readiness and recovery | SEC-007 | Monitoring, response, investigation, learning |
+
+| Product strengthens meaningful connection, trust, and progression | PRD-001 | Strategy, roadmap, product decisions |
+| Segments are defined by context and jobs, not stereotypes | PRD-002 | Research, onboarding, personalization |
+| Complete journeys govern feature delivery | PRD-003 | Product, engineering, operations |
+| MVP proves one coherent safe loop | PRD-004 | Prioritization and release planning |
+| Capabilities map to owners, contexts, data, and operations | PRD-005 | Architecture and implementation planning |
+| Experience preserves comprehension, agency, accessibility, and trust | PRD-006 | Design system and product review |
+| Metrics balance value, safety, quality, reliability, and sustainability | PRD-007 | Analytics and experimentation |
+| Releases require cross-domain evidence and rollback | PRD-008 | Release governance |

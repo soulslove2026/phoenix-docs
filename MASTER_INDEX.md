@@ -63,6 +63,19 @@
 - [SEC-006 — Data Protection and Privacy Security](docs/08_Security/006_Data_Protection_and_Privacy_Security.md)
 - [SEC-007 — Security Audit and Incident Readiness](docs/08_Security/007_Security_Audit_and_Incident_Readiness.md)
 
+
+## Product Foundation
+
+- [PRD-000 — Read First](docs/09_Product/000_READ_FIRST.md)
+- [PRD-001 — Product Vision and Value Proposition](docs/09_Product/001_Product_Vision_and_Value_Proposition.md)
+- [PRD-002 — Users, Segments, and Jobs to Be Done](docs/09_Product/002_Users_Segments_and_Jobs_to_Be_Done.md)
+- [PRD-003 — Core User Journeys](docs/09_Product/003_Core_User_Journeys.md)
+- [PRD-004 — MVP Scope and Prioritization](docs/09_Product/004_MVP_Scope_and_Prioritization.md)
+- [PRD-005 — Product Capability Model](docs/09_Product/005_Product_Capability_Model.md)
+- [PRD-006 — Experience and Trust Principles](docs/09_Product/006_Experience_and_Trust_Principles.md)
+- [PRD-007 — Success Metrics and Experimentation](docs/09_Product/007_Success_Metrics_and_Experimentation.md)
+- [PRD-008 — Product Acceptance and Release Criteria](docs/09_Product/008_Product_Acceptance_and_Release_Criteria.md)
+
 ## Existing Engineering Domains
 
 - [DDD](docs/06_DDD/)

@@ -1,5 +1,23 @@
 # Changelog
 
+## 2.3.0-product-r1 — 2026-07-13
+
+### Added
+- PRD-001 Product Vision and Value Proposition.
+- PRD-002 Users, Segments, and Jobs to Be Done.
+- PRD-003 Core User Journeys.
+- PRD-004 MVP Scope and Prioritization.
+- PRD-005 Product Capability Model.
+- PRD-006 Experience and Trust Principles.
+- PRD-007 Success Metrics and Experimentation.
+- PRD-008 Product Acceptance and Release Criteria.
+
+### Changed
+- Synchronized repository indexes, traceability, roadmap, project board, release records, and version metadata.
+- Established the product gate required before implementation planning.
+- Set Phoenix Implementation Planning v2.4.0 Release 1 as the next milestone.
+
+
 ## 2.2.0-security-r1 — 2026-07-13
 
 ### Added

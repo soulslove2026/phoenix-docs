@@ -17,11 +17,11 @@
 
 ## Current Milestone
 
-Phoenix Security Foundation Release 1 (`2.2.0-security-r1`).
+Phoenix Product Foundation Release 1 (`2.3.0-product-r1`).
 
 ## Next Milestone
 
-Phoenix Product Foundation v2.3.0 — Release 1.
+Phoenix Implementation Planning v2.4.0 — Release 1.
 
 ## Core Implementation Gate
 

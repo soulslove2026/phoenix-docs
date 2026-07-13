@@ -10,8 +10,8 @@
 
 ## Commit Summary
 
-`docs(security): add security foundation release 1`
+`docs(product): add product foundation release 1`
 
 ## Commit Description
 
-`Adds security principles, threat modeling, identity, authentication, authorization, secrets, data protection, audit, and incident readiness specifications.`
+`Adds product vision, user segments, core journeys, MVP scope, capability model, experience principles, success metrics, experimentation governance, and release acceptance criteria.`

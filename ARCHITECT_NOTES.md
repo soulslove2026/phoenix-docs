@@ -125,3 +125,32 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 ### Next Milestone
 
 **Phoenix Product Foundation v2.3.0 — Release 1**, defining MVP scope, user journeys, product capabilities, acceptance principles, and measurable outcomes.
+
+## Product Foundation Release 1 — 2026-07-13
+
+### Ratified Decisions
+
+1. Phoenix optimizes for meaningful, safe participation and durable connection rather than raw engagement.
+2. Product segments are defined by jobs and context, not permanent demographic stereotypes.
+3. The MVP must prove a coherent loop: trusted onboarding, relevant discovery, safe participation, relationship continuation, and voluntary return.
+4. Live voice is a core presence capability; gifting, AI, and broad public discovery remain conditional on explicit readiness gates.
+5. Complete user journeys govern delivery across product, architecture, data, security, safety, reliability, and operations.
+6. Capabilities require accountable owners, sources of truth, contracts, metrics, operational shutdown paths, and maturity evidence.
+7. Experience quality includes comprehension, agency, accessibility, reliability, safety, and emotional respect.
+8. Metrics must balance user value with harm, quality, reliability, cost, and operational sustainability.
+9. Experiments cannot override critical safety, privacy, security, financial, accessibility, or vulnerable-user guardrails.
+10. Release readiness is demonstrated by evidence and rollback, not by code completion alone.
+
+### Rejected Alternatives
+
+- Replicating every competitor capability in the MVP.
+- Treating time spent as the universal success metric.
+- Launching economy features before ledger, fraud, reconciliation, and support readiness.
+- Using AI as an unbounded product authority.
+- Shipping user-facing capability without operator workflows.
+- Hiding material state, uncertainty, cost, or automated involvement.
+- Allowing experiments on critical protections without heightened governance.
+
+### Next Milestone
+
+**Phoenix Implementation Planning v2.4.0 — Release 1**, translating foundations into delivery topology, epics, vertical slices, environments, quality gates, ownership, and implementation sequencing.
