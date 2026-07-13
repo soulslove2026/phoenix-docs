@@ -1,5 +1,27 @@
 # Changelog
 
+## 3.3.2-constitutional-reconciliation-hardening-r1 — 2026-07-13
+
+### Reconciled
+
+- synchronized core/docs metadata, release authority, README files, indexes, roadmap, manifests, checksums, traceability, and governance;
+- added executable repository-integrity workflows;
+- corrected explicit discovery of top-level unit tests.
+
+### Hardened
+
+- strict email validation;
+- race-safe duplicate registration conflicts;
+- bounded configurable session lifetime;
+- checksummed transactional migration history and advisory locking;
+- `updated_at` and database constraints;
+- per-process authentication throttling baseline.
+
+### State
+
+Candidate pending both GitHub workflows. Production readiness remains false.
+
+
 ## 3.3.1-identity-slice1-verification — 2026-07-13
 
 ### Verified

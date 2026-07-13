@@ -121,11 +121,8 @@
 ## Releases
 
 - [Release Records](releases/)
-- [Current Release](releases/v2.1.0-architecture-foundation-release2.md)
+- [Current Release](releases/v3.3.2-constitutional-reconciliation-hardening-r1.md)
 
-## Verification Records
-
-- [v3.0.1 Core Bootstrap Verification](releases/v3.0.1-core-bootstrap-verification.md)
 
 ## Production Stack Ratification
 
@@ -150,9 +147,6 @@
 - [MIG-006 — Migration Verification](docs/13_Stack_Migration/006_Migration_Verification.md)
 - [MIG-007 — CI Registry Hotfix](docs/13_Stack_Migration/007_CI_Registry_Hotfix.md)
 
-## Verification Records
-
-- [v3.2.2 Stack Migration Verification](releases/v3.2.2-stack-migration-verification.md)
 
 ## Identity Slice 1
 
@@ -165,6 +159,20 @@
 - [IDN-006 — Threat and Abuse Review](docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md)
 - [IDN-007 — Test and Verification Plan](docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md)
 
-## Verification Records
 
+
+## Canonical Verification Records
+
+- [v3.0.1 Core Bootstrap Verification](releases/v3.0.1-core-bootstrap-verification.md)
+- [v3.2.2 Stack Migration Verification](releases/v3.2.2-stack-migration-verification.md)
 - [v3.3.1 Identity Slice 1 Verification](releases/v3.3.1-identity-slice1-verification.md)
+
+## Repository Reconciliation v3.3.2
+
+- [REC-000 — Read First](docs/15_Repository_Reconciliation/000_READ_FIRST.md)
+- [REC-001 — Reconciliation Charter](docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md)
+- [REC-002 — Findings and Corrections](docs/15_Repository_Reconciliation/002_Findings_and_Corrections.md)
+- [REC-003 — Constitution Compliance](docs/15_Repository_Reconciliation/003_Constitution_Compliance.md)
+- [REC-004 — Identity Hardening Decisions](docs/15_Repository_Reconciliation/004_Identity_Hardening_Decisions.md)
+- [REC-005 — Repository Integrity and CI Gate](docs/15_Repository_Reconciliation/005_Repository_Integrity_and_CI_Gate.md)
+- [REC-006 — Residual Risks and Deferred Controls](docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md)

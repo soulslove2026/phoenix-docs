@@ -1,23 +1,17 @@
-# Release Report
-
-## Result
-
-Phoenix Identity Slice 1 verification evidence has been recorded.
-
-## Verified Evidence
-
-- PostgreSQL migration: Passed
-- Repository and TypeScript checks: Passed
-- Unit tests: Passed
-- PostgreSQL integration tests: Passed
-- Production build: Passed
-- Docker build: Passed
-- GitHub Actions: Success
+# Release Report — v3.3.2
 
 ## Decision
 
-Identity Slice 1 status changed from Candidate to Verified.
+The prior Identity Slice 1 implementation remains verified at v3.3.1. The v3.3.2 reconciliation and hardening changes are Candidate until new CI evidence is available.
 
-## Next Gate
+## Reconciliation result
 
-Identity Slice 2 — Verification, Recovery, and Session Hardening.
+The release aligns repository metadata, release authority, indexes, roadmap, traceability, governance, manifests, and checksums. Automated checks now fail when these sources drift.
+
+## Engineering corrections
+
+The release fixes explicit unit-test discovery, malformed email acceptance, duplicate-account race handling, hard-coded session lifetime, absent migration history, stale `updated_at`, and missing authentication throttling baseline.
+
+## Deferred production controls
+
+Email ownership verification, recovery, MFA/passkeys, breached-password screening, distributed throttling, device/session management, risk signals, and operational alerting remain required in Identity Slice 2 or later. Their deferral is explicit and blocks production readiness.

@@ -1,63 +1,35 @@
 # Phoenix Project Board
 
-## Completed / Ratified
+## Verified / ratified
 
-- Governance Releases 1–3 — present in repository
-- Data Platform Releases 1–3 — reconciled and canonical
-- Engineering Framework Release 1 — ratified foundation standards
-- Repository Reconciliation Release 1 — indexes, records, and paths synchronized
-- Architecture Foundation Release 1 — ARC-001 through ARC-005 ratified
-- Architecture Foundation Release 2 — ARC-006 through ARC-010 ratified
-- Architecture Foundation Release 2 — ARC-006 through ARC-010 ratified
+- Governance Releases 1–3
+- Canonical Data Platform DPL-010 through DPL-019
+- Engineering Framework foundation
+- Architecture Foundation ARC-001 through ARC-010
+- Security Foundation SEC-001 through SEC-007
+- Product Foundation PRD-001 through PRD-008
+- Implementation Planning IMP-001 through IMP-010
+- Core Bootstrap Slice 0
+- Production Stack Ratification
+- Stack Migration
+- Identity Slice 1 v3.3.1
 
-## Current Milestone
+## Current milestone
 
-**Phoenix Architecture Foundation v2.1.0 — Release 2 — Ready for GitHub**
+**v3.3.2 Constitutional Reconciliation and Identity Hardening — Candidate**
 
-## Next Milestone
+### In verification
 
-**Phoenix Product Foundation v2.3.0 — Release 1**
+- phoenix-core CI on Node.js 24 / PostgreSQL 18 / Docker
+- phoenix-docs Documentation Integrity workflow
+- migration idempotency and checksum protection
+- full unit-test discovery
+- repository metadata, manifest, checksum, and traceability consistency
 
-Planned documents:
+## Next milestone
 
-- ARC-006 — Communication Patterns
-- ARC-007 — Deployment Philosophy
-- ARC-008 — Scalability Strategy
-- ARC-009 — Failure Isolation
-- ARC-010 — Reference Architecture
+After both workflows pass, record v3.3.2 verification, then begin **Identity Slice 2 — Verification, Recovery, and Session Hardening**.
 
-## Known Follow-up
+## Production blockers
 
-- Validate ARC-001 through ARC-005 against selected MVP user journeys.
-- Assign initial team and operational ownership before implementation.
-- Perform content-diff review before deleting `docs/05_Data_Platform/`.
-- Begin Security Foundation after Architecture Foundation Release 2.
-
-
-## Core Bootstrap Status
-
-- Slice 0: Verified ✅
-- GitHub Actions: Success
-- Next: Production Stack Ratification
-
-
-## Production Stack Status
-
-- Ratification: Complete ✅
-- Next: Bootstrap migration to Node.js 24 + TypeScript + Fastify + PostgreSQL
-- Then: Identity Slice 1
-
-
-## Stack Migration Status
-
-- Stack Migration: Verified ✅
-- GitHub Actions: Success
-- Verified commit: `bdae87a`
-- Next: Phoenix Identity Slice 1
-
-
-## Identity Status
-
-- Identity Slice 1: Verified ✅
-- GitHub Actions: Success
-- Next: Identity Slice 2 — Verification, Recovery, and Session Hardening
+Email verification, recovery, MFA/passkeys, breached-password screening, distributed throttling, device/session controls, risk signals, and operational alerting.

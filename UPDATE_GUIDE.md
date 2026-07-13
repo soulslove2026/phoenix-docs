@@ -1,17 +1,27 @@
-# Update Guide
+# Update Guide — v3.3.2
 
-This verification release updates `phoenix-docs` only.
+This bundle contains complete overlays for both repositories.
 
-1. Extract the ZIP.
-2. Open the included `phoenix-docs` folder.
-3. Copy all contents into the existing local `phoenix-docs` repository.
-4. Replace matching files.
-5. Commit and push.
+## 1. phoenix-core
 
-## Commit Summary
+Copy all contents of `phoenix-core/` into the existing local repository and replace matching files.
 
-`docs(identity): verify Identity Slice 1`
+Commit:
 
-## Commit Description
+`fix(identity): reconcile and harden Identity Slice 1`
 
-`Records successful GitHub Actions verification for Identity Slice 1, including PostgreSQL migration, TypeScript checks, unit tests, integration tests, production build, and Docker build.`
+Push first and verify the `CI` workflow.
+
+## 2. phoenix-docs
+
+Copy all contents of `phoenix-docs/` into the existing local repository and replace matching files.
+
+Commit:
+
+`docs(governance): reconcile Identity Slice 1 and add integrity gates`
+
+Push and verify the `Documentation Integrity` workflow.
+
+## Required result
+
+Do not mark v3.3.2 Verified until both workflows are green. The next documentation-only release will record exact commit and workflow evidence.

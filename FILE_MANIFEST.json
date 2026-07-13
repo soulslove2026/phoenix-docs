@@ -1,13 +1,16 @@
 {
-  "repository_version": "3.3.1-identity-slice1-verification",
-  "file_count": 125,
+  "repository_version": "3.3.2-constitutional-reconciliation-hardening-r1",
+  "file_count": 137,
   "files": [
+    ".github/workflows/documentation-integrity.yml",
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
+    "CONSTITUTION_COMPLIANCE_REPORT.md",
     "DOCUMENT_INDEX.md",
     "ENGINEERING_FRAMEWORK.md",
     "ENGINEERING_ROADMAP.md",
     "FILE_MANIFEST.json",
+    "GOVERNANCE_CHECKLIST.md",
     "MASTER_INDEX.md",
     "PROJECT_BOARD.md",
     "README.md",
@@ -105,6 +108,13 @@
     "docs/14_Identity_Slice1/005_Persistence_and_Migration.md",
     "docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md",
     "docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md",
+    "docs/15_Repository_Reconciliation/000_READ_FIRST.md",
+    "docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md",
+    "docs/15_Repository_Reconciliation/002_Findings_and_Corrections.md",
+    "docs/15_Repository_Reconciliation/003_Constitution_Compliance.md",
+    "docs/15_Repository_Reconciliation/004_Identity_Hardening_Decisions.md",
+    "docs/15_Repository_Reconciliation/005_Repository_Integrity_and_CI_Gate.md",
+    "docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -126,6 +136,8 @@
     "releases/v3.2.1-stack-migration-ci-registry-hotfix.md",
     "releases/v3.2.2-stack-migration-verification.md",
     "releases/v3.3.0-identity-slice1-release1.md",
-    "releases/v3.3.1-identity-slice1-verification.md"
+    "releases/v3.3.1-identity-slice1-verification.md",
+    "releases/v3.3.2-constitutional-reconciliation-hardening-r1.md",
+    "scripts/check-repository.mjs"
   ]
 }

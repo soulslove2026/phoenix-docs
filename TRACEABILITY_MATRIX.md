@@ -74,3 +74,22 @@
 | PostgreSQL enters without premature domain schema | MIG-003 | Identity readiness |
 | APIs are schema-first and OpenAPI-visible | MIG-004 | API delivery |
 | CI verification blocks Identity Slice 1 | MIG-005, MIG-006 | Release governance |
+
+
+## Identity Slice 1 and Reconciliation Traceability
+
+| ID | Requirement / decision | Authoritative specification | Implementation evidence | Test / verification evidence |
+|---|---|---|---|---|
+| IDN-001 | Deliver a complete bounded Identity vertical slice | `docs/14_Identity_Slice1/001_Identity_Slice_Charter.md` | `src/identity/`, `src/app.ts` | unit + PostgreSQL integration CI |
+| IDN-002 | User and session invariants have one owner | `002_Identity_Domain_Model.md` | `types.ts`, repository, migrations | service and integration tests |
+| IDN-003 | Registration/login/me/logout are governed contracts | `003_Registration_and_Login_Contract.md` | `routes.ts`, OpenAPI schemas | OpenAPI + integration tests |
+| IDN-004 | Passwords and session tokens remain secret-safe | `004_Session_Security_Model.md` | `password.ts`, `session-token.ts` | service tests and DB inspection boundary |
+| IDN-005 | Persistence is durable and migratable | `005_Persistence_and_Migration.md` | migrations 001/002, migration ledger | migration twice in CI + integration tests |
+| IDN-006 | Threats and abuse are reviewed explicitly | `006_Threat_and_Abuse_Review.md` | generic login errors, rate limiter, constraints | unit/integration tests; REC-006 risks |
+| IDN-007 | Verification is evidence-based | `007_Test_and_Verification_Plan.md` | `.github/workflows/ci.yml` | GitHub Actions gate |
+| REC-001 | Repository authority must be coherent | `docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md` | synchronized metadata and release files | repository integrity workflows |
+| REC-002 | Findings must map to corrections | `002_Findings_and_Corrections.md` | code/docs paths listed in the finding table | local audit + CI |
+| REC-003 | Constitutional compliance is explicit | `003_Constitution_Compliance.md` | governance and compliance reports | docs integrity workflow |
+| REC-004 | Hardening decisions preserve scope | `004_Identity_Hardening_Decisions.md` | bounded code changes | typecheck/tests/review |
+| REC-005 | Drift must fail automatically | `005_Repository_Integrity_and_CI_Gate.md` | repository-check scripts/workflows | both repository workflows |
+| REC-006 | Residual risk blocks production claims | `006_Residual_Risks_and_Deferred_Controls.md` | `production_ready=false` and security docs | repository checks |

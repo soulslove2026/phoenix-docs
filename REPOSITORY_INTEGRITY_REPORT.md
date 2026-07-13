@@ -1,24 +1,24 @@
-# Repository Integrity Report
+# Repository Integrity Report — v3.3.2
 
-**Documentation version:** `3.3.1-identity-slice1-verification`  
-**Status:** Reconciled; Identity Slice 1 verified
+## State
 
-## Verification Evidence
+- Documentation version: `3.3.2-constitutional-reconciliation-hardening-r1`
+- Core version: `3.3.2`
+- Previous verified baseline: Identity Slice 1 v3.3.1
+- Current release: Candidate
+- Production-ready: No
 
-- Repository: `soulslove2026/phoenix-core`
-- Branch: `main`
-- Workflow: `CI`
-- Result: Success
+## Reconciled authorities
 
-## Integrity Findings
+VERSION, package metadata, README files, current release, release report, master/document indexes, project board, roadmap, traceability, governance, architecture/security/runbook documents, manifests, and checksums.
 
-- Identity Slice 1 is implemented and verified.
-- PostgreSQL migration, TypeScript checks, unit tests, integration tests, production build, and Docker build passed.
-- Passwords remain hashed and session tokens are stored only as hashes.
-- Identity Slice 1 is not production-ready.
-- Identity Slice 2 is required for verification, recovery, and session hardening.
-- Legacy `docs/05_Data_Platform/` remains intentionally non-canonical.
+## Automated prevention
 
-## Next Review
+- `phoenix-core/scripts/repository-check.mjs`
+- `phoenix-core/.github/workflows/ci.yml`
+- `phoenix-docs/scripts/check-repository.mjs`
+- `phoenix-docs/.github/workflows/documentation-integrity.yml`
 
-Run after Identity Slice 2 implementation and CI verification.
+## Remaining verification
+
+Upload both overlays and require green workflows. Then record exact commit identifiers and workflow duration in a separate verification release.

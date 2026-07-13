@@ -1,25 +1,13 @@
-# Update Manifest — v3.3.1 Identity Slice 1 Verification
+# Update Manifest — v3.3.2
 
-## Added
+## phoenix-core
 
-- `releases/v3.3.1-identity-slice1-verification.md`
+Updated metadata, configuration, identity validation, repository conflict handling, session TTL, rate limiting, migration runner, database migration, tests, CI, Docker/Compose, README, security policy, architecture, and runbook.
 
-## Updated
+## phoenix-docs
 
-- `VERSION.json`
-- `README.md`
-- `RELEASE.md`
-- `RELEASE_REPORT.md`
-- `CHANGELOG.md`
-- `PROJECT_BOARD.md`
-- `ENGINEERING_ROADMAP.md`
-- `ARCHITECT_NOTES.md`
-- `REPOSITORY_INTEGRITY_REPORT.md`
-- `docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md`
-- `UPDATE_GUIDE.md`
-- `FILE_MANIFEST.json`
-- `CHECKSUMS.sha256`
+Updated version authority, README, release files, indexes, roadmap, project board, traceability, governance checklist, constitution compliance, integrity report, changelog, release record, reconciliation corpus, manifest, checksums, and documentation CI.
 
-## Scope
+## Scope boundary
 
-Documentation verification only. No `phoenix-core` code changes are required.
+This is a reconciliation and hardening release. Email verification, recovery, MFA/passkeys, and advanced session/device controls remain in Identity Slice 2.

@@ -85,12 +85,21 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | MIG-003 | PostgreSQL Readiness | `docs/13_Stack_Migration/003_PostgreSQL_Readiness.md` | Ratified | Level 2 |
 | MIG-004 | Contract and OpenAPI Baseline | `docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md` | Ratified | Level 2 |
 | MIG-005 | Quality and CI Gate | `docs/13_Stack_Migration/005_Quality_and_CI_Gate.md` | Ratified | Level 2 |
-| MIG-006 | Migration Verification | `docs/13_Stack_Migration/006_Migration_Verification.md` | Candidate | Level 2 |
+| MIG-006 | Migration Verification | `docs/13_Stack_Migration/006_Migration_Verification.md` | Verified | Level 2 |
 
-| IDN-001 | Identity Slice Charter | `docs/14_Identity_Slice1/001_Identity_Slice_Charter.md` | Candidate | Level 2 |
-| IDN-002 | Identity Domain Model | `docs/14_Identity_Slice1/002_Identity_Domain_Model.md` | Candidate | Level 2 |
-| IDN-003 | Registration and Login Contract | `docs/14_Identity_Slice1/003_Registration_and_Login_Contract.md` | Candidate | Level 2 |
-| IDN-004 | Session Security Model | `docs/14_Identity_Slice1/004_Session_Security_Model.md` | Candidate | Level 2 |
-| IDN-005 | Persistence and Migration | `docs/14_Identity_Slice1/005_Persistence_and_Migration.md` | Candidate | Level 2 |
-| IDN-006 | Threat and Abuse Review | `docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md` | Candidate | Level 2 |
-| IDN-007 | Test and Verification Plan | `docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md` | Candidate | Level 2 |
+| IDN-001 | Identity Slice Charter | `docs/14_Identity_Slice1/001_Identity_Slice_Charter.md` | Verified | Level 2 |
+| IDN-002 | Identity Domain Model | `docs/14_Identity_Slice1/002_Identity_Domain_Model.md` | Verified | Level 2 |
+| IDN-003 | Registration and Login Contract | `docs/14_Identity_Slice1/003_Registration_and_Login_Contract.md` | Verified | Level 2 |
+| IDN-004 | Session Security Model | `docs/14_Identity_Slice1/004_Session_Security_Model.md` | Verified | Level 2 |
+| IDN-005 | Persistence and Migration | `docs/14_Identity_Slice1/005_Persistence_and_Migration.md` | Verified | Level 2 |
+| IDN-006 | Threat and Abuse Review | `docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md` | Verified | Level 2 |
+| IDN-007 | Test and Verification Plan | `docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md` | Verified | Level 2 |
+
+
+| REC-000 | Repository Reconciliation Read First | `docs/15_Repository_Reconciliation/000_READ_FIRST.md` | Candidate | Foundation |
+| REC-001 | Reconciliation Charter | `docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md` | Candidate | Level 2 |
+| REC-002 | Findings and Corrections | `docs/15_Repository_Reconciliation/002_Findings_and_Corrections.md` | Candidate | Level 2 |
+| REC-003 | Constitution Compliance | `docs/15_Repository_Reconciliation/003_Constitution_Compliance.md` | Candidate | Level 2 |
+| REC-004 | Identity Hardening Decisions | `docs/15_Repository_Reconciliation/004_Identity_Hardening_Decisions.md` | Candidate | Level 2 |
+| REC-005 | Repository Integrity and CI Gate | `docs/15_Repository_Reconciliation/005_Repository_Integrity_and_CI_Gate.md` | Candidate | Level 2 |
+| REC-006 | Residual Risks and Deferred Controls | `docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md` | Candidate | Level 2 |

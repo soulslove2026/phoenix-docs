@@ -248,3 +248,10 @@ Identity Slice 1 passed the GitHub Actions quality gate.
 Verified evidence includes PostgreSQL migration, strict TypeScript checks, unit tests, integration tests, production build, and Docker build.
 
 **Decision:** Identity Slice 1 is Verified. Identity Slice 2 is authorized.
+
+## Constitutional Reconciliation and Identity Hardening — 2026-07-13
+
+Repository drift and hidden test-discovery weakness were treated as release-blocking defects. v3.3.2 synchronizes authority, adds executable drift checks, and corrects bounded Identity Slice 1 defects without importing Identity Slice 2 scope.
+
+**Decision:** v3.3.2 is Candidate until both repository workflows pass. v3.3.1 remains the verified baseline.
+
