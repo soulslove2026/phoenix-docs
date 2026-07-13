@@ -3,45 +3,33 @@
 ## Verified / ratified
 
 - Governance Releases 1–3
-- Canonical Data Platform DPL-010 through DPL-019
-- Engineering Framework foundation
-- Architecture Foundation ARC-001 through ARC-010
-- Security Foundation SEC-001 through SEC-007
-- Product Foundation PRD-001 through PRD-008
-- Implementation Planning IMP-001 through IMP-010
+- Canonical Data Platform
+- Engineering Framework
+- Architecture Foundation
+- Security Foundation
+- Product Foundation
+- Implementation Planning
 - Core Bootstrap Slice 0
-- Production Stack Ratification
-- Stack Migration
-- Identity Slice 1 v3.3.1
-- v3.3.2 Constitutional Reconciliation and Identity Hardening
+- Production Stack Ratification and Migration
+- Identity Slice 1
+- Constitutional Reconciliation and Identity Slice 1 Hardening
+- Identity Slice 2 Security Foundation through v3.4.2
 
 ## Current milestone
 
-**v3.3.3 Constitutional Reconciliation Verification — Verified**
+**v3.4.3 Identity Slice 2 Security Foundation Verification — Verified**
 
 ### Evidence
 
-- Core commit `ce38991`: CI Success in 1 minute 4 seconds.
-- Documentation commit `a59dc0f`: Documentation Check Success in 10 seconds.
-- Documentation commit `a59dc0f`: Documentation Integrity Success in 13 seconds.
+- Core commit `9ca9dc8`: CI Success in 56 seconds.
+- Core commit `9ca9dc8`: CodeQL Success in 1 minute 21 seconds.
+- Documentation commit `ffcdf23`: Documentation Check Success in 7 seconds.
+- Documentation commit `ffcdf23`: Documentation Integrity Success in 10 seconds.
 
 ## Next milestone
 
-Identity Slice 2 — Verification, Recovery, and Session Hardening.
+Identity Slice 2 Phase B — Passkeys, MFA, breached-password screening, and production notification delivery.
 
 ## Production blockers
 
-Email verification, recovery, MFA/passkeys, breached-password screening, distributed throttling, device/session controls, risk signals, and operational alerting.
-
-
-## Identity Slice 2 Release 1
-
-Version `3.4.2-ci-artifact-isolation-hotfix-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.
-
-## v3.4.1 Dependency Governance
-
-Routine version updates are controlled, security updates remain enabled, and approved workflow actions use Node.js 24 generations. Verification is pending.
-
-## v3.4.2 CI Artifact Isolation
-
-Generated security evidence is isolated from governed source state. Verification is pending.
+Passkeys, MFA, recovery codes, breached-password screening, production notification delivery, edge bot defenses, privileged administration isolation, managed key rotation, operational alerting, backup restoration exercises, and external penetration testing.

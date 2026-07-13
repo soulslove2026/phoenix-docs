@@ -2,37 +2,24 @@
 
 | Phase | Status | Evidence / next decision |
 |---|---|---|
-| Governance | Foundation ratified | Continuous release review |
-| Data Platform | Reconciled | DPL-010–019 canonical |
+| Governance | Ratified | Continuous review |
+| Data Platform | Reconciled | Canonical DPL authority |
 | Engineering Framework | Ratified | Standards active |
-| Architecture Foundation | Ratified | ARC-001–010 |
-| Security Foundation | Ratified | SEC-001–007 |
-| Product Foundation | Ratified | PRD-001–008 |
-| Implementation Planning | Ratified | IMP-001–010 |
-| Core Bootstrap | Verified | Slice 0 CI evidence |
+| Architecture Foundation | Ratified | Modular monolith |
+| Security Foundation | Ratified | Security-first constitution |
+| Product Foundation | Ratified | Product governance active |
+| Implementation Planning | Ratified | Slices and gates defined |
+| Core Bootstrap | Verified | CI evidence recorded |
 | Production Stack | Ratified and migrated | Node 24, TypeScript, Fastify, PostgreSQL |
 | Identity Slice 1 | Verified | Registration, login, sessions, logout |
-| Reconciliation and Hardening | Verified at v3.3.3 | Core `ce38991`; docs `a59dc0f` |
-| Identity Slice 2 | Next | Email verification, recovery, MFA/passkeys, advanced sessions |
-| Public production readiness | Blocked | Residual security and operations controls required |
+| Identity Slice 2 Security Foundation | Verified | Core `9ca9dc8`; docs `ffcdf23` |
+| Identity Slice 2 Phase B | Next | Passkeys, MFA, breached-password screening, notification delivery |
+| Public production readiness | Blocked | Remaining identity, abuse, operations, privacy, and external assurance controls |
 
 ## Current Gate
 
-Identity Slice 2 may begin. It must remain Candidate until implementation, migration, security, test, documentation, and CI evidence are complete.
+Identity Slice 2 Phase B may begin. It must remain Candidate until its code, migrations, security review, tests, documentation, CI, CodeQL, and dependency evidence pass.
 
 ## Architecture Direction
 
-Continue as a bounded-context modular monolith. Preserve PostgreSQL transactional truth, schema-first APIs, explicit ownership, reversible application delivery, additive durable migrations, and automated repository authority.
-
-
-## Identity Slice 2 Release 1
-
-Version `3.4.2-ci-artifact-isolation-hotfix-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.
-
-## v3.4.1 Dependency Governance
-
-Routine version updates are controlled, security updates remain enabled, and approved workflow actions use Node.js 24 generations. Verification is pending.
-
-## v3.4.2 CI Artifact Isolation
-
-Generated security evidence is isolated from governed source state. Verification is pending.
+Preserve the bounded-context modular monolith, PostgreSQL transactional truth, schema-first contracts, explicit ownership, additive durable migrations, least privilege, evidence isolation, and exact repository authority.

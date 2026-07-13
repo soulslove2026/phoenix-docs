@@ -276,3 +276,9 @@ Routine version updates are controlled, security updates remain enabled, and app
 ## v3.4.2 CI Artifact Isolation
 
 Generated security evidence is isolated from governed source state. Verification is pending.
+
+## v3.4.3 Identity Slice 2 Verification Decision
+
+The security foundation, dependency-governance correction, and CI artifact-isolation correction passed all required code and documentation workflows.
+
+**Decision:** Identity Slice 2 Security Foundation is Verified. Phase B is authorized.

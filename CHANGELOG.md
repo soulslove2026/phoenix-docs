@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.4.3-identity-slice2-security-foundation-verification — 2026-07-13
+
+### Verified
+
+- Core CI passed on commit `9ca9dc8` in 56 seconds.
+- Core CodeQL passed on commit `9ca9dc8` in 1 minute 21 seconds.
+- Documentation Check passed on commit `ffcdf23` in 7 seconds.
+- Documentation Integrity passed on commit `ffcdf23` in 10 seconds.
+- Identity Slice 2 Security Foundation changed from Candidate to Verified.
+
+### Next
+
+- Identity Slice 2 Phase B — Passkeys, MFA, breached-password screening, and production notification delivery.
+
+
 ## 3.4.2-ci-artifact-isolation-hotfix-r1 — 2026-07-13
 
 ### Fixed

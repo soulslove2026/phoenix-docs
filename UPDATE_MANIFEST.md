@@ -1,17 +1,26 @@
-# Update Manifest — v3.4.2
+# Update Manifest — v3.4.3 Verification
 
-## Core
+## Added
 
-- corrected CI ordering;
-- temporary SBOM path;
-- SBOM JSON validation;
-- post-generation clean-tree gate;
-- regression policy check;
-- artifact-isolation documentation.
+- `releases/v3.4.3-identity-slice2-security-foundation-verification.md`
 
-## Documentation
+## Updated
 
-- v3.4.2 authority;
-- ID2-014;
-- release report and guide;
-- regenerated manifests and checksums.
+- `VERSION.json`
+- `README.md`
+- `RELEASE.md`
+- `RELEASE_REPORT.md`
+- `CHANGELOG.md`
+- `MASTER_INDEX.md`
+- `PROJECT_BOARD.md`
+- `ENGINEERING_ROADMAP.md`
+- `ARCHITECT_NOTES.md`
+- `REPOSITORY_INTEGRITY_REPORT.md`
+- `CONSTITUTION_COMPLIANCE_REPORT.md`
+- `UPDATE_GUIDE.md`
+- `FILE_MANIFEST.json`
+- `CHECKSUMS.sha256`
+
+## Scope
+
+Documentation verification only.

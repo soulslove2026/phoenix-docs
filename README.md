@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.4.2-ci-artifact-isolation-hotfix-r1`  
-**Current milestone:** Identity Slice 2 — Release 1 (Candidate)  
+**Current repository version:** `3.4.3-identity-slice2-security-foundation-verification`  
+**Current milestone:** Identity Slice 2 Security Foundation — Verified  
 **Previous verified milestone:** Identity Slice 1 v3.3.1  
-**Next gate:** Complete security and CI verification for Identity Slice 2  
+**Next gate:** Identity Slice 2 Phase B implementation and verification  
 **Next milestone after verification:** Identity Slice 2 — Verification, Recovery, and Session Hardening  
 **Production-ready:** No
 
@@ -56,3 +56,10 @@ Routine version updates are controlled, security updates remain enabled, and app
 ## v3.4.2 CI Artifact Isolation
 
 Generated security evidence is isolated from governed source state. Verification is pending.
+
+## v3.4.3 Verification Evidence
+
+- Core CI: Success on commit `9ca9dc8` in 56 seconds.
+- Core CodeQL: Success on commit `9ca9dc8` in 1 minute 21 seconds.
+- Documentation Check: Success on commit `ffcdf23` in 7 seconds.
+- Documentation Integrity: Success on commit `ffcdf23` in 10 seconds.

@@ -1,19 +1,14 @@
-# Update Guide — v3.4.2
+# Update Guide — v3.4.3 Verification
 
-This is a clean-snapshot release.
+This release updates `phoenix-docs` only.
 
-## phoenix-core
+1. Extract the ZIP.
+2. Copy all contents of the included `phoenix-docs` folder into the existing local documentation repository.
+3. Replace matching files.
+4. Commit:
 
-Preserve `.git`, delete every other repository file and folder, and copy the complete core snapshot.
+`docs(verification): verify Identity Slice 2 security foundation`
 
-Commit:
+5. Push and confirm both documentation workflows remain green.
 
-`fix(ci): isolate generated security evidence from repository state`
-
-## phoenix-docs
-
-Preserve `.git`, delete every other repository file and folder, and copy the complete documentation snapshot.
-
-Commit:
-
-`docs(ci): record artifact isolation hotfix`
+No `phoenix-core` changes are included.

@@ -204,3 +204,5 @@
 
 - [ID2-014 — CI Evidence Isolation](docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md)
 - [v3.4.2 CI Artifact Isolation Hotfix](releases/v3.4.2-ci-artifact-isolation-hotfix-release1.md)
+
+- [v3.4.3 Identity Slice 2 Security Foundation Verification](releases/v3.4.3-identity-slice2-security-foundation-verification.md)
