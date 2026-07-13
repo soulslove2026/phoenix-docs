@@ -79,3 +79,10 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | STACK-006 | Security and Observability Standard | `docs/12_Production_Stack/006_Security_and_Observability_Standard.md` | Ratified | Level 3 |
 | STACK-007 | Bootstrap Migration Plan | `docs/12_Production_Stack/007_Bootstrap_Migration_Plan.md` | Ratified | Level 3 |
 | STACK-008 | Identity Slice 1 Readiness Gate | `docs/12_Production_Stack/008_Identity_Slice_1_Readiness_Gate.md` | Ratified | Level 3 |
+
+| MIG-001 | Migration Charter | `docs/13_Stack_Migration/001_Migration_Charter.md` | Ratified | Level 2 |
+| MIG-002 | Runtime and Framework Migration | `docs/13_Stack_Migration/002_Runtime_and_Framework_Migration.md` | Ratified | Level 2 |
+| MIG-003 | PostgreSQL Readiness | `docs/13_Stack_Migration/003_PostgreSQL_Readiness.md` | Ratified | Level 2 |
+| MIG-004 | Contract and OpenAPI Baseline | `docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md` | Ratified | Level 2 |
+| MIG-005 | Quality and CI Gate | `docs/13_Stack_Migration/005_Quality_and_CI_Gate.md` | Ratified | Level 2 |
+| MIG-006 | Migration Verification | `docs/13_Stack_Migration/006_Migration_Verification.md` | Candidate | Level 2 |

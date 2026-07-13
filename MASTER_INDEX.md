@@ -138,3 +138,13 @@
 - [STACK-006 — Security and Observability](docs/12_Production_Stack/006_Security_and_Observability_Standard.md)
 - [STACK-007 — Bootstrap Migration Plan](docs/12_Production_Stack/007_Bootstrap_Migration_Plan.md)
 - [STACK-008 — Identity Slice 1 Readiness Gate](docs/12_Production_Stack/008_Identity_Slice_1_Readiness_Gate.md)
+
+## Stack Migration
+
+- [MIG-000 — Read First](docs/13_Stack_Migration/000_READ_FIRST.md)
+- [MIG-001 — Migration Charter](docs/13_Stack_Migration/001_Migration_Charter.md)
+- [MIG-002 — Runtime and Framework Migration](docs/13_Stack_Migration/002_Runtime_and_Framework_Migration.md)
+- [MIG-003 — PostgreSQL Readiness](docs/13_Stack_Migration/003_PostgreSQL_Readiness.md)
+- [MIG-004 — Contract and OpenAPI Baseline](docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md)
+- [MIG-005 — Quality and CI Gate](docs/13_Stack_Migration/005_Quality_and_CI_Gate.md)
+- [MIG-006 — Migration Verification](docs/13_Stack_Migration/006_Migration_Verification.md)

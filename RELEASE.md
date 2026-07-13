@@ -1,8 +1,8 @@
 # Current Release
 
-## Phoenix Production Stack Ratification v3.1.0
+## Phoenix Core Stack Migration v3.2.0 — Release 1
 
-The production baseline is ratified.
+Migrates `phoenix-core` to the ratified production stack without adding Identity behavior.
 
-**Status:** Ratified  
-**Next:** Migrate Slice 0 to the ratified stack, then begin Identity Slice 1.
+**Status:** Candidate pending GitHub Actions  
+**Next:** Identity Slice 1 after successful migration verification

@@ -1,8 +1,9 @@
 {
-  "version": "3.1.0-stack-ratification-r1",
-  "release": "Phoenix Production Stack Ratification \u2014 Release 1",
+  "version": "3.2.0-stack-migration-r1",
+  "release": "Phoenix Core Stack Migration \u2014 Release 1",
   "release_date": "2026-07-13",
-  "status": "ratified",
-  "next_milestone": "Stack Migration and Identity Slice 1",
-  "production_ready": false
+  "status": "candidate",
+  "next_milestone": "Identity Slice 1 after migration verification",
+  "production_ready": false,
+  "core_version": "3.2.0"
 }

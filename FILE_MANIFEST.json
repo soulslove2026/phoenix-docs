@@ -1,7 +1,6 @@
 {
-  "repository_version": "3.1.0-stack-ratification-r1",
-  "generated_at": "2026-07-13T00:00:00Z",
-  "file_count": 104,
+  "repository_version": "3.2.0-stack-migration-r1",
+  "file_count": 112,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -90,6 +89,13 @@
     "docs/12_Production_Stack/006_Security_and_Observability_Standard.md",
     "docs/12_Production_Stack/007_Bootstrap_Migration_Plan.md",
     "docs/12_Production_Stack/008_Identity_Slice_1_Readiness_Gate.md",
+    "docs/13_Stack_Migration/000_READ_FIRST.md",
+    "docs/13_Stack_Migration/001_Migration_Charter.md",
+    "docs/13_Stack_Migration/002_Runtime_and_Framework_Migration.md",
+    "docs/13_Stack_Migration/003_PostgreSQL_Readiness.md",
+    "docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md",
+    "docs/13_Stack_Migration/005_Quality_and_CI_Gate.md",
+    "docs/13_Stack_Migration/006_Migration_Verification.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -106,6 +112,7 @@
     "releases/v2.4.0-implementation-planning-release1.md",
     "releases/v3.0.0-core-bootstrap-release1.md",
     "releases/v3.0.1-core-bootstrap-verification.md",
-    "releases/v3.1.0-production-stack-ratification-release1.md"
+    "releases/v3.1.0-production-stack-ratification-release1.md",
+    "releases/v3.2.0-stack-migration-release1.md"
   ]
 }

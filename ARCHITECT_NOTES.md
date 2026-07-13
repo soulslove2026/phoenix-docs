@@ -217,3 +217,12 @@ This closes the bootstrap evidence gate and authorizes Production Stack Ratifica
 ## Production Stack Ratification — 2026-07-13
 
 Ratified Node.js 24 LTS, TypeScript 5.9, Fastify 5, PostgreSQL 18, schema-first REST/OpenAPI, SQL-first repositories, transactional outbox, OpenTelemetry-compatible observability, OCI containers, and GitHub Actions. Redis, an event broker, and specialized search stores remain deferred until evidence. The next action is bootstrap migration, then Identity Slice 1.
+
+
+## Stack Migration Release 1 — 2026-07-13
+
+1. Slice 0 moved to the ratified Node.js 24, TypeScript 5.9, Fastify 5 stack.
+2. PostgreSQL 18 is available but no domain schema is introduced.
+3. JSON Schema/OpenAPI is active from the first framework-based API.
+4. The migration preserves health, readiness, security headers, request IDs, safe errors, logging, tests, CI, and container controls.
+5. Identity Slice 1 remains blocked until repository CI succeeds.

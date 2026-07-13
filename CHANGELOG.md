@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.2.0-stack-migration-r1 — 2026-07-13
+
+### Added
+- MIG-001 through MIG-006 stack-migration specifications.
+- Node.js 24, TypeScript 5.9, Fastify 5, PostgreSQL 18 readiness, JSON Schema/OpenAPI migration bundle for phoenix-core.
+
+### Changed
+- Replaced provisional Slice 0 runtime with the ratified stack baseline.
+- Kept Identity Slice 1 blocked pending real GitHub Actions evidence.
+
+
 ## 3.1.0-stack-ratification-r1 — 2026-07-13
 
 ### Ratified

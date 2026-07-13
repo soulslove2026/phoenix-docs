@@ -69,3 +69,8 @@
 | PostgreSQL is authoritative transactional truth | STACK-004 | Identity and future domains |
 | Infrastructure is introduced only with evidence | STACK-001, STACK-004 | Architecture evolution |
 | Identity cannot begin before stack migration evidence | STACK-007, STACK-008 | Identity Slice 1 gate |
+
+| Stack migration preserves Slice 0 controls | MIG-001, MIG-002 | phoenix-core runtime |
+| PostgreSQL enters without premature domain schema | MIG-003 | Identity readiness |
+| APIs are schema-first and OpenAPI-visible | MIG-004 | API delivery |
+| CI verification blocks Identity Slice 1 | MIG-005, MIG-006 | Release governance |
