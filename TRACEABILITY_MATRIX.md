@@ -112,3 +112,5 @@
 | ID2-012 | Production blockers | `ID2-012` | must remain false |
 
 | ID2-013 | Controlled dependency and workflow governance | `.github/dependabot.yml`, dependency review, governance check | Candidate |
+
+| ID2-014 | Isolate CI evidence from source authority | CI workflow and dependency governance check | Candidate |

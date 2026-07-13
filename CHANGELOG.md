@@ -1,5 +1,19 @@
 # Changelog
 
+## 3.4.2-ci-artifact-isolation-hotfix-r1 — 2026-07-13
+
+### Fixed
+
+- Isolated generated SBOM evidence from governed repository state.
+- Moved constitutional consistency before evidence generation.
+- Added SBOM JSON validation and post-generation clean-tree enforcement.
+- Added regression protection.
+
+### Status
+
+- Candidate pending GitHub verification.
+
+
 ## 3.4.1-dependency-governance-hotfix-r1 — 2026-07-13
 
 ### Security

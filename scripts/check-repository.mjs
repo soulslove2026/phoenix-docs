@@ -11,9 +11,9 @@ const required = [
   "MASTER_INDEX.md", "DOCUMENT_INDEX.md", "TRACEABILITY_MATRIX.md",
   "GOVERNANCE_CHECKLIST.md", "CONSTITUTION_COMPLIANCE_REPORT.md",
   "REPOSITORY_INTEGRITY_REPORT.md", "FILE_MANIFEST.json", "CHECKSUMS.sha256",
-  "releases/v3.4.1-dependency-governance-hotfix-release1.md",
-  "docs/15_Identity_Slice2/012_Production_Blockers.md",
+  "releases/v3.4.2-ci-artifact-isolation-hotfix-release1.md",
   "docs/15_Identity_Slice2/013_Dependency_Governance.md",
+  "docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md",
 ];
 
 for (const file of required) if (!fs.existsSync(file)) fail(`Missing required file: ${file}`);
@@ -22,36 +22,36 @@ if (process.exitCode) process.exit();
 const version = parse("VERSION.json");
 const manifest = parse("FILE_MANIFEST.json");
 
-if (version.version !== "3.4.1-dependency-governance-hotfix-r1") fail("VERSION authority invalid");
-if (version.status !== "candidate" || version.production_ready !== false) fail("Release state is unsafe");
+if (version.version !== "3.4.2-ci-artifact-isolation-hotfix-r1") fail("VERSION authority invalid");
+if (version.status !== "candidate" || version.production_ready !== false) fail("Unsafe release state");
 
 for (const file of ["README.md", "RELEASE.md", "RELEASE_REPORT.md"]) {
   const text = read(file);
-  if (!text.includes("3.4.1") || !text.toLowerCase().includes("candidate")) {
+  if (!text.includes("3.4.2") || !text.toLowerCase().includes("candidate")) {
     fail(`${file} authority stale`);
   }
 }
 
-for (let index = 1; index <= 13; index += 1) {
+for (let index = 1; index <= 14; index += 1) {
   const id = `ID2-${String(index).padStart(3, "0")}`;
   if (!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`)) fail(`Missing traceability ${id}`);
 }
 
-if (!read("MASTER_INDEX.md").includes("v3.4.1-dependency-governance-hotfix-release1.md")) {
+if (!read("MASTER_INDEX.md").includes("v3.4.2-ci-artifact-isolation-hotfix-release1.md")) {
   fail("MASTER_INDEX current release is stale");
 }
 if (manifest.repository_version !== version.version) fail("Manifest version mismatch");
 
 const ignored = new Set([".git", "node_modules", "dist"]);
 function walk(directory = ".") {
-  const files = [];
+  const result = [];
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     if (entry.isDirectory() && ignored.has(entry.name)) continue;
     const full = path.join(directory, entry.name);
-    if (entry.isDirectory()) files.push(...walk(full));
-    else if (entry.isFile()) files.push(full.replace(/^\.\//, "").replaceAll("\\", "/"));
+    if (entry.isDirectory()) result.push(...walk(full));
+    else if (entry.isFile()) result.push(full.replace(/^\.\//, "").replaceAll("\\", "/"));
   }
-  return files;
+  return result;
 }
 
 const actual = walk().filter((file) => file !== "CHECKSUMS.sha256").sort();
@@ -69,8 +69,8 @@ if (manifest.file_count !== listed.length) fail("Manifest count mismatch");
 for (const line of read("CHECKSUMS.sha256").trim().split("\n")) {
   const match = /^([a-f0-9]{64})  (.+)$/.exec(line);
   if (!match) { fail(`Invalid checksum ${line}`); continue; }
-  const hash = createHash("sha256").update(fs.readFileSync(match[2])).digest("hex");
-  if (hash !== match[1]) fail(`Checksum mismatch ${match[2]}`);
+  const actualHash = createHash("sha256").update(fs.readFileSync(match[2])).digest("hex");
+  if (actualHash !== match[1]) fail(`Checksum mismatch ${match[2]}`);
 }
 
 if (!process.exitCode) console.log("Documentation constitutional integrity checks passed.");

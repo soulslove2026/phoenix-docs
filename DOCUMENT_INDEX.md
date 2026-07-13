@@ -118,3 +118,5 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-012 | 012 Production Blockers | `docs/15_Identity_Slice2/012_Production_Blockers.md` | Candidate | Security |
 
 | ID2-013 | Dependency and Workflow Governance | `docs/15_Identity_Slice2/013_Dependency_Governance.md` | Candidate | Level 2 |
+
+| ID2-014 | CI Evidence Isolation | `docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md` | Candidate | Level 2 |

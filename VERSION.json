@@ -1,9 +1,9 @@
 {
-  "version": "3.4.1-dependency-governance-hotfix-r1",
-  "release": "Phoenix Dependency Governance and Actions Runtime Hotfix \u2014 Release 1",
+  "version": "3.4.2-ci-artifact-isolation-hotfix-r1",
+  "release": "Phoenix CI Artifact Isolation Hotfix \u2014 Release 1",
   "release_date": "2026-07-13",
   "status": "candidate",
   "production_ready": false,
   "security_baseline": "OWASP ASVS 5.0 Level 2 with selected Level 3 identity controls",
-  "next_milestone": "Verify v3.4.1 workflows, then continue Identity Slice 2"
+  "next_milestone": "Verify v3.4.2, then continue Identity Slice 2"
 }

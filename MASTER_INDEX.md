@@ -201,3 +201,6 @@
 
 - [ID2-013 — Dependency and Workflow Governance](docs/15_Identity_Slice2/013_Dependency_Governance.md)
 - [v3.4.1 Dependency Governance Hotfix](releases/v3.4.1-dependency-governance-hotfix-release1.md)
+
+- [ID2-014 — CI Evidence Isolation](docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md)
+- [v3.4.2 CI Artifact Isolation Hotfix](releases/v3.4.2-ci-artifact-isolation-hotfix-release1.md)

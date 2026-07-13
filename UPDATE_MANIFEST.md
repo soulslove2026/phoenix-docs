@@ -1,16 +1,17 @@
-# Update Manifest — v3.4.1
+# Update Manifest — v3.4.2
 
 ## Core
 
-- controlled Dependabot configuration;
-- Node.js 24 action generations;
-- strengthened Dependency Review;
-- dependency-governance checker;
-- policy and runbook documentation.
+- corrected CI ordering;
+- temporary SBOM path;
+- SBOM JSON validation;
+- post-generation clean-tree gate;
+- regression policy check;
+- artifact-isolation documentation.
 
 ## Documentation
 
-- v3.4.1 release authority;
-- ID2-013 dependency governance;
-- release report and update guide;
-- regenerated manifest and checksums.
+- v3.4.2 authority;
+- ID2-014;
+- release report and guide;
+- regenerated manifests and checksums.

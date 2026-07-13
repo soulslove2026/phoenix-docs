@@ -1,21 +1,19 @@
-# Update Guide — v3.4.1
+# Update Guide — v3.4.2
 
 This is a clean-snapshot release.
 
 ## phoenix-core
 
-Preserve `.git`, delete all other contents, and copy the complete core snapshot.
+Preserve `.git`, delete every other repository file and folder, and copy the complete core snapshot.
 
 Commit:
 
-`security(deps): enforce controlled dependency governance`
+`fix(ci): isolate generated security evidence from repository state`
 
 ## phoenix-docs
 
-Preserve `.git`, delete all other contents, and copy the complete docs snapshot.
+Preserve `.git`, delete every other repository file and folder, and copy the complete documentation snapshot.
 
 Commit:
 
-`docs(security): record dependency governance hotfix`
-
-After the new main workflows are green, close the existing routine Dependabot version-update pull requests. Do not merge them.
+`docs(ci): record artifact isolation hotfix`

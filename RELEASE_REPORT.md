@@ -1,24 +1,27 @@
 # Release Report
 
-## Phoenix v3.4.1 Dependency Governance Hotfix
+## Phoenix v3.4.2 CI Artifact Isolation Hotfix
 
 **Status:** Candidate  
 **Production ready:** No
 
-## Incident
+## Confirmed failure
 
-Dependabot created uncontrolled routine major-version pull requests. Those branches correctly failed constitutional checks because manifests and checksums were not regenerated. Dependency Review also reported `Null` license metadata for reviewed official GitHub Actions.
+The v3.4.1 main CI run generated and uploaded the SBOM, then failed at `Repository constitutional consistency`.
 
-## Corrections
+## Root cause
 
-- disabled routine version-update pull requests;
-- retained vulnerability alerts and security updates;
-- migrated approved actions to Node.js 24 generations;
-- disabled persisted checkout credentials;
-- strengthened review to Moderate severity across all scopes;
-- added narrow PURL license exceptions;
-- added automated dependency-governance enforcement.
+The generated file `phoenix-core-sbom.cdx.json` existed in the repository root but was intentionally absent from the exact source manifest.
 
-## Verification
+## Correction
 
-CI, CodeQL, and both documentation workflows must pass.
+- run repository consistency before SBOM generation;
+- generate the SBOM under `${{ runner.temp }}`;
+- validate its JSON;
+- upload it from temporary storage;
+- enforce a clean repository after generation;
+- prevent regression through the dependency-governance policy check.
+
+## Verification required
+
+CI, CodeQL, and both documentation workflows.

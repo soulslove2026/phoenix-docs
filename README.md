@@ -1,6 +1,6 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.4.1-dependency-governance-hotfix-r1`  
+**Current repository version:** `3.4.2-ci-artifact-isolation-hotfix-r1`  
 **Current milestone:** Identity Slice 2 — Release 1 (Candidate)  
 **Previous verified milestone:** Identity Slice 1 v3.3.1  
 **Next gate:** Complete security and CI verification for Identity Slice 2  
@@ -52,3 +52,7 @@ Security-first candidate covering verification, recovery, session hardening, dis
 ## v3.4.1 Dependency Governance
 
 Routine version updates are controlled, security updates remain enabled, and approved workflow actions use Node.js 24 generations. Verification is pending.
+
+## v3.4.2 CI Artifact Isolation
+
+Generated security evidence is isolated from governed source state. Verification is pending.

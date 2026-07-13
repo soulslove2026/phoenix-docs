@@ -1,8 +1,10 @@
 # Current Release
 
-## Phoenix Dependency Governance and Actions Runtime Hotfix v3.4.1 — Release 1
+## Phoenix CI Artifact Isolation Hotfix v3.4.2 — Release 1
 
 **Status:** Candidate  
 **Production ready:** No
 
-Routine Dependabot version-update pull requests are disabled, security updates remain enabled, approved GitHub Actions move to Node.js 24 runtime generations, and narrow license-metadata exceptions are documented.
+This release fixes the CI ordering defect that generated an SBOM file inside the governed repository before the exact-manifest check.
+
+Repository authority now runs first, generated evidence is stored in `${{ runner.temp }}`, and CI verifies a clean working tree afterward.
