@@ -1,11 +1,23 @@
-# Document Index
+# Phoenix Document Index
 
-| ID | Title | Path |
-|---|---|---|
-| DPL-010 | Data Philosophy | docs/04_Data_Platform/010_Data_Philosophy.md |
+| ID | Title | Path | Status | Maturity |
+|---|---|---|---|---|
+| DPL-000 | Data Platform Read First | `docs/04_Data_Platform/000_READ_FIRST.md` | Ratified | Foundation |
+| DPL-010 | Data Philosophy | `docs/04_Data_Platform/010_Data_Philosophy.md` | Ratified | Specification |
+| DPL-011 | Data Classification | `docs/04_Data_Platform/011_Data_Classification.md` | Ratified | Specification |
+| DPL-012 | Data Ownership | `docs/04_Data_Platform/012_Data_Ownership.md` | Ratified | Specification |
+| DPL-013 | Global Identifiers | `docs/04_Data_Platform/013_Global_Identifiers.md` | Ratified | Specification |
+| DPL-014 | Data Lifecycle | `docs/04_Data_Platform/014_Data_Lifecycle.md` | Ratified | Specification |
+| DPL-015 | Data Consistency Model | `docs/04_Data_Platform/015_Data_Consistency_Model.md` | Ratified | Level 2 |
+| DPL-016 | Data Versioning | `docs/04_Data_Platform/016_Data_Versioning.md` | Ratified | Level 2 |
+| DPL-017 | Audit Strategy | `docs/04_Data_Platform/017_Audit_Strategy.md` | Ratified | Level 2 |
+| DPL-018 | Data Contracts | `docs/04_Data_Platform/018_Data_Contracts.md` | Ratified | Level 2 |
+| DPL-019 | Event Modeling | `docs/04_Data_Platform/019_Event_Modeling.md` | Ratified | Level 2 |
+| PEF-000 | Engineering Framework Read First | `docs/90_Engineering_Framework/000_READ_FIRST.md` | Ratified | Foundation |
+| PEF-001 | Engineering Principles | `docs/90_Engineering_Framework/001_Engineering_Principles.md` | Ratified | Level 3 |
+| PES-001 | Documentation Standard | `docs/90_Engineering_Framework/002_Documentation_Standard.md` | Ratified | Level 3 |
+| PES-002 | Architecture Standard | `docs/90_Engineering_Framework/003_Architecture_Standard.md` | Ratified | Level 3 |
+| PES-003 | AI Engineering Standard | `docs/90_Engineering_Framework/004_AI_Engineering_Standard.md` | Ratified | Level 3 |
+| PEF-005 | Engineering Maturity Model | `docs/90_Engineering_Framework/005_Engineering_Maturity_Model.md` | Ratified | Level 3 |
 
-
-| DPL-011 | Data Classification | `docs/04_Data_Platform/011_Data_Classification.md` |
-| DPL-012 | Data Ownership | `docs/04_Data_Platform/012_Data_Ownership.md` |
-| DPL-013 | Global Identifiers | `docs/04_Data_Platform/013_Global_Identifiers.md` |
-| DPL-014 | Data Lifecycle | `docs/04_Data_Platform/014_Data_Lifecycle.md` |
+Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.

@@ -1,5 +1,8 @@
 {
-  "version": "1.6.0-engineering-framework-r1",
-  "release": "Engineering Framework Foundation",
-  "generated": "2026-07-12T22:15:05.309204"
+  "version": "1.7.0-reconciliation-r1",
+  "release": "Repository Reconciliation and Completion Release 1",
+  "release_date": "2026-07-13",
+  "status": "ready",
+  "next_milestone": "Phoenix Architecture Foundation v2.0.0 \u2014 Release 1",
+  "canonical_data_platform_path": "docs/04_Data_Platform/"
 }
