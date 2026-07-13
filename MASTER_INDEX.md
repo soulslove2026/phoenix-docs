@@ -178,3 +178,5 @@
 - [REC-006 — Residual Risks and Deferred Controls](docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md)
 
 - [v3.3.2 Release 2 — Clean Snapshot](releases/v3.3.2-constitutional-reconciliation-hardening-r2.md)
+
+- [v3.3.3 Constitutional Reconciliation Verification](releases/v3.3.3-constitutional-reconciliation-verification.md)

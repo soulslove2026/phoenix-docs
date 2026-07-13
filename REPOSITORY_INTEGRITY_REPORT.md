@@ -1,16 +1,32 @@
 # Repository Integrity Report
 
-**Documentation version:** `3.3.2-constitutional-reconciliation-hardening-r2`  
+**Documentation version:** `3.3.3-constitutional-reconciliation-verification`  
 **Core version:** `3.3.2`  
-**Status:** Candidate pending clean-snapshot verification  
+**Status:** Verified  
 **Production ready:** No
 
-Release 2 preserves the full historical documentation repository and supplies a clean authoritative core repository.
+## Core Evidence
 
-Required state:
+- Commit: `ce38991`
+- CI: Success
+- Duration: 1 minute 4 seconds
 
-- no obsolete Slice 0 `.mjs` files;
-- all valid historical documents retained;
-- exact file manifests;
-- valid SHA-256 checksums;
-- synchronized release authority.
+## Documentation Evidence
+
+- Commit: `a59dc0f`
+- Documentation Check: Success in 10 seconds
+- Documentation Integrity: Success in 13 seconds
+
+## Findings
+
+- clean snapshots are synchronized;
+- obsolete Slice 0 files are removed;
+- manifests exactly match repository files;
+- SHA-256 checksums are valid;
+- release authorities are synchronized;
+- governance and traceability are current;
+- Identity Slice 1 hardening is verified.
+
+## Next Review
+
+After Identity Slice 2 implementation and verification.

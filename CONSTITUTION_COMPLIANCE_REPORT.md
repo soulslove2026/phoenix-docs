@@ -1,11 +1,11 @@
-# Constitution Compliance Report — v3.3.2
+# Constitution Compliance Report — v3.3.3
 
 ## Verdict
 
 **Design and documentation review:** Passed  
 **Automated local repository audit:** Passed before packaging  
-**GitHub verification:** Pending  
-**Release state:** Candidate  
+**GitHub verification:** Passed  
+**Release state:** Verified  
 **Production readiness:** No
 
 ## Compliance dimensions
@@ -18,12 +18,22 @@
 | Data integrity | Pass | PostgreSQL constraints and migrations |
 | Failure behavior | Pass | runbook and controlled errors |
 | Rollback | Pass | backward-compatible additive schema and rollback guidance |
-| Test evidence | Candidate | local checks passed; Node 24/PostgreSQL/Docker CI pending |
+| Test evidence | Pass | core and documentation GitHub workflows passed |
 | Scope discipline | Pass | Slice 2 controls remain explicit future work |
 | Long-term replaceability | Pass | repository boundary and replaceable rate limiter |
 
-No constitutional claim converts this release to Verified before GitHub evidence exists.
+GitHub evidence exists for both repositories; the constitutional reconciliation is Verified.
 
 ## Release 2 Distribution Correction
 
 The constitution governs the actual repository state. Release 2 therefore prohibits overlay installation and distributes complete clean snapshots without weakening the exact-manifest gate.
+
+## v3.3.3 Verification Outcome
+
+- exact repository-state enforcement: passed;
+- version and release authority synchronization: passed;
+- manifest and checksum enforcement: passed;
+- governance and traceability reconciliation: passed;
+- implementation and integration gates: passed.
+
+Identity Slice 2 is authorized. Production readiness remains false.

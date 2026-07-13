@@ -11,15 +11,15 @@
 | Implementation Planning | Ratified | IMP-001–010 |
 | Core Bootstrap | Verified | Slice 0 CI evidence |
 | Production Stack | Ratified and migrated | Node 24, TypeScript, Fastify, PostgreSQL |
-| Identity Slice 1 | Verified at v3.3.1 | Registration, login, sessions, logout |
-| Reconciliation and Hardening | Candidate v3.3.2 | Both repository workflows required |
-| Identity Slice 2 | Next after verification | Email verification, recovery, MFA/passkeys, advanced sessions |
-| Public production readiness | Blocked | Requires residual security/operations controls |
+| Identity Slice 1 | Verified | Registration, login, sessions, logout |
+| Reconciliation and Hardening | Verified at v3.3.3 | Core `ce38991`; docs `a59dc0f` |
+| Identity Slice 2 | Next | Email verification, recovery, MFA/passkeys, advanced sessions |
+| Public production readiness | Blocked | Residual security and operations controls required |
 
-## Current gate
+## Current Gate
 
-Do not advance the roadmap until v3.3.2 passes both `phoenix-core` CI and `phoenix-docs` Documentation Integrity. Then create a verification-only release with exact commit and workflow evidence.
+Identity Slice 2 may begin. It must remain Candidate until implementation, migration, security, test, documentation, and CI evidence are complete.
 
-## Architecture direction
+## Architecture Direction
 
-Continue as a bounded-context modular monolith. Introduce new infrastructure only when evidence justifies it. Preserve PostgreSQL transactional truth, schema-first APIs, explicit ownership, reversible application delivery, additive durable migrations, and automated repository authority.
+Continue as a bounded-context modular monolith. Preserve PostgreSQL transactional truth, schema-first APIs, explicit ownership, reversible application delivery, additive durable migrations, and automated repository authority.

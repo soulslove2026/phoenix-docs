@@ -1,12 +1,41 @@
 {
-  "version": "3.3.2-constitutional-reconciliation-hardening-r2",
-  "release": "Phoenix Constitutional Reconciliation and Identity Hardening \u2014 Release 2",
+  "version": "3.3.3-constitutional-reconciliation-verification",
+  "release": "Phoenix Constitutional Reconciliation and Identity Hardening Verification",
   "release_date": "2026-07-13",
-  "status": "candidate",
+  "status": "verified",
   "previous_verified_stage": "Identity Slice 1 v3.3.1",
   "current_gate": "Verify v3.3.2 hardening in both repository workflows",
   "next_milestone_after_verification": "Identity Slice 2 \u2014 Verification, Recovery, and Session Hardening",
   "production_ready": false,
   "distribution": "complete historical documentation snapshot",
-  "replacement_required": true
+  "replacement_required": true,
+  "verified_stage": "v3.3.2 Release 2 constitutional reconciliation and Identity Slice 1 hardening",
+  "verification_evidence": {
+    "phoenix_core": {
+      "repository": "soulslove2026/phoenix-core",
+      "branch": "main",
+      "commit": "ce38991",
+      "workflow": "CI",
+      "result": "success",
+      "duration_seconds": 64
+    },
+    "phoenix_docs": {
+      "repository": "soulslove2026/phoenix-docs",
+      "branch": "main",
+      "commit": "a59dc0f",
+      "workflows": [
+        {
+          "name": "Documentation Check",
+          "result": "success",
+          "duration_seconds": 10
+        },
+        {
+          "name": "Documentation Integrity",
+          "result": "success",
+          "duration_seconds": 13
+        }
+      ]
+    }
+  },
+  "next_milestone": "Identity Slice 2 \u2014 Verification, Recovery, and Session Hardening"
 }

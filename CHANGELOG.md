@@ -1,5 +1,19 @@
 # Changelog
 
+## 3.3.3-constitutional-reconciliation-verification — 2026-07-13
+
+### Verified
+
+- Core CI passed on commit `ce38991` in 1 minute 4 seconds.
+- Documentation Check passed on commit `a59dc0f` in 10 seconds.
+- Documentation Integrity passed on commit `a59dc0f` in 13 seconds.
+- v3.3.2 Release 2 changed from Candidate to Verified.
+
+### Next
+
+- Identity Slice 2 — Verification, Recovery, and Session Hardening.
+
+
 ## 3.3.2-constitutional-reconciliation-hardening-r2 — 2026-07-13
 
 ### Fixed

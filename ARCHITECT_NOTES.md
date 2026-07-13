@@ -255,3 +255,11 @@ Repository drift and hidden test-discovery weakness were treated as release-bloc
 
 **Decision:** v3.3.2 is Candidate until both repository workflows pass. v3.3.1 remains the verified baseline.
 
+
+## v3.3.3 Verification Decision
+
+The clean-snapshot strategy resolved manifest drift without weakening the exact-manifest constitutional gate.
+
+Core CI and both documentation workflows passed.
+
+**Decision:** v3.3.2 Release 2 is Verified. Identity Slice 2 is authorized.

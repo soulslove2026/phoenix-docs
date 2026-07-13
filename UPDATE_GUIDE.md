@@ -1,24 +1,14 @@
-# Update Guide — v3.3.2 Release 2
+# Update Guide — v3.3.3 Verification
 
-Do not copy this release as an overlay.
+This release updates `phoenix-docs` only.
 
-## phoenix-core
+1. Extract the ZIP.
+2. Copy the contents of `phoenix-docs` into the current local documentation repository.
+3. Replace matching files.
+4. Commit:
 
-1. Open the local repository folder.
-2. Enable hidden items.
-3. Preserve `.git`.
-4. Delete every other file and folder.
-5. Copy the complete `phoenix-core` folder contents from this bundle.
-6. Commit:
+`docs(verification): verify v3.3.2 constitutional reconciliation`
 
-`fix(repo): apply v3.3.2 release 2 clean snapshot`
+5. Push and confirm both documentation workflows remain green.
 
-7. Push and verify CI.
-
-## phoenix-docs
-
-Repeat the same process while preserving `.git`.
-
-Commit:
-
-`docs(repo): apply v3.3.2 release 2 complete snapshot`
+No `phoenix-core` changes are included.
