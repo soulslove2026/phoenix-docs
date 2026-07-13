@@ -17,11 +17,11 @@
 
 ## Current Milestone
 
-Phoenix Implementation Planning Release 1 (`2.4.0-implementation-r1`).
+Phoenix Core Bootstrap Release 1 (`3.0.0-core-bootstrap-r1`).
 
 ## Next Milestone
 
-Phoenix Core Bootstrap v3.0.0 — Release 1.
+Production Stack Ratification and Identity Slice 1.
 
 ## Core Implementation Gate
 

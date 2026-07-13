@@ -1,17 +1,11 @@
 # Update Guide
 
-1. Extract the ZIP archive.
-2. Open the included `phoenix-docs` directory.
-3. Copy all contents into the root of the local `phoenix-docs` repository.
-4. Replace matching files when prompted.
-5. Do not delete unrelated or legacy files.
-6. Review changes in GitHub Desktop.
-7. Commit and push to `main`.
+This bundle contains two top-level folders.
 
-## Commit Summary
+1. Copy contents of `phoenix-docs` into the existing documentation repository and replace matching files.
+2. Create a new GitHub repository named `phoenix-core`, then copy contents of `phoenix-core` into it.
+3. In `phoenix-core`, run `npm run check`, `npm test`, and `PHOENIX_ENV=local npm start`.
 
-`docs(implementation): add implementation planning release 1`
+Docs commit: `docs(core): add core bootstrap release 1`
 
-## Commit Description
-
-`Adds implementation strategy, repository topology, delivery epics, vertical slices, sequencing, ownership, environments, quality engineering, CI/CD, rollout, rollback, and operational readiness specifications.`
+Core commit: `chore(core): bootstrap Phoenix Core Slice 0`

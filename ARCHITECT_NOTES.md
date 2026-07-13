@@ -184,3 +184,16 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 ### Next Milestone
 
 **Phoenix Core Bootstrap v3.0.0 — Release 1**, creating the initial executable repositories, skeleton, contracts, quality automation, environments, and Slice 0 evidence.
+
+## Core Bootstrap Release 1 — 2026-07-13
+
+1. Slice 0 contains no product capability.
+2. The bootstrap is one replaceable stateless process.
+3. Node.js standard-library HTTP is provisional.
+4. Configuration validation, health, readiness, structured logging, tests, CI, containerization, and graceful shutdown are mandatory.
+5. Runtime dependencies are zero for Slice 0.
+6. The container runs non-root.
+7. `phoenix-core` is separate from `phoenix-docs`.
+8. Slice 1 is blocked until CI and runtime evidence verifies Slice 0.
+9. Production stack selection is the next architecture decision.
+10. Product context boundaries remain authoritative.

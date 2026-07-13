@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.0.0-core-bootstrap-r1 — 2026-07-13
+
+### Added
+- CORE-001 through CORE-009.
+- Standalone `phoenix-core` Slice 0 repository.
+- Health/readiness, configuration validation, logging, tests, CI, container, security policy, and runbook.
+
+### Changed
+- Synchronized indexes, traceability, roadmap, release records, and version metadata.
+- Opened executable implementation while preserving the Slice 0 gate.
+
+
 ## 2.4.0-implementation-r1 — 2026-07-13
 
 ### Added

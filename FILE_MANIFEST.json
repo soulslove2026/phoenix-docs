@@ -1,7 +1,6 @@
 {
-  "repository_version": "2.4.0-implementation-r1",
-  "generated_at": "2026-07-13T00:00:00Z",
-  "file_count": 81,
+  "repository_version": "3.0.0-core-bootstrap-r1",
+  "file_count": 92,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -70,6 +69,16 @@
     "docs/10_Implementation_Planning/008_Quality_Engineering_and_Test_Strategy.md",
     "docs/10_Implementation_Planning/009_CI_CD_and_Release_Governance.md",
     "docs/10_Implementation_Planning/010_Rollout_Rollback_and_Operational_Readiness.md",
+    "docs/11_Core_Bootstrap/000_READ_FIRST.md",
+    "docs/11_Core_Bootstrap/001_Bootstrap_Charter.md",
+    "docs/11_Core_Bootstrap/002_Provisional_Technology_Decision.md",
+    "docs/11_Core_Bootstrap/003_Slice_0_Acceptance_Criteria.md",
+    "docs/11_Core_Bootstrap/004_Repository_Structure_and_Boundaries.md",
+    "docs/11_Core_Bootstrap/005_Local_Development_and_Configuration.md",
+    "docs/11_Core_Bootstrap/006_CI_and_Quality_Automation.md",
+    "docs/11_Core_Bootstrap/007_Security_Bootstrap_Controls.md",
+    "docs/11_Core_Bootstrap/008_Observability_Bootstrap.md",
+    "docs/11_Core_Bootstrap/009_Bootstrap_Verification_Report.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -83,6 +92,7 @@
     "releases/v2.1.0-architecture-foundation-release2.md",
     "releases/v2.2.0-security-foundation-release1.md",
     "releases/v2.3.0-product-foundation-release1.md",
-    "releases/v2.4.0-implementation-planning-release1.md"
+    "releases/v2.4.0-implementation-planning-release1.md",
+    "releases/v3.0.0-core-bootstrap-release1.md"
   ]
 }

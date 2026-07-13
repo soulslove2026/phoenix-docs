@@ -1,12 +1,12 @@
 {
-  "version": "2.4.0-implementation-r1",
-  "release": "Phoenix Implementation Planning \u2014 Release 1",
+  "version": "3.0.0-core-bootstrap-r1",
+  "release": "Phoenix Core Bootstrap \u2014 Release 1",
   "release_date": "2026-07-13",
-  "status": "ready",
-  "next_milestone": "Phoenix Core Bootstrap v3.0.0 \u2014 Release 1",
-  "canonical_data_platform_path": "docs/04_Data_Platform/",
-  "canonical_architecture_path": "docs/07_Architecture/",
-  "canonical_security_path": "docs/08_Security/",
-  "canonical_product_path": "docs/09_Product/",
-  "canonical_implementation_path": "docs/10_Implementation_Planning/"
+  "status": "candidate",
+  "next_milestone": "Production Stack Ratification and Identity Slice 1",
+  "bundle_contains": [
+    "phoenix-docs",
+    "phoenix-core"
+  ],
+  "production_ready": false
 }

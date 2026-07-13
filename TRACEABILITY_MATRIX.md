@@ -57,3 +57,10 @@
 | Quality is verified through layered evidence | IMP-008 | Testing and release gates |
 | CI/CD promotes attributable immutable artifacts | IMP-009 | Software supply chain |
 | Rollout is controlled, observable, and reversible | IMP-010 | Production operations |
+| Core begins with an executable replaceable Slice 0 | CORE-001, CORE-003 | phoenix-core bootstrap |
+| Technology remains provisional before Slice 1 | CORE-002 | Stack ratification |
+| Repository preserves future context boundaries | CORE-004 | Code organization |
+| Configuration is validated and secret-safe | CORE-005, CORE-007 | Runtime controls |
+| CI provides reproducible quality evidence | CORE-006 | Branch protection |
+| Observability begins before product logic | CORE-008 | Runtime evidence |
+| Slice 0 verification is evidence-based | CORE-009 | Gate to Slice 1 |

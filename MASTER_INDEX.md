@@ -91,6 +91,19 @@
 - [IMP-009 — CI/CD and Release Governance](docs/10_Implementation_Planning/009_CI_CD_and_Release_Governance.md)
 - [IMP-010 — Rollout, Rollback, and Operational Readiness](docs/10_Implementation_Planning/010_Rollout_Rollback_and_Operational_Readiness.md)
 
+## Core Bootstrap
+
+- [CORE-000 — Read First](docs/11_Core_Bootstrap/000_READ_FIRST.md)
+- [CORE-001 — Bootstrap Charter](docs/11_Core_Bootstrap/001_Bootstrap_Charter.md)
+- [CORE-002 — Provisional Technology Decision](docs/11_Core_Bootstrap/002_Provisional_Technology_Decision.md)
+- [CORE-003 — Slice 0 Acceptance Criteria](docs/11_Core_Bootstrap/003_Slice_0_Acceptance_Criteria.md)
+- [CORE-004 — Repository Structure and Boundaries](docs/11_Core_Bootstrap/004_Repository_Structure_and_Boundaries.md)
+- [CORE-005 — Local Development and Configuration](docs/11_Core_Bootstrap/005_Local_Development_and_Configuration.md)
+- [CORE-006 — CI and Quality Automation](docs/11_Core_Bootstrap/006_CI_and_Quality_Automation.md)
+- [CORE-007 — Security Bootstrap Controls](docs/11_Core_Bootstrap/007_Security_Bootstrap_Controls.md)
+- [CORE-008 — Observability Bootstrap](docs/11_Core_Bootstrap/008_Observability_Bootstrap.md)
+- [CORE-009 — Bootstrap Verification Report](docs/11_Core_Bootstrap/009_Bootstrap_Verification_Report.md)
+
 ## Existing Engineering Domains
 
 - [DDD](docs/06_DDD/)

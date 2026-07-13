@@ -58,5 +58,15 @@
 | IMP-008 | Quality Engineering and Test Strategy | `docs/10_Implementation_Planning/008_Quality_Engineering_and_Test_Strategy.md` | Ratified | Level 2 |
 | IMP-009 | CI/CD and Release Governance | `docs/10_Implementation_Planning/009_CI_CD_and_Release_Governance.md` | Ratified | Level 2 |
 | IMP-010 | Rollout, Rollback, and Operational Readiness | `docs/10_Implementation_Planning/010_Rollout_Rollback_and_Operational_Readiness.md` | Ratified | Level 2 |
+| CORE-000 | Core Bootstrap Read First | `docs/11_Core_Bootstrap/000_READ_FIRST.md` | Ratified | Level 2 |
+| CORE-001 | Bootstrap Charter | `docs/11_Core_Bootstrap/001_Bootstrap_Charter.md` | Ratified | Level 2 |
+| CORE-002 | Provisional Technology Decision | `docs/11_Core_Bootstrap/002_Provisional_Technology_Decision.md` | Ratified | Level 2 |
+| CORE-003 | Slice 0 Acceptance Criteria | `docs/11_Core_Bootstrap/003_Slice_0_Acceptance_Criteria.md` | Ratified | Level 2 |
+| CORE-004 | Repository Structure and Boundaries | `docs/11_Core_Bootstrap/004_Repository_Structure_and_Boundaries.md` | Ratified | Level 2 |
+| CORE-005 | Local Development and Configuration | `docs/11_Core_Bootstrap/005_Local_Development_and_Configuration.md` | Ratified | Level 2 |
+| CORE-006 | CI and Quality Automation | `docs/11_Core_Bootstrap/006_CI_and_Quality_Automation.md` | Ratified | Level 2 |
+| CORE-007 | Security Bootstrap Controls | `docs/11_Core_Bootstrap/007_Security_Bootstrap_Controls.md` | Ratified | Level 2 |
+| CORE-008 | Observability Bootstrap | `docs/11_Core_Bootstrap/008_Observability_Bootstrap.md` | Ratified | Level 2 |
+| CORE-009 | Bootstrap Verification Report | `docs/11_Core_Bootstrap/009_Bootstrap_Verification_Report.md` | Ratified | Level 2 |
 
 Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.
