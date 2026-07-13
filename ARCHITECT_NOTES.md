@@ -37,3 +37,35 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 ## Next Milestone
 
 **Phoenix Architecture Foundation v2.0.0 — Release 1** with ARC-001 through ARC-005.
+
+## Architecture Foundation Release 1 — 2026-07-13
+
+### Ratified Decisions
+
+1. Phoenix begins with bounded-context modularity rather than an uncontrolled microservice estate.
+2. Logical ownership boundaries remain authoritative even when modules share a deployment unit.
+3. Service extraction requires evidence from scale, risk, availability, regulation, technology, or team autonomy.
+4. Identity, Trust, Economy, Audit, and Administration are critical contexts requiring stronger isolation.
+5. Search, feeds, rankings, caches, analytics, and projections remain derived and rebuildable.
+6. Media transport is separated conceptually from live-room control state.
+7. External providers are integrated through Phoenix-owned adapters and reconciliation.
+8. AI Platform owns governed model operations; domain contexts own business decisions.
+9. Architecture Release 1 is logical and does not prematurely freeze final deployment or multi-region topology.
+10. Architecture Release 2 will define communication, deployment, scalability, failure isolation, and reference topology.
+
+### Rejected Alternatives
+
+- Starting with one service per bounded context regardless of evidence.
+- Allowing shared database tables to become cross-domain APIs.
+- Treating the API edge, event bus, search index, or warehouse as business owner.
+- Making visual live-gift effects authoritative financial truth.
+- Allowing administrative tools to mutate production tables directly.
+- Declaring global active-active writes before conflict and residency rules exist.
+
+### Open Questions for Release 2
+
+- Which synchronous calls are permitted on critical user journeys?
+- What initial deployable-unit boundaries minimize risk and operational burden?
+- What service tiers and quantitative SLOs apply to each capability?
+- What partitioning keys support messaging, live rooms, feeds, and economy?
+- How will regional routing, residency, and failover evolve?

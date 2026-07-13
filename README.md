@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `1.7.0-reconciliation-r1`  
-**Current milestone:** Repository Reconciliation and Completion  
-**Next milestone:** Phoenix Architecture Foundation v2.0.0 — Release 1
+**Current repository version:** `2.0.0-architecture-r1`  
+**Current milestone:** Phoenix Architecture Foundation — Release 1  
+**Next milestone:** Phoenix Architecture Foundation v2.1.0 — Release 2
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 
@@ -12,6 +12,7 @@ Phoenix is an AI-native social platform and platform ecosystem. This repository 
 - [Document Index](DOCUMENT_INDEX.md)
 - [Engineering Roadmap](ENGINEERING_ROADMAP.md)
 - [Phoenix Engineering Framework](ENGINEERING_FRAMEWORK.md)
+- [Architecture Foundation](docs/07_Architecture/000_READ_FIRST.md)
 - [Canonical Data Platform](docs/04_Data_Platform/000_READ_FIRST.md)
 - [Repository Integrity Report](REPOSITORY_INTEGRITY_REPORT.md)
 
@@ -20,8 +21,13 @@ Phoenix is an AI-native social platform and platform ecosystem. This repository 
 - Governance: foundational releases present; future maturity review remains.
 - Data Platform: DPL-010 through DPL-019 canonical and reconciled.
 - Engineering Framework: foundation standards ratified.
-- Architecture Foundation: next planned release.
+- Architecture Foundation Release 1: ARC-001 through ARC-005 ratified at Level 2.
+- Architecture Foundation Release 2: next planned milestone.
+
+## Architecture Position
+
+Phoenix uses bounded-context modularity, explicit data ownership, governed contracts, risk-weighted isolation, and evidence-based service extraction. Logical boundaries are authoritative even when multiple modules initially share a deployment unit.
 
 ## Canonical Path Notice
 
-`docs/04_Data_Platform/` is authoritative. `docs/05_Data_Platform/` is retained only as a legacy path pending lossless cleanup.
+`docs/04_Data_Platform/` is authoritative. `docs/05_Data_Platform/` remains a legacy path pending lossless historical cleanup.

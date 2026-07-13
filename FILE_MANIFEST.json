@@ -1,199 +1,186 @@
 {
-  "manifest_version": "2.0",
-  "repository_version": "1.7.0-reconciliation-r1",
-  "release": "Repository Reconciliation and Completion Release 1",
-  "generated_at": "2026-07-13T00:00:00+02:00",
-  "scope": "Files managed by this overlay release; unrelated historical repository files are preserved.",
-  "canonical_roots": {
-    "data_platform": "docs/04_Data_Platform/",
-    "engineering_framework": "docs/90_Engineering_Framework/"
-  },
-  "legacy_roots": [
-    {
-      "path": "docs/05_Data_Platform/",
-      "status": "deprecated_non_authoritative"
-    }
-  ],
+  "version": "2.0.0-architecture-r1",
+  "file_count": 46,
   "files": [
     {
       "path": "ARCHITECT_NOTES.md",
-      "action": "add_or_replace",
-      "sha256": "27031ff61f3c45a9200e952f4e11a76e6b52a6d57cd2df22cf8e7dd6fc0a8196"
+      "size_bytes": 4052
     },
     {
       "path": "CHANGELOG.md",
-      "action": "add_or_replace",
-      "sha256": "6c41cc61e1f7547bc692bdfc2a5674512cb33c1908c4030f33286ee25af06d56"
+      "size_bytes": 1604
+    },
+    {
+      "path": "CHECKSUMS.sha256",
+      "size_bytes": 3773
     },
     {
       "path": "DOCUMENT_INDEX.md",
-      "action": "add_or_replace",
-      "sha256": "ae46dcc8220f99b62006e769f774a01e6dfa2f04d5fa78656e0d272936aa08e3"
+      "size_bytes": 2770
     },
     {
       "path": "ENGINEERING_FRAMEWORK.md",
-      "action": "add_or_replace",
-      "sha256": "24888318f1674cb3f2e02385f83f3c0d20774c9716f13c07acea9aabc2672ada"
+      "size_bytes": 954
     },
     {
       "path": "ENGINEERING_ROADMAP.md",
-      "action": "add_or_replace",
-      "sha256": "440d3d6ed311dee88775aa450625b792092fee9f84548510e186d0908bf48f5b"
+      "size_bytes": 1440
+    },
+    {
+      "path": "FILE_MANIFEST.json",
+      "size_bytes": 7185
     },
     {
       "path": "MASTER_INDEX.md",
-      "action": "add_or_replace",
-      "sha256": "42d943d0ff5a07e2a545127d163f88a228e0b585ccce07ad417ac1003b3bde90"
+      "size_bytes": 2875
     },
     {
       "path": "PROJECT_BOARD.md",
-      "action": "add_or_replace",
-      "sha256": "fb118e5d4d7bede6dda452437288730f55fd7823d89b29f0601a54e1ef61ebd6"
+      "size_bytes": 1068
     },
     {
       "path": "README.md",
-      "action": "add_or_replace",
-      "sha256": "2a3a4413d0e0de6bee8c37968c2678a7bbf2573033707ee38b955181698fd301"
+      "size_bytes": 1634
     },
     {
       "path": "RELEASE.md",
-      "action": "add_or_replace",
-      "sha256": "c209c11c8661310a45e822b696572591a38216b0025a284f5646a923883ffe53"
+      "size_bytes": 324
     },
     {
       "path": "RELEASE_REPORT.md",
-      "action": "add_or_replace",
-      "sha256": "e71241f3b47f82bf245dd38896dbff685ec378229f3fb66fa3fe3112c533bca6"
+      "size_bytes": 744
     },
     {
       "path": "REPOSITORY_INTEGRITY_REPORT.md",
-      "action": "add_or_replace",
-      "sha256": "bf0a1b23127f9728fb6a176e28c6a731971f8970b5e4dbd9d3b8b52caf1daf03"
+      "size_bytes": 854
     },
     {
       "path": "TRACEABILITY_MATRIX.md",
-      "action": "add_or_replace",
-      "sha256": "b9953a9aff801baefc2ef863d217d4f5db343d55ffa66c86fb745f783525eee2"
+      "size_bytes": 2146
     },
     {
       "path": "UPDATE_GUIDE.md",
-      "action": "add_or_replace",
-      "sha256": "5786d7f6508946f6f551339e2ca1d837d7b1eb38d80f044695714450fe44673b"
+      "size_bytes": 583
     },
     {
       "path": "UPDATE_MANIFEST.md",
-      "action": "add_or_replace",
-      "sha256": "2e44c195a66526c4df32ea671a5a98c7383e6f0a396970bfbbd9ce6231322474"
+      "size_bytes": 837
     },
     {
       "path": "VERSION.json",
-      "action": "add_or_replace",
-      "sha256": "33495ca9f762d84283c84e5ae97e3ec6b298ecbc12435e49f6083b7018a11d7c"
+      "size_bytes": 350
     },
     {
       "path": "docs/04_Data_Platform/000_READ_FIRST.md",
-      "action": "add_or_replace",
-      "sha256": "0784b0ce17848169ba7c0361509d93906154d1ffc51915ba798da53dd5ae720b"
+      "size_bytes": 1640
     },
     {
       "path": "docs/04_Data_Platform/010_Data_Philosophy.md",
-      "action": "add_or_replace",
-      "sha256": "f14388e04af6e0209555df571a686694df06a27320c7a98cf59b794de19fb849"
+      "size_bytes": 1140
     },
     {
       "path": "docs/04_Data_Platform/011_Data_Classification.md",
-      "action": "add_or_replace",
-      "sha256": "843b562fee2a92f21e27b3358b52a488ef3398e7864ee32045db4aa22fdb34aa"
+      "size_bytes": 2891
     },
     {
       "path": "docs/04_Data_Platform/012_Data_Ownership.md",
-      "action": "add_or_replace",
-      "sha256": "690d142d5b5d1e9c27f166a182da6df788fb5524d4a13b13629ecb944105f638"
+      "size_bytes": 1940
     },
     {
       "path": "docs/04_Data_Platform/013_Global_Identifiers.md",
-      "action": "add_or_replace",
-      "sha256": "fdd337b026df8e7b8b5b718668981096b589dcdc0953d776da8704e09c34c7bd"
+      "size_bytes": 1750
     },
     {
       "path": "docs/04_Data_Platform/014_Data_Lifecycle.md",
-      "action": "add_or_replace",
-      "sha256": "b6907dfaf9adb0387a731bfc9cd91f8ba9c753bdb542271ecd445c2d92dac871"
+      "size_bytes": 1956
     },
     {
       "path": "docs/04_Data_Platform/015_Data_Consistency_Model.md",
-      "action": "add_or_replace",
-      "sha256": "6dbe9680d25023b4fd79f43a4ba544868fe079f474c10c198f275f91186a63f5"
+      "size_bytes": 8348
     },
     {
       "path": "docs/04_Data_Platform/016_Data_Versioning.md",
-      "action": "add_or_replace",
-      "sha256": "8a5839d1764b78c4b4c732adbd7ee2663760c2c8d393e66b76321d033d6b0af9"
+      "size_bytes": 8018
     },
     {
       "path": "docs/04_Data_Platform/017_Audit_Strategy.md",
-      "action": "add_or_replace",
-      "sha256": "d7d755779c2742b186023923b72051f44f7026f892d6ce505438db15153468ba"
+      "size_bytes": 8273
     },
     {
       "path": "docs/04_Data_Platform/018_Data_Contracts.md",
-      "action": "add_or_replace",
-      "sha256": "ed7188d789fe1655652bf601b34105eb7d558bdc7ef2d4b736190dca5de8e1a7"
+      "size_bytes": 7929
     },
     {
       "path": "docs/04_Data_Platform/019_Event_Modeling.md",
-      "action": "add_or_replace",
-      "sha256": "66078d764d17c0551e52e1cf0ee8f7562729800da6f782a06f09b27d8b79b012"
+      "size_bytes": 8774
     },
     {
       "path": "docs/05_Data_Platform/README_DEPRECATED.md",
-      "action": "add_or_replace",
-      "sha256": "337934192fcc9d9dcfeff28aff9c14a437669d254511a0a1e589c302a064d02c"
+      "size_bytes": 602
+    },
+    {
+      "path": "docs/07_Architecture/000_READ_FIRST.md",
+      "size_bytes": 1771
+    },
+    {
+      "path": "docs/07_Architecture/001_Architecture_Vision.md",
+      "size_bytes": 10930
+    },
+    {
+      "path": "docs/07_Architecture/002_Bounded_Contexts.md",
+      "size_bytes": 11840
+    },
+    {
+      "path": "docs/07_Architecture/003_Domain_Map.md",
+      "size_bytes": 10370
+    },
+    {
+      "path": "docs/07_Architecture/004_Capability_Map.md",
+      "size_bytes": 11260
+    },
+    {
+      "path": "docs/07_Architecture/005_System_Landscape.md",
+      "size_bytes": 11213
     },
     {
       "path": "docs/90_Engineering_Framework/000_READ_FIRST.md",
-      "action": "add_or_replace",
-      "sha256": "e2a895123cd1c4aa7c5b16be60f975ca86d89356d55a3d7db371318b03c8dd61"
+      "size_bytes": 1720
     },
     {
       "path": "docs/90_Engineering_Framework/001_Engineering_Principles.md",
-      "action": "add_or_replace",
-      "sha256": "f1eb0c7b1bda363fb156e6f3cc120e51606a5d5af446424649825a710433282b"
+      "size_bytes": 3676
     },
     {
       "path": "docs/90_Engineering_Framework/002_Documentation_Standard.md",
-      "action": "add_or_replace",
-      "sha256": "13611f31ca1190bd58e1610dde34df01c592ff285df9fe1d7f6835893392c2cc"
+      "size_bytes": 3326
     },
     {
       "path": "docs/90_Engineering_Framework/003_Architecture_Standard.md",
-      "action": "add_or_replace",
-      "sha256": "c503349e7d8bc31d2a0dc1869207eb7af37b93a5f37820c49c3d08944389974e"
+      "size_bytes": 3678
     },
     {
       "path": "docs/90_Engineering_Framework/004_AI_Engineering_Standard.md",
-      "action": "add_or_replace",
-      "sha256": "07351d5bbbdbc8861096525366dd3d2548dea15399f3e26d17637cc4dd535bf0"
+      "size_bytes": 3911
     },
     {
       "path": "docs/90_Engineering_Framework/005_Engineering_Maturity_Model.md",
-      "action": "add_or_replace",
-      "sha256": "0627ac4ce630faf5719db321e37c969cbe36e9a9a1cebab157fb58e88435a05e"
+      "size_bytes": 2998
     },
     {
       "path": "releases/v1.5.0-data-platform-release3.md",
-      "action": "add_or_replace",
-      "sha256": "df86a68475d3b13676bdf5938dc577a5ac4246d0aa83ad557b12a352b85c9e03"
+      "size_bytes": 357
     },
     {
       "path": "releases/v1.6.0-engineering-framework-release1.md",
-      "action": "add_or_replace",
-      "sha256": "ae2c23b539c767cafc17ec9c5a1451d23cd2876cf4da766a17918cd95f8c1017"
+      "size_bytes": 378
     },
     {
       "path": "releases/v1.7.0-repository-reconciliation-release1.md",
-      "action": "add_or_replace",
-      "sha256": "aacd9bc17027c74f918edb4cb68d7410864eb9f476c5f598c63ebb151745b296"
+      "size_bytes": 789
+    },
+    {
+      "path": "releases/v2.0.0-architecture-foundation-release1.md",
+      "size_bytes": 1216
     }
   ]
 }

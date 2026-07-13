@@ -1,12 +1,9 @@
 # Current Release
 
-## Phoenix v1.7.0 — Repository Reconciliation and Completion Release 1
+## Phoenix Architecture Foundation v2.0.0 — Release 1
 
-This release repairs metadata drift, completes Data Platform Release 3, expands the Engineering Framework, declares the canonical Data Platform path, and prepares the repository for Architecture Foundation v2.0.0.
+This release establishes Phoenix architecture vision, bounded contexts, domain map, capability map, and system landscape.
 
-See:
-
-- `RELEASE_REPORT.md`
-- `REPOSITORY_INTEGRITY_REPORT.md`
-- `UPDATE_GUIDE.md`
-- `UPDATE_MANIFEST.md`
+**Version:** `2.0.0-architecture-r1`  
+**Status:** Ready for GitHub  
+**Next:** Architecture Foundation v2.1.0 — Release 2

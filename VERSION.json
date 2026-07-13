@@ -1,8 +1,9 @@
 {
-  "version": "1.7.0-reconciliation-r1",
-  "release": "Repository Reconciliation and Completion Release 1",
+  "version": "2.0.0-architecture-r1",
+  "release": "Phoenix Architecture Foundation — Release 1",
   "release_date": "2026-07-13",
   "status": "ready",
-  "next_milestone": "Phoenix Architecture Foundation v2.0.0 \u2014 Release 1",
+  "next_milestone": "Phoenix Architecture Foundation v2.1.0 — Release 2",
+  "canonical_architecture_path": "docs/07_Architecture/",
   "canonical_data_platform_path": "docs/04_Data_Platform/"
 }

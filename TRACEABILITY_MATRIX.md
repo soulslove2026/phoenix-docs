@@ -18,4 +18,9 @@
 | AI remains governed and evaluated | PES-003 | AI Platform and product AI |
 | Maturity requires evidence | PEF-005 | Release and implementation gates |
 | `docs/04_Data_Platform` is canonical | DPL-000 / Architect Notes | Repository navigation and citations |
-| Architecture Foundation is next | Engineering Roadmap | v2.0.0 Release 1 |
+| Architecture Foundation Release 1 is ratified | ARC-001 through ARC-005 | v2.0.0 Release 1 |
+| Phoenix begins with bounded-context modularity | ARC-001 | Initial implementation and extraction decisions |
+| Every major business fact has one context owner | ARC-002 | Domain models, APIs, schemas, teams |
+| Domain interaction follows explicit synchronous/asynchronous rules | ARC-003 | Workflows, events, degradation behavior |
+| Product planning maps to technology-independent capabilities | ARC-004 | Roadmap, build/buy, team topology |
+| Trust zones and platform blocks guide system placement | ARC-005 | Security, deployment, provider integration |

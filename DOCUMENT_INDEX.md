@@ -19,5 +19,11 @@
 | PES-002 | Architecture Standard | `docs/90_Engineering_Framework/003_Architecture_Standard.md` | Ratified | Level 3 |
 | PES-003 | AI Engineering Standard | `docs/90_Engineering_Framework/004_AI_Engineering_Standard.md` | Ratified | Level 3 |
 | PEF-005 | Engineering Maturity Model | `docs/90_Engineering_Framework/005_Engineering_Maturity_Model.md` | Ratified | Level 3 |
+| ARC-000 | Architecture Foundation Read First | `docs/07_Architecture/000_READ_FIRST.md` | Ratified | Foundation |
+| ARC-001 | Architecture Vision | `docs/07_Architecture/001_Architecture_Vision.md` | Ratified | Level 2 |
+| ARC-002 | Bounded Contexts | `docs/07_Architecture/002_Bounded_Contexts.md` | Ratified | Level 2 |
+| ARC-003 | Domain Map | `docs/07_Architecture/003_Domain_Map.md` | Ratified | Level 2 |
+| ARC-004 | Capability Map | `docs/07_Architecture/004_Capability_Map.md` | Ratified | Level 2 |
+| ARC-005 | System Landscape | `docs/07_Architecture/005_System_Landscape.md` | Ratified | Level 2 |
 
 Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.

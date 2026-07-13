@@ -1,5 +1,20 @@
 # Changelog
 
+## 2.0.0-architecture-r1 — 2026-07-13
+
+### Added
+- Architecture Foundation Read First.
+- ARC-001 Architecture Vision.
+- ARC-002 Bounded Contexts.
+- ARC-003 Domain Map.
+- ARC-004 Capability Map.
+- ARC-005 System Landscape.
+
+### Changed
+- Synchronized indexes, traceability, roadmap, project board, release metadata, and architect notes.
+- Marked legacy enterprise architecture content as subordinate to the new foundation where applicable.
+
+
 ## 1.7.0-reconciliation-r1 — 2026-07-13
 
 ### Added

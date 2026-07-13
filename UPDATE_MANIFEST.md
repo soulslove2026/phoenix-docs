@@ -1,20 +1,32 @@
-# Update Manifest — v1.7.0 Reconciliation R1
+# Update Manifest — v2.0.0 Architecture Foundation Release 1
 
-## Replace / Update
+## Added
 
-- Root repository indexes, roadmap, project board, changelog, version, release, manifest, and architect notes.
-- `docs/04_Data_Platform/010` through `019` plus the new canonical entry point.
-- All six files in `docs/90_Engineering_Framework/`.
-- `ENGINEERING_FRAMEWORK.md`.
+- `docs/07_Architecture/000_READ_FIRST.md`
+- `docs/07_Architecture/001_Architecture_Vision.md`
+- `docs/07_Architecture/002_Bounded_Contexts.md`
+- `docs/07_Architecture/003_Domain_Map.md`
+- `docs/07_Architecture/004_Capability_Map.md`
+- `docs/07_Architecture/005_System_Landscape.md`
+- `releases/v2.0.0-architecture-foundation-release1.md`
 
-## Add
+## Updated
 
-- `REPOSITORY_INTEGRITY_REPORT.md`
-- `UPDATE_MANIFEST.md`
-- `docs/05_Data_Platform/README_DEPRECATED.md`
-- Missing release records for v1.5.0 and v1.6.0.
-- Current release record for v1.7.0.
+- README.md
+- MASTER_INDEX.md
+- DOCUMENT_INDEX.md
+- TRACEABILITY_MATRIX.md
+- PROJECT_BOARD.md
+- ENGINEERING_ROADMAP.md
+- ARCHITECT_NOTES.md
+- VERSION.json
+- RELEASE.md
+- UPDATE_GUIDE.md
+- RELEASE_REPORT.md
+- REPOSITORY_INTEGRITY_REPORT.md
+- FILE_MANIFEST.json
+- CHECKSUMS.sha256
 
-## Delete
+## Compatibility
 
-No automatic deletion in this release. The legacy Data Platform directory remains pending lossless review.
+This is an additive documentation release. Existing governance, data, framework, and legacy content is retained.

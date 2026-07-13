@@ -3,27 +3,30 @@
 ## Completed / Ratified
 
 - Governance Releases 1–3 — present in repository
-- Data Platform Releases 1–2 — present
-- Data Platform Release 3 — reconciled and expanded in v1.7.0
-- Engineering Framework Release 1 — reconciled and expanded in v1.7.0
-- Repository indexes, release records, and canonical paths — synchronized
+- Data Platform Releases 1–3 — reconciled and canonical
+- Engineering Framework Release 1 — ratified foundation standards
+- Repository Reconciliation Release 1 — indexes, records, and paths synchronized
+- Architecture Foundation Release 1 — ARC-001 through ARC-005 ratified
 
 ## Current Milestone
 
-**Repository Reconciliation and Completion Release 1 — Ready for GitHub**
+**Phoenix Architecture Foundation v2.0.0 — Release 1 — Ready for GitHub**
 
 ## Next Milestone
 
-**Phoenix Architecture Foundation v2.0.0 — Release 1**
+**Phoenix Architecture Foundation v2.1.0 — Release 2**
 
 Planned documents:
 
-- ARC-001 — Architecture Vision
-- ARC-002 — Bounded Contexts
-- ARC-003 — Domain Map
-- ARC-004 — Capability Map
-- ARC-005 — System Landscape
+- ARC-006 — Communication Patterns
+- ARC-007 — Deployment Philosophy
+- ARC-008 — Scalability Strategy
+- ARC-009 — Failure Isolation
+- ARC-010 — Reference Architecture
 
 ## Known Follow-up
 
-Perform a content-diff review before deleting the legacy `docs/05_Data_Platform/` directory.
+- Validate ARC-001 through ARC-005 against selected MVP user journeys.
+- Assign initial team and operational ownership before implementation.
+- Perform content-diff review before deleting `docs/05_Data_Platform/`.
+- Begin Security Foundation after Architecture Foundation Release 2.
