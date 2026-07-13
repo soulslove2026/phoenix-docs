@@ -1,12 +1,17 @@
 {
-  "version": "3.0.0-core-bootstrap-r1",
-  "release": "Phoenix Core Bootstrap \u2014 Release 1",
+  "version": "3.0.1-core-bootstrap-verification",
+  "release": "Phoenix Core Bootstrap Verification",
   "release_date": "2026-07-13",
-  "status": "candidate",
+  "status": "verified",
+  "verified_slice": "Slice 0",
+  "verification_evidence": {
+    "repository": "soulslove2026/phoenix-core",
+    "branch": "main",
+    "commit": "be213f8",
+    "github_actions": "success",
+    "workflow": "CI",
+    "duration_seconds": 24
+  },
   "next_milestone": "Production Stack Ratification and Identity Slice 1",
-  "bundle_contains": [
-    "phoenix-docs",
-    "phoenix-core"
-  ],
   "production_ready": false
 }

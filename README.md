@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.0.0-core-bootstrap-r1`  
-**Current milestone:** Phoenix Core Bootstrap — Release 1  
-**Next milestone:** Production Stack Ratification and Identity Slice 1
+**Current repository version:** `3.0.1-core-bootstrap-verification`  
+**Current milestone:** Production Stack Ratification  
+**Next milestone:** Identity Slice 1 after stack approval
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 
@@ -36,3 +36,8 @@ Phoenix uses bounded-context modularity, explicit data ownership, governed contr
 ## Canonical Path Notice
 
 `docs/04_Data_Platform/` is authoritative. `docs/05_Data_Platform/` remains a legacy path pending lossless historical cleanup.
+
+## Core Bootstrap Verification
+
+Core Bootstrap Slice 0: **Verified** ✅  
+GitHub Actions: **Success** on commit `be213f8`.

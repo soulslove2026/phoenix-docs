@@ -17,11 +17,11 @@
 
 ## Current Milestone
 
-Phoenix Core Bootstrap Release 1 (`3.0.0-core-bootstrap-r1`).
+Phoenix Core Bootstrap Slice 0 (`3.0.1-core-bootstrap-verification`) — Verified.
 
 ## Next Milestone
 
-Production Stack Ratification and Identity Slice 1.
+Production Stack Ratification, followed by Identity Slice 1.
 
 ## Core Implementation Gate
 
@@ -34,3 +34,10 @@ Before `phoenix-core` begins materially, Phoenix requires:
 - selected MVP capability scope;
 - named implementation and operational owners;
 - traceable acceptance criteria.
+
+
+## Core Bootstrap Status
+
+- Slice 0: Verified ✅
+- GitHub Actions: Success
+- Next: Production Stack Ratification

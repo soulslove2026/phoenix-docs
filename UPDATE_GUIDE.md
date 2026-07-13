@@ -1,11 +1,18 @@
 # Update Guide
 
-This bundle contains two top-level folders.
+This verification release updates `phoenix-docs` only.
 
-1. Copy contents of `phoenix-docs` into the existing documentation repository and replace matching files.
-2. Create a new GitHub repository named `phoenix-core`, then copy contents of `phoenix-core` into it.
-3. In `phoenix-core`, run `npm run check`, `npm test`, and `PHOENIX_ENV=local npm start`.
+1. Extract the ZIP archive.
+2. Open the included `phoenix-docs` directory.
+3. Copy all contents into the root of your existing local `phoenix-docs` repository.
+4. Replace matching files when prompted.
+5. Review changes in GitHub Desktop.
+6. Commit and push to `main`.
 
-Docs commit: `docs(core): add core bootstrap release 1`
+## Commit Summary
 
-Core commit: `chore(core): bootstrap Phoenix Core Slice 0`
+`docs(core): verify Phoenix Core Slice 0`
+
+## Commit Description
+
+`Records successful GitHub Actions verification for Phoenix Core Slice 0, including repository checks, automated tests, Docker build evidence, and progression to production stack ratification.`

@@ -122,3 +122,7 @@
 
 - [Release Records](releases/)
 - [Current Release](releases/v2.1.0-architecture-foundation-release2.md)
+
+## Verification Records
+
+- [v3.0.1 Core Bootstrap Verification](releases/v3.0.1-core-bootstrap-verification.md)

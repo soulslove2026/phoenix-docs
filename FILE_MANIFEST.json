@@ -1,6 +1,7 @@
 {
-  "repository_version": "3.0.0-core-bootstrap-r1",
-  "file_count": 92,
+  "repository_version": "3.0.1-core-bootstrap-verification",
+  "generated_at": "2026-07-13T00:00:00Z",
+  "file_count": 93,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -93,6 +94,7 @@
     "releases/v2.2.0-security-foundation-release1.md",
     "releases/v2.3.0-product-foundation-release1.md",
     "releases/v2.4.0-implementation-planning-release1.md",
-    "releases/v3.0.0-core-bootstrap-release1.md"
+    "releases/v3.0.0-core-bootstrap-release1.md",
+    "releases/v3.0.1-core-bootstrap-verification.md"
   ]
 }
