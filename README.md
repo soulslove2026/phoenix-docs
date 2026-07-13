@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.3.0-identity-slice1-r1`  
-**Current milestone:** Phoenix Identity Slice 1  
-**Next milestone:** Identity Slice 1 implementation and verification
+**Current repository version:** `3.3.1-identity-slice1-verification`  
+**Current milestone:** Identity Slice 1 — Verified  
+**Next milestone:** Identity Slice 2 — Verification, Recovery, and Session Hardening
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 
@@ -46,3 +46,8 @@ GitHub Actions: **Success** on commit `be213f8`.
 
 Stack Migration: **Verified** ✅  
 GitHub Actions: **Success** on commit `bdae87a`.
+
+## Identity Verification
+
+Identity Slice 1: **Verified** ✅  
+GitHub Actions: **Success**.

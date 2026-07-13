@@ -164,3 +164,7 @@
 - [IDN-005 — Persistence and Migration](docs/14_Identity_Slice1/005_Persistence_and_Migration.md)
 - [IDN-006 — Threat and Abuse Review](docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md)
 - [IDN-007 — Test and Verification Plan](docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md)
+
+## Verification Records
+
+- [v3.3.1 Identity Slice 1 Verification](releases/v3.3.1-identity-slice1-verification.md)

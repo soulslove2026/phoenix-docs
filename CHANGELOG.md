@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.3.1-identity-slice1-verification — 2026-07-13
+
+### Verified
+
+- Identity Slice 1 passed GitHub Actions.
+- PostgreSQL migration passed.
+- TypeScript and repository checks passed.
+- Unit tests passed.
+- PostgreSQL integration tests passed.
+- Production build passed.
+- Docker build passed.
+- Slice status changed from Candidate to Verified.
+
+### Next
+
+- Identity Slice 2 — Verification, Recovery, and Session Hardening.
+
+
 ## 3.2.2-stack-migration-verification — 2026-07-13
 
 ### Verified

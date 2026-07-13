@@ -1,21 +1,17 @@
 # Update Guide
 
-This bundle contains `phoenix-core` and `phoenix-docs`.
+This verification release updates `phoenix-docs` only.
 
-## phoenix-core
+1. Extract the ZIP.
+2. Open the included `phoenix-docs` folder.
+3. Copy all contents into the existing local `phoenix-docs` repository.
+4. Replace matching files.
+5. Commit and push.
 
-Copy all contents into the existing `phoenix-core` repository.
+## Commit Summary
 
-Commit:
+`docs(identity): verify Identity Slice 1`
 
-`feat(identity): implement Identity Slice 1`
+## Commit Description
 
-## phoenix-docs
-
-Copy all contents into the existing `phoenix-docs` repository.
-
-Commit:
-
-`docs(identity): add Identity Slice 1 release 1`
-
-Push `phoenix-core` first and verify GitHub Actions. The slice remains Candidate until the workflow succeeds.
+`Records successful GitHub Actions verification for Identity Slice 1, including PostgreSQL migration, TypeScript checks, unit tests, integration tests, production build, and Docker build.`
