@@ -30,3 +30,11 @@
 | Scale preserves invariants and uses governed partitioning/backpressure | ARC-008 | Capacity, performance and extraction decisions |
 | Partial failure is bounded and recoverable | ARC-009 | Resilience, incident response and degraded modes |
 | Architecture Foundation is assembled into an implementation reference | ARC-010 | Security Foundation and phoenix-core planning |
+
+| Security uses explicit trust, least privilege, and recoverability | SEC-001 | All implementations and operations |
+| Threat models cover cyber threats and platform abuse | SEC-002 | Capability design and release review |
+| Authentication assurance follows transaction risk | SEC-003 | Identity, sessions, recovery, privileged access |
+| Authorization is deny-by-default and resource-owned | SEC-004 | APIs, services, admin, AI tools |
+| Secrets and keys are centrally governed and rotatable | SEC-005 | Infrastructure, services, providers, CI/CD |
+| Data protection follows classification and lifecycle | SEC-006 | Storage, APIs, events, analytics, AI |
+| Security incidents require auditable readiness and recovery | SEC-007 | Monitoring, response, investigation, learning |

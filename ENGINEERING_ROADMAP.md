@@ -7,7 +7,7 @@
 | Engineering Framework | Foundation ratified | PEF/PES standards active |
 | Architecture Release 1 | Ratified | ARC-001–005 at Level 2 |
 | Architecture Release 2 | Next | ARC-006–010 planned |
-| Security Foundation | Planned | Required before core implementation gate |
+| Security Foundation | Foundation complete | Required before core implementation gate |
 | Algorithms and Discovery | Planned | After architecture boundaries |
 | AI Platform | Planned | Governed by PES-003 and ARC boundaries |
 | Backend / Core | Gated | Begins after foundation readiness |
@@ -17,11 +17,11 @@
 
 ## Current Milestone
 
-Phoenix Architecture Foundation Release 2 (`2.1.0-architecture-r2`).
+Phoenix Security Foundation Release 1 (`2.2.0-security-r1`).
 
 ## Next Milestone
 
-Phoenix Security Foundation v2.2.0 — Release 1.
+Phoenix Product Foundation v2.3.0 — Release 1.
 
 ## Core Implementation Gate
 

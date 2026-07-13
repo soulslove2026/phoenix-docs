@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.2.0-security-r1 — 2026-07-13
+
+### Added
+- SEC-001 Security Vision and Principles.
+- SEC-002 Threat Model.
+- SEC-003 Identity and Authentication.
+- SEC-004 Authorization and Access Control.
+- SEC-005 Secrets and Key Management.
+- SEC-006 Data Protection and Privacy Security.
+- SEC-007 Security Audit and Incident Readiness.
+
+### Changed
+- Synchronized repository indexes, roadmap, project board, traceability, release metadata, and architect notes.
+- Completed the security gate required before material phoenix-core implementation.
+- Set Phoenix Product Foundation v2.3.0 Release 1 as the next milestone.
+
+
 ## 2.1.0-architecture-r2 — 2026-07-13
 
 ### Added

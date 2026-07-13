@@ -16,7 +16,7 @@
 
 ## Next Milestone
 
-**Phoenix Security Foundation v2.2.0 — Release 1**
+**Phoenix Product Foundation v2.3.0 — Release 1**
 
 Planned documents:
 

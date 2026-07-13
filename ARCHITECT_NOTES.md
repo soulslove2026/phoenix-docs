@@ -96,3 +96,32 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 ### Next Milestone
 
 **Phoenix Security Foundation v2.2.0 — Release 1**.
+
+## Security Foundation Release 1 — 2026-07-13
+
+### Ratified Decisions
+
+1. Security is an architectural property and release gate, not a final testing phase.
+2. Phoenix applies explicit trust, least privilege, defense in depth, secure defaults, and recoverability.
+3. Threat modeling includes platform abuse, fraud, insider risk, third-party compromise, and AI-specific attack paths.
+4. Authentication is separate from authorization; account recovery is a privileged security workflow.
+5. Authorization is deny-by-default and enforced by the bounded context that owns the protected resource.
+6. Production access uses named human or workload identity; shared administrator accounts are prohibited.
+7. Secrets and cryptographic keys are centrally governed, scoped, rotatable, revocable, and absent from source artifacts.
+8. Data protection follows classification, purpose, minimization, lifecycle, and region requirements.
+9. Security audit, operational telemetry, integration events, and financial ledger truth remain distinct.
+10. AI can assist security decisions but receives bounded data, tools, permissions, evidence requirements, and human accountability.
+
+### Rejected Alternatives
+
+- Trusting requests because they originate on an internal network.
+- Treating encryption as a substitute for authorization.
+- Long-lived shared service or administrator credentials.
+- Client-side-only access control.
+- Logging full sensitive payloads for convenience.
+- Sending restricted data to external AI systems without explicit governance.
+- Building incident response only after a production breach.
+
+### Next Milestone
+
+**Phoenix Product Foundation v2.3.0 — Release 1**, defining MVP scope, user journeys, product capabilities, acceptance principles, and measurable outcomes.

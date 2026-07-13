@@ -1,9 +1,9 @@
 # Current Release
 
-## Phoenix Architecture Foundation v2.1.0 — Release 2
+## Phoenix Security Foundation v2.2.0 — Release 1
 
-This release completes the Architecture Foundation with communication patterns, deployment philosophy, scalability strategy, failure isolation, and the integrated Phoenix reference architecture.
+This release establishes the Phoenix security architecture for threat modeling, identity, authentication, authorization, secrets, key management, data protection, audit, and incident readiness.
 
-**Version:** `2.1.0-architecture-r2`  
+**Version:** `2.2.0-security-r1`  
 **Status:** Ready for GitHub  
-**Next:** Phoenix Security Foundation v2.2.0 — Release 1
+**Next:** Phoenix Product Foundation v2.3.0 — Release 1

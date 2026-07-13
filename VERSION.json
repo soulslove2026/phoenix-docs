@@ -1,9 +1,10 @@
 {
-  "version": "2.1.0-architecture-r2",
-  "release": "Phoenix Architecture Foundation — Release 2",
+  "version": "2.2.0-security-r1",
+  "release": "Phoenix Security Foundation \u2014 Release 1",
   "release_date": "2026-07-13",
   "status": "ready",
-  "next_milestone": "Phoenix Security Foundation v2.2.0 — Release 1",
+  "next_milestone": "Phoenix Product Foundation v2.3.0 \u2014 Release 1",
   "canonical_architecture_path": "docs/07_Architecture/",
+  "canonical_security_path": "docs/08_Security/",
   "canonical_data_platform_path": "docs/04_Data_Platform/"
 }

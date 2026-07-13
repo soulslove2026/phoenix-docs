@@ -10,8 +10,8 @@
 
 ## Commit Summary
 
-`docs(architecture): complete architecture foundation release 2`
+`docs(security): add security foundation release 1`
 
 ## Commit Description
 
-`Adds communication patterns, deployment philosophy, scalability strategy, failure isolation, and the integrated Phoenix reference architecture.`
+`Adds security principles, threat modeling, identity, authentication, authorization, secrets, data protection, audit, and incident readiness specifications.`

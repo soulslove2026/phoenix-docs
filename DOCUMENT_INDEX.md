@@ -30,5 +30,13 @@
 | ARC-008 | Scalability Strategy | `docs/07_Architecture/008_Scalability_Strategy.md` | Ratified | Level 2 |
 | ARC-009 | Failure Isolation | `docs/07_Architecture/009_Failure_Isolation.md` | Ratified | Level 2 |
 | ARC-010 | Reference Architecture | `docs/07_Architecture/010_Reference_Architecture.md` | Ratified | Level 2 |
+| SEC-000 | Security Foundation Read First | `docs/08_Security/000_READ_FIRST.md` | Ratified | Foundation |
+| SEC-001 | Security Vision and Principles | `docs/08_Security/001_Security_Vision_and_Principles.md` | Ratified | Level 2 |
+| SEC-002 | Threat Model | `docs/08_Security/002_Threat_Model.md` | Ratified | Level 2 |
+| SEC-003 | Identity and Authentication | `docs/08_Security/003_Identity_and_Authentication.md` | Ratified | Level 2 |
+| SEC-004 | Authorization and Access Control | `docs/08_Security/004_Authorization_and_Access_Control.md` | Ratified | Level 2 |
+| SEC-005 | Secrets and Key Management | `docs/08_Security/005_Secrets_and_Key_Management.md` | Ratified | Level 2 |
+| SEC-006 | Data Protection and Privacy Security | `docs/08_Security/006_Data_Protection_and_Privacy_Security.md` | Ratified | Level 2 |
+| SEC-007 | Security Audit and Incident Readiness | `docs/08_Security/007_Security_Audit_and_Incident_Readiness.md` | Ratified | Level 2 |
 
 Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.
