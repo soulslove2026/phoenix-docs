@@ -86,3 +86,11 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | MIG-004 | Contract and OpenAPI Baseline | `docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md` | Ratified | Level 2 |
 | MIG-005 | Quality and CI Gate | `docs/13_Stack_Migration/005_Quality_and_CI_Gate.md` | Ratified | Level 2 |
 | MIG-006 | Migration Verification | `docs/13_Stack_Migration/006_Migration_Verification.md` | Candidate | Level 2 |
+
+| IDN-001 | Identity Slice Charter | `docs/14_Identity_Slice1/001_Identity_Slice_Charter.md` | Candidate | Level 2 |
+| IDN-002 | Identity Domain Model | `docs/14_Identity_Slice1/002_Identity_Domain_Model.md` | Candidate | Level 2 |
+| IDN-003 | Registration and Login Contract | `docs/14_Identity_Slice1/003_Registration_and_Login_Contract.md` | Candidate | Level 2 |
+| IDN-004 | Session Security Model | `docs/14_Identity_Slice1/004_Session_Security_Model.md` | Candidate | Level 2 |
+| IDN-005 | Persistence and Migration | `docs/14_Identity_Slice1/005_Persistence_and_Migration.md` | Candidate | Level 2 |
+| IDN-006 | Threat and Abuse Review | `docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md` | Candidate | Level 2 |
+| IDN-007 | Test and Verification Plan | `docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md` | Candidate | Level 2 |

@@ -153,3 +153,14 @@
 ## Verification Records
 
 - [v3.2.2 Stack Migration Verification](releases/v3.2.2-stack-migration-verification.md)
+
+## Identity Slice 1
+
+- [IDN-000 — Read First](docs/14_Identity_Slice1/000_READ_FIRST.md)
+- [IDN-001 — Slice Charter](docs/14_Identity_Slice1/001_Identity_Slice_Charter.md)
+- [IDN-002 — Identity Domain Model](docs/14_Identity_Slice1/002_Identity_Domain_Model.md)
+- [IDN-003 — Registration and Login Contract](docs/14_Identity_Slice1/003_Registration_and_Login_Contract.md)
+- [IDN-004 — Session Security Model](docs/14_Identity_Slice1/004_Session_Security_Model.md)
+- [IDN-005 — Persistence and Migration](docs/14_Identity_Slice1/005_Persistence_and_Migration.md)
+- [IDN-006 — Threat and Abuse Review](docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md)
+- [IDN-007 — Test and Verification Plan](docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md)

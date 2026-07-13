@@ -1,17 +1,8 @@
 {
-  "version": "3.2.2-stack-migration-verification",
-  "release": "Phoenix Stack Migration Verification",
+  "version": "3.3.0-identity-slice1-r1",
+  "release": "Phoenix Identity Slice 1 \u2014 Release 1",
   "release_date": "2026-07-13",
-  "status": "verified",
-  "verified_stage": "Stack Migration",
-  "verification_evidence": {
-    "repository": "soulslove2026/phoenix-core",
-    "branch": "main",
-    "commit": "bdae87a",
-    "workflow": "CI",
-    "result": "success",
-    "duration_seconds": 45
-  },
-  "next_milestone": "Phoenix Identity Slice 1",
+  "status": "candidate",
+  "next_milestone": "Verify Identity Slice 1 in GitHub Actions",
   "production_ready": false
 }

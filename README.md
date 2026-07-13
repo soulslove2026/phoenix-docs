@@ -1,6 +1,6 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.2.2-stack-migration-verification`  
+**Current repository version:** `3.3.0-identity-slice1-r1`  
 **Current milestone:** Phoenix Identity Slice 1  
 **Next milestone:** Identity Slice 1 implementation and verification
 

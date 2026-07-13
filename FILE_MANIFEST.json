@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.2.2-stack-migration-verification",
-  "file_count": 115,
+  "repository_version": "3.3.0-identity-slice1-r1",
+  "file_count": 124,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -97,6 +97,14 @@
     "docs/13_Stack_Migration/005_Quality_and_CI_Gate.md",
     "docs/13_Stack_Migration/006_Migration_Verification.md",
     "docs/13_Stack_Migration/007_CI_Registry_Hotfix.md",
+    "docs/14_Identity_Slice1/000_READ_FIRST.md",
+    "docs/14_Identity_Slice1/001_Identity_Slice_Charter.md",
+    "docs/14_Identity_Slice1/002_Identity_Domain_Model.md",
+    "docs/14_Identity_Slice1/003_Registration_and_Login_Contract.md",
+    "docs/14_Identity_Slice1/004_Session_Security_Model.md",
+    "docs/14_Identity_Slice1/005_Persistence_and_Migration.md",
+    "docs/14_Identity_Slice1/006_Threat_and_Abuse_Review.md",
+    "docs/14_Identity_Slice1/007_Test_and_Verification_Plan.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -116,6 +124,7 @@
     "releases/v3.1.0-production-stack-ratification-release1.md",
     "releases/v3.2.0-stack-migration-release1.md",
     "releases/v3.2.1-stack-migration-ci-registry-hotfix.md",
-    "releases/v3.2.2-stack-migration-verification.md"
+    "releases/v3.2.2-stack-migration-verification.md",
+    "releases/v3.3.0-identity-slice1-release1.md"
   ]
 }
