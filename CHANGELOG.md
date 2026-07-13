@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.4.1-dependency-governance-hotfix-r1 — 2026-07-13
+
+### Security
+
+- Disabled uncontrolled routine Dependabot version updates.
+- Preserved vulnerability alerts and security updates.
+- Migrated approved GitHub Actions to Node.js 24 generations.
+- Strengthened Dependency Review and added narrow reviewed license exceptions.
+- Added automated dependency-governance enforcement.
+
+### Status
+
+- Candidate pending GitHub verification.
+
+
 ## 3.4.0-identity-slice2-r1 — 2026-07-13
 
 ### Added

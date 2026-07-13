@@ -116,3 +116,5 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-010 | 010 ASVS Traceability | `docs/15_Identity_Slice2/010_ASVS_Traceability.md` | Candidate | Security |
 | ID2-011 | 011 Test and Verification Plan | `docs/15_Identity_Slice2/011_Test_and_Verification_Plan.md` | Candidate | Security |
 | ID2-012 | 012 Production Blockers | `docs/15_Identity_Slice2/012_Production_Blockers.md` | Candidate | Security |
+
+| ID2-013 | Dependency and Workflow Governance | `docs/15_Identity_Slice2/013_Dependency_Governance.md` | Candidate | Level 2 |

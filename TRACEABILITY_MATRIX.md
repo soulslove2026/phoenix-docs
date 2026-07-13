@@ -110,3 +110,5 @@
 | ID2-010 | ASVS traceability | `ID2-010` | external review pending |
 | ID2-011 | Verification plan | `CI / CodeQL` | GitHub evidence pending |
 | ID2-012 | Production blockers | `ID2-012` | must remain false |
+
+| ID2-013 | Controlled dependency and workflow governance | `.github/dependabot.yml`, dependency review, governance check | Candidate |

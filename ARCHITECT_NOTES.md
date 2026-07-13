@@ -267,4 +267,8 @@ Core CI and both documentation workflows passed.
 
 ## Identity Slice 2 Release 1
 
-Version `3.4.0-identity-slice2-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.
+Version `3.4.1-dependency-governance-hotfix-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.
+
+## v3.4.1 Dependency Governance
+
+Routine version updates are controlled, security updates remain enabled, and approved workflow actions use Node.js 24 generations. Verification is pending.

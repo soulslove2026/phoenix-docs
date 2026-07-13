@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.4.0-identity-slice2-r1",
-  "file_count": 262,
+  "repository_version": "3.4.1-dependency-governance-hotfix-r1",
+  "file_count": 264,
   "files": [
     ".github/ISSUE_TEMPLATE/feature.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
@@ -215,6 +215,7 @@
     "docs/15_Identity_Slice2/010_ASVS_Traceability.md",
     "docs/15_Identity_Slice2/011_Test_and_Verification_Plan.md",
     "docs/15_Identity_Slice2/012_Production_Blockers.md",
+    "docs/15_Identity_Slice2/013_Dependency_Governance.md",
     "docs/15_Repository_Reconciliation/000_READ_FIRST.md",
     "docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md",
     "docs/15_Repository_Reconciliation/002_Findings_and_Corrections.md",
@@ -260,6 +261,7 @@
     "releases/v3.3.2-constitutional-reconciliation-hardening-r2.md",
     "releases/v3.3.3-constitutional-reconciliation-verification.md",
     "releases/v3.4.0-identity-slice2-release1.md",
+    "releases/v3.4.1-dependency-governance-hotfix-release1.md",
     "scripts/check-repository.mjs",
     "templates/ADR_TEMPLATE.md",
     "templates/DOCUMENT_TEMPLATE.md",

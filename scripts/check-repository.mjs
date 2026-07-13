@@ -1,4 +1,76 @@
-import {createHash} from "node:crypto";import fs from "node:fs";import path from "node:path";const fail=m=>{console.error(m);process.exitCode=1;};const read=n=>fs.readFileSync(n,"utf8"),parse=n=>JSON.parse(read(n));
-const required=["VERSION.json","README.md","RELEASE.md","RELEASE_REPORT.md","MASTER_INDEX.md","DOCUMENT_INDEX.md","TRACEABILITY_MATRIX.md","GOVERNANCE_CHECKLIST.md","CONSTITUTION_COMPLIANCE_REPORT.md","REPOSITORY_INTEGRITY_REPORT.md","FILE_MANIFEST.json","CHECKSUMS.sha256","releases/v3.4.0-identity-slice2-release1.md","docs/15_Identity_Slice2/012_Production_Blockers.md"];
-for(const f of required)if(!fs.existsSync(f))fail(`Missing required file: ${f}`);if(process.exitCode)process.exit();const v=parse("VERSION.json"),m=parse("FILE_MANIFEST.json");if(v.version!=="3.4.0-identity-slice2-r1"||v.status!=="candidate"||v.production_ready!==false)fail("VERSION authority invalid");for(const f of ["README.md","RELEASE.md","RELEASE_REPORT.md"]){const t=read(f);if(!t.includes("3.4.0")||!t.toLowerCase().includes("candidate"))fail(`${f} authority stale`);}for(let i=1;i<=12;i++){const id=`ID2-${String(i).padStart(3,"0")}`;if(!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`))fail(`Missing traceability ${id}`);}if(m.repository_version!==v.version)fail("manifest version mismatch");
-const ignored=new Set([".git","node_modules","dist"]);function walk(d="."){const o=[];for(const e of fs.readdirSync(d,{withFileTypes:true})){if(e.isDirectory()&&ignored.has(e.name))continue;const f=path.join(d,e.name);if(e.isDirectory())o.push(...walk(f));else if(e.isFile())o.push(f.replace(/^\.\//,"").replaceAll("\\","/"));}return o;}const actual=walk().filter(f=>f!=="CHECKSUMS.sha256").sort(),listed=[...m.files].sort();if(JSON.stringify(actual)!==JSON.stringify(listed)){const a=new Set(actual),l=new Set(listed);console.error("Extra",actual.filter(f=>!l.has(f)));console.error("Missing",listed.filter(f=>!a.has(f)));fail("FILE_MANIFEST mismatch");}if(m.file_count!==listed.length)fail("manifest count mismatch");for(const line of read("CHECKSUMS.sha256").trim().split("\n")){const x=/^([a-f0-9]{64})  (.+)$/.exec(line);if(!x){fail(`invalid checksum ${line}`);continue;}const h=createHash("sha256").update(fs.readFileSync(x[2])).digest("hex");if(h!==x[1])fail(`checksum mismatch ${x[2]}`);}if(!process.exitCode)console.log("Documentation constitutional integrity checks passed.");
+import { createHash } from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
+
+const fail = (message) => { console.error(message); process.exitCode = 1; };
+const read = (name) => fs.readFileSync(name, "utf8");
+const parse = (name) => JSON.parse(read(name));
+
+const required = [
+  "VERSION.json", "README.md", "RELEASE.md", "RELEASE_REPORT.md",
+  "MASTER_INDEX.md", "DOCUMENT_INDEX.md", "TRACEABILITY_MATRIX.md",
+  "GOVERNANCE_CHECKLIST.md", "CONSTITUTION_COMPLIANCE_REPORT.md",
+  "REPOSITORY_INTEGRITY_REPORT.md", "FILE_MANIFEST.json", "CHECKSUMS.sha256",
+  "releases/v3.4.1-dependency-governance-hotfix-release1.md",
+  "docs/15_Identity_Slice2/012_Production_Blockers.md",
+  "docs/15_Identity_Slice2/013_Dependency_Governance.md",
+];
+
+for (const file of required) if (!fs.existsSync(file)) fail(`Missing required file: ${file}`);
+if (process.exitCode) process.exit();
+
+const version = parse("VERSION.json");
+const manifest = parse("FILE_MANIFEST.json");
+
+if (version.version !== "3.4.1-dependency-governance-hotfix-r1") fail("VERSION authority invalid");
+if (version.status !== "candidate" || version.production_ready !== false) fail("Release state is unsafe");
+
+for (const file of ["README.md", "RELEASE.md", "RELEASE_REPORT.md"]) {
+  const text = read(file);
+  if (!text.includes("3.4.1") || !text.toLowerCase().includes("candidate")) {
+    fail(`${file} authority stale`);
+  }
+}
+
+for (let index = 1; index <= 13; index += 1) {
+  const id = `ID2-${String(index).padStart(3, "0")}`;
+  if (!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`)) fail(`Missing traceability ${id}`);
+}
+
+if (!read("MASTER_INDEX.md").includes("v3.4.1-dependency-governance-hotfix-release1.md")) {
+  fail("MASTER_INDEX current release is stale");
+}
+if (manifest.repository_version !== version.version) fail("Manifest version mismatch");
+
+const ignored = new Set([".git", "node_modules", "dist"]);
+function walk(directory = ".") {
+  const files = [];
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (entry.isDirectory() && ignored.has(entry.name)) continue;
+    const full = path.join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...walk(full));
+    else if (entry.isFile()) files.push(full.replace(/^\.\//, "").replaceAll("\\", "/"));
+  }
+  return files;
+}
+
+const actual = walk().filter((file) => file !== "CHECKSUMS.sha256").sort();
+const listed = [...manifest.files].sort();
+
+if (JSON.stringify(actual) !== JSON.stringify(listed)) {
+  const actualSet = new Set(actual);
+  const listedSet = new Set(listed);
+  console.error("Extra", actual.filter((file) => !listedSet.has(file)));
+  console.error("Missing", listed.filter((file) => !actualSet.has(file)));
+  fail("FILE_MANIFEST mismatch");
+}
+if (manifest.file_count !== listed.length) fail("Manifest count mismatch");
+
+for (const line of read("CHECKSUMS.sha256").trim().split("\n")) {
+  const match = /^([a-f0-9]{64})  (.+)$/.exec(line);
+  if (!match) { fail(`Invalid checksum ${line}`); continue; }
+  const hash = createHash("sha256").update(fs.readFileSync(match[2])).digest("hex");
+  if (hash !== match[1]) fail(`Checksum mismatch ${match[2]}`);
+}
+
+if (!process.exitCode) console.log("Documentation constitutional integrity checks passed.");

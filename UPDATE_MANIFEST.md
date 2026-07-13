@@ -1,3 +1,16 @@
-# Update Manifest — v3.4.0
+# Update Manifest — v3.4.1
 
-Adds Identity Slice 2 specifications, security traceability, production blockers, code and migration authorities, CodeQL/Dependabot gates, and synchronized manifests/checksums.
+## Core
+
+- controlled Dependabot configuration;
+- Node.js 24 action generations;
+- strengthened Dependency Review;
+- dependency-governance checker;
+- policy and runbook documentation.
+
+## Documentation
+
+- v3.4.1 release authority;
+- ID2-013 dependency governance;
+- release report and update guide;
+- regenerated manifest and checksums.

@@ -1,8 +1,8 @@
 # Current Release
 
-## Phoenix Identity Slice 2 v3.4.0 — Release 1
+## Phoenix Dependency Governance and Actions Runtime Hotfix v3.4.1 — Release 1
 
 **Status:** Candidate  
 **Production ready:** No
 
-The release adds email verification, password recovery, keyed token hashes, encrypted notification outbox records, session hardening, distributed abuse limits, security events, stricter password protection, and expanded automated security gates.
+Routine Dependabot version-update pull requests are disabled, security updates remain enabled, approved GitHub Actions move to Node.js 24 runtime generations, and narrow license-metadata exceptions are documented.

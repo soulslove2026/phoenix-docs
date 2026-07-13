@@ -198,3 +198,6 @@
 - [012 Production Blockers](docs/15_Identity_Slice2/012_Production_Blockers.md)
 
 - [v3.4.0 Identity Slice 2 Release 1](releases/v3.4.0-identity-slice2-release1.md)
+
+- [ID2-013 — Dependency and Workflow Governance](docs/15_Identity_Slice2/013_Dependency_Governance.md)
+- [v3.4.1 Dependency Governance Hotfix](releases/v3.4.1-dependency-governance-hotfix-release1.md)

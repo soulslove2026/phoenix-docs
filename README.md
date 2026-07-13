@@ -1,6 +1,6 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.4.0-identity-slice2-r1`  
+**Current repository version:** `3.4.1-dependency-governance-hotfix-r1`  
 **Current milestone:** Identity Slice 2 — Release 1 (Candidate)  
 **Previous verified milestone:** Identity Slice 1 v3.3.1  
 **Next gate:** Complete security and CI verification for Identity Slice 2  
@@ -48,3 +48,7 @@ Preserve `.git`, replace all other local repository contents, and then push the 
 ## Identity Slice 2
 
 Security-first candidate covering verification, recovery, session hardening, distributed abuse protection, encrypted notification delivery records, and auditable security events.
+
+## v3.4.1 Dependency Governance
+
+Routine version updates are controlled, security updates remain enabled, and approved workflow actions use Node.js 24 generations. Verification is pending.

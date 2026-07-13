@@ -1,7 +1,21 @@
-# Update Guide — Identity Slice 2 Release 1
+# Update Guide — v3.4.1
 
-This bundle contains complete clean snapshots. For each repository preserve `.git`, delete every other local file and folder, copy the matching snapshot, commit, and push.
+This is a clean-snapshot release.
 
-Core commit: `feat(identity): implement Identity Slice 2 security foundation`
+## phoenix-core
 
-Docs commit: `docs(identity): add Identity Slice 2 release 1`
+Preserve `.git`, delete all other contents, and copy the complete core snapshot.
+
+Commit:
+
+`security(deps): enforce controlled dependency governance`
+
+## phoenix-docs
+
+Preserve `.git`, delete all other contents, and copy the complete docs snapshot.
+
+Commit:
+
+`docs(security): record dependency governance hotfix`
+
+After the new main workflows are green, close the existing routine Dependabot version-update pull requests. Do not merge them.
