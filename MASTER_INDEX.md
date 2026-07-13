@@ -148,3 +148,4 @@
 - [MIG-004 — Contract and OpenAPI Baseline](docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md)
 - [MIG-005 — Quality and CI Gate](docs/13_Stack_Migration/005_Quality_and_CI_Gate.md)
 - [MIG-006 — Migration Verification](docs/13_Stack_Migration/006_Migration_Verification.md)
+- [MIG-007 — CI Registry Hotfix](docs/13_Stack_Migration/007_CI_Registry_Hotfix.md)

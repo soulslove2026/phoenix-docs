@@ -1,8 +1,8 @@
 # Current Release
 
-## Phoenix Core Stack Migration v3.2.0 — Release 1
+## Phoenix Stack Migration CI Registry Hotfix v3.2.1
 
-Migrates `phoenix-core` to the ratified production stack without adding Identity behavior.
+This hotfix corrects environment-specific package registry URLs that caused GitHub Actions to stall during `npm ci`.
 
-**Status:** Candidate pending GitHub Actions  
-**Next:** Identity Slice 1 after successful migration verification
+**Status:** Candidate pending corrected CI run  
+**Next:** Stack Migration Verification, then Identity Slice 1

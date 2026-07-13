@@ -226,3 +226,9 @@ Ratified Node.js 24 LTS, TypeScript 5.9, Fastify 5, PostgreSQL 18, schema-first 
 3. JSON Schema/OpenAPI is active from the first framework-based API.
 4. The migration preserves health, readiness, security headers, request IDs, safe errors, logging, tests, CI, and container controls.
 5. Identity Slice 1 remains blocked until repository CI succeeds.
+
+## Stack Migration CI Registry Hotfix — 2026-07-13
+
+The initial migration workflow stalled because the lockfile contained 126 artifact-environment registry URLs. The release pipeline now enforces public registry portability and bounded dependency-install behavior.
+
+**Rule added:** generated lockfiles must be checked for private or environment-specific registries before packaging.

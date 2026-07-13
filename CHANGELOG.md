@@ -1,5 +1,15 @@
 # Changelog
 
+## 3.2.1-stack-migration-ci-hotfix — 2026-07-13
+
+### Fixed
+
+- Replaced 126 private npm registry URLs in the Stack Migration lockfile.
+- Added CI registry-integrity validation.
+- Added bounded `npm ci` timeout, retry settings, and verbose diagnostics.
+- Kept Stack Migration status at Candidate pending a successful corrected workflow.
+
+
 ## 3.2.0-stack-migration-r1 — 2026-07-13
 
 ### Added

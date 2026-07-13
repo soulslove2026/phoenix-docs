@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.2.0-stack-migration-r1",
-  "file_count": 112,
+  "repository_version": "3.2.1-stack-migration-ci-hotfix",
+  "file_count": 114,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -96,6 +96,7 @@
     "docs/13_Stack_Migration/004_Contract_and_OpenAPI_Baseline.md",
     "docs/13_Stack_Migration/005_Quality_and_CI_Gate.md",
     "docs/13_Stack_Migration/006_Migration_Verification.md",
+    "docs/13_Stack_Migration/007_CI_Registry_Hotfix.md",
     "docs/90_Engineering_Framework/000_READ_FIRST.md",
     "docs/90_Engineering_Framework/001_Engineering_Principles.md",
     "docs/90_Engineering_Framework/002_Documentation_Standard.md",
@@ -113,6 +114,7 @@
     "releases/v3.0.0-core-bootstrap-release1.md",
     "releases/v3.0.1-core-bootstrap-verification.md",
     "releases/v3.1.0-production-stack-ratification-release1.md",
-    "releases/v3.2.0-stack-migration-release1.md"
+    "releases/v3.2.0-stack-migration-release1.md",
+    "releases/v3.2.1-stack-migration-ci-registry-hotfix.md"
   ]
 }

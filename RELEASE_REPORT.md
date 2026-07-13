@@ -1,13 +1,21 @@
 # Release Report
 
-## Local Package Validation
+## Result
 
-- npm dependency lock generated.
-- strict TypeScript check passed.
-- Fastify tests passed.
-- production build passed.
-- JSON and ZIP integrity passed.
+A CI reliability hotfix was created for Phoenix Stack Migration.
 
-## Remaining Gate
+## Root Cause
 
-The real `phoenix-core` GitHub Actions workflow must pass before Identity Slice 1.
+`package-lock.json` contained 126 references to a private file-generation registry unavailable to GitHub Actions.
+
+## Corrections
+
+- Public npm registry URLs restored.
+- Registry integrity check added.
+- `npm ci` timeout and diagnostics added.
+- Network retry behavior bounded.
+- Core and documentation metadata synchronized to v3.2.1.
+
+## Gate
+
+Stack Migration remains Candidate until the corrected workflow completes successfully.

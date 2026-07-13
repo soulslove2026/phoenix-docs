@@ -1,9 +1,9 @@
 {
-  "version": "3.2.0-stack-migration-r1",
-  "release": "Phoenix Core Stack Migration \u2014 Release 1",
+  "version": "3.2.1-stack-migration-ci-hotfix",
+  "release": "Phoenix Stack Migration CI Registry Hotfix",
   "release_date": "2026-07-13",
   "status": "candidate",
-  "next_milestone": "Identity Slice 1 after migration verification",
+  "next_milestone": "Verify corrected Stack Migration CI, then Identity Slice 1",
   "production_ready": false,
   "core_version": "3.2.0"
 }

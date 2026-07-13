@@ -1,15 +1,23 @@
-# Update Guide
+# Update Guide — v3.2.1 CI Registry Hotfix
 
-This bundle contains two repository overlays.
-
-## phoenix-docs
-Copy the contents of `phoenix-docs` into the existing documentation repository.
-
-Commit: `docs(core): add production stack migration release 1`
+This bundle contains updates for both repositories.
 
 ## phoenix-core
-Copy the contents of `phoenix-core` into the existing core repository and replace matching files. Delete obsolete `.mjs` source/test files if your file manager does not remove them automatically.
 
-Commit: `refactor(core): migrate Slice 0 to ratified production stack`
+Copy all contents of the bundle’s `phoenix-core` folder into the existing local `phoenix-core` repository and replace matching files.
 
-Push `phoenix-core` and verify GitHub Actions before beginning Identity Slice 1.
+Commit:
+
+`fix(ci): use public npm registry and bound dependency install`
+
+Push and monitor GitHub Actions.
+
+## phoenix-docs
+
+Copy all contents of the bundle’s `phoenix-docs` folder into the existing local `phoenix-docs` repository and replace matching files.
+
+Commit:
+
+`docs(ci): record stack migration registry hotfix`
+
+The Stack Migration must remain Candidate until the new CI run succeeds.
