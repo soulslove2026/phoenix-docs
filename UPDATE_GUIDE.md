@@ -1,23 +1,17 @@
-# Update Guide — v3.2.1 CI Registry Hotfix
+# Update Guide
 
-This bundle contains updates for both repositories.
+This verification release updates `phoenix-docs` only.
 
-## phoenix-core
+1. Extract the ZIP.
+2. Open the included `phoenix-docs` folder.
+3. Copy all contents into the existing local `phoenix-docs` repository.
+4. Replace matching files.
+5. Commit and push.
 
-Copy all contents of the bundle’s `phoenix-core` folder into the existing local `phoenix-core` repository and replace matching files.
+## Commit Summary
 
-Commit:
+`docs(stack): verify Phoenix production stack migration`
 
-`fix(ci): use public npm registry and bound dependency install`
+## Commit Description
 
-Push and monitor GitHub Actions.
-
-## phoenix-docs
-
-Copy all contents of the bundle’s `phoenix-docs` folder into the existing local `phoenix-docs` repository and replace matching files.
-
-Commit:
-
-`docs(ci): record stack migration registry hotfix`
-
-The Stack Migration must remain Candidate until the new CI run succeeds.
+`Records successful CI verification for the production stack migration, including dependency installation, registry integrity, TypeScript checks, tests, production build, and Docker build.`

@@ -1,6 +1,27 @@
 # Repository Integrity Report
 
-**Version:** `3.2.0-stack-migration-r1`  
-**Status:** Reconciled; migration candidate
+**Documentation version:** `3.2.2-stack-migration-verification`  
+**Status:** Reconciled; Stack Migration verified
 
-All ratified foundations remain preserved. Stack Migration MIG-001 through MIG-006 are indexed. The executable core is migrated without product-domain behavior. Identity remains blocked pending CI verification.
+## Verification Evidence
+
+- Repository: `soulslove2026/phoenix-core`
+- Branch: `main`
+- Commit: `bdae87a`
+- Workflow: `CI`
+- Result: Success
+- Duration: 45 seconds
+
+## Integrity Findings
+
+- Ratified production stack is implemented in `phoenix-core`.
+- Public npm registry portability is enforced.
+- TypeScript checks, tests, production build, and Docker build passed.
+- Stack Migration status is Verified.
+- Identity Slice 1 is authorized.
+- Phoenix Core is not production-ready.
+- Legacy `docs/05_Data_Platform/` remains intentionally non-canonical.
+
+## Next Review
+
+Run after Identity Slice 1 implementation and CI verification.

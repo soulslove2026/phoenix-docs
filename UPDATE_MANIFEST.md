@@ -1,9 +1,25 @@
-# Update Manifest — v3.2.0
+# Update Manifest — v3.2.2 Stack Migration Verification
 
-## phoenix-docs
-Adds `docs/13_Stack_Migration/`, a release record, and synchronized root metadata.
+## Added
 
-## phoenix-core
-Migrates source to TypeScript/Fastify, adds PostgreSQL readiness, OpenAPI, package lock, strict checks, tests, Node.js 24 CI, and multi-stage container build.
+- `releases/v3.2.2-stack-migration-verification.md`
 
-No Identity domain logic or database tables are included.
+## Updated
+
+- `VERSION.json`
+- `README.md`
+- `RELEASE.md`
+- `RELEASE_REPORT.md`
+- `CHANGELOG.md`
+- `PROJECT_BOARD.md`
+- `ENGINEERING_ROADMAP.md`
+- `ARCHITECT_NOTES.md`
+- `REPOSITORY_INTEGRITY_REPORT.md`
+- `docs/13_Stack_Migration/006_Migration_Verification.md`
+- `UPDATE_GUIDE.md`
+- `FILE_MANIFEST.json`
+- `CHECKSUMS.sha256`
+
+## Scope
+
+Documentation verification only. No `phoenix-core` changes are required.

@@ -232,3 +232,11 @@ Ratified Node.js 24 LTS, TypeScript 5.9, Fastify 5, PostgreSQL 18, schema-first 
 The initial migration workflow stalled because the lockfile contained 126 artifact-environment registry URLs. The release pipeline now enforces public registry portability and bounded dependency-install behavior.
 
 **Rule added:** generated lockfiles must be checked for private or environment-specific registries before packaging.
+
+## Stack Migration Verification — 2026-07-13
+
+The corrected migration workflow passed on commit `bdae87a` in 45 seconds.
+
+Verified evidence includes public-registry integrity, dependency installation, TypeScript checks, automated tests, production build, and Docker build.
+
+**Decision:** Stack Migration is Verified. Identity Slice 1 is authorized.

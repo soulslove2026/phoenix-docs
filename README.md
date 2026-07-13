@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.2.0-stack-migration-r1`  
-**Current milestone:** Phoenix Core Stack Migration — Release 1  
-**Next milestone:** Identity Slice 1 after migration verification
+**Current repository version:** `3.2.2-stack-migration-verification`  
+**Current milestone:** Phoenix Identity Slice 1  
+**Next milestone:** Identity Slice 1 implementation and verification
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 
@@ -41,3 +41,8 @@ Phoenix uses bounded-context modularity, explicit data ownership, governed contr
 
 Core Bootstrap Slice 0: **Verified** ✅  
 GitHub Actions: **Success** on commit `be213f8`.
+
+## Stack Migration Verification
+
+Stack Migration: **Verified** ✅  
+GitHub Actions: **Success** on commit `bdae87a`.

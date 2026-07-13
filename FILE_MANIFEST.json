@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.2.1-stack-migration-ci-hotfix",
-  "file_count": 114,
+  "repository_version": "3.2.2-stack-migration-verification",
+  "file_count": 115,
   "files": [
     "ARCHITECT_NOTES.md",
     "CHANGELOG.md",
@@ -115,6 +115,7 @@
     "releases/v3.0.1-core-bootstrap-verification.md",
     "releases/v3.1.0-production-stack-ratification-release1.md",
     "releases/v3.2.0-stack-migration-release1.md",
-    "releases/v3.2.1-stack-migration-ci-registry-hotfix.md"
+    "releases/v3.2.1-stack-migration-ci-registry-hotfix.md",
+    "releases/v3.2.2-stack-migration-verification.md"
   ]
 }

@@ -1,9 +1,17 @@
 {
-  "version": "3.2.1-stack-migration-ci-hotfix",
-  "release": "Phoenix Stack Migration CI Registry Hotfix",
+  "version": "3.2.2-stack-migration-verification",
+  "release": "Phoenix Stack Migration Verification",
   "release_date": "2026-07-13",
-  "status": "candidate",
-  "next_milestone": "Verify corrected Stack Migration CI, then Identity Slice 1",
-  "production_ready": false,
-  "core_version": "3.2.0"
+  "status": "verified",
+  "verified_stage": "Stack Migration",
+  "verification_evidence": {
+    "repository": "soulslove2026/phoenix-core",
+    "branch": "main",
+    "commit": "bdae87a",
+    "workflow": "CI",
+    "result": "success",
+    "duration_seconds": 45
+  },
+  "next_milestone": "Phoenix Identity Slice 1",
+  "production_ready": false
 }
