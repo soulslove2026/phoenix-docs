@@ -93,3 +93,20 @@
 | REC-004 | Hardening decisions preserve scope | `004_Identity_Hardening_Decisions.md` | bounded code changes | typecheck/tests/review |
 | REC-005 | Drift must fail automatically | `005_Repository_Integrity_and_CI_Gate.md` | repository-check scripts/workflows | both repository workflows |
 | REC-006 | Residual risk blocks production claims | `006_Residual_Risks_and_Deferred_Controls.md` | `production_ready=false` and security docs | repository checks |
+
+## Identity Slice 2 Traceability
+
+| Requirement | Specification | Core implementation | Verification |
+|---|---|---|---|
+| ID2-001 | Security charter | `SECURITY.md / CI` | security review |
+| ID2-002 | Email verification | `service.ts / repository.ts / migration 003` | integration test |
+| ID2-003 | Password recovery | `service.ts / repository.ts` | integration test |
+| ID2-004 | Password security | `password.ts` | password tests |
+| ID2-005 | Session hardening | `service.ts / repository.ts` | integration test |
+| ID2-006 | Distributed abuse protection | `distributed-rate-limit.ts` | PostgreSQL integration |
+| ID2-007 | Audit and privacy | `identity_security_events / token-crypto.ts` | integration and static checks |
+| ID2-008 | Secrets and crypto | `config.ts / token-crypto.ts` | config and crypto tests |
+| ID2-009 | Threat model | `ID2-009` | security review |
+| ID2-010 | ASVS traceability | `ID2-010` | external review pending |
+| ID2-011 | Verification plan | `CI / CodeQL` | GitHub evidence pending |
+| ID2-012 | Production blockers | `ID2-012` | must remain false |

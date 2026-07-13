@@ -32,3 +32,8 @@ Identity Slice 2 — Verification, Recovery, and Session Hardening.
 ## Production blockers
 
 Email verification, recovery, MFA/passkeys, breached-password screening, distributed throttling, device/session controls, risk signals, and operational alerting.
+
+
+## Identity Slice 2 Release 1
+
+Version `3.4.0-identity-slice2-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.

@@ -263,3 +263,8 @@ The clean-snapshot strategy resolved manifest drift without weakening the exact-
 Core CI and both documentation workflows passed.
 
 **Decision:** v3.3.2 Release 2 is Verified. Identity Slice 2 is authorized.
+
+
+## Identity Slice 2 Release 1
+
+Version `3.4.0-identity-slice2-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.

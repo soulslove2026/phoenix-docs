@@ -23,3 +23,8 @@ Identity Slice 2 may begin. It must remain Candidate until implementation, migra
 ## Architecture Direction
 
 Continue as a bounded-context modular monolith. Preserve PostgreSQL transactional truth, schema-first APIs, explicit ownership, reversible application delivery, additive durable migrations, and automated repository authority.
+
+
+## Identity Slice 2 Release 1
+
+Version `3.4.0-identity-slice2-r1` is Candidate. Security controls are implemented but require GitHub and security verification. Production readiness remains false.

@@ -180,3 +180,21 @@
 - [v3.3.2 Release 2 — Clean Snapshot](releases/v3.3.2-constitutional-reconciliation-hardening-r2.md)
 
 - [v3.3.3 Constitutional Reconciliation Verification](releases/v3.3.3-constitutional-reconciliation-verification.md)
+
+## Identity Slice 2
+
+- [000 READ FIRST](docs/15_Identity_Slice2/000_READ_FIRST.md)
+- [001 Security Charter](docs/15_Identity_Slice2/001_Security_Charter.md)
+- [002 Email Verification](docs/15_Identity_Slice2/002_Email_Verification.md)
+- [003 Password Recovery](docs/15_Identity_Slice2/003_Password_Recovery.md)
+- [004 Password Security](docs/15_Identity_Slice2/004_Password_Security.md)
+- [005 Session Hardening](docs/15_Identity_Slice2/005_Session_Hardening.md)
+- [006 Distributed Abuse Protection](docs/15_Identity_Slice2/006_Distributed_Abuse_Protection.md)
+- [007 Audit Privacy and Logging](docs/15_Identity_Slice2/007_Audit_Privacy_and_Logging.md)
+- [008 Secrets and Cryptography](docs/15_Identity_Slice2/008_Secrets_and_Cryptography.md)
+- [009 Threat Model](docs/15_Identity_Slice2/009_Threat_Model.md)
+- [010 ASVS Traceability](docs/15_Identity_Slice2/010_ASVS_Traceability.md)
+- [011 Test and Verification Plan](docs/15_Identity_Slice2/011_Test_and_Verification_Plan.md)
+- [012 Production Blockers](docs/15_Identity_Slice2/012_Production_Blockers.md)
+
+- [v3.4.0 Identity Slice 2 Release 1](releases/v3.4.0-identity-slice2-release1.md)

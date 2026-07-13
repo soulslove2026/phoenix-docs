@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.3.3-constitutional-reconciliation-verification`  
-**Current milestone:** Constitutional Reconciliation and Identity Hardening — Verified  
+**Current repository version:** `3.4.0-identity-slice2-r1`  
+**Current milestone:** Identity Slice 2 — Release 1 (Candidate)  
 **Previous verified milestone:** Identity Slice 1 v3.3.1  
-**Next gate:** Identity Slice 2 implementation and verification  
+**Next gate:** Complete security and CI verification for Identity Slice 2  
 **Next milestone after verification:** Identity Slice 2 — Verification, Recovery, and Session Hardening  
 **Production-ready:** No
 
@@ -44,3 +44,7 @@ Preserve `.git`, replace all other local repository contents, and then push the 
 - Core CI: Success on commit `ce38991` in 1 minute 4 seconds.
 - Documentation Check: Success on commit `a59dc0f` in 10 seconds.
 - Documentation Integrity: Success on commit `a59dc0f` in 13 seconds.
+
+## Identity Slice 2
+
+Security-first candidate covering verification, recovery, session hardening, distributed abuse protection, encrypted notification delivery records, and auditable security events.

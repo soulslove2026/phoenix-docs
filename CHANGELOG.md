@@ -1,5 +1,18 @@
 # Changelog
 
+## 3.4.0-identity-slice2-r1 — 2026-07-13
+
+### Added
+
+- Email verification and password recovery specifications.
+- Session hardening, distributed rate limiting, security events, encrypted outbox, and security CI gates.
+- Identity Slice 2 ASVS-oriented traceability and production blockers.
+
+### Status
+
+- Candidate pending all workflows.
+
+
 ## 3.3.3-constitutional-reconciliation-verification — 2026-07-13
 
 ### Verified

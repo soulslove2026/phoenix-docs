@@ -1,14 +1,7 @@
-# Update Guide — v3.3.3 Verification
+# Update Guide — Identity Slice 2 Release 1
 
-This release updates `phoenix-docs` only.
+This bundle contains complete clean snapshots. For each repository preserve `.git`, delete every other local file and folder, copy the matching snapshot, commit, and push.
 
-1. Extract the ZIP.
-2. Copy the contents of `phoenix-docs` into the current local documentation repository.
-3. Replace matching files.
-4. Commit:
+Core commit: `feat(identity): implement Identity Slice 2 security foundation`
 
-`docs(verification): verify v3.3.2 constitutional reconciliation`
-
-5. Push and confirm both documentation workflows remain green.
-
-No `phoenix-core` changes are included.
+Docs commit: `docs(identity): add Identity Slice 2 release 1`

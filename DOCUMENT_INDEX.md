@@ -103,3 +103,16 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | REC-004 | Identity Hardening Decisions | `docs/15_Repository_Reconciliation/004_Identity_Hardening_Decisions.md` | Candidate | Level 2 |
 | REC-005 | Repository Integrity and CI Gate | `docs/15_Repository_Reconciliation/005_Repository_Integrity_and_CI_Gate.md` | Candidate | Level 2 |
 | REC-006 | Residual Risks and Deferred Controls | `docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md` | Candidate | Level 2 |
+
+| ID2-001 | 001 Security Charter | `docs/15_Identity_Slice2/001_Security_Charter.md` | Candidate | Security |
+| ID2-002 | 002 Email Verification | `docs/15_Identity_Slice2/002_Email_Verification.md` | Candidate | Security |
+| ID2-003 | 003 Password Recovery | `docs/15_Identity_Slice2/003_Password_Recovery.md` | Candidate | Security |
+| ID2-004 | 004 Password Security | `docs/15_Identity_Slice2/004_Password_Security.md` | Candidate | Security |
+| ID2-005 | 005 Session Hardening | `docs/15_Identity_Slice2/005_Session_Hardening.md` | Candidate | Security |
+| ID2-006 | 006 Distributed Abuse Protection | `docs/15_Identity_Slice2/006_Distributed_Abuse_Protection.md` | Candidate | Security |
+| ID2-007 | 007 Audit Privacy and Logging | `docs/15_Identity_Slice2/007_Audit_Privacy_and_Logging.md` | Candidate | Security |
+| ID2-008 | 008 Secrets and Cryptography | `docs/15_Identity_Slice2/008_Secrets_and_Cryptography.md` | Candidate | Security |
+| ID2-009 | 009 Threat Model | `docs/15_Identity_Slice2/009_Threat_Model.md` | Candidate | Security |
+| ID2-010 | 010 ASVS Traceability | `docs/15_Identity_Slice2/010_ASVS_Traceability.md` | Candidate | Security |
+| ID2-011 | 011 Test and Verification Plan | `docs/15_Identity_Slice2/011_Test_and_Verification_Plan.md` | Candidate | Security |
+| ID2-012 | 012 Production Blockers | `docs/15_Identity_Slice2/012_Production_Blockers.md` | Candidate | Security |
