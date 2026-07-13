@@ -1,24 +1,16 @@
-# Repository Integrity Report — v3.3.2
+# Repository Integrity Report
 
-## State
+**Documentation version:** `3.3.2-constitutional-reconciliation-hardening-r2`  
+**Core version:** `3.3.2`  
+**Status:** Candidate pending clean-snapshot verification  
+**Production ready:** No
 
-- Documentation version: `3.3.2-constitutional-reconciliation-hardening-r1`
-- Core version: `3.3.2`
-- Previous verified baseline: Identity Slice 1 v3.3.1
-- Current release: Candidate
-- Production-ready: No
+Release 2 preserves the full historical documentation repository and supplies a clean authoritative core repository.
 
-## Reconciled authorities
+Required state:
 
-VERSION, package metadata, README files, current release, release report, master/document indexes, project board, roadmap, traceability, governance, architecture/security/runbook documents, manifests, and checksums.
-
-## Automated prevention
-
-- `phoenix-core/scripts/repository-check.mjs`
-- `phoenix-core/.github/workflows/ci.yml`
-- `phoenix-docs/scripts/check-repository.mjs`
-- `phoenix-docs/.github/workflows/documentation-integrity.yml`
-
-## Remaining verification
-
-Upload both overlays and require green workflows. Then record exact commit identifiers and workflow duration in a separate verification release.
+- no obsolete Slice 0 `.mjs` files;
+- all valid historical documents retained;
+- exact file manifests;
+- valid SHA-256 checksums;
+- synchronized release authority.

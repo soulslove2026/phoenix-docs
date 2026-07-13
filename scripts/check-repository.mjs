@@ -10,7 +10,7 @@ const required = [
   "DOCUMENT_INDEX.md", "TRACEABILITY_MATRIX.md", "GOVERNANCE_CHECKLIST.md",
   "CONSTITUTION_COMPLIANCE_REPORT.md", "REPOSITORY_INTEGRITY_REPORT.md",
   "FILE_MANIFEST.json", "CHECKSUMS.sha256",
-  "releases/v3.3.2-constitutional-reconciliation-hardening-r1.md"
+  "releases/v3.3.2-constitutional-reconciliation-hardening-r2.md"
 ];
 for (const file of required) if (!fs.existsSync(file)) fail(`Missing required file: ${file}`);
 if (process.exitCode) process.exit();
@@ -26,7 +26,7 @@ for (const file of authorityFiles) {
 }
 if (version.production_ready !== false) fail("Documentation must not claim production readiness");
 if (manifest.repository_version !== version.version) fail("FILE_MANIFEST version differs from VERSION.json");
-if (!read("MASTER_INDEX.md").includes("v3.3.2-constitutional-reconciliation-hardening-r1.md")) fail("MASTER_INDEX current release is stale");
+if (!read("MASTER_INDEX.md").includes("v3.3.2-constitutional-reconciliation-hardening-r2.md")) fail("MASTER_INDEX current release is stale");
 for (let index = 1; index <= 7; index += 1) {
   const id = `IDN-${String(index).padStart(3, "0")}`;
   if (!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`)) fail(`Missing traceability row: ${id}`);
@@ -52,7 +52,15 @@ function walk(directory = ".") {
 }
 const actualFiles = walk().filter((file) => file !== "CHECKSUMS.sha256").sort();
 const listedFiles = [...manifest.files].sort();
-if (JSON.stringify(actualFiles) !== JSON.stringify(listedFiles)) fail("FILE_MANIFEST does not exactly match repository files");
+if (JSON.stringify(actualFiles) !== JSON.stringify(listedFiles)) {
+  const actual = new Set(actualFiles);
+  const listed = new Set(listedFiles);
+  const extra = actualFiles.filter((file) => !listed.has(file));
+  const missing = listedFiles.filter((file) => !actual.has(file));
+  if (extra.length) console.error(`Unmanaged documentation files:\n- ${extra.join("\n- ")}`);
+  if (missing.length) console.error(`Manifest entries missing from repository:\n- ${missing.join("\n- ")}`);
+  fail("FILE_MANIFEST does not exactly match repository files");
+}
 if (manifest.file_count !== listedFiles.length) fail("FILE_MANIFEST file_count is incorrect");
 
 for (const line of read("CHECKSUMS.sha256").trim().split("\n")) {

@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.3.2-constitutional-reconciliation-hardening-r2 — 2026-07-13
+
+### Fixed
+
+- Corrected overlay-installation manifest drift.
+- Restored the complete historical documentation corpus.
+- Removed obsolete Slice 0 `.mjs` files from the clean core snapshot.
+- Added exact missing/extra path diagnostics.
+- Regenerated manifests and SHA-256 checksums.
+
+### Status
+
+- Candidate pending both workflows.
+
+
 ## 3.3.2-constitutional-reconciliation-hardening-r1 — 2026-07-13
 
 ### Reconciled

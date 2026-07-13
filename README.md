@@ -1,6 +1,6 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.3.2-constitutional-reconciliation-hardening-r1`  
+**Current repository version:** `3.3.2-constitutional-reconciliation-hardening-r2`  
 **Current milestone:** Constitutional Reconciliation and Identity Hardening — Candidate  
 **Previous verified milestone:** Identity Slice 1 v3.3.1  
 **Next gate:** GitHub Actions verification for `phoenix-core` and `phoenix-docs`  
@@ -34,3 +34,7 @@ The current hardening corrects documentation drift, test-discovery gaps, email v
 ## Canonical path notice
 
 `docs/04_Data_Platform/` is authoritative. `docs/05_Data_Platform/` remains a legacy path pending a separate lossless historical cleanup.
+
+## Release 2 Clean Snapshot
+
+Preserve `.git`, replace all other local repository contents, and then push the resulting changes.

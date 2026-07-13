@@ -1,17 +1,28 @@
-# Release Report — v3.3.2
+# Release Report
 
-## Decision
+## Phoenix v3.3.2 Constitutional Reconciliation and Identity Hardening — Release 2
 
-The prior Identity Slice 1 implementation remains verified at v3.3.1. The v3.3.2 reconciliation and hardening changes are Candidate until new CI evidence is available.
+**Documentation version:** `3.3.2-constitutional-reconciliation-hardening-r2`  
+**Core version:** `3.3.2`  
+**Status:** Candidate  
+**Production ready:** No
 
-## Reconciliation result
+## Incident
 
-The release aligns repository metadata, release authority, indexes, roadmap, traceability, governance, manifests, and checksums. Automated checks now fail when these sources drift.
+Release 1 failed at `Repository constitutional consistency` because repository files did not exactly match `FILE_MANIFEST.json`.
 
-## Engineering corrections
+## Root Cause
 
-The release fixes explicit unit-test discovery, malformed email acceptance, duplicate-account race handling, hard-coded session lifetime, absent migration history, stale `updated_at`, and missing authentication throttling baseline.
+Overlay copying did not remove obsolete Slice 0 files. The documentation snapshot also omitted valid historical files already present in the repository.
 
-## Deferred production controls
+## Correction
 
-Email ownership verification, recovery, MFA/passkeys, breached-password screening, distributed throttling, device/session management, risk signals, and operational alerting remain required in Identity Slice 2 or later. Their deferral is explicit and blocks production readiness.
+- clean full core snapshot;
+- full cumulative documentation snapshot;
+- exact manifest and checksum regeneration;
+- improved mismatch diagnostics;
+- mandatory full replacement while preserving `.git`.
+
+## Verification Required
+
+Both repository workflows must pass before this hardening release can be marked Verified.

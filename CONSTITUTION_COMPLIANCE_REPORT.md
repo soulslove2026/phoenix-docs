@@ -23,3 +23,7 @@
 | Long-term replaceability | Pass | repository boundary and replaceable rate limiter |
 
 No constitutional claim converts this release to Verified before GitHub evidence exists.
+
+## Release 2 Distribution Correction
+
+The constitution governs the actual repository state. Release 2 therefore prohibits overlay installation and distributes complete clean snapshots without weakening the exact-manifest gate.

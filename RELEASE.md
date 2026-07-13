@@ -1,26 +1,11 @@
 # Current Release
 
-## Phoenix Constitutional Reconciliation and Identity Hardening v3.3.2 — Release 1
+## Phoenix Constitutional Reconciliation and Identity Hardening v3.3.2 — Release 2
 
 **Status:** Candidate  
-**Previous verified baseline:** Identity Slice 1 v3.3.1  
-**Production-ready:** No
+**Core version:** `3.3.2`  
+**Documentation version:** `3.3.2-constitutional-reconciliation-hardening-r2`  
+**Distribution:** Clean complete snapshots  
+**Production ready:** No
 
-This release repairs cross-repository metadata drift and hardens Identity Slice 1 without silently advancing into Identity Slice 2.
-
-## Included
-
-- synchronized versions, README files, release records, indexes, roadmaps, manifests, and checksums;
-- complete Identity traceability and governance review;
-- automated repository-integrity workflows;
-- explicit unit-test discovery;
-- strict email validation;
-- race-safe duplicate registration handling;
-- configurable bounded session lifetime;
-- migration history, checksums, transactions, and advisory locking;
-- `updated_at` and database integrity constraints;
-- per-process authentication throttling baseline.
-
-## Verification gate
-
-Both repository workflows must pass after upload. A separate verification record will then change this release from Candidate to Verified.
+Release 2 corrects manifest drift caused by overlay installation. The previous verified implementation remains Identity Slice 1 v3.3.1.

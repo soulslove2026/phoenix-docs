@@ -176,3 +176,5 @@
 - [REC-004 — Identity Hardening Decisions](docs/15_Repository_Reconciliation/004_Identity_Hardening_Decisions.md)
 - [REC-005 — Repository Integrity and CI Gate](docs/15_Repository_Reconciliation/005_Repository_Integrity_and_CI_Gate.md)
 - [REC-006 — Residual Risks and Deferred Controls](docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md)
+
+- [v3.3.2 Release 2 — Clean Snapshot](releases/v3.3.2-constitutional-reconciliation-hardening-r2.md)

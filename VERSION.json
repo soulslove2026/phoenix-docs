@@ -1,10 +1,12 @@
 {
-  "version": "3.3.2-constitutional-reconciliation-hardening-r1",
-  "release": "Phoenix Constitutional Reconciliation and Identity Hardening — Release 1",
+  "version": "3.3.2-constitutional-reconciliation-hardening-r2",
+  "release": "Phoenix Constitutional Reconciliation and Identity Hardening \u2014 Release 2",
   "release_date": "2026-07-13",
   "status": "candidate",
   "previous_verified_stage": "Identity Slice 1 v3.3.1",
   "current_gate": "Verify v3.3.2 hardening in both repository workflows",
-  "next_milestone_after_verification": "Identity Slice 2 — Verification, Recovery, and Session Hardening",
-  "production_ready": false
+  "next_milestone_after_verification": "Identity Slice 2 \u2014 Verification, Recovery, and Session Hardening",
+  "production_ready": false,
+  "distribution": "complete historical documentation snapshot",
+  "replacement_required": true
 }
