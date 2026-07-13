@@ -17,11 +17,11 @@
 
 ## Current Milestone
 
-Phoenix Product Foundation Release 1 (`2.3.0-product-r1`).
+Phoenix Implementation Planning Release 1 (`2.4.0-implementation-r1`).
 
 ## Next Milestone
 
-Phoenix Implementation Planning v2.4.0 — Release 1.
+Phoenix Core Bootstrap v3.0.0 — Release 1.
 
 ## Core Implementation Gate
 

@@ -47,5 +47,16 @@
 | PRD-006 | Experience and Trust Principles | `docs/09_Product/006_Experience_and_Trust_Principles.md` | Ratified | Level 2 |
 | PRD-007 | Success Metrics and Experimentation | `docs/09_Product/007_Success_Metrics_and_Experimentation.md` | Ratified | Level 2 |
 | PRD-008 | Product Acceptance and Release Criteria | `docs/09_Product/008_Product_Acceptance_and_Release_Criteria.md` | Ratified | Level 2 |
+| IMP-000 | Implementation Planning Read First | `docs/10_Implementation_Planning/000_READ_FIRST.md` | Ratified | Foundation |
+| IMP-001 | Implementation Strategy | `docs/10_Implementation_Planning/001_Implementation_Strategy.md` | Ratified | Level 2 |
+| IMP-002 | Repository and Codebase Topology | `docs/10_Implementation_Planning/002_Repository_and_Codebase_Topology.md` | Ratified | Level 2 |
+| IMP-003 | Delivery Epics and Workstreams | `docs/10_Implementation_Planning/003_Delivery_Epics_and_Workstreams.md` | Ratified | Level 2 |
+| IMP-004 | Vertical Slice Plan | `docs/10_Implementation_Planning/004_Vertical_Slice_Plan.md` | Ratified | Level 2 |
+| IMP-005 | Sequencing and Dependency Model | `docs/10_Implementation_Planning/005_Sequencing_and_Dependency_Model.md` | Ratified | Level 2 |
+| IMP-006 | Ownership and Team Topology | `docs/10_Implementation_Planning/006_Ownership_and_Team_Topology.md` | Ratified | Level 2 |
+| IMP-007 | Environments and Configuration Strategy | `docs/10_Implementation_Planning/007_Environments_and_Configuration_Strategy.md` | Ratified | Level 2 |
+| IMP-008 | Quality Engineering and Test Strategy | `docs/10_Implementation_Planning/008_Quality_Engineering_and_Test_Strategy.md` | Ratified | Level 2 |
+| IMP-009 | CI/CD and Release Governance | `docs/10_Implementation_Planning/009_CI_CD_and_Release_Governance.md` | Ratified | Level 2 |
+| IMP-010 | Rollout, Rollback, and Operational Readiness | `docs/10_Implementation_Planning/010_Rollout_Rollback_and_Operational_Readiness.md` | Ratified | Level 2 |
 
 Other historical and domain documents remain available through [MASTER_INDEX.md](MASTER_INDEX.md). Their maturity will be assessed in their respective foundation releases.

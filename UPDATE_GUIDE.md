@@ -10,8 +10,8 @@
 
 ## Commit Summary
 
-`docs(product): add product foundation release 1`
+`docs(implementation): add implementation planning release 1`
 
 ## Commit Description
 
-`Adds product vision, user segments, core journeys, MVP scope, capability model, experience principles, success metrics, experimentation governance, and release acceptance criteria.`
+`Adds implementation strategy, repository topology, delivery epics, vertical slices, sequencing, ownership, environments, quality engineering, CI/CD, rollout, rollback, and operational readiness specifications.`

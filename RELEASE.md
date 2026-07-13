@@ -1,9 +1,9 @@
 # Current Release
 
-## Phoenix Product Foundation v2.3.0 — Release 1
+## Phoenix Implementation Planning v2.4.0 — Release 1
 
-This release defines the product vision, users, journeys, MVP scope, capabilities, experience principles, metrics, experimentation, and release acceptance.
+This release translates Phoenix product, architecture, security, data, and engineering foundations into an executable delivery plan.
 
-**Version:** `2.3.0-product-r1`  
+**Version:** `2.4.0-implementation-r1`  
 **Status:** Ready for GitHub  
-**Next:** Phoenix Implementation Planning v2.4.0 — Release 1
+**Next:** Phoenix Core Bootstrap v3.0.0 — Release 1

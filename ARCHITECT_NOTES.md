@@ -154,3 +154,33 @@ Phoenix had reached version `1.6.0-engineering-framework-r1`, but repository met
 ### Next Milestone
 
 **Phoenix Implementation Planning v2.4.0 — Release 1**, translating foundations into delivery topology, epics, vertical slices, environments, quality gates, ownership, and implementation sequencing.
+
+## Implementation Planning Release 1 — 2026-07-13
+
+### Ratified Decisions
+
+1. Phoenix implementation proceeds through complete vertical slices rather than disconnected technical layers.
+2. The first codebase uses explicit bounded-context modules and limited deployable units before selective service extraction.
+3. `phoenix-docs` remains the architecture and product source of truth; `phoenix-core` becomes its executable implementation.
+4. The initial repository set is intentionally small and expands only with real ownership or lifecycle evidence.
+5. Trunk-based development, protected main, short-lived branches, and feature flags are the default delivery model.
+6. User-facing epics include security, data, observability, operations, support, and rollback.
+7. The executable sequence begins with repository/CI/environment skeleton, then identity, room truth, discovery, participation, continuity, and safety.
+8. Quality is verified through layered test evidence, contract compatibility, failure testing, and continuous document-to-code reconciliation.
+9. CI/CD promotes attributable immutable artifacts with risk-weighted approval.
+10. Production rollout is progressive, observable, stoppable, and data-aware in rollback design.
+
+### Rejected Alternatives
+
+- Premature microservice fragmentation.
+- Infrastructure-first development with no active product slice.
+- Long-lived branches and late integration.
+- Direct cross-context database access.
+- Production deployment from developer machines.
+- Testing only happy paths or only user interfaces.
+- Rollback plans that ignore data state.
+- Global first exposure without controlled cohorts.
+
+### Next Milestone
+
+**Phoenix Core Bootstrap v3.0.0 — Release 1**, creating the initial executable repositories, skeleton, contracts, quality automation, environments, and Slice 0 evidence.

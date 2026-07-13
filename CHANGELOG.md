@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.4.0-implementation-r1 — 2026-07-13
+
+### Added
+- IMP-001 Implementation Strategy.
+- IMP-002 Repository and Codebase Topology.
+- IMP-003 Delivery Epics and Workstreams.
+- IMP-004 Vertical Slice Plan.
+- IMP-005 Sequencing and Dependency Model.
+- IMP-006 Ownership and Team Topology.
+- IMP-007 Environments and Configuration Strategy.
+- IMP-008 Quality Engineering and Test Strategy.
+- IMP-009 CI/CD and Release Governance.
+- IMP-010 Rollout, Rollback, and Operational Readiness.
+
+### Changed
+- Synchronized repository indexes, traceability, roadmap, project board, release records, and version metadata.
+- Established the implementation gate required before creation of phoenix-core.
+- Set Phoenix Core Bootstrap v3.0.0 Release 1 as the next milestone.
+
+
 ## 2.3.0-product-r1 — 2026-07-13
 
 ### Added

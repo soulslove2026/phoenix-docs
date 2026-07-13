@@ -1,8 +1,8 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `2.3.0-product-r1`  
-**Current milestone:** Phoenix Product Foundation — Release 1  
-**Next milestone:** Phoenix Implementation Planning v2.4.0 — Release 1
+**Current repository version:** `2.4.0-implementation-r1`  
+**Current milestone:** Phoenix Implementation Planning — Release 1  
+**Next milestone:** Phoenix Core Bootstrap v3.0.0 — Release 1
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the source of truth for its governance, data, architecture, engineering standards, security foundations, and release history.
 
@@ -15,6 +15,7 @@ Phoenix is an AI-native social platform and platform ecosystem. This repository 
 - [Architecture Foundation](docs/07_Architecture/000_READ_FIRST.md)
 - [Security Foundation](docs/08_Security/000_READ_FIRST.md)
 - [Product Foundation](docs/09_Product/000_READ_FIRST.md)
+- [Implementation Planning](docs/10_Implementation_Planning/000_READ_FIRST.md)
 - [Canonical Data Platform](docs/04_Data_Platform/000_READ_FIRST.md)
 - [Repository Integrity Report](REPOSITORY_INTEGRITY_REPORT.md)
 

@@ -1,17 +1,19 @@
-# Update Manifest — v2.3.0 Product Foundation Release 1
+# Update Manifest — v2.4.0 Implementation Planning Release 1
 
 ## Added
 
-- `docs/09_Product/000_READ_FIRST.md`
-- `docs/09_Product/001_Product_Vision_and_Value_Proposition.md`
-- `docs/09_Product/002_Users_Segments_and_Jobs_to_Be_Done.md`
-- `docs/09_Product/003_Core_User_Journeys.md`
-- `docs/09_Product/004_MVP_Scope_and_Prioritization.md`
-- `docs/09_Product/005_Product_Capability_Model.md`
-- `docs/09_Product/006_Experience_and_Trust_Principles.md`
-- `docs/09_Product/007_Success_Metrics_and_Experimentation.md`
-- `docs/09_Product/008_Product_Acceptance_and_Release_Criteria.md`
-- `releases/v2.3.0-product-foundation-release1.md`
+- `docs/10_Implementation_Planning/000_READ_FIRST.md`
+- `docs/10_Implementation_Planning/001_Implementation_Strategy.md`
+- `docs/10_Implementation_Planning/002_Repository_and_Codebase_Topology.md`
+- `docs/10_Implementation_Planning/003_Delivery_Epics_and_Workstreams.md`
+- `docs/10_Implementation_Planning/004_Vertical_Slice_Plan.md`
+- `docs/10_Implementation_Planning/005_Sequencing_and_Dependency_Model.md`
+- `docs/10_Implementation_Planning/006_Ownership_and_Team_Topology.md`
+- `docs/10_Implementation_Planning/007_Environments_and_Configuration_Strategy.md`
+- `docs/10_Implementation_Planning/008_Quality_Engineering_and_Test_Strategy.md`
+- `docs/10_Implementation_Planning/009_CI_CD_and_Release_Governance.md`
+- `docs/10_Implementation_Planning/010_Rollout_Rollback_and_Operational_Readiness.md`
+- `releases/v2.4.0-implementation-planning-release1.md`
 
 ## Updated
 
@@ -33,4 +35,4 @@
 
 ## Compatibility
 
-This additive documentation release preserves Governance, Data Platform, Engineering Framework, Architecture Foundation, Security Foundation, and legacy content.
+This additive documentation release preserves all ratified foundations and prepares, but does not yet create, executable code repositories.

@@ -2,29 +2,33 @@
 
 ## Result
 
-Phoenix Product Foundation Release 1 is complete and packaged for GitHub.
+Phoenix Implementation Planning Release 1 is complete and packaged for GitHub.
 
 ## New Specifications
 
-- PRD-001 Product Vision and Value Proposition
-- PRD-002 Users, Segments, and Jobs to Be Done
-- PRD-003 Core User Journeys
-- PRD-004 MVP Scope and Prioritization
-- PRD-005 Product Capability Model
-- PRD-006 Experience and Trust Principles
-- PRD-007 Success Metrics and Experimentation
-- PRD-008 Product Acceptance and Release Criteria
+- IMP-001 Implementation Strategy
+- IMP-002 Repository and Codebase Topology
+- IMP-003 Delivery Epics and Workstreams
+- IMP-004 Vertical Slice Plan
+- IMP-005 Sequencing and Dependency Model
+- IMP-006 Ownership and Team Topology
+- IMP-007 Environments and Configuration Strategy
+- IMP-008 Quality Engineering and Test Strategy
+- IMP-009 CI/CD and Release Governance
+- IMP-010 Rollout, Rollback, and Operational Readiness
 
 ## Quality Review
 
-- Product choices align with Governance, Data Platform, Architecture, Security, and Engineering Framework.
-- MVP scope is constrained by explicit safety, economy, AI, and operational gates.
-- Product journeys include failure, abuse, accessibility, privacy, and recovery.
-- Metrics balance value, trust, safety, reliability, and sustainability.
-- Release acceptance requires evidence, operations, observability, controlled rollout, and rollback.
-- Root metadata, indexes, traceability, roadmap, manifest, release record, and checksums are synchronized.
+- Implementation strategy preserves product, architecture, security, data, and engineering foundations.
+- Delivery is organized around complete vertical slices and explicit user/operator outcomes.
+- Repository and team topology avoid premature fragmentation.
+- Sequencing follows authoritative truth, dependencies, security, and operational readiness.
+- Quality engineering covers domain, contract, security, failure, migration, accessibility, and rollback evidence.
+- CI/CD uses protected main, attributable artifacts, progressive promotion, and supply-chain controls.
+- Rollout design includes stop conditions, data-aware rollback, incident integration, and post-release learning.
+- Root metadata, indexes, traceability, roadmap, release records, manifest, and checksums are synchronized.
 - JSON metadata and new internal Markdown links were validated.
 
 ## Next Gate
 
-Phoenix Implementation Planning must translate the ratified foundations into vertical delivery slices, epics, ownership, dependencies, environments, quality gates, and sequencing without weakening the foundations.
+Phoenix Core Bootstrap v3.0.0 Release 1 should create the initial executable repository and Slice 0 only. It must not silently implement product features before the bootstrap quality evidence is complete.

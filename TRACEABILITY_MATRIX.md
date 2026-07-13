@@ -47,3 +47,13 @@
 | Experience preserves comprehension, agency, accessibility, and trust | PRD-006 | Design system and product review |
 | Metrics balance value, safety, quality, reliability, and sustainability | PRD-007 | Analytics and experimentation |
 | Releases require cross-domain evidence and rollback | PRD-008 | Release governance |
+
+| Implementation delivers complete vertical slices | IMP-001, IMP-004 | Delivery planning and execution |
+| Repository boundaries reflect real ownership | IMP-002 | Codebase and repository creation |
+| Epics complete user and operator outcomes | IMP-003 | Backlog and roadmap |
+| Dependencies are explicit and directional | IMP-005 | Sequencing and integration |
+| Every asset has one accountable owner | IMP-006 | Team and operational governance |
+| Environments isolate secrets, data, and configuration | IMP-007 | Platform and deployment |
+| Quality is verified through layered evidence | IMP-008 | Testing and release gates |
+| CI/CD promotes attributable immutable artifacts | IMP-009 | Software supply chain |
+| Rollout is controlled, observable, and reversible | IMP-010 | Production operations |
