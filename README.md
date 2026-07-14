@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.5.1-identity-slice2-phase-b-verification`  
-**Current milestone:** Identity Slice 2 Phase B — Verified  
-**Previous verified milestone:** Identity Slice 2 Security Foundation v3.4.3  
-**Next gate:** Identity Slice 2 Phase C implementation and verification  
+**Current repository version:** `3.6.0-identity-slice2-phase-c-r1`  
+**Current milestone:** Identity Slice 2 Phase C — Candidate  
+**Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
+**Next gate:** CI, CodeQL, Production Assurance Evidence, and external assurance collection  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -74,3 +74,7 @@ Verified implementation of Passkeys, TOTP MFA, one-time recovery codes, breached
 - Core CodeQL: Success on commit `b3e7cb4` in 1 minute 21 seconds.
 - Documentation Check: Success on commit `8914a47` in 10 seconds.
 - Documentation Integrity: Success on commit `8914a47` in 14 seconds.
+
+## v3.6.0 Phase C Release 1
+
+Phoenix now includes controlled browser validation, protected operational monitoring, key-rotation and recovery tooling, incident snapshots, and supply-chain attestations. Production readiness remains false until external evidence is complete.

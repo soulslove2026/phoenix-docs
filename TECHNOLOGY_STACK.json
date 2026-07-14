@@ -1,5 +1,5 @@
 {
-  "version": "3.5.0",
+  "version": "3.6.0",
   "status": "ratified",
   "runtime": {
     "name": "Node.js",
@@ -42,5 +42,12 @@
     "totp": "RFC 6238-compatible internal implementation",
     "breached_passwords": "HIBP Pwned Passwords k-anonymity",
     "notification_delivery": "PostgreSQL transactional outbox plus HTTPS provider worker"
+  },
+  "production_assurance": {
+    "browser_validation": "native WebAuthn same-origin staging harness",
+    "operations": "protected aggregate JSON and Prometheus metrics",
+    "database_recovery": "PostgreSQL 18 pg_dump/pg_restore isolated drill",
+    "provenance": "GitHub actions/attest v4 with release archive and CycloneDX SBOM",
+    "key_rotation": "transactional maintenance-window re-encryption"
   }
 }

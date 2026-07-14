@@ -220,3 +220,15 @@
 - [v3.5.0 Identity Slice 2 Phase B Release 1](releases/v3.5.0-identity-slice2-phase-b-release1.md)
 
 - [v3.5.1 Identity Slice 2 Phase B Verification](releases/v3.5.1-identity-slice2-phase-b-verification.md)
+
+- [v3.6.0 Identity Slice 2 Phase C Release 1](releases/v3.6.0-identity-slice2-phase-c-release1.md)
+- [ID2-025 — Phase C Charter](docs/15_Identity_Slice2/025_Phase_C_Charter.md)
+- [ID2-026 — Real-Browser Passkey Validation](docs/15_Identity_Slice2/026_Real_Browser_Passkey_Validation.md)
+- [ID2-027 — Production Notification Provider Validation](docs/15_Identity_Slice2/027_Production_Notification_Provider_Validation.md)
+- [ID2-028 — Operations Monitoring and Alerting](docs/15_Identity_Slice2/028_Operations_Monitoring_and_Alerting.md)
+- [ID2-029 — Identity Key Rotation](docs/15_Identity_Slice2/029_Identity_Key_Rotation.md)
+- [ID2-030 — Backup, Restore, and Recovery](docs/15_Identity_Slice2/030_Backup_Restore_and_Recovery.md)
+- [ID2-031 — Incident Response and Forensics](docs/15_Identity_Slice2/031_Incident_Response_and_Forensics.md)
+- [ID2-032 — Supply-Chain Provenance](docs/15_Identity_Slice2/032_Supply_Chain_Provenance.md)
+- [ID2-033 — Phase C ASVS and NIST Traceability](docs/15_Identity_Slice2/033_Phase_C_ASVS_and_NIST_Traceability.md)
+- [ID2-034 — Phase C Evidence and Exit Gates](docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md)

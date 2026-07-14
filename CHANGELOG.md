@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.6.0-identity-slice2-phase-c-r1 — 2026-07-14
+
+### Added
+
+- Staging-only real-browser Passkey validation harness.
+- Protected identity operational health and Prometheus metrics.
+- Transactional identity encryption-key rotation tooling.
+- Notification-provider smoke testing.
+- Privacy-preserving incident snapshots.
+- PostgreSQL backup and isolated restore verification.
+- Artifact provenance and SBOM attestations.
+- Phase C documents ID2-025 through ID2-034.
+
+### Status
+
+- Candidate; production readiness remains false.
+
+
 ## 3.5.1-identity-slice2-phase-b-verification — 2026-07-14
 
 ### Verified

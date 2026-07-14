@@ -1,14 +1,23 @@
-# Update Guide — v3.5.1 Verification
+# Update Guide — v3.6.0 Phase C Release 1
 
-This release updates `phoenix-docs` only.
+This bundle is a clean snapshot for both repositories.
 
-1. Extract the ZIP.
-2. Copy the contents of the included `phoenix-docs` folder into the existing local documentation repository.
-3. Replace matching files.
-4. Commit:
+## phoenix-core
 
-`docs(verification): verify Identity Slice 2 Phase B`
+Preserve `.git`, remove every other file and directory, and copy the complete `phoenix-core` snapshot.
 
-5. Push and confirm both documentation workflows remain green.
+Commit:
 
-No `phoenix-core` changes are included.
+`feat(identity): implement Phase C production assurance foundation`
+
+Verify CI, CodeQL, and Production Assurance Evidence.
+
+## phoenix-docs
+
+Preserve `.git`, remove every other file and directory, and copy the complete `phoenix-docs` snapshot.
+
+Commit:
+
+`docs(identity): add Phase C production assurance release 1`
+
+Verify Documentation Check and Documentation Integrity.

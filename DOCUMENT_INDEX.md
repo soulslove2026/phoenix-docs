@@ -131,3 +131,14 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-022 | Phase B ASVS Traceability | `docs/15_Identity_Slice2/022_Phase_B_ASVS_Traceability.md` | Candidate | Security |
 | ID2-023 | Phase B Test and Verification Plan | `docs/15_Identity_Slice2/023_Phase_B_Test_and_Verification_Plan.md` | Candidate | Security |
 | ID2-024 | Phase B Production Blockers | `docs/15_Identity_Slice2/024_Phase_B_Production_Blockers.md` | Candidate | Security |
+
+| ID2-025 | Phase C Charter | `docs/15_Identity_Slice2/025_Phase_C_Charter.md` | Candidate | Level 2/selected Level 3 |
+| ID2-026 | Real-Browser Passkey Validation | `docs/15_Identity_Slice2/026_Real_Browser_Passkey_Validation.md` | Candidate | Level 2/selected Level 3 |
+| ID2-027 | Production Notification Provider Validation | `docs/15_Identity_Slice2/027_Production_Notification_Provider_Validation.md` | Candidate | Level 2/selected Level 3 |
+| ID2-028 | Operations Monitoring and Alerting | `docs/15_Identity_Slice2/028_Operations_Monitoring_and_Alerting.md` | Candidate | Level 2/selected Level 3 |
+| ID2-029 | Identity Key Rotation | `docs/15_Identity_Slice2/029_Identity_Key_Rotation.md` | Candidate | Level 2/selected Level 3 |
+| ID2-030 | Backup, Restore, and Recovery | `docs/15_Identity_Slice2/030_Backup_Restore_and_Recovery.md` | Candidate | Level 2/selected Level 3 |
+| ID2-031 | Incident Response and Forensics | `docs/15_Identity_Slice2/031_Incident_Response_and_Forensics.md` | Candidate | Level 2/selected Level 3 |
+| ID2-032 | Supply-Chain Provenance | `docs/15_Identity_Slice2/032_Supply_Chain_Provenance.md` | Candidate | Level 2/selected Level 3 |
+| ID2-033 | Phase C ASVS and NIST Traceability | `docs/15_Identity_Slice2/033_Phase_C_ASVS_and_NIST_Traceability.md` | Candidate | Level 2/selected Level 3 |
+| ID2-034 | Phase C Evidence and Exit Gates | `docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md` | Candidate | Level 2/selected Level 3 |

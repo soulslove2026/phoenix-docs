@@ -125,3 +125,14 @@
 | ID2-022 | ASVS requirements map to implementation evidence | ASVS traceability | security/check scripts and tests | Candidate |
 | ID2-023 | Verification is layered and reproducible | Test plan | CI, CodeQL, PostgreSQL, Docker, docs | Candidate |
 | ID2-024 | Residual controls block production claims | Production blockers | `production_ready=false` | Candidate |
+
+| ID2-025 | Controlled browser Passkey validation | passkey validation harness and tests | Candidate |
+| ID2-026 | Real notification provider evidence | provider smoke command and runbook | Candidate |
+| ID2-027 | Protected aggregate operations monitoring | operations routes and metrics tests | Candidate |
+| ID2-028 | Transactional encrypted-payload key rotation | key rotation helper, script, and tests | Candidate |
+| ID2-029 | Database backup and isolated restoration | production assurance workflow and restore verifier | Candidate |
+| ID2-030 | Privacy-preserving incident evidence | incident snapshot script | Candidate |
+| ID2-031 | Build provenance and SBOM attestations | actions/attest workflow | Candidate |
+| ID2-032 | ASVS and NIST production assurance alignment | Phase C traceability document | Candidate |
+| ID2-033 | Explicit external evidence requirements | Phase C exit-gate document | Candidate |
+| ID2-034 | Phase C governance and release authority | version, release, roadmap, manifests, checksums | Candidate |

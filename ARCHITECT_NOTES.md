@@ -292,3 +292,7 @@ Passkeys, TOTP, recovery codes, breached-password screening, session assurance, 
 Identity Slice 2 Phase B passed CI, CodeQL, PostgreSQL integration, Docker, and both documentation workflows.
 
 **Decision:** Phase B is Verified. Phase C production-assurance work is authorized.
+
+## v3.6.0 Phase C Architecture Decision
+
+Production-assurance capabilities remain isolated adapters and operator tools around the modular monolith. The release is Candidate because external environment evidence is intentionally outside source-code authority.
