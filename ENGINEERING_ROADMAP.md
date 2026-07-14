@@ -1,15 +1,26 @@
 # Phoenix Engineering Roadmap
 
-| Phase | Status | Next evidence |
+| Phase | Status | Evidence / next decision |
 |---|---|---|
-| Governance through implementation foundations | Ratified | continuous review |
-| Core Bootstrap and production stack | Verified | preserve supported stack |
-| Identity Slice 1 | Verified | foundation retained |
-| Identity Slice 2 Security Foundation | Verified at v3.4.3 | baseline retained |
-| Identity Slice 2 Phase B | Candidate at v3.5.0 | CI, PostgreSQL, CodeQL, Docker, docs |
-| Phase B staging assurance | Pending | real Passkey ceremonies and notification provider |
-| Public production readiness | Blocked | ID2-024 controls and external assurance |
+| Governance | Ratified | Continuous review |
+| Data Platform | Reconciled | Canonical DPL authority |
+| Engineering Framework | Ratified | Standards active |
+| Architecture Foundation | Ratified | Modular monolith |
+| Security Foundation | Ratified | Security-first constitution |
+| Product Foundation | Ratified | Product governance active |
+| Implementation Planning | Ratified | Slices and gates defined |
+| Core Bootstrap | Verified | CI evidence recorded |
+| Production Stack | Ratified and migrated | Node 24, TypeScript, Fastify, PostgreSQL |
+| Identity Slice 1 | Verified | Registration, login, sessions, logout |
+| Identity Slice 2 Security Foundation | Verified | Verification, recovery, sessions, throttling |
+| Identity Slice 2 Phase B | Verified | Core `b3e7cb4`; docs `8914a47` |
+| Identity Slice 2 Phase C | Next | Browser/device validation, production delivery, operations, external assurance |
+| Public production readiness | Blocked | Remaining deployment and external-assurance gates |
 
-## Current decision
+## Current gate
 
-Complete and verify Phase B without weakening the modular-monolith boundary, PostgreSQL transactional truth, least privilege, secure secret separation, and exact repository authority.
+Identity Slice 2 Phase C may begin. It must remain Candidate until real-browser, provider, secret-management, monitoring, recovery-drill, privacy, and independent-security evidence is complete.
+
+## Architecture direction
+
+Preserve the bounded-context modular monolith, PostgreSQL transactional truth, schema-first contracts, additive durable migrations, least privilege, cryptographic token handling, evidence isolation, and exact repository authority.

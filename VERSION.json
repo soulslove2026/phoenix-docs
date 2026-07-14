@@ -1,10 +1,47 @@
 {
-  "version": "3.5.0-identity-slice2-phase-b-r1",
-  "release": "Phoenix Identity Slice 2 Phase B \u2014 Release 1",
+  "version": "3.5.1-identity-slice2-phase-b-verification",
+  "release": "Phoenix Identity Slice 2 Phase B Verification",
   "release_date": "2026-07-14",
-  "status": "candidate",
+  "status": "verified",
   "production_ready": false,
   "security_baseline": "OWASP ASVS 5.0 Level 2 with selected Level 3 identity controls",
-  "next_milestone": "Verify Phase B through CI, CodeQL, PostgreSQL integration, Docker, and documentation integrity",
-  "previous_verified_milestone": "3.4.3 Identity Slice 2 Security Foundation"
+  "next_milestone": "Identity Slice 2 Phase C \u2014 real-browser Passkey validation, production notification delivery, managed secrets, operational monitoring, recovery drills, and external security assurance",
+  "previous_verified_milestone": "3.4.3 Identity Slice 2 Security Foundation",
+  "verified_stage": "Identity Slice 2 Phase B",
+  "verification_evidence": {
+    "phoenix_core": {
+      "repository": "soulslove2026/phoenix-core",
+      "branch": "main",
+      "commit": "b3e7cb4",
+      "workflows": [
+        {
+          "name": "CI",
+          "result": "success",
+          "duration_seconds": 61
+        },
+        {
+          "name": "CodeQL",
+          "result": "success",
+          "duration_seconds": 81
+        }
+      ]
+    },
+    "phoenix_docs": {
+      "repository": "soulslove2026/phoenix-docs",
+      "branch": "main",
+      "commit": "8914a47",
+      "workflows": [
+        {
+          "name": "Documentation Check",
+          "result": "success",
+          "duration_seconds": 10
+        },
+        {
+          "name": "Documentation Integrity",
+          "result": "success",
+          "duration_seconds": 14
+        }
+      ]
+    }
+  }
 }

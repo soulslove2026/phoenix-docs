@@ -286,3 +286,9 @@ The security foundation, dependency-governance correction, and CI artifact-isola
 ## Identity Slice 2 Phase B v3.5.0
 
 Passkeys, TOTP, recovery codes, breached-password screening, session assurance, and notification delivery are introduced behind replaceable service/repository boundaries. PostgreSQL remains transactional truth. The release is Candidate pending full evidence.
+
+## v3.5.1 Phase B Verification Decision
+
+Identity Slice 2 Phase B passed CI, CodeQL, PostgreSQL integration, Docker, and both documentation workflows.
+
+**Decision:** Phase B is Verified. Phase C production-assurance work is authorized.

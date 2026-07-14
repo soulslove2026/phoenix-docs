@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.5.0-identity-slice2-phase-b-r1",
-  "file_count": 278,
+  "repository_version": "3.5.1-identity-slice2-phase-b-verification",
+  "file_count": 279,
   "files": [
     ".github/ISSUE_TEMPLATE/feature.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
@@ -276,6 +276,7 @@
     "releases/v3.4.2-ci-artifact-isolation-hotfix-release1.md",
     "releases/v3.4.3-identity-slice2-security-foundation-verification.md",
     "releases/v3.5.0-identity-slice2-phase-b-release1.md",
+    "releases/v3.5.1-identity-slice2-phase-b-verification.md",
     "scripts/check-repository.mjs",
     "templates/ADR_TEMPLATE.md",
     "templates/DOCUMENT_TEMPLATE.md",

@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.5.1-identity-slice2-phase-b-verification — 2026-07-14
+
+### Verified
+
+- Core CI passed on commit `b3e7cb4` in 1 minute 1 second.
+- Core CodeQL passed on commit `b3e7cb4` in 1 minute 21 seconds.
+- Documentation Check passed on commit `8914a47` in 10 seconds.
+- Documentation Integrity passed on commit `8914a47` in 14 seconds.
+- Identity Slice 2 Phase B changed from Candidate to Verified.
+
+### Next
+
+- Identity Slice 2 Phase C and production assurance.
+
+
 ## 3.5.0-identity-slice2-phase-b-r1 — 2026-07-14
 
 ### Added

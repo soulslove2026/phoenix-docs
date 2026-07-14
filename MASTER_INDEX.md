@@ -218,3 +218,5 @@
 - [ID2-023 — Phase B Test and Verification Plan](docs/15_Identity_Slice2/023_Phase_B_Test_and_Verification_Plan.md)
 - [ID2-024 — Phase B Production Blockers](docs/15_Identity_Slice2/024_Phase_B_Production_Blockers.md)
 - [v3.5.0 Identity Slice 2 Phase B Release 1](releases/v3.5.0-identity-slice2-phase-b-release1.md)
+
+- [v3.5.1 Identity Slice 2 Phase B Verification](releases/v3.5.1-identity-slice2-phase-b-verification.md)
