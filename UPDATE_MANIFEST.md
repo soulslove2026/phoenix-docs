@@ -1,26 +1,17 @@
-# Update Manifest — v3.4.3 Verification
+# Update Manifest — v3.5.0 Phase B
 
-## Added
+## Core
 
-- `releases/v3.4.3-identity-slice2-security-foundation-verification.md`
+- WebAuthn/Passkey manager and persistence;
+- TOTP MFA and recovery codes;
+- HIBP password screening;
+- session assurance and recent-authentication gates;
+- notification delivery worker;
+- migration 004;
+- expanded tests and CI gates.
 
-## Updated
+## Documentation
 
-- `VERSION.json`
-- `README.md`
-- `RELEASE.md`
-- `RELEASE_REPORT.md`
-- `CHANGELOG.md`
-- `MASTER_INDEX.md`
-- `PROJECT_BOARD.md`
-- `ENGINEERING_ROADMAP.md`
-- `ARCHITECT_NOTES.md`
-- `REPOSITORY_INTEGRITY_REPORT.md`
-- `CONSTITUTION_COMPLIANCE_REPORT.md`
-- `UPDATE_GUIDE.md`
-- `FILE_MANIFEST.json`
-- `CHECKSUMS.sha256`
-
-## Scope
-
-Documentation verification only.
+- ID2-015 through ID2-024;
+- Phase B release authority, threat model, ASVS traceability, verification plan, and production blockers;
+- synchronized indexes, roadmap, governance, manifest, and checksums.

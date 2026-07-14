@@ -282,3 +282,7 @@ Generated security evidence is isolated from governed source state. Verification
 The security foundation, dependency-governance correction, and CI artifact-isolation correction passed all required code and documentation workflows.
 
 **Decision:** Identity Slice 2 Security Foundation is Verified. Phase B is authorized.
+
+## Identity Slice 2 Phase B v3.5.0
+
+Passkeys, TOTP, recovery codes, breached-password screening, session assurance, and notification delivery are introduced behind replaceable service/repository boundaries. PostgreSQL remains transactional truth. The release is Candidate pending full evidence.

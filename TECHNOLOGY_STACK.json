@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "3.5.0",
   "status": "ratified",
   "runtime": {
     "name": "Node.js",
@@ -36,5 +36,11 @@
     "OCI containers",
     "GitHub Actions",
     "npm lockfile"
-  ]
+  ],
+  "identity_security": {
+    "webauthn_server": "@simplewebauthn/server 13.3.2 exact",
+    "totp": "RFC 6238-compatible internal implementation",
+    "breached_passwords": "HIBP Pwned Passwords k-anonymity",
+    "notification_delivery": "PostgreSQL transactional outbox plus HTTPS provider worker"
+  }
 }

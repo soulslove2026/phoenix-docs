@@ -1,46 +1,10 @@
 {
-  "version": "3.4.3-identity-slice2-security-foundation-verification",
-  "release": "Phoenix Identity Slice 2 Security Foundation Verification",
-  "release_date": "2026-07-13",
-  "status": "verified",
+  "version": "3.5.0-identity-slice2-phase-b-r1",
+  "release": "Phoenix Identity Slice 2 Phase B \u2014 Release 1",
+  "release_date": "2026-07-14",
+  "status": "candidate",
   "production_ready": false,
   "security_baseline": "OWASP ASVS 5.0 Level 2 with selected Level 3 identity controls",
-  "next_milestone": "Identity Slice 2 Phase B \u2014 Passkeys, MFA, breached-password screening, and production notification delivery",
-  "verified_stage": "Identity Slice 2 security foundation through v3.4.2",
-  "verification_evidence": {
-    "phoenix_core": {
-      "repository": "soulslove2026/phoenix-core",
-      "branch": "main",
-      "commit": "9ca9dc8",
-      "workflows": [
-        {
-          "name": "CI",
-          "result": "success",
-          "duration_seconds": 56
-        },
-        {
-          "name": "CodeQL",
-          "result": "success",
-          "duration_seconds": 81
-        }
-      ]
-    },
-    "phoenix_docs": {
-      "repository": "soulslove2026/phoenix-docs",
-      "branch": "main",
-      "commit": "ffcdf23",
-      "workflows": [
-        {
-          "name": "Documentation Check",
-          "result": "success",
-          "duration_seconds": 7
-        },
-        {
-          "name": "Documentation Integrity",
-          "result": "success",
-          "duration_seconds": 10
-        }
-      ]
-    }
-  }
+  "next_milestone": "Verify Phase B through CI, CodeQL, PostgreSQL integration, Docker, and documentation integrity",
+  "previous_verified_milestone": "3.4.3 Identity Slice 2 Security Foundation"
 }

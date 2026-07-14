@@ -104,19 +104,30 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | REC-005 | Repository Integrity and CI Gate | `docs/15_Repository_Reconciliation/005_Repository_Integrity_and_CI_Gate.md` | Candidate | Level 2 |
 | REC-006 | Residual Risks and Deferred Controls | `docs/15_Repository_Reconciliation/006_Residual_Risks_and_Deferred_Controls.md` | Candidate | Level 2 |
 
-| ID2-001 | 001 Security Charter | `docs/15_Identity_Slice2/001_Security_Charter.md` | Candidate | Security |
-| ID2-002 | 002 Email Verification | `docs/15_Identity_Slice2/002_Email_Verification.md` | Candidate | Security |
-| ID2-003 | 003 Password Recovery | `docs/15_Identity_Slice2/003_Password_Recovery.md` | Candidate | Security |
-| ID2-004 | 004 Password Security | `docs/15_Identity_Slice2/004_Password_Security.md` | Candidate | Security |
-| ID2-005 | 005 Session Hardening | `docs/15_Identity_Slice2/005_Session_Hardening.md` | Candidate | Security |
-| ID2-006 | 006 Distributed Abuse Protection | `docs/15_Identity_Slice2/006_Distributed_Abuse_Protection.md` | Candidate | Security |
-| ID2-007 | 007 Audit Privacy and Logging | `docs/15_Identity_Slice2/007_Audit_Privacy_and_Logging.md` | Candidate | Security |
-| ID2-008 | 008 Secrets and Cryptography | `docs/15_Identity_Slice2/008_Secrets_and_Cryptography.md` | Candidate | Security |
-| ID2-009 | 009 Threat Model | `docs/15_Identity_Slice2/009_Threat_Model.md` | Candidate | Security |
-| ID2-010 | 010 ASVS Traceability | `docs/15_Identity_Slice2/010_ASVS_Traceability.md` | Candidate | Security |
-| ID2-011 | 011 Test and Verification Plan | `docs/15_Identity_Slice2/011_Test_and_Verification_Plan.md` | Candidate | Security |
-| ID2-012 | 012 Production Blockers | `docs/15_Identity_Slice2/012_Production_Blockers.md` | Candidate | Security |
+| ID2-001 | 001 Security Charter | `docs/15_Identity_Slice2/001_Security_Charter.md` | Verified | Security |
+| ID2-002 | 002 Email Verification | `docs/15_Identity_Slice2/002_Email_Verification.md` | Verified | Security |
+| ID2-003 | 003 Password Recovery | `docs/15_Identity_Slice2/003_Password_Recovery.md` | Verified | Security |
+| ID2-004 | 004 Password Security | `docs/15_Identity_Slice2/004_Password_Security.md` | Verified | Security |
+| ID2-005 | 005 Session Hardening | `docs/15_Identity_Slice2/005_Session_Hardening.md` | Verified | Security |
+| ID2-006 | 006 Distributed Abuse Protection | `docs/15_Identity_Slice2/006_Distributed_Abuse_Protection.md` | Verified | Security |
+| ID2-007 | 007 Audit Privacy and Logging | `docs/15_Identity_Slice2/007_Audit_Privacy_and_Logging.md` | Verified | Security |
+| ID2-008 | 008 Secrets and Cryptography | `docs/15_Identity_Slice2/008_Secrets_and_Cryptography.md` | Verified | Security |
+| ID2-009 | 009 Threat Model | `docs/15_Identity_Slice2/009_Threat_Model.md` | Verified | Security |
+| ID2-010 | 010 ASVS Traceability | `docs/15_Identity_Slice2/010_ASVS_Traceability.md` | Verified | Security |
+| ID2-011 | 011 Test and Verification Plan | `docs/15_Identity_Slice2/011_Test_and_Verification_Plan.md` | Verified | Security |
+| ID2-012 | 012 Production Blockers | `docs/15_Identity_Slice2/012_Production_Blockers.md` | Verified | Security |
 
-| ID2-013 | Dependency and Workflow Governance | `docs/15_Identity_Slice2/013_Dependency_Governance.md` | Candidate | Level 2 |
+| ID2-013 | Dependency and Workflow Governance | `docs/15_Identity_Slice2/013_Dependency_Governance.md` | Verified | Level 2 |
 
-| ID2-014 | CI Evidence Isolation | `docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md` | Candidate | Level 2 |
+| ID2-014 | CI Evidence Isolation | `docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md` | Verified | Level 2 |
+
+| ID2-015 | Phase B Charter | `docs/15_Identity_Slice2/015_Phase_B_Charter.md` | Candidate | Security |
+| ID2-016 | Passkey and WebAuthn Architecture | `docs/15_Identity_Slice2/016_Passkey_WebAuthn_Architecture.md` | Candidate | Security |
+| ID2-017 | TOTP MFA and Recovery Codes | `docs/15_Identity_Slice2/017_TOTP_MFA_and_Recovery_Codes.md` | Candidate | Security |
+| ID2-018 | Breached-password Screening | `docs/15_Identity_Slice2/018_Breached_Password_Screening.md` | Candidate | Security |
+| ID2-019 | Production Notification Delivery | `docs/15_Identity_Slice2/019_Production_Notification_Delivery.md` | Candidate | Security |
+| ID2-020 | Sensitive-action Reauthentication | `docs/15_Identity_Slice2/020_Sensitive_Action_Reauthentication.md` | Candidate | Security |
+| ID2-021 | Phase B Threat Model | `docs/15_Identity_Slice2/021_Phase_B_Threat_Model.md` | Candidate | Security |
+| ID2-022 | Phase B ASVS Traceability | `docs/15_Identity_Slice2/022_Phase_B_ASVS_Traceability.md` | Candidate | Security |
+| ID2-023 | Phase B Test and Verification Plan | `docs/15_Identity_Slice2/023_Phase_B_Test_and_Verification_Plan.md` | Candidate | Security |
+| ID2-024 | Phase B Production Blockers | `docs/15_Identity_Slice2/024_Phase_B_Production_Blockers.md` | Candidate | Security |

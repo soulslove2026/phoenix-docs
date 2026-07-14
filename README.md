@@ -1,10 +1,10 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.4.3-identity-slice2-security-foundation-verification`  
-**Current milestone:** Identity Slice 2 Security Foundation — Verified  
-**Previous verified milestone:** Identity Slice 1 v3.3.1  
-**Next gate:** Identity Slice 2 Phase B implementation and verification  
-**Next milestone after verification:** Identity Slice 2 — Verification, Recovery, and Session Hardening  
+**Current repository version:** `3.5.0-identity-slice2-phase-b-r1`  
+**Current milestone:** Identity Slice 2 Phase B — Candidate  
+**Previous verified milestone:** Identity Slice 2 Security Foundation v3.4.3  
+**Next gate:** Phase B CI, CodeQL, PostgreSQL, Docker, and documentation verification  
+**Next milestone after verification:** Phase B Verification Release  
 **Production-ready:** No
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the authoritative source for governance, architecture, security, product, implementation, data, release evidence, and traceability.
@@ -63,3 +63,7 @@ Generated security evidence is isolated from governed source state. Verification
 - Core CodeQL: Success on commit `9ca9dc8` in 1 minute 21 seconds.
 - Documentation Check: Success on commit `ffcdf23` in 7 seconds.
 - Documentation Integrity: Success on commit `ffcdf23` in 10 seconds.
+
+## Identity Slice 2 Phase B
+
+Candidate implementation of Passkeys, TOTP MFA, one-time recovery codes, breached-password screening, recent-authentication controls, and production-shaped notification delivery.

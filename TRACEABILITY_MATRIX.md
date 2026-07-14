@@ -111,6 +111,17 @@
 | ID2-011 | Verification plan | `CI / CodeQL` | GitHub evidence pending |
 | ID2-012 | Production blockers | `ID2-012` | must remain false |
 
-| ID2-013 | Controlled dependency and workflow governance | `.github/dependabot.yml`, dependency review, governance check | Candidate |
+| ID2-013 | Controlled dependency and workflow governance | `.github/dependabot.yml`, dependency review, governance check | Verified |
 
-| ID2-014 | Isolate CI evidence from source authority | CI workflow and dependency governance check | Candidate |
+| ID2-014 | Isolate CI evidence from source authority | CI workflow and dependency governance check | Verified |
+
+| ID2-015 | Deliver Phase B as a bounded, evidence-gated security slice | Phase B charter | `src/identity/`, migration 004 | Candidate |
+| ID2-016 | Passkeys require RP/origin validation and user verification | WebAuthn architecture | `passkeys.ts`, repository, routes | Candidate |
+| ID2-017 | TOTP and recovery codes resist replay and disclosure | MFA specification | `totp.ts`, service, migration 004 | Candidate |
+| ID2-018 | New passwords are screened without disclosing them | Breached-password specification | `password-breach.ts` | Candidate |
+| ID2-019 | Notifications are encrypted, idempotent, retryable, and dead-lettered | Notification delivery specification | worker, outbox repository | Candidate |
+| ID2-020 | Sensitive actions require recent appropriate assurance | Reauthentication specification | session assurance/service gates | Candidate |
+| ID2-021 | Phase B threats and residual risks are explicit | Threat model | controls and production blockers | Candidate |
+| ID2-022 | ASVS requirements map to implementation evidence | ASVS traceability | security/check scripts and tests | Candidate |
+| ID2-023 | Verification is layered and reproducible | Test plan | CI, CodeQL, PostgreSQL, Docker, docs | Candidate |
+| ID2-024 | Residual controls block production claims | Production blockers | `production_ready=false` | Candidate |

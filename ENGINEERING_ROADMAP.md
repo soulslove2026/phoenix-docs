@@ -1,25 +1,15 @@
 # Phoenix Engineering Roadmap
 
-| Phase | Status | Evidence / next decision |
+| Phase | Status | Next evidence |
 |---|---|---|
-| Governance | Ratified | Continuous review |
-| Data Platform | Reconciled | Canonical DPL authority |
-| Engineering Framework | Ratified | Standards active |
-| Architecture Foundation | Ratified | Modular monolith |
-| Security Foundation | Ratified | Security-first constitution |
-| Product Foundation | Ratified | Product governance active |
-| Implementation Planning | Ratified | Slices and gates defined |
-| Core Bootstrap | Verified | CI evidence recorded |
-| Production Stack | Ratified and migrated | Node 24, TypeScript, Fastify, PostgreSQL |
-| Identity Slice 1 | Verified | Registration, login, sessions, logout |
-| Identity Slice 2 Security Foundation | Verified | Core `9ca9dc8`; docs `ffcdf23` |
-| Identity Slice 2 Phase B | Next | Passkeys, MFA, breached-password screening, notification delivery |
-| Public production readiness | Blocked | Remaining identity, abuse, operations, privacy, and external assurance controls |
+| Governance through implementation foundations | Ratified | continuous review |
+| Core Bootstrap and production stack | Verified | preserve supported stack |
+| Identity Slice 1 | Verified | foundation retained |
+| Identity Slice 2 Security Foundation | Verified at v3.4.3 | baseline retained |
+| Identity Slice 2 Phase B | Candidate at v3.5.0 | CI, PostgreSQL, CodeQL, Docker, docs |
+| Phase B staging assurance | Pending | real Passkey ceremonies and notification provider |
+| Public production readiness | Blocked | ID2-024 controls and external assurance |
 
-## Current Gate
+## Current decision
 
-Identity Slice 2 Phase B may begin. It must remain Candidate until its code, migrations, security review, tests, documentation, CI, CodeQL, and dependency evidence pass.
-
-## Architecture Direction
-
-Preserve the bounded-context modular monolith, PostgreSQL transactional truth, schema-first contracts, explicit ownership, additive durable migrations, least privilege, evidence isolation, and exact repository authority.
+Complete and verify Phase B without weakening the modular-monolith boundary, PostgreSQL transactional truth, least privilege, secure secret separation, and exact repository authority.

@@ -1,43 +1,24 @@
 # Release Report
 
-## Phoenix v3.4.3 Identity Slice 2 Security Foundation Verification
+## Phoenix v3.5.0 Identity Slice 2 Phase B — Release 1
 
-**Status:** Verified  
-**Documentation version:** `3.4.3-identity-slice2-security-foundation-verification`  
-**Core version:** `3.4.2`  
+**Status:** Candidate  
+**Documentation version:** `3.5.0-identity-slice2-phase-b-r1`  
+**Core version:** `3.5.0`  
 **Production ready:** No
 
-## Verified Core Scope
+## Implemented
 
-The successful core workflows verified:
+- Passkey registration and username-less authentication;
+- required WebAuthn user verification and discoverable credentials;
+- encrypted single-use WebAuthn challenges;
+- TOTP enrollment, login, replay prevention, disablement, and recovery-code regeneration;
+- ten one-time HMAC-hashed recovery codes;
+- AAL1/AAL2 session assurance and recent-authentication gates;
+- HIBP k-anonymity password screening;
+- encrypted transactional notification outbox and delivery worker;
+- migration 004, contracts, tests, documentation, and security gates.
 
-- exact repository constitutional consistency;
-- dependency-governance policy;
-- security static checks;
-- strict TypeScript checks;
-- PostgreSQL migrations and idempotency;
-- Identity Slice 2 unit and integration tests;
-- distributed PostgreSQL rate limiting;
-- email verification and recovery paths;
-- session rotation, expiry, inventory, and revocation;
-- production build;
-- Docker build;
-- CycloneDX SBOM generation outside repository state;
-- clean-tree verification after evidence generation;
-- CodeQL analysis.
+## Candidate boundary
 
-Evidence: commit `9ca9dc8`, CI Success in 56 seconds, CodeQL Success in 1 minute 21 seconds.
-
-## Verified Documentation Scope
-
-The documentation repository passed both authority and integrity workflows.
-
-Evidence: commit `ffcdf23`, Documentation Check Success in 7 seconds, Documentation Integrity Success in 10 seconds.
-
-## Decision
-
-Identity Slice 2 Security Foundation is Verified.
-
-## Remaining Security Boundary
-
-Phoenix is not production-ready. Passkeys/WebAuthn, TOTP MFA, recovery codes, breached-password screening, production notification delivery, edge abuse protection, managed key rotation, production alerting, backup restoration exercises, and external penetration testing remain mandatory.
+Local validation does not substitute for GitHub Node.js 24, PostgreSQL 18, Docker, CodeQL, or staging authenticator/provider evidence. Production readiness remains false.

@@ -1,14 +1,23 @@
-# Update Guide — v3.4.3 Verification
+# Update Guide — v3.5.0 Phase B
 
-This release updates `phoenix-docs` only.
+This is a clean-snapshot release for both repositories.
 
-1. Extract the ZIP.
-2. Copy all contents of the included `phoenix-docs` folder into the existing local documentation repository.
-3. Replace matching files.
-4. Commit:
+## phoenix-core
 
-`docs(verification): verify Identity Slice 2 security foundation`
+Preserve `.git`, delete every other repository file and folder, and copy the complete `phoenix-core` snapshot.
 
-5. Push and confirm both documentation workflows remain green.
+Commit:
 
-No `phoenix-core` changes are included.
+`feat(identity): implement Identity Slice 2 Phase B`
+
+Push and verify `CI` and `CodeQL`.
+
+## phoenix-docs
+
+Preserve `.git`, delete every other repository file and folder, and copy the complete `phoenix-docs` snapshot.
+
+Commit:
+
+`docs(identity): add Identity Slice 2 Phase B release 1`
+
+Push and verify Documentation Check and Documentation Integrity.

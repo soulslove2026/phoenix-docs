@@ -1,5 +1,21 @@
 # Changelog
 
+## 3.5.0-identity-slice2-phase-b-r1 — 2026-07-14
+
+### Added
+
+- Passkeys/WebAuthn with required user verification.
+- TOTP MFA and one-time recovery codes.
+- Compromised-password screening through HIBP k-anonymity.
+- Session assurance and recent-authentication gates.
+- Transactional notification-delivery worker.
+- Migration 004, security tests, threat model, and traceability.
+
+### Status
+
+- Candidate pending all GitHub and staging security evidence.
+
+
 ## 3.4.3-identity-slice2-security-foundation-verification — 2026-07-13
 
 ### Verified

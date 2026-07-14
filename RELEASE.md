@@ -1,32 +1,12 @@
 # Current Release
 
-## Phoenix Identity Slice 2 Security Foundation Verification v3.4.3
+## Phoenix Identity Slice 2 Phase B v3.5.0 — Release 1
 
-**Status:** Verified  
-**Documentation version:** `3.4.3-identity-slice2-security-foundation-verification`  
-**Core version:** `3.4.2`  
+**Status:** Candidate  
+**Documentation version:** `3.5.0-identity-slice2-phase-b-r1`  
+**Core version:** `3.5.0`  
 **Production ready:** No
 
-## Core Evidence
+Phase B implements Passkeys/WebAuthn, TOTP MFA, one-time recovery codes, breached-password screening, recent-authentication controls, session assurance, and a production-shaped notification-delivery worker.
 
-- Repository: `soulslove2026/phoenix-core`
-- Branch: `main`
-- Commit: `9ca9dc8`
-- CI: Success in 56 seconds
-- CodeQL: Success in 1 minute 21 seconds
-
-## Documentation Evidence
-
-- Repository: `soulslove2026/phoenix-docs`
-- Branch: `main`
-- Commit: `ffcdf23`
-- Documentation Check: Success in 7 seconds
-- Documentation Integrity: Success in 10 seconds
-
-## Decision
-
-The Identity Slice 2 security foundation and its v3.4.1/v3.4.2 supply-chain and CI hardening corrections are officially Verified.
-
-## Next Milestone
-
-Identity Slice 2 Phase B — Passkeys, MFA, breached-password screening, and production notification delivery.
+The release remains Candidate until CI, PostgreSQL migration 004, integration tests, audits, SBOM, CodeQL, Docker, and both documentation workflows pass.

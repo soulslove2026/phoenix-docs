@@ -1,23 +1,22 @@
-# Governance Checklist — v3.3.2 Reconciliation and Hardening
+# Governance Checklist — Identity Slice 2 Phase B v3.5.0
 
-**Owner:** Phoenix Core Engineering / Repository Governance  
-**Affected domains:** Identity, Security, Data Platform, API, Database, Testing, Deployment, Operations  
-**Decision state:** Candidate pending both repository workflows
+**Owner:** Phoenix Core Engineering / Security / Repository Governance  
+**Decision state:** Candidate pending GitHub and staging evidence
 
-- [x] Aligns with the Phoenix Charter and evidence-based release governance.
-- [x] Preserves user safety and trust by protecting credentials, sessions, error privacy, and abuse boundaries.
-- [x] Has named accountable ownership.
-- [x] Identifies all affected domains and repository surfaces.
-- [x] Evaluates security and privacy impacts.
-- [x] Evaluates data and AI impact; no AI model or training-data behavior is introduced.
-- [x] Evaluates cost and operations; new controls use PostgreSQL and bounded in-process memory only.
-- [x] Evaluates scalability and replaceability; the rate limiter is an explicitly replaceable baseline.
-- [x] Defines failure behavior for configuration, database, migration, authentication, and throttling failures.
-- [x] Defines application rollback while preserving durable migrations and user data.
-- [x] Defines monitoring evidence through structured request/security events and CI gates; production alerting remains deferred.
-- [x] Records unresolved risks and production blockers in REC-006.
-- [x] Answers the ten-year question: the change strengthens Phoenix by making authority executable, drift detectable, identity boundaries replaceable, and risk explicit.
+- [x] Aligns with the Phoenix Charter and security-first principle.
+- [x] Defines accountable ownership and affected domains.
+- [x] Preserves generic authentication and recovery responses.
+- [x] Documents Passkey, TOTP, recovery-code, password-screening, session, and notification trust boundaries.
+- [x] Uses independent cryptographic purposes and secret separation.
+- [x] Defines data minimization and privacy behavior.
+- [x] Defines failure behavior, timeouts, attempts, replay prevention, retries, and dead-lettering.
+- [x] Defines additive migration and roll-forward boundaries.
+- [x] Defines unit, integration, CI, CodeQL, audit, SBOM, Docker, and documentation evidence.
+- [x] Defines operational monitoring requirements for notifications and authentication abuse.
+- [x] Records external service dependencies and fail-closed behavior.
+- [x] Records residual risk and production blockers in ID2-021 and ID2-024.
+- [x] Answers the ten-year question: the design strengthens replaceable standards-based authentication without coupling identity truth to a vendor.
 
 ## Gate conclusion
 
-Constitutional review is complete. Technical verification is still pending; therefore this release is Candidate and not production-ready.
+Design and local review may pass while the release remains Candidate. GitHub and deployment-specific evidence are mandatory before verification; production readiness remains false.
