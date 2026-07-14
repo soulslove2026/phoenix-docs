@@ -234,3 +234,6 @@
 - [ID2-034 — Phase C Evidence and Exit Gates](docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md)
 
 - [v3.6.1 Phase C TypeScript Header Hotfix](releases/v3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1.md)
+
+- [ID2-035 — Compiled Operational Tool Execution Order](docs/15_Identity_Slice2/035_Compiled_Operational_Tool_Execution_Order.md)
+- [v3.6.2 Phase C Compiled Tool Ordering Hotfix](releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md)

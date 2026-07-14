@@ -115,24 +115,25 @@
 
 | ID2-014 | Isolate CI evidence from source authority | CI workflow and dependency governance check | Verified |
 
-| ID2-015 | Deliver Phase B as a bounded, evidence-gated security slice | Phase B charter | `src/identity/`, migration 004 | Candidate |
-| ID2-016 | Passkeys require RP/origin validation and user verification | WebAuthn architecture | `passkeys.ts`, repository, routes | Candidate |
-| ID2-017 | TOTP and recovery codes resist replay and disclosure | MFA specification | `totp.ts`, service, migration 004 | Candidate |
-| ID2-018 | New passwords are screened without disclosing them | Breached-password specification | `password-breach.ts` | Candidate |
-| ID2-019 | Notifications are encrypted, idempotent, retryable, and dead-lettered | Notification delivery specification | worker, outbox repository | Candidate |
-| ID2-020 | Sensitive actions require recent appropriate assurance | Reauthentication specification | session assurance/service gates | Candidate |
-| ID2-021 | Phase B threats and residual risks are explicit | Threat model | controls and production blockers | Candidate |
-| ID2-022 | ASVS requirements map to implementation evidence | ASVS traceability | security/check scripts and tests | Candidate |
-| ID2-023 | Verification is layered and reproducible | Test plan | CI, CodeQL, PostgreSQL, Docker, docs | Candidate |
-| ID2-024 | Residual controls block production claims | Production blockers | `production_ready=false` | Candidate |
+| ID2-015 | Deliver Phase B as a bounded, evidence-gated security slice | Phase B charter | `src/identity/`, migration 004 | Verified |
+| ID2-016 | Passkeys require RP/origin validation and user verification | WebAuthn architecture | `passkeys.ts`, repository, routes | Verified |
+| ID2-017 | TOTP and recovery codes resist replay and disclosure | MFA specification | `totp.ts`, service, migration 004 | Verified |
+| ID2-018 | New passwords are screened without disclosing them | Breached-password specification | `password-breach.ts` | Verified |
+| ID2-019 | Notifications are encrypted, idempotent, retryable, and dead-lettered | Notification delivery specification | worker, outbox repository | Verified |
+| ID2-020 | Sensitive actions require recent appropriate assurance | Reauthentication specification | session assurance/service gates | Verified |
+| ID2-021 | Phase B threats and residual risks are explicit | Threat model | controls and production blockers | Verified |
+| ID2-022 | ASVS requirements map to implementation evidence | ASVS traceability | security/check scripts and tests | Verified |
+| ID2-023 | Verification is layered and reproducible | Test plan | CI, CodeQL, PostgreSQL, Docker, docs | Verified |
+| ID2-024 | Residual controls block production claims | Production blockers | `production_ready=false` | Verified |
 
-| ID2-025 | Controlled browser Passkey validation | passkey validation harness and tests | Candidate |
-| ID2-026 | Real notification provider evidence | provider smoke command and runbook | Candidate |
-| ID2-027 | Protected aggregate operations monitoring | operations routes and metrics tests | Candidate |
-| ID2-028 | Transactional encrypted-payload key rotation | key rotation helper, script, and tests | Candidate |
-| ID2-029 | Database backup and isolated restoration | production assurance workflow and restore verifier | Candidate |
-| ID2-030 | Privacy-preserving incident evidence | incident snapshot script | Candidate |
-| ID2-031 | Build provenance and SBOM attestations | actions/attest workflow | Candidate |
-| ID2-032 | ASVS and NIST production assurance alignment | Phase C traceability document | Candidate |
-| ID2-033 | Explicit external evidence requirements | Phase C exit-gate document | Candidate |
-| ID2-034 | Phase C governance and release authority | version, release, roadmap, manifests, checksums | Candidate |
+| ID2-025 | Govern Phase C as a bounded candidate | charter, release authority, project board | Candidate |
+| ID2-026 | Validate Passkeys in real browsers and authenticators | browser harness and validation plan | Candidate |
+| ID2-027 | Validate a real production notification provider | provider smoke command and runbook | Candidate |
+| ID2-028 | Provide protected aggregate operations monitoring | operations routes, metrics, alert plan | Candidate |
+| ID2-029 | Rotate encrypted identity payload keys transactionally | key rotation helper and runbook | Candidate |
+| ID2-030 | Prove backup, isolated restore, and recovery integrity | assurance workflow and restore verifier | Candidate |
+| ID2-031 | Produce privacy-preserving incident evidence | snapshot utility and incident runbook | Candidate |
+| ID2-032 | Produce build provenance and SBOM attestations | attestation workflow and evidence bundle | Candidate |
+| ID2-033 | Map Phase C to ASVS and NIST assurance | traceability document | Candidate |
+| ID2-034 | Keep external evidence and exit gates explicit | evidence and exit-gate document | Candidate |
+| ID2-035 | Build compiled operational tools before executing them | CI, assurance, dependency governance | Candidate |

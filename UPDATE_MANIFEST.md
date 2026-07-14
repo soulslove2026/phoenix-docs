@@ -1,16 +1,15 @@
-# Update Manifest — v3.6.1
+# Update Manifest — v3.6.2
 
 ## Core
 
-- corrected `test/passkey-harness.test.ts`;
-- added `docs/PHASE_C_TYPESCRIPT_HEADER_HOTFIX.md`;
-- updated package, lockfile, README, version authority, manifest, and checksums.
+- corrected CI build ordering;
+- added compiled-file existence gate;
+- added ordering regression controls;
+- added hotfix documentation.
 
 ## Documentation
 
-- added `releases/v3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1.md`;
-- updated release authority, reports, indexes, roadmap, integrity records, manifest, and checksums.
-
-## Functional impact
-
-Test-only strict-type correction. Production runtime behavior is unchanged.
+- added `releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md`;
+- added ID2-035;
+- reconciled Phase B statuses and Phase C traceability;
+- updated release authority, manifests, and checksums.

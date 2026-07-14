@@ -301,3 +301,8 @@ Production-assurance capabilities remain isolated adapters and operator tools ar
 ## v3.6.1 Header-Narrowing Decision
 
 Use explicit type narrowing rather than coercion. This keeps the test semantically strict and exposes unexpected Fastify/Node header shapes instead of hiding them.
+
+
+## v3.6.2 Compiled Operational Tool Decision
+
+Commands targeting `dist/` must be exercised only after the production build, with explicit file-existence proof.

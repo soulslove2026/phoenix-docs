@@ -1,5 +1,19 @@
 # Changelog
 
+## 3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1 — 2026-07-14
+
+### Fixed
+
+- Moved production build before compiled incident-snapshot execution.
+- Added a fail-closed compiled-file existence assertion.
+- Added CI and Production Assurance ordering governance.
+- Reconciled Phase C traceability and Phase B verification status.
+
+### Status
+
+- Candidate pending all workflow gates.
+
+
 ## 3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1 — 2026-07-14
 
 ### Fixed

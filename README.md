@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1`  
-**Current milestone:** Identity Slice 2 Phase C — TypeScript Hotfix Candidate  
+**Current repository version:** `3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1`  
+**Current milestone:** Identity Slice 2 Phase C — Compiled Tool Ordering Hotfix Candidate  
 **Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
-**Next gate:** CI, CodeQL, Production Assurance Evidence, and both documentation workflows  
+**Next gate:** All five GitHub workflows for v3.6.2  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -83,3 +83,8 @@ Phoenix now includes controlled browser validation, protected operational monito
 ## v3.6.1 TypeScript Header Hotfix
 
 Commit `7989ab9` exposed a strict TypeScript error in the Passkey harness header assertion. The assertion now narrows `x-robots-tag` to a string before validating `noindex`, preserving the security requirement without coercion.
+
+
+## v3.6.2 Compiled Tool Ordering Hotfix
+
+Commit `c590f6e` showed that CI attempted to execute the compiled incident snapshot before the production build. The corrected workflow builds first and verifies the compiled file.

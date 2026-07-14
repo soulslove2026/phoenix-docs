@@ -1,21 +1,13 @@
-# Update Guide — v3.6.1 TypeScript Hotfix
+# Update Guide — v3.6.2
 
-This is a clean-snapshot release for both repositories.
+This is a clean snapshot for both repositories.
 
-## phoenix-core
+Core commit:
 
-Preserve `.git`, remove every other file and folder, and copy the complete `phoenix-core` snapshot.
+`fix(ci): build compiled operational tools before execution`
 
-Commit:
+Documentation commit:
 
-`fix(test): narrow Passkey harness response header type`
+`docs(ci): record compiled tool ordering hotfix`
 
-## phoenix-docs
-
-Preserve `.git`, remove every other file and folder, and copy the complete `phoenix-docs` snapshot.
-
-Commit:
-
-`docs(ci): record Phase C TypeScript hotfix`
-
-Push both commits and verify all five workflows.
+Preserve `.git`, replace every other repository file, push, and verify all five workflows.

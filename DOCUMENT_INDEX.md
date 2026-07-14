@@ -121,16 +121,16 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 
 | ID2-014 | CI Evidence Isolation | `docs/15_Identity_Slice2/014_CI_Evidence_Isolation.md` | Verified | Level 2 |
 
-| ID2-015 | Phase B Charter | `docs/15_Identity_Slice2/015_Phase_B_Charter.md` | Candidate | Security |
-| ID2-016 | Passkey and WebAuthn Architecture | `docs/15_Identity_Slice2/016_Passkey_WebAuthn_Architecture.md` | Candidate | Security |
-| ID2-017 | TOTP MFA and Recovery Codes | `docs/15_Identity_Slice2/017_TOTP_MFA_and_Recovery_Codes.md` | Candidate | Security |
-| ID2-018 | Breached-password Screening | `docs/15_Identity_Slice2/018_Breached_Password_Screening.md` | Candidate | Security |
-| ID2-019 | Production Notification Delivery | `docs/15_Identity_Slice2/019_Production_Notification_Delivery.md` | Candidate | Security |
-| ID2-020 | Sensitive-action Reauthentication | `docs/15_Identity_Slice2/020_Sensitive_Action_Reauthentication.md` | Candidate | Security |
-| ID2-021 | Phase B Threat Model | `docs/15_Identity_Slice2/021_Phase_B_Threat_Model.md` | Candidate | Security |
-| ID2-022 | Phase B ASVS Traceability | `docs/15_Identity_Slice2/022_Phase_B_ASVS_Traceability.md` | Candidate | Security |
-| ID2-023 | Phase B Test and Verification Plan | `docs/15_Identity_Slice2/023_Phase_B_Test_and_Verification_Plan.md` | Candidate | Security |
-| ID2-024 | Phase B Production Blockers | `docs/15_Identity_Slice2/024_Phase_B_Production_Blockers.md` | Candidate | Security |
+| ID2-015 | Phase B Charter | `docs/15_Identity_Slice2/015_Phase_B_Charter.md` | Verified | Security |
+| ID2-016 | Passkey and WebAuthn Architecture | `docs/15_Identity_Slice2/016_Passkey_WebAuthn_Architecture.md` | Verified | Security |
+| ID2-017 | TOTP MFA and Recovery Codes | `docs/15_Identity_Slice2/017_TOTP_MFA_and_Recovery_Codes.md` | Verified | Security |
+| ID2-018 | Breached-password Screening | `docs/15_Identity_Slice2/018_Breached_Password_Screening.md` | Verified | Security |
+| ID2-019 | Production Notification Delivery | `docs/15_Identity_Slice2/019_Production_Notification_Delivery.md` | Verified | Security |
+| ID2-020 | Sensitive-action Reauthentication | `docs/15_Identity_Slice2/020_Sensitive_Action_Reauthentication.md` | Verified | Security |
+| ID2-021 | Phase B Threat Model | `docs/15_Identity_Slice2/021_Phase_B_Threat_Model.md` | Verified | Security |
+| ID2-022 | Phase B ASVS Traceability | `docs/15_Identity_Slice2/022_Phase_B_ASVS_Traceability.md` | Verified | Security |
+| ID2-023 | Phase B Test and Verification Plan | `docs/15_Identity_Slice2/023_Phase_B_Test_and_Verification_Plan.md` | Verified | Security |
+| ID2-024 | Phase B Production Blockers | `docs/15_Identity_Slice2/024_Phase_B_Production_Blockers.md` | Verified | Security |
 
 | ID2-025 | Phase C Charter | `docs/15_Identity_Slice2/025_Phase_C_Charter.md` | Candidate | Level 2/selected Level 3 |
 | ID2-026 | Real-Browser Passkey Validation | `docs/15_Identity_Slice2/026_Real_Browser_Passkey_Validation.md` | Candidate | Level 2/selected Level 3 |
@@ -142,3 +142,5 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-032 | Supply-Chain Provenance | `docs/15_Identity_Slice2/032_Supply_Chain_Provenance.md` | Candidate | Level 2/selected Level 3 |
 | ID2-033 | Phase C ASVS and NIST Traceability | `docs/15_Identity_Slice2/033_Phase_C_ASVS_and_NIST_Traceability.md` | Candidate | Level 2/selected Level 3 |
 | ID2-034 | Phase C Evidence and Exit Gates | `docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md` | Candidate | Level 2/selected Level 3 |
+
+| ID2-035 | Compiled Operational Tool Execution Order | `docs/15_Identity_Slice2/035_Compiled_Operational_Tool_Execution_Order.md` | Candidate | Level 2 |

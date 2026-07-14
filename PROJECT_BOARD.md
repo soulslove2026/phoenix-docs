@@ -2,34 +2,17 @@
 
 ## Verified / ratified
 
-- Governance Releases 1–3
-- Canonical Data Platform
-- Engineering Framework
-- Architecture, Security, and Product Foundations
-- Core Bootstrap and Production Stack
+- Governance through Production Stack
 - Identity Slice 1
 - Identity Slice 2 Security Foundation
 - Identity Slice 2 Phase B
 
 ## Current milestone
 
-**v3.6.1 Identity Slice 2 Phase C TypeScript Header Hotfix — Candidate**
+**v3.6.2 Phase C Compiled Tool Ordering Hotfix — Candidate**
 
-## Trigger evidence
+Trigger commit `c590f6e`: CodeQL and Production Assurance passed; CI failed before the build-created snapshot module existed.
 
-- Core commit `7989ab9`
-- CodeQL: Passed
-- CI: Failed at strict TypeScript checks
-- Production Assurance Evidence: blocked by the same typecheck path
+Required gates: CI, CodeQL, Production Assurance Evidence, Documentation Check, Documentation Integrity.
 
-## Required gates
-
-- CI
-- CodeQL
-- Production Assurance Evidence
-- Documentation Check
-- Documentation Integrity
-
-## External Phase C gates
-
-Real-browser/device Passkeys, real provider delivery, approved key rotation, operational alert delivery, deployment recovery, incident exercise, privacy/legal review, and independent penetration testing.
+Production readiness remains false.

@@ -55,3 +55,8 @@ The correction preserves fail-closed testing behavior:
 - only a string containing `noindex` passes.
 
 No production security control was relaxed. GitHub verification remains mandatory.
+
+
+## v3.6.2 Compiled Tool Ordering Compliance
+
+CI retains production-equivalent compiled execution: build, existence proof, execution, schema validation, and container build. No development-only bypass is used. Production readiness remains false.

@@ -1,32 +1,28 @@
 # Current Release
 
-## Phoenix Identity Slice 2 Phase C v3.6.1 — TypeScript Header Narrowing Hotfix Release 1
+## Phoenix Identity Slice 2 Phase C v3.6.2 — Compiled Tool Ordering Hotfix Release 1
 
-**Documentation version:** `3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1`  
-**Core version:** `3.6.1`  
+**Documentation version:** `3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1`  
+**Core version:** `3.6.2`  
 **Status:** Candidate  
 **Production ready:** No
 
-## Confirmed failure
+## Trigger evidence
 
-Core commit `7989ab9` passed CodeQL but failed `CI` at `Strict TypeScript checks`.
+Core commit `c590f6e`:
+
+- CodeQL: Success in 1 minute 19 seconds.
+- Production Assurance Evidence: Success in 48 seconds.
+- CI: Failed in 44 seconds at `Validate incident-safe snapshot`.
 
 Diagnostic:
 
-`test/passkey-harness.test.ts(12,16): TS2345`
-
-`Production Assurance Evidence` invokes the same strict typecheck through `npm run check`, so the same source defect blocked both workflows.
+`MODULE_NOT_FOUND: dist/scripts/security-incident-snapshot.js`
 
 ## Correction
 
-The Passkey harness test now explicitly narrows `x-robots-tag` to a string before checking `noindex`.
-
-This retains the security expectation and rejects unexpected numeric, array-valued, or missing headers.
+CI now performs the production build before compiled operational-tool execution and verifies the compiled file exists.
 
 ## Required verification
 
-- CI
-- CodeQL
-- Production Assurance Evidence
-- Documentation Check
-- Documentation Integrity
+CI, CodeQL, Production Assurance Evidence, Documentation Check, and Documentation Integrity.
