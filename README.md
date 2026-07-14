@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.6.0-identity-slice2-phase-c-r1`  
-**Current milestone:** Identity Slice 2 Phase C — Candidate  
+**Current repository version:** `3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1`  
+**Current milestone:** Identity Slice 2 Phase C — TypeScript Hotfix Candidate  
 **Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
-**Next gate:** CI, CodeQL, Production Assurance Evidence, and external assurance collection  
+**Next gate:** CI, CodeQL, Production Assurance Evidence, and both documentation workflows  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -78,3 +78,8 @@ Verified implementation of Passkeys, TOTP MFA, one-time recovery codes, breached
 ## v3.6.0 Phase C Release 1
 
 Phoenix now includes controlled browser validation, protected operational monitoring, key-rotation and recovery tooling, incident snapshots, and supply-chain attestations. Production readiness remains false until external evidence is complete.
+
+
+## v3.6.1 TypeScript Header Hotfix
+
+Commit `7989ab9` exposed a strict TypeScript error in the Passkey harness header assertion. The assertion now narrows `x-robots-tag` to a string before validating `noindex`, preserving the security requirement without coercion.

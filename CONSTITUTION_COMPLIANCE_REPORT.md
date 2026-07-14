@@ -43,3 +43,15 @@ Identity Slice 2 Phase C is authorized. Production readiness remains false.
 ## v3.6.0 Phase C Candidate Assessment
 
 Phase C preserves the security-first constitution. Browser validation is prohibited in production, monitoring exposes aggregates only, key rotation requires explicit confirmation, recovery is exercised in isolation, incident evidence excludes identifiers, and attestations are treated as provenance rather than safety certification.
+
+
+## v3.6.1 TypeScript Hotfix Compliance
+
+The correction preserves fail-closed testing behavior:
+
+- missing headers fail;
+- numeric headers fail;
+- array-valued headers fail;
+- only a string containing `noindex` passes.
+
+No production security control was relaxed. GitHub verification remains mandatory.

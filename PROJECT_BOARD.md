@@ -1,36 +1,35 @@
 # Phoenix Project Board
 
-## Verified
+## Verified / ratified
 
+- Governance Releases 1–3
+- Canonical Data Platform
+- Engineering Framework
+- Architecture, Security, and Product Foundations
+- Core Bootstrap and Production Stack
 - Identity Slice 1
 - Identity Slice 2 Security Foundation
 - Identity Slice 2 Phase B
 
 ## Current milestone
 
-**Identity Slice 2 Phase C v3.6.0 Release 1 — Candidate**
+**v3.6.1 Identity Slice 2 Phase C TypeScript Header Hotfix — Candidate**
 
-### Code gates
+## Trigger evidence
+
+- Core commit `7989ab9`
+- CodeQL: Passed
+- CI: Failed at strict TypeScript checks
+- Production Assurance Evidence: blocked by the same typecheck path
+
+## Required gates
 
 - CI
 - CodeQL
 - Production Assurance Evidence
-
-### Documentation gates
-
 - Documentation Check
 - Documentation Integrity
 
-### External assurance gates
+## External Phase C gates
 
-- real-browser and authenticator evidence;
-- actual provider delivery and alert evidence;
-- approved secret and key rotation drill;
-- production monitoring and paging evidence;
-- deployment backup/restore and incident exercise;
-- privacy/legal review;
-- independent penetration test.
-
-## Production readiness
-
-Blocked until all external assurance gates are closed.
+Real-browser/device Passkeys, real provider delivery, approved key rotation, operational alert delivery, deployment recovery, incident exercise, privacy/legal review, and independent penetration testing.

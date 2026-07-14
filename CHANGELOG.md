@@ -1,5 +1,18 @@
 # Changelog
 
+## 3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1 — 2026-07-14
+
+### Fixed
+
+- Narrowed the Fastify Inject `x-robots-tag` header to `string` before `assert.match`.
+- Preserved the Passkey harness `noindex` security assertion.
+- Recorded the shared CI and Production Assurance typecheck root cause.
+
+### Status
+
+- Candidate pending all GitHub workflow gates.
+
+
 ## 3.6.0-identity-slice2-phase-c-r1 — 2026-07-14
 
 ### Added

@@ -1,23 +1,21 @@
-# Update Guide — v3.6.0 Phase C Release 1
+# Update Guide — v3.6.1 TypeScript Hotfix
 
-This bundle is a clean snapshot for both repositories.
+This is a clean-snapshot release for both repositories.
 
 ## phoenix-core
 
-Preserve `.git`, remove every other file and directory, and copy the complete `phoenix-core` snapshot.
+Preserve `.git`, remove every other file and folder, and copy the complete `phoenix-core` snapshot.
 
 Commit:
 
-`feat(identity): implement Phase C production assurance foundation`
-
-Verify CI, CodeQL, and Production Assurance Evidence.
+`fix(test): narrow Passkey harness response header type`
 
 ## phoenix-docs
 
-Preserve `.git`, remove every other file and directory, and copy the complete `phoenix-docs` snapshot.
+Preserve `.git`, remove every other file and folder, and copy the complete `phoenix-docs` snapshot.
 
 Commit:
 
-`docs(identity): add Phase C production assurance release 1`
+`docs(ci): record Phase C TypeScript hotfix`
 
-Verify Documentation Check and Documentation Integrity.
+Push both commits and verify all five workflows.

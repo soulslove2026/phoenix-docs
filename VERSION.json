@@ -1,9 +1,10 @@
 {
-  "version": "3.6.0-identity-slice2-phase-c-r1",
-  "release": "Phoenix Identity Slice 2 Phase C \u2014 Production Assurance Foundation Release 1",
+  "version": "3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1",
+  "release": "Phoenix Identity Slice 2 Phase C \u2014 TypeScript Header Narrowing Hotfix Release 1",
   "release_date": "2026-07-14",
   "status": "candidate",
   "production_ready": false,
   "previous_verified_release": "3.5.1-identity-slice2-phase-b-verification",
-  "next_milestone": "Collect real-browser, provider, deployment, rotation, recovery, monitoring, privacy, and external security evidence"
+  "next_milestone": "Verify CI, CodeQL, Production Assurance Evidence, and both documentation workflows; then continue external Phase C evidence collection",
+  "previous_candidate_release": "3.6.0-identity-slice2-phase-c-r1"
 }

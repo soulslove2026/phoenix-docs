@@ -1,9 +1,16 @@
-# Update Manifest — v3.6.0 Phase C Release 1
+# Update Manifest — v3.6.1
 
 ## Core
 
-Browser validation, protected operations monitoring, key rotation, provider smoke testing, incident snapshots, backup/restore verification, artifact attestations, tests, workflows, and runbooks.
+- corrected `test/passkey-harness.test.ts`;
+- added `docs/PHASE_C_TYPESCRIPT_HEADER_HOTFIX.md`;
+- updated package, lockfile, README, version authority, manifest, and checksums.
 
 ## Documentation
 
-ID2-025 through ID2-034, release authority, roadmap, traceability, governance, integrity reports, manifests, and checksums.
+- added `releases/v3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1.md`;
+- updated release authority, reports, indexes, roadmap, integrity records, manifest, and checksums.
+
+## Functional impact
+
+Test-only strict-type correction. Production runtime behavior is unchanged.

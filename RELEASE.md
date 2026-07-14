@@ -1,12 +1,32 @@
 # Current Release
 
-## Phoenix Identity Slice 2 Phase C v3.6.0 — Production Assurance Foundation Release 1
+## Phoenix Identity Slice 2 Phase C v3.6.1 — TypeScript Header Narrowing Hotfix Release 1
 
-**Documentation version:** `3.6.0-identity-slice2-phase-c-r1`  
-**Core version:** `3.6.0`  
+**Documentation version:** `3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1`  
+**Core version:** `3.6.1`  
 **Status:** Candidate  
 **Production ready:** No
 
-Identity Slice 2 Phase B remains Verified. Phase C adds the tooling and governance needed to collect real production-assurance evidence.
+## Confirmed failure
 
-Required code workflows: CI, CodeQL, and Production Assurance Evidence. Required documentation workflows: Documentation Check and Documentation Integrity. External device, provider, secret-management, monitoring, recovery, legal, and penetration-test evidence remains mandatory.
+Core commit `7989ab9` passed CodeQL but failed `CI` at `Strict TypeScript checks`.
+
+Diagnostic:
+
+`test/passkey-harness.test.ts(12,16): TS2345`
+
+`Production Assurance Evidence` invokes the same strict typecheck through `npm run check`, so the same source defect blocked both workflows.
+
+## Correction
+
+The Passkey harness test now explicitly narrows `x-robots-tag` to a string before checking `noindex`.
+
+This retains the security expectation and rejects unexpected numeric, array-valued, or missing headers.
+
+## Required verification
+
+- CI
+- CodeQL
+- Production Assurance Evidence
+- Documentation Check
+- Documentation Integrity

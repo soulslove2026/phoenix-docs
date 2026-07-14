@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.6.0-identity-slice2-phase-c-r1",
-  "file_count": 290,
+  "repository_version": "3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1",
+  "file_count": 291,
   "files": [
     ".github/ISSUE_TEMPLATE/feature.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
@@ -288,6 +288,7 @@
     "releases/v3.5.0-identity-slice2-phase-b-release1.md",
     "releases/v3.5.1-identity-slice2-phase-b-verification.md",
     "releases/v3.6.0-identity-slice2-phase-c-release1.md",
+    "releases/v3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1.md",
     "scripts/check-repository.mjs",
     "templates/ADR_TEMPLATE.md",
     "templates/DOCUMENT_TEMPLATE.md",

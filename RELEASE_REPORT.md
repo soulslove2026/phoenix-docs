@@ -1,27 +1,35 @@
 # Release Report
 
-## Phoenix v3.6.0 Identity Slice 2 Phase C Release 1
+## Phoenix v3.6.1 Identity Slice 2 Phase C TypeScript Hotfix
 
 **Status:** Candidate  
-**Documentation version:** `3.6.0-identity-slice2-phase-c-r1`  
-**Core version:** `3.6.0`  
+**Documentation version:** `3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1`  
+**Core version:** `3.6.1`  
 **Production ready:** No
 
-## Implemented
+## Root cause
 
-- browser Passkey validation harness that cannot be enabled in production;
-- protected aggregate health and Prometheus metrics;
-- transactional encrypted-payload key-rotation tooling;
-- explicit provider smoke test;
-- privacy-preserving incident snapshot;
-- PostgreSQL 18 backup and isolated restore drill;
-- provenance and SBOM attestations;
-- exact authority, dependency governance, static security, audits, and clean-workspace enforcement.
+Fastify Inject response headers use the Node.js `OutgoingHttpHeader` union, while `assert.match` requires a string.
 
-## Pending verification
+## Security-preserving fix
+
+The test first requires `typeof robotsTag === "string"` and only then validates `/noindex/u`.
+
+No production route, authentication control, cryptographic operation, database migration, or deployment behavior was weakened.
+
+## Local verification
+
+- strict TypeScript check: passed;
+- unit tests: 33/33 passed;
+- production build: passed;
+- production dependency audit: 0 vulnerabilities;
+- full dependency audit: 0 vulnerabilities;
+- repository authority: passed;
+- security static checks: passed;
+- dependency governance: passed;
+- documentation integrity: passed;
+- CycloneDX SBOM validation: passed.
+
+## GitHub verification pending
 
 CI, CodeQL, Production Assurance Evidence, Documentation Check, and Documentation Integrity.
-
-## External exit gates
-
-Real-browser/device testing, actual notification provider delivery, deployment secret rotation, alert delivery, production recovery exercise, privacy/legal review, and independent penetration testing.

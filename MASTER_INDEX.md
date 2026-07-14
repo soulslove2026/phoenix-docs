@@ -232,3 +232,5 @@
 - [ID2-032 — Supply-Chain Provenance](docs/15_Identity_Slice2/032_Supply_Chain_Provenance.md)
 - [ID2-033 — Phase C ASVS and NIST Traceability](docs/15_Identity_Slice2/033_Phase_C_ASVS_and_NIST_Traceability.md)
 - [ID2-034 — Phase C Evidence and Exit Gates](docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md)
+
+- [v3.6.1 Phase C TypeScript Header Hotfix](releases/v3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1.md)

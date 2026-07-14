@@ -296,3 +296,8 @@ Identity Slice 2 Phase B passed CI, CodeQL, PostgreSQL integration, Docker, and 
 ## v3.6.0 Phase C Architecture Decision
 
 Production-assurance capabilities remain isolated adapters and operator tools around the modular monolith. The release is Candidate because external environment evidence is intentionally outside source-code authority.
+
+
+## v3.6.1 Header-Narrowing Decision
+
+Use explicit type narrowing rather than coercion. This keeps the test semantically strict and exposes unexpected Fastify/Node header shapes instead of hiding them.
