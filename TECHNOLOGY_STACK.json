@@ -1,5 +1,5 @@
 {
-  "version": "3.6.2",
+  "version": "3.7.0",
   "status": "ratified",
   "runtime": {
     "name": "Node.js",
@@ -49,5 +49,20 @@
     "database_recovery": "PostgreSQL 18 pg_dump/pg_restore isolated drill",
     "provenance": "GitHub actions/attest v4 with release archive and CycloneDX SBOM",
     "key_rotation": "transactional maintenance-window re-encryption"
+  },
+  "external_assurance_evidence": {
+    "schema": "phoenix.external-assurance-evidence.v1",
+    "required_kinds": [
+      "passkey_real_device",
+      "notification_provider_delivery",
+      "key_rotation_exercise",
+      "alert_delivery",
+      "recovery_drill",
+      "incident_response_exercise",
+      "privacy_legal_review",
+      "penetration_test"
+    ],
+    "repository_storage": "forbidden",
+    "completion_rule": "exactly one approved passed record per required kind"
   }
 }

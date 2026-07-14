@@ -1,14 +1,13 @@
-# Update Guide — v3.6.3 Internal Workflow Verification
+# Update Guide — v3.7.0
 
-This release updates `phoenix-docs` only.
+This is a clean snapshot for both repositories.
 
-1. Extract the ZIP.
-2. Copy the complete contents of `phoenix-docs` into the existing local documentation repository.
-3. Replace matching files.
-4. Commit:
+Core commit:
 
-`docs(verification): record Phase C internal workflow success`
+`feat(assurance): add external evidence collection kit`
 
-5. Push and verify Documentation Check and Documentation Integrity.
+Documentation commit:
 
-No `phoenix-core` change is included.
+`docs(assurance): govern external Phase C evidence collection`
+
+Preserve `.git`, replace every other file, push, and verify CI, CodeQL, Production Assurance Evidence, External Assurance Control Validation, Documentation Check, and Documentation Integrity.

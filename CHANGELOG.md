@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.7.0-identity-slice2-phase-c-external-assurance-kit-r1 — 2026-07-14
+
+### Added
+
+- Eight external-assurance evidence kinds.
+- Sanitized validation and repository quarantine.
+- Approval, artifact-hash, and completion rules.
+- Dedicated control-validation workflow.
+- ID2-037 through ID2-041.
+
+### Status
+
+- Candidate; real evidence remains uncollected.
+
+
 ## 3.6.3-identity-slice2-phase-c-internal-workflow-verification — 2026-07-14
 
 ### Verified

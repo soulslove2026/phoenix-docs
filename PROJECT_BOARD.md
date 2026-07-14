@@ -6,23 +6,16 @@
 - Identity Slice 1
 - Identity Slice 2 Security Foundation
 - Identity Slice 2 Phase B
-- Phase C automated internal workflow gates
+- Phase C internal automated workflow gates
 
 ## Current milestone
 
-**v3.6.3 Phase C Internal Workflow Verification**
+**v3.7.0 Phase C External Assurance Evidence Kit — Candidate**
 
-### Evidence
+## Next work
 
-- Core `d5ef049`: CI 56s, CodeQL 1m12s, Production Assurance Evidence 57s.
-- Docs `f2b9d07`: Documentation Check 8s, Documentation Integrity 12s.
+Execute and approve all eight real-world evidence classes. Tooling success alone does not close Phase C.
 
-## Current status
+## Production readiness
 
-**Phase C: Candidate**  
-**Internal automated gates: Verified**  
-**Production ready: No**
-
-## Next milestone
-
-External production-assurance evidence collection and independent review.
+Blocked.

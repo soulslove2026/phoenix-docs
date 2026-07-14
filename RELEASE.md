@@ -1,35 +1,15 @@
 # Current Release
 
-## Phoenix Identity Slice 2 Phase C v3.6.3 — Internal Workflow Verification
+## Phoenix Identity Slice 2 Phase C v3.7.0 — External Assurance Evidence Kit Release 1
 
-**Documentation version:** `3.6.3-identity-slice2-phase-c-internal-workflow-verification`  
-**Core version:** `3.6.2`  
-**Status:** Candidate — internal workflow gates verified  
+**Documentation version:** `3.7.0-identity-slice2-phase-c-external-assurance-kit-r1`  
+**Core version:** `3.7.0`  
+**Status:** Candidate  
+**Internal workflow gates:** Verified  
 **Production ready:** No
 
-## Core evidence
+## Scope
 
-- Repository: `soulslove2026/phoenix-core`
-- Branch: `main`
-- Commit: `d5ef049`
-- CI: Success in 56 seconds
-- CodeQL: Success in 1 minute 12 seconds
-- Production Assurance Evidence: Success in 57 seconds
+This release supplies governed templates, validation, quarantine, deterministic hashing, and completion assessment for the eight remaining external Phase C evidence classes.
 
-## Documentation evidence
-
-- Repository: `soulslove2026/phoenix-docs`
-- Branch: `main`
-- Commit: `f2b9d07`
-- Documentation Check: Success in 8 seconds
-- Documentation Integrity: Success in 12 seconds
-
-## Decision
-
-All internal Phase C workflow and documentation gates for v3.6.2 are verified.
-
-Phase C itself remains Candidate because external production-assurance evidence is still incomplete.
-
-## Next milestone
-
-Collect real-browser, real-device, provider, key-rotation, alerting, recovery, incident-response, privacy/legal, and independent penetration-test evidence.
+A green tooling workflow validates the evidence controls only. It does not replace real browser/device testing, provider delivery, operational exercises, legal approval, or independent penetration testing.

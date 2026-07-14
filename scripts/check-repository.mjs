@@ -1,89 +1,20 @@
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
-
-const fail = (message) => { console.error(message); process.exitCode = 1; };
-const read = (name) => fs.readFileSync(name, "utf8");
-const parse = (name) => JSON.parse(read(name));
-
-const required = [
-  "VERSION.json", "README.md", "RELEASE.md", "RELEASE_REPORT.md",
-  "MASTER_INDEX.md", "DOCUMENT_INDEX.md", "TRACEABILITY_MATRIX.md",
-  "GOVERNANCE_CHECKLIST.md", "CONSTITUTION_COMPLIANCE_REPORT.md",
-  "REPOSITORY_INTEGRITY_REPORT.md", "TECHNOLOGY_STACK.json",
-  "FILE_MANIFEST.json", "CHECKSUMS.sha256",
-  "releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md",
-  "docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md",
-];
-
-for (const file of required) if (!fs.existsSync(file)) fail(`Missing required file: ${file}`);
-if (process.exitCode) process.exit();
-
-const version = parse("VERSION.json");
-const manifest = parse("FILE_MANIFEST.json");
-const stack = parse("TECHNOLOGY_STACK.json");
-
-if (version.version !== "3.6.3-identity-slice2-phase-c-internal-workflow-verification") fail("VERSION authority invalid");
-if (version.status !== "candidate") fail("Phase C must remain Candidate");
-if (version.internal_workflow_gates !== "verified") fail("Internal workflow verification missing");
-if (version.production_ready !== false) fail("Production readiness must remain false");
-if (stack.version !== "3.6.2" || !stack.production_assurance) fail("Technology stack authority stale");
-
-for (const file of ["README.md", "RELEASE.md", "RELEASE_REPORT.md"]) {
-  const text = read(file);
-  if (!text.includes("3.6.3") || !text.toLowerCase().includes("candidate")) {
-    fail(`${file} authority stale`);
-  }
-}
-
-for (let index = 1; index <= 36; index += 1) {
-  const id = `ID2-${String(index).padStart(3, "0")}`;
-  if (!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`)) {
-    fail(`Missing traceability ${id}`);
-  }
-}
-
-if (!read("MASTER_INDEX.md").includes("releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md")) {
-  fail("MASTER_INDEX current release stale");
-}
-if (read("GOVERNANCE_CHECKLIST.md").includes("- [ ]")) {
-  fail("Governance checklist contains unresolved design items");
-}
-if (manifest.repository_version !== version.version) fail("Manifest version mismatch");
-
-const ignored = new Set([".git", "node_modules", "dist"]);
-function walk(directory = ".") {
-  const result = [];
-  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-    if (entry.isDirectory() && ignored.has(entry.name)) continue;
-    const full = path.join(directory, entry.name);
-    if (entry.isDirectory()) result.push(...walk(full));
-    else if (entry.isFile()) {
-      result.push(full.replace(/^\.\//, "").replaceAll("\\", "/"));
-    }
-  }
-  return result;
-}
-
-const actual = walk().filter((file) => file !== "CHECKSUMS.sha256").sort();
-const listed = [...manifest.files].sort();
-
-if (JSON.stringify(actual) !== JSON.stringify(listed)) {
-  const actualSet = new Set(actual);
-  const listedSet = new Set(listed);
-  console.error("Extra", actual.filter((file) => !listedSet.has(file)));
-  console.error("Missing", listed.filter((file) => !actualSet.has(file)));
-  fail("FILE_MANIFEST mismatch");
-}
-if (manifest.file_count !== listed.length) fail("Manifest count mismatch");
-
-for (const line of read("CHECKSUMS.sha256").trim().split("\n")) {
-  const match = /^([a-f0-9]{64})  (.+)$/.exec(line);
-  if (!match) { fail(`Invalid checksum ${line}`); continue; }
-  const digest = createHash("sha256").update(fs.readFileSync(match[2])).digest("hex");
-  if (digest !== match[1]) fail(`Checksum mismatch ${match[2]}`);
-}
-
-if (!process.exitCode) {
-  console.log("Documentation constitutional integrity checks passed.");
-}
+const fail=(message)=>{console.error(message);process.exitCode=1};
+const read=(name)=>fs.readFileSync(name,"utf8");
+const parse=(name)=>JSON.parse(read(name));
+const required=["VERSION.json","README.md","RELEASE.md","RELEASE_REPORT.md","MASTER_INDEX.md","DOCUMENT_INDEX.md","TRACEABILITY_MATRIX.md","GOVERNANCE_CHECKLIST.md","CONSTITUTION_COMPLIANCE_REPORT.md","REPOSITORY_INTEGRITY_REPORT.md","TECHNOLOGY_STACK.json","FILE_MANIFEST.json","CHECKSUMS.sha256","releases/v3.7.0-identity-slice2-phase-c-external-assurance-kit-release1.md","docs/15_Identity_Slice2/037_External_Assurance_Evidence_Kit.md","docs/15_Identity_Slice2/038_Real_World_Passkey_Test_Matrix.md","docs/15_Identity_Slice2/039_Notification_Provider_and_Alert_Delivery_Evidence.md","docs/15_Identity_Slice2/040_Key_Rotation_and_Recovery_Exercise_Evidence.md","docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md"];
+for(const file of required)if(!fs.existsSync(file))fail(`Missing required file: ${file}`);if(process.exitCode)process.exit();
+const version=parse("VERSION.json"),manifest=parse("FILE_MANIFEST.json"),stack=parse("TECHNOLOGY_STACK.json");
+if(version.version!=="3.7.0-identity-slice2-phase-c-external-assurance-kit-r1"||version.status!=="candidate"||version.production_ready!==false)fail("Release authority invalid");
+if(stack.version!=="3.7.0"||!stack.external_assurance_evidence)fail("Technology stack authority stale");
+for(const file of ["README.md","RELEASE.md","RELEASE_REPORT.md"]){const text=read(file);if(!text.includes("3.7.0")||!text.toLowerCase().includes("candidate"))fail(`${file} authority stale`)}
+for(let index=1;index<=41;index+=1){const id=`ID2-${String(index).padStart(3,"0")}`;if(!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`))fail(`Missing traceability ${id}`)}
+if(!read("MASTER_INDEX.md").includes("releases/v3.7.0-identity-slice2-phase-c-external-assurance-kit-release1.md"))fail("MASTER_INDEX stale");
+if(read("GOVERNANCE_CHECKLIST.md").includes("- [ ]"))fail("Governance checklist unresolved");
+if(manifest.repository_version!==version.version)fail("Manifest version mismatch");
+const ignored=new Set([".git","node_modules","dist"]);function walk(directory="."){const result=[];for(const entry of fs.readdirSync(directory,{withFileTypes:true})){if(entry.isDirectory()&&ignored.has(entry.name))continue;const full=path.join(directory,entry.name);if(entry.isDirectory())result.push(...walk(full));else if(entry.isFile())result.push(full.replace(/^\.\//,"").replaceAll("\\","/"))}return result}
+const actual=walk().filter(file=>file!=="CHECKSUMS.sha256").sort(),listed=[...manifest.files].sort();if(JSON.stringify(actual)!==JSON.stringify(listed)){const actualSet=new Set(actual),listedSet=new Set(listed);console.error("Extra",actual.filter(file=>!listedSet.has(file)));console.error("Missing",listed.filter(file=>!actualSet.has(file)));fail("FILE_MANIFEST mismatch")}if(manifest.file_count!==listed.length)fail("Manifest count mismatch");
+for(const line of read("CHECKSUMS.sha256").trim().split("\n")){const match=/^([a-f0-9]{64})  (.+)$/.exec(line);if(!match){fail(`Invalid checksum ${line}`);continue}const digest=createHash("sha256").update(fs.readFileSync(match[2])).digest("hex");if(digest!==match[1])fail(`Checksum mismatch ${match[2]}`)}
+if(!process.exitCode)console.log("Documentation constitutional integrity checks passed.");

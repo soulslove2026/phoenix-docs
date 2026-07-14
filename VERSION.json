@@ -1,15 +1,15 @@
 {
-  "version": "3.6.3-identity-slice2-phase-c-internal-workflow-verification",
-  "release": "Phoenix Identity Slice 2 Phase C \u2014 Internal Workflow Verification",
+  "version": "3.7.0-identity-slice2-phase-c-external-assurance-kit-r1",
+  "release": "Phoenix Identity Slice 2 Phase C \u2014 External Assurance Evidence Kit Release 1",
   "release_date": "2026-07-14",
   "status": "candidate",
   "production_ready": false,
   "previous_verified_release": "3.5.1-identity-slice2-phase-b-verification",
-  "next_milestone": "Identity Slice 2 Phase C \u2014 external production-assurance evidence collection",
+  "next_milestone": "Execute and approve all eight external assurance evidence classes",
   "previous_candidate_release": "3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1",
   "internal_workflow_gates": "verified",
   "verified_scope": "Phase C v3.6.2 GitHub workflow and documentation gates",
-  "core_version": "3.6.2",
+  "core_version": "3.7.0",
   "verification_evidence": {
     "phoenix_core": {
       "repository": "soulslove2026/phoenix-core",

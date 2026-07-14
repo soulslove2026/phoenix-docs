@@ -1,44 +1,26 @@
 # Release Report
 
-## Phoenix v3.6.3 Phase C Internal Workflow Verification
+## Phoenix v3.7.0 Phase C External Assurance Evidence Kit
 
-**Status:** Candidate — internal workflow gates verified  
-**Documentation version:** `3.6.3-identity-slice2-phase-c-internal-workflow-verification`  
-**Core version:** `3.6.2`  
+**Status:** Candidate  
+**Documentation version:** `3.7.0-identity-slice2-phase-c-external-assurance-kit-r1`  
+**Core version:** `3.7.0`  
 **Production ready:** No
 
-## Verified internal gates
+## Implemented
 
-Core commit `d5ef049` passed:
+- eight explicit external evidence kinds;
+- strict sanitized JSON schema;
+- secret and direct-identifier rejection;
+- redacted artifact SHA-256 requirements;
+- approval requirements for passed evidence;
+- per-kind semantic checks;
+- exact one-record-per-kind completion assessment;
+- external encrypted-directory requirement;
+- deterministic manifests and SHA-256 sums;
+- blocked repository templates;
+- dedicated tooling-validation workflow.
 
-- CI in 56 seconds;
-- CodeQL in 1 minute 12 seconds;
-- Production Assurance Evidence in 57 seconds.
+## Exit rule
 
-Documentation commit `f2b9d07` passed:
-
-- Documentation Check in 8 seconds;
-- Documentation Integrity in 12 seconds.
-
-## Verified internal scope
-
-- strict TypeScript checks;
-- unit and PostgreSQL integration tests;
-- production build;
-- compiled incident-safe snapshot execution;
-- Docker build;
-- repository authority and checksums;
-- security static checks;
-- dependency governance;
-- backup and isolated restore evidence workflow;
-- provenance and SBOM attestation workflow;
-- CodeQL;
-- documentation authority, indexes, traceability, and integrity.
-
-## Decision
-
-The Phase C production-assurance foundation has passed all currently automated internal gates.
-
-## Boundary
-
-This does not make Phoenix production-ready and does not close Phase C. External evidence remains mandatory.
+Phase C cannot close until all eight evidence kinds are genuine, passed, independently approved where required, and validated as a complete set.

@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.6.3-identity-slice2-phase-c-internal-workflow-verification`  
-**Current milestone:** Phase C internal workflow gates verified; external assurance remains open  
+**Current repository version:** `3.7.0-identity-slice2-phase-c-external-assurance-kit-r1`  
+**Current milestone:** Phase C external assurance evidence collection kit — Candidate  
 **Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
-**Next gate:** Real-world and independent Phase C assurance evidence  
+**Next gate:** Execute, validate, and approve all eight external evidence classes  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -94,3 +94,8 @@ Commit `c590f6e` showed that CI attempted to execute the compiled incident snaps
 - Core `d5ef049`: CI, CodeQL, and Production Assurance Evidence passed.
 - Docs `f2b9d07`: Documentation Check and Documentation Integrity passed.
 - Phase C remains Candidate pending external evidence.
+
+
+## v3.7.0 External Assurance Evidence Kit
+
+The remaining Phase C blockers now have governed sanitized schemas and tooling. This release does not claim that the real exercises have passed.

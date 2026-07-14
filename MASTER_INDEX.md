@@ -240,3 +240,10 @@
 
 - [ID2-036 — Phase C Internal Workflow Verification](docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md)
 - [v3.6.3 Phase C Internal Workflow Verification](releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md)
+
+- [ID2-037 — External Assurance Evidence Kit](docs/15_Identity_Slice2/037_External_Assurance_Evidence_Kit.md)
+- [ID2-038 — Real-World Passkey Test Matrix](docs/15_Identity_Slice2/038_Real_World_Passkey_Test_Matrix.md)
+- [ID2-039 — Notification Provider and Alert Delivery Evidence](docs/15_Identity_Slice2/039_Notification_Provider_and_Alert_Delivery_Evidence.md)
+- [ID2-040 — Key Rotation, Recovery, and Incident Exercise Evidence](docs/15_Identity_Slice2/040_Key_Rotation_and_Recovery_Exercise_Evidence.md)
+- [ID2-041 — Privacy, Legal, and Penetration Assurance](docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md)
+- [v3.7.0 Phase C External Assurance Evidence Kit](releases/v3.7.0-identity-slice2-phase-c-external-assurance-kit-release1.md)

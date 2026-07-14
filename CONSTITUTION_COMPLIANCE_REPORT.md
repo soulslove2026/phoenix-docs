@@ -66,3 +66,8 @@ CI retains production-equivalent compiled execution: build, existence proof, exe
 The Phase C foundation passed all automated code, security, recovery-evidence, attestation, and documentation gates.
 
 This evidence authorizes external assurance work but does not authorize production deployment. Production readiness remains false.
+
+
+## v3.7.0 External Assurance Evidence Compliance
+
+The release converts every remaining manual Phase C blocker into an explicit, sanitized, approval-bearing evidence record. It refuses to equate a green tooling workflow with actual production assurance.

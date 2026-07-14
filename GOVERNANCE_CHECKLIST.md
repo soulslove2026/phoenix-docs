@@ -12,3 +12,7 @@
 - [x] Compiled operational tools are built before CI or assurance execution.
 
 External browser, provider, deployment, monitoring, recovery, privacy/legal, and penetration-test evidence are release exit gates, not completed claims.
+
+- [x] Real external evidence is forbidden from source control.
+- [x] Passed evidence requires redacted artifacts and approvals.
+- [x] Phase C requires exactly one passed record for each of eight evidence kinds.

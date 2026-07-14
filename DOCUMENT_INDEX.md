@@ -146,3 +146,9 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-035 | Compiled Operational Tool Execution Order | `docs/15_Identity_Slice2/035_Compiled_Operational_Tool_Execution_Order.md` | Candidate | Level 2 |
 
 | ID2-036 | Phase C Internal Workflow Verification | `docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md` | Verified internal gate | Level 2 |
+
+| ID2-037 | External Assurance Evidence Kit | `docs/15_Identity_Slice2/037_External_Assurance_Evidence_Kit.md` | Candidate | Level 2 |
+| ID2-038 | Real-World Passkey Test Matrix | `docs/15_Identity_Slice2/038_Real_World_Passkey_Test_Matrix.md` | Candidate | Level 2 |
+| ID2-039 | Notification Provider and Alert Delivery Evidence | `docs/15_Identity_Slice2/039_Notification_Provider_and_Alert_Delivery_Evidence.md` | Candidate | Level 2 |
+| ID2-040 | Key Rotation, Recovery, and Incident Exercise Evidence | `docs/15_Identity_Slice2/040_Key_Rotation_and_Recovery_Exercise_Evidence.md` | Candidate | Level 2 |
+| ID2-041 | Privacy, Legal, and Penetration Assurance | `docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md` | Candidate | Level 2 |

@@ -139,3 +139,9 @@
 | ID2-035 | Build compiled operational tools before executing them | CI, assurance, dependency governance | Candidate |
 
 | ID2-036 | Verify all automated internal Phase C gates | GitHub Actions evidence for core and docs | Verified internal gate |
+
+| ID2-037 | Govern sanitized external evidence and exact completion | evidence module, CLI, templates, quarantine | Candidate |
+| ID2-038 | Prove real browser and authenticator Passkey behavior | Passkey evidence schema and matrix | Candidate |
+| ID2-039 | Prove real provider and alert delivery | provider and alert evidence records | Candidate |
+| ID2-040 | Prove rotation, recovery, and incident exercises | rotation, recovery, incident evidence records | Candidate |
+| ID2-041 | Prove privacy/legal approval and independent penetration assurance | review and penetration evidence records | Candidate |

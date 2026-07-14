@@ -310,3 +310,8 @@ Commands targeting `dist/` must be exercised only after the production build, wi
 ## v3.6.3 Internal Gate Decision
 
 All automated internal Phase C gates are green. The architecture decision is to preserve the current candidate implementation and proceed to real-world and independent assurance, rather than adding unverified production claims.
+
+
+## v3.7.0 Evidence Architecture Decision
+
+Real assurance evidence remains outside the repository. Phoenix stores only blocked templates and validation code; final bundles contain sanitized records, redacted artifact hashes, approvals, and deterministic checksums.
