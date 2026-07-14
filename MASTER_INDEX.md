@@ -237,3 +237,6 @@
 
 - [ID2-035 — Compiled Operational Tool Execution Order](docs/15_Identity_Slice2/035_Compiled_Operational_Tool_Execution_Order.md)
 - [v3.6.2 Phase C Compiled Tool Ordering Hotfix](releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md)
+
+- [ID2-036 — Phase C Internal Workflow Verification](docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md)
+- [v3.6.3 Phase C Internal Workflow Verification](releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md)

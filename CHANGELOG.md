@@ -1,5 +1,22 @@
 # Changelog
 
+## 3.6.3-identity-slice2-phase-c-internal-workflow-verification — 2026-07-14
+
+### Verified
+
+- Core CI passed on commit `d5ef049` in 56 seconds.
+- Core CodeQL passed on commit `d5ef049` in 1 minute 12 seconds.
+- Production Assurance Evidence passed on commit `d5ef049` in 57 seconds.
+- Documentation Check passed on commit `f2b9d07` in 8 seconds.
+- Documentation Integrity passed on commit `f2b9d07` in 12 seconds.
+
+### Boundary
+
+- Phase C remains Candidate.
+- Production readiness remains false.
+- External production-assurance evidence remains mandatory.
+
+
 ## 3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1 — 2026-07-14
 
 ### Fixed

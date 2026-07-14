@@ -306,3 +306,7 @@ Use explicit type narrowing rather than coercion. This keeps the test semantical
 ## v3.6.2 Compiled Operational Tool Decision
 
 Commands targeting `dist/` must be exercised only after the production build, with explicit file-existence proof.
+
+## v3.6.3 Internal Gate Decision
+
+All automated internal Phase C gates are green. The architecture decision is to preserve the current candidate implementation and proceed to real-world and independent assurance, rather than adding unverified production claims.

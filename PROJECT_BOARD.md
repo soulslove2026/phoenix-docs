@@ -6,13 +6,23 @@
 - Identity Slice 1
 - Identity Slice 2 Security Foundation
 - Identity Slice 2 Phase B
+- Phase C automated internal workflow gates
 
 ## Current milestone
 
-**v3.6.2 Phase C Compiled Tool Ordering Hotfix — Candidate**
+**v3.6.3 Phase C Internal Workflow Verification**
 
-Trigger commit `c590f6e`: CodeQL and Production Assurance passed; CI failed before the build-created snapshot module existed.
+### Evidence
 
-Required gates: CI, CodeQL, Production Assurance Evidence, Documentation Check, Documentation Integrity.
+- Core `d5ef049`: CI 56s, CodeQL 1m12s, Production Assurance Evidence 57s.
+- Docs `f2b9d07`: Documentation Check 8s, Documentation Integrity 12s.
 
-Production readiness remains false.
+## Current status
+
+**Phase C: Candidate**  
+**Internal automated gates: Verified**  
+**Production ready: No**
+
+## Next milestone
+
+External production-assurance evidence collection and independent review.

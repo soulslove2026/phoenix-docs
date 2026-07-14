@@ -1,15 +1,30 @@
-# Update Manifest — v3.6.2
+# Update Manifest — v3.6.3
 
-## Core
+## Added
 
-- corrected CI build ordering;
-- added compiled-file existence gate;
-- added ordering regression controls;
-- added hotfix documentation.
+- `releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md`
+- `docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md`
 
-## Documentation
+## Updated
 
-- added `releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md`;
-- added ID2-035;
-- reconciled Phase B statuses and Phase C traceability;
-- updated release authority, manifests, and checksums.
+- `VERSION.json`
+- `README.md`
+- `RELEASE.md`
+- `RELEASE_REPORT.md`
+- `CHANGELOG.md`
+- `MASTER_INDEX.md`
+- `DOCUMENT_INDEX.md`
+- `TRACEABILITY_MATRIX.md`
+- `PROJECT_BOARD.md`
+- `ENGINEERING_ROADMAP.md`
+- `ARCHITECT_NOTES.md`
+- `CONSTITUTION_COMPLIANCE_REPORT.md`
+- `REPOSITORY_INTEGRITY_REPORT.md`
+- `UPDATE_GUIDE.md`
+- `scripts/check-repository.mjs`
+- `FILE_MANIFEST.json`
+- `CHECKSUMS.sha256`
+
+## Scope
+
+Documentation-only verification of internal automated Phase C gates.

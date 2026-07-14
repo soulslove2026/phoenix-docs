@@ -144,3 +144,5 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-034 | Phase C Evidence and Exit Gates | `docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md` | Candidate | Level 2/selected Level 3 |
 
 | ID2-035 | Compiled Operational Tool Execution Order | `docs/15_Identity_Slice2/035_Compiled_Operational_Tool_Execution_Order.md` | Candidate | Level 2 |
+
+| ID2-036 | Phase C Internal Workflow Verification | `docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md` | Verified internal gate | Level 2 |

@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1`  
-**Current milestone:** Identity Slice 2 Phase C — Compiled Tool Ordering Hotfix Candidate  
+**Current repository version:** `3.6.3-identity-slice2-phase-c-internal-workflow-verification`  
+**Current milestone:** Phase C internal workflow gates verified; external assurance remains open  
 **Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
-**Next gate:** All five GitHub workflows for v3.6.2  
+**Next gate:** Real-world and independent Phase C assurance evidence  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -88,3 +88,9 @@ Commit `7989ab9` exposed a strict TypeScript error in the Passkey harness header
 ## v3.6.2 Compiled Tool Ordering Hotfix
 
 Commit `c590f6e` showed that CI attempted to execute the compiled incident snapshot before the production build. The corrected workflow builds first and verifies the compiled file.
+
+## v3.6.3 Internal Workflow Verification
+
+- Core `d5ef049`: CI, CodeQL, and Production Assurance Evidence passed.
+- Docs `f2b9d07`: Documentation Check and Documentation Integrity passed.
+- Phase C remains Candidate pending external evidence.

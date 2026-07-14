@@ -6,29 +6,14 @@ const fail = (message) => { console.error(message); process.exitCode = 1; };
 const read = (name) => fs.readFileSync(name, "utf8");
 const parse = (name) => JSON.parse(read(name));
 
-const phaseCNames = [
-  "Phase_C_Charter",
-  "Real_Browser_Passkey_Validation",
-  "Production_Notification_Provider_Validation",
-  "Operations_Monitoring_and_Alerting",
-  "Identity_Key_Rotation",
-  "Backup_Restore_and_Recovery",
-  "Incident_Response_and_Forensics",
-  "Supply_Chain_Provenance",
-  "Phase_C_ASVS_and_NIST_Traceability",
-  "Phase_C_Evidence_and_Exit_Gates",
-  "Compiled_Operational_Tool_Execution_Order",
-];
-
 const required = [
   "VERSION.json", "README.md", "RELEASE.md", "RELEASE_REPORT.md",
   "MASTER_INDEX.md", "DOCUMENT_INDEX.md", "TRACEABILITY_MATRIX.md",
   "GOVERNANCE_CHECKLIST.md", "CONSTITUTION_COMPLIANCE_REPORT.md",
   "REPOSITORY_INTEGRITY_REPORT.md", "TECHNOLOGY_STACK.json",
-  "FILE_MANIFEST.json", "CHECKSUMS.sha256", "releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md",
-  ...phaseCNames.map((name, index) =>
-    `docs/15_Identity_Slice2/${String(index + 25).padStart(3, "0")}_${name}.md`
-  ),
+  "FILE_MANIFEST.json", "CHECKSUMS.sha256",
+  "releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md",
+  "docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md",
 ];
 
 for (const file of required) if (!fs.existsSync(file)) fail(`Missing required file: ${file}`);
@@ -38,21 +23,32 @@ const version = parse("VERSION.json");
 const manifest = parse("FILE_MANIFEST.json");
 const stack = parse("TECHNOLOGY_STACK.json");
 
-if (version.version !== "3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1" || version.status !== "candidate" || version.production_ready !== false) {
-  fail("Release authority invalid");
-}
+if (version.version !== "3.6.3-identity-slice2-phase-c-internal-workflow-verification") fail("VERSION authority invalid");
+if (version.status !== "candidate") fail("Phase C must remain Candidate");
+if (version.internal_workflow_gates !== "verified") fail("Internal workflow verification missing");
+if (version.production_ready !== false) fail("Production readiness must remain false");
 if (stack.version !== "3.6.2" || !stack.production_assurance) fail("Technology stack authority stale");
 
 for (const file of ["README.md", "RELEASE.md", "RELEASE_REPORT.md"]) {
   const text = read(file);
-  if (!text.includes("3.6.2") || !text.toLowerCase().includes("candidate")) fail(`${file} authority stale`);
+  if (!text.includes("3.6.3") || !text.toLowerCase().includes("candidate")) {
+    fail(`${file} authority stale`);
+  }
 }
-for (let index = 1; index <= 35; index += 1) {
+
+for (let index = 1; index <= 36; index += 1) {
   const id = `ID2-${String(index).padStart(3, "0")}`;
-  if (!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`)) fail(`Missing traceability ${id}`);
+  if (!read("TRACEABILITY_MATRIX.md").includes(`| ${id} |`)) {
+    fail(`Missing traceability ${id}`);
+  }
 }
-if (!read("MASTER_INDEX.md").includes("releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md")) fail("MASTER_INDEX current release stale");
-if (read("GOVERNANCE_CHECKLIST.md").includes("- [ ]")) fail("Governance checklist contains unresolved design items");
+
+if (!read("MASTER_INDEX.md").includes("releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md")) {
+  fail("MASTER_INDEX current release stale");
+}
+if (read("GOVERNANCE_CHECKLIST.md").includes("- [ ]")) {
+  fail("Governance checklist contains unresolved design items");
+}
 if (manifest.repository_version !== version.version) fail("Manifest version mismatch");
 
 const ignored = new Set([".git", "node_modules", "dist"]);
@@ -62,13 +58,16 @@ function walk(directory = ".") {
     if (entry.isDirectory() && ignored.has(entry.name)) continue;
     const full = path.join(directory, entry.name);
     if (entry.isDirectory()) result.push(...walk(full));
-    else if (entry.isFile()) result.push(full.replace(/^\.\//, "").replaceAll("\\", "/"));
+    else if (entry.isFile()) {
+      result.push(full.replace(/^\.\//, "").replaceAll("\\", "/"));
+    }
   }
   return result;
 }
 
 const actual = walk().filter((file) => file !== "CHECKSUMS.sha256").sort();
 const listed = [...manifest.files].sort();
+
 if (JSON.stringify(actual) !== JSON.stringify(listed)) {
   const actualSet = new Set(actual);
   const listedSet = new Set(listed);
@@ -85,4 +84,6 @@ for (const line of read("CHECKSUMS.sha256").trim().split("\n")) {
   if (digest !== match[1]) fail(`Checksum mismatch ${match[2]}`);
 }
 
-if (!process.exitCode) console.log("Documentation constitutional integrity checks passed.");
+if (!process.exitCode) {
+  console.log("Documentation constitutional integrity checks passed.");
+}

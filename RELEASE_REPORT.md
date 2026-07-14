@@ -1,33 +1,44 @@
 # Release Report
 
-## Phoenix v3.6.2 Identity Slice 2 Phase C Compiled Tool Ordering Hotfix
+## Phoenix v3.6.3 Phase C Internal Workflow Verification
 
-**Status:** Candidate  
-**Documentation version:** `3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1`  
+**Status:** Candidate — internal workflow gates verified  
+**Documentation version:** `3.6.3-identity-slice2-phase-c-internal-workflow-verification`  
 **Core version:** `3.6.2`  
 **Production ready:** No
 
-## Root cause
+## Verified internal gates
 
-CI invoked `npm run incident:snapshot` before `npm run build`. The command correctly targets `dist/scripts/security-incident-snapshot.js`, which had not been created.
+Core commit `d5ef049` passed:
 
-## Corrective design
+- CI in 56 seconds;
+- CodeQL in 1 minute 12 seconds;
+- Production Assurance Evidence in 57 seconds.
 
-- production build precedes incident-snapshot validation;
-- compiled-file existence is asserted;
-- the compiled production path remains mandatory;
-- CI and assurance ordering is governed automatically.
+Documentation commit `f2b9d07` passed:
 
-## Local verification
+- Documentation Check in 8 seconds;
+- Documentation Integrity in 12 seconds.
 
-- strict TypeScript: passed;
-- unit tests: 33/33 passed;
-- production build: passed;
-- compiled snapshot artifact exists and parses;
-- repository, security, dependency, and documentation checks passed;
-- production and full dependency audits: 0 vulnerabilities;
-- YAML validation: passed.
+## Verified internal scope
 
-## GitHub verification pending
+- strict TypeScript checks;
+- unit and PostgreSQL integration tests;
+- production build;
+- compiled incident-safe snapshot execution;
+- Docker build;
+- repository authority and checksums;
+- security static checks;
+- dependency governance;
+- backup and isolated restore evidence workflow;
+- provenance and SBOM attestation workflow;
+- CodeQL;
+- documentation authority, indexes, traceability, and integrity.
 
-All five workflow gates.
+## Decision
+
+The Phase C production-assurance foundation has passed all currently automated internal gates.
+
+## Boundary
+
+This does not make Phoenix production-ready and does not close Phase C. External evidence remains mandatory.

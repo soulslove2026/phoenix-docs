@@ -1,10 +1,64 @@
 {
-  "version": "3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1",
-  "release": "Phoenix Identity Slice 2 Phase C \u2014 Compiled Tool Ordering Hotfix Release 1",
+  "version": "3.6.3-identity-slice2-phase-c-internal-workflow-verification",
+  "release": "Phoenix Identity Slice 2 Phase C \u2014 Internal Workflow Verification",
   "release_date": "2026-07-14",
   "status": "candidate",
   "production_ready": false,
   "previous_verified_release": "3.5.1-identity-slice2-phase-b-verification",
-  "next_milestone": "Verify all five GitHub workflows for v3.6.2",
-  "previous_candidate_release": "3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1"
+  "next_milestone": "Identity Slice 2 Phase C \u2014 external production-assurance evidence collection",
+  "previous_candidate_release": "3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1",
+  "internal_workflow_gates": "verified",
+  "verified_scope": "Phase C v3.6.2 GitHub workflow and documentation gates",
+  "core_version": "3.6.2",
+  "verification_evidence": {
+    "phoenix_core": {
+      "repository": "soulslove2026/phoenix-core",
+      "branch": "main",
+      "commit": "d5ef049",
+      "workflows": [
+        {
+          "name": "CI",
+          "result": "success",
+          "duration_seconds": 56
+        },
+        {
+          "name": "CodeQL",
+          "result": "success",
+          "duration_seconds": 72
+        },
+        {
+          "name": "Production Assurance Evidence",
+          "result": "success",
+          "duration_seconds": 57
+        }
+      ]
+    },
+    "phoenix_docs": {
+      "repository": "soulslove2026/phoenix-docs",
+      "branch": "main",
+      "commit": "f2b9d07",
+      "workflows": [
+        {
+          "name": "Documentation Check",
+          "result": "success",
+          "duration_seconds": 8
+        },
+        {
+          "name": "Documentation Integrity",
+          "result": "success",
+          "duration_seconds": 12
+        }
+      ]
+    }
+  },
+  "remaining_phase_c_gates": [
+    "real-browser and real-device Passkey evidence",
+    "actual production notification-provider delivery",
+    "approved key-rotation exercise",
+    "operational alert-delivery evidence",
+    "deployment backup-and-restore exercise",
+    "incident-response exercise",
+    "privacy and legal approval",
+    "independent penetration testing"
+  ]
 }

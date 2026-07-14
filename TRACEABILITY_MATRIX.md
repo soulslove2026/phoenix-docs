@@ -137,3 +137,5 @@
 | ID2-033 | Map Phase C to ASVS and NIST assurance | traceability document | Candidate |
 | ID2-034 | Keep external evidence and exit gates explicit | evidence and exit-gate document | Candidate |
 | ID2-035 | Build compiled operational tools before executing them | CI, assurance, dependency governance | Candidate |
+
+| ID2-036 | Verify all automated internal Phase C gates | GitHub Actions evidence for core and docs | Verified internal gate |

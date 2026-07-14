@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1",
-  "file_count": 293,
+  "repository_version": "3.6.3-identity-slice2-phase-c-internal-workflow-verification",
+  "file_count": 295,
   "files": [
     ".github/ISSUE_TEMPLATE/feature.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
@@ -238,6 +238,7 @@
     "docs/15_Identity_Slice2/033_Phase_C_ASVS_and_NIST_Traceability.md",
     "docs/15_Identity_Slice2/034_Phase_C_Evidence_and_Exit_Gates.md",
     "docs/15_Identity_Slice2/035_Compiled_Operational_Tool_Execution_Order.md",
+    "docs/15_Identity_Slice2/036_Phase_C_Internal_Workflow_Verification.md",
     "docs/15_Repository_Reconciliation/000_READ_FIRST.md",
     "docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md",
     "docs/15_Repository_Reconciliation/002_Findings_and_Corrections.md",
@@ -291,6 +292,7 @@
     "releases/v3.6.0-identity-slice2-phase-c-release1.md",
     "releases/v3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1.md",
     "releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md",
+    "releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md",
     "scripts/check-repository.mjs",
     "templates/ADR_TEMPLATE.md",
     "templates/DOCUMENT_TEMPLATE.md",

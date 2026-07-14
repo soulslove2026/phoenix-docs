@@ -1,13 +1,14 @@
-# Update Guide — v3.6.2
+# Update Guide — v3.6.3 Internal Workflow Verification
 
-This is a clean snapshot for both repositories.
+This release updates `phoenix-docs` only.
 
-Core commit:
+1. Extract the ZIP.
+2. Copy the complete contents of `phoenix-docs` into the existing local documentation repository.
+3. Replace matching files.
+4. Commit:
 
-`fix(ci): build compiled operational tools before execution`
+`docs(verification): record Phase C internal workflow success`
 
-Documentation commit:
+5. Push and verify Documentation Check and Documentation Integrity.
 
-`docs(ci): record compiled tool ordering hotfix`
-
-Preserve `.git`, replace every other repository file, push, and verify all five workflows.
+No `phoenix-core` change is included.
