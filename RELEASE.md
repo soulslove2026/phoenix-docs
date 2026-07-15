@@ -1,12 +1,11 @@
 # Current Release
 
-## Phoenix Identity Slice 2 Phase C v3.7.1 — External Evidence Provenance Reconciliation Release 1
+## Phoenix Identity Slice 2 Phase C — Staging Foundation Verification Release 1
 
-**Documentation version:** `3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1`  
-**Core version:** `3.7.1`  
-**Status:** Candidate  
+**Documentation version:** `3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1`  
+**Core version:** `3.8.0`  
+**Verified core commit:** `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`  
+**Status:** Verified staging foundation; Phase C Candidate  
 **Production ready:** No
 
-This release reconciles evidence truthfulness after a real-device Windows Hello Passkey exercise succeeded in `local-compose`. Local evidence is now valid but explicitly non-qualifying for Phase C closure.
-
-The next gate is a governed HTTPS staging environment and a repeated real-device Passkey registration/authentication exercise using staging RP/origin configuration, independent secrets, database, observability, and sanitized evidence.
+All five required core workflows passed on the exact commit above. This release records internal verification only; real HTTPS staging deployment and qualifying external evidence remain pending.

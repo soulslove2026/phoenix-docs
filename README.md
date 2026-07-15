@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1`  
-**Current milestone:** Phase C external evidence provenance reconciliation — Candidate  
-**Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
-**Next gate:** Build governed staging and repeat the real-device Passkey exercise there  
+**Current repository version:** `3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1`  
+**Current milestone:** Phase C Staging Assurance Foundation — Candidate  
+**Previous verified milestone:** v3.7.1 core and documentation workflows  
+**Next gate:** Deploy the verified immutable image behind a real HTTPS staging origin and repeat the Passkey exercise  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -104,3 +104,13 @@ The remaining Phase C blockers now have governed sanitized schemas and tooling. 
 ## v3.7.1 Evidence Provenance Reconciliation
 
 The first real-device Windows Hello exercise succeeded in `local-compose`. Phoenix now records that result truthfully as local passed engineering evidence while preventing it from closing the staging/production assurance gate. The assessment exposes environment mismatches through `nonQualifyingKinds`.
+
+
+## v3.8.1 Staging Foundation Verification
+
+Phoenix now defines a fail-closed staging contract, independent secret-file inputs, immutable deployment identity, a provider-neutral deployment model, sanitized preflight and smoke tooling, and governed Passkey evidence procedure. The release prepares staging; it does not claim that staging has been deployed or that any new external-assurance record has passed.
+
+
+## Verified core authority
+
+All five required core workflows passed at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`. This verifies the staging foundation internally but does not claim a real staging deployment or production readiness.

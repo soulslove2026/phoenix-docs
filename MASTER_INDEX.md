@@ -250,3 +250,14 @@
 
 - [ID2-042 — External Evidence Provenance Reconciliation](docs/15_Identity_Slice2/042_External_Evidence_Provenance_Reconciliation.md)
 - [v3.7.1 Phase C Evidence Provenance Reconciliation](releases/v3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1.md)
+
+## Staging Assurance Foundation
+
+- [ID2-043 — Staging Assurance Foundation](docs/15_Identity_Slice2/043_Staging_Assurance_Foundation.md)
+- [ID2-044 — Staging Passkey Assurance Procedure](docs/15_Identity_Slice2/044_Staging_Passkey_Assurance_Procedure.md)
+- [CLOUD-001 — Governed Staging Baseline](docs/15_Cloud/001_Governed_Staging_Baseline.md)
+- [DEP-001 — Staging Deployment Runbook](docs/17_Deployment/001_Staging_Deployment_Runbook.md)
+- [v3.8.0 Staging Assurance Foundation Release 1](releases/v3.8.0-identity-slice2-phase-c-staging-assurance-foundation-r1.md)
+
+- [v3.8.1 Staging Foundation Verification Release 1](releases/3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1.md)
+- [ID2-045 Staging Foundation Workflow Verification](docs/15_Identity_Slice2/045_Staging_Foundation_Workflow_Verification.md)

@@ -320,3 +320,20 @@ Real assurance evidence remains outside the repository. Phoenix stores only bloc
 ## v3.7.1 Evidence Provenance Decision
 
 Evidence validity and closure eligibility are separate concepts. The validator accepts truthful local provenance; the assessment applies an evidence-kind environment matrix and reports non-qualifying records explicitly.
+
+
+## Staging Assurance Foundation — 2026-07-15
+
+### Approved with conditions
+
+Phoenix adopts a provider-neutral staging baseline before selecting a cloud vendor. The initial topology is one immutable Phoenix Core artifact and optional worker, PostgreSQL 18 on an internal data network, a reviewed HTTPS edge, independent environment secrets, and explicit deployment identity.
+
+### Conditions
+
+1. The application artifact is promoted, not rebuilt per environment.
+2. Staging requires HTTPS, one trusted proxy hop, protected operations monitoring, a non-local WebAuthn RP ID, and HTTPS origins.
+3. Secret-file inputs are used for governed deployment; no live secret enters source control.
+4. The database is not publicly exposed.
+5. The Passkey harness is time-bounded and disabled outside an approved ceremony.
+6. Provider selection requires a separate decision scorecard and cost/security review.
+7. A green workflow does not prove a real staging deployment or close external assurance.

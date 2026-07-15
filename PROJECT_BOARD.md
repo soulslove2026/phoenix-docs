@@ -8,19 +8,24 @@
 - Identity Slice 2 Phase B
 - Phase C internal automated workflow gates
 - Local real-device Windows Hello Passkey engineering validation
+- v3.7.1 evidence provenance reconciliation workflows
 
 ## Current milestone
 
-**v3.7.1 Phase C Evidence Provenance Reconciliation — Candidate**
+**v3.8.0 Phase C Staging Assurance Foundation — Candidate**
 
 ## Current conclusion
 
-The local Passkey evidence is passed and truthful, but it is non-qualifying for external-assurance closure.
+The repository now contains the governed staging contract and deployment tooling. No real staging deployment or staging-qualified Passkey evidence is claimed.
 
 ## Next work
 
-Deploy governed staging and repeat Passkey registration/authentication there. Then continue the remaining seven real-world evidence classes.
+Verify v3.8.0 workflows, select a controlled HTTPS staging domain and host, deploy the immutable artifact, run preflight/smoke checks, and repeat Passkey registration/authentication.
 
 ## Production readiness
 
 Blocked.
+
+## v3.8.1 Staging Foundation Verification — Verified internal gate
+
+All five required core workflows passed at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`. Real HTTPS staging deployment and qualifying evidence remain pending.

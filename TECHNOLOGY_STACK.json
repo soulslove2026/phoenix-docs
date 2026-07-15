@@ -1,5 +1,5 @@
 {
-  "version": "3.7.1",
+  "version": "3.8.0",
   "status": "ratified",
   "runtime": {
     "name": "Node.js",
@@ -72,5 +72,17 @@
       "external"
     ],
     "local_evidence": "valid engineering evidence but never closure-qualifying"
+  },
+  "staging_assurance": {
+    "environment_contract": "fail-closed production-like staging",
+    "secret_delivery": "absolute mounted files or direct local values, mutually exclusive",
+    "deployment_model": "provider-neutral OCI plus PostgreSQL behind reviewed HTTPS edge",
+    "deployment_identity": [
+      "deploymentId",
+      "region",
+      "source commit"
+    ],
+    "preflight": "sanitized compiled configuration assessment",
+    "smoke": "HTTPS health/readiness/security-header/deployment-identity checks"
   }
 }

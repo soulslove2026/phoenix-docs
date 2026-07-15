@@ -1,25 +1,18 @@
 # Release Report
 
-## Phoenix v3.7.1 Phase C Evidence Provenance Reconciliation
+## Phoenix v3.8.1 Staging Foundation Verification
 
 **Date:** 2026-07-15  
-**Documentation version:** `3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1`  
-**Core version:** `3.7.1`  
-**Status:** Candidate  
+**Documentation version:** `3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1`  
+**Core version:** `3.8.0`  
+**Core commit:** `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`  
+**Status:** Verified staging foundation / Candidate phase  
 **Production ready:** No
 
-## Verified finding
+## Result
 
-The local Windows Hello exercise completed Passkey registration and authentication with HTTP 200 verification responses. Its actual environment was `local-compose`, not staging.
+CI, CodeQL, Production Assurance Evidence, External Assurance Control Validation, and Staging Foundation Validation all passed on the same immutable commit. Repository line-ending, checksum, Compose-contract, and Passkey-harness test reconciliation is complete.
 
-## Implemented correction
+## Remaining boundary
 
-- evidence validation accepts `local`;
-- final assessment reports passed-but-environment-ineligible records in `nonQualifyingKinds`;
-- closure environments are explicit per evidence kind;
-- recovery-drill templates use `recovery`;
-- local evidence cannot create a production-readiness claim.
-
-## Remaining gate
-
-Repeat the Passkey exercise in governed staging. The other seven external assurance classes also remain open.
+No real HTTPS staging deployment has yet been completed. Staging-qualified Passkey evidence and the remaining external-assurance records are still pending.

@@ -147,3 +147,10 @@
 | ID2-041 | Prove privacy/legal approval and independent penetration assurance | review and penetration evidence records | Candidate |
 
 | ID2-042 | Preserve truthful evidence provenance and environment-qualified closure | evidence validator, closure matrix, release reconciliation | Candidate |
+
+| ID2-043 | Enforce a governed production-like staging contract without claiming deployment | config validation, secret files, deployment identity, Compose model, preflight/smoke | Candidate |
+| ID2-044 | Produce qualifying staging Passkey evidence through an approved ceremony | staging deployment, harness window, WebAuthn verification, sanitized evidence | Pending real staging exercise |
+| CLOUD-001 | Keep staging provider-neutral, isolated, and artifact-promoted | cloud baseline and deployment model | Candidate |
+| DEP-001 | Make staging deployment observable, reversible, and evidence-bound | deployment runbook and rollback steps | Candidate |
+
+| ID2-045 | Verify staging foundation CI, security, assurance, and repository integrity on one immutable commit | five GitHub workflows at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b` | Verified internal gate |

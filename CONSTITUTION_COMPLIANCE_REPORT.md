@@ -76,3 +76,22 @@ The release converts every remaining manual Phase C blocker into an explicit, sa
 ## v3.7.1 Evidence Provenance Reconciliation Compliance
 
 The reconciliation enforces truth over convenience. Local evidence is recorded as local, remains useful as passed engineering evidence, and is prevented from closing a staging or production gate. Candidate status and production blockers remain intact.
+
+## v3.8.0 Staging Assurance Foundation Compliance
+
+The release follows evidence over assertion and staged delivery:
+
+- staging differences are explicit runtime configuration rather than code branches;
+- security-critical staging values fail closed;
+- secret files, database, data, RP/origin, and operations credentials are environment-isolated;
+- immutable deployment identity links runtime evidence to source;
+- the database remains private and the application is exposed only through a reviewed HTTPS edge;
+- preflight and smoke success are not treated as a completed real-device ceremony;
+- provider selection and production approval remain separate decisions;
+- Candidate status and `production_ready=false` are preserved.
+
+GitHub workflow verification and an actual staging deployment remain required before staging evidence may be collected.
+
+## v3.8.1 Staging Foundation Verification Compliance
+
+The same immutable core commit `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b` passed CI, CodeQL, production-assurance, external-assurance-control, and staging-foundation validation. No deployment or production-readiness claim is made beyond the evidence.

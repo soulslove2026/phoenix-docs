@@ -23,12 +23,15 @@ You are working on Phoenix, an AI-native social platform designed for phased gro
 8. Report conflicts rather than silently inventing rules.
 
 ## Technology Baseline
-- Mobile: Flutter
-- Web/Admin: Next.js
-- Backend: NestJS
-- Primary database: PostgreSQL
-- Cache/presence/ranking: Redis
-- Realtime: WebSocket
-- Event transport: Kafka-compatible abstraction when justified
-- Media: S3-compatible object storage
-- Voice: provider abstraction supporting LiveKit, Agora, or equivalent
+- Runtime: Node.js 24 LTS
+- Language: TypeScript 5.9
+- Backend framework: Fastify 5
+- Primary database: PostgreSQL 18
+- API: REST, JSON Schema, OpenAPI
+- Async baseline: PostgreSQL transactional outbox and idempotent worker
+- Delivery: OCI containers and GitHub Actions
+- Observability: OpenTelemetry-compatible structured telemetry
+- Architecture: bounded-context modular monolith with selective future extraction
+
+## Current Milestone
+Phoenix v3.8.0 Staging Assurance Foundation is Candidate. The next evidence-bearing action is a real HTTPS staging deployment followed by a real-device Passkey ceremony. Do not claim staging, external-assurance completion, or production readiness from templates or CI alone.

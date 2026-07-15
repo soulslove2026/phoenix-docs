@@ -154,3 +154,10 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-041 | Privacy, Legal, and Penetration Assurance | `docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md` | Candidate | Level 2 |
 
 | ID2-042 | External Evidence Provenance Reconciliation | `docs/15_Identity_Slice2/042_External_Evidence_Provenance_Reconciliation.md` | Candidate | Level 2 |
+
+| ID2-043 | Staging Assurance Foundation | `docs/15_Identity_Slice2/043_Staging_Assurance_Foundation.md` | Candidate | Level 2/selected Level 3 |
+| ID2-044 | Staging Passkey Assurance Procedure | `docs/15_Identity_Slice2/044_Staging_Passkey_Assurance_Procedure.md` | Candidate | Level 2/selected Level 3 |
+| CLOUD-001 | Governed Staging Baseline | `docs/15_Cloud/001_Governed_Staging_Baseline.md` | Candidate | Level 2 |
+| DEP-001 | Staging Deployment Runbook | `docs/17_Deployment/001_Staging_Deployment_Runbook.md` | Candidate | Level 2 |
+
+| ID2-045 | Staging Foundation Workflow Verification | `docs/15_Identity_Slice2/045_Staging_Foundation_Workflow_Verification.md` | Verified internal gate | Level 2 |

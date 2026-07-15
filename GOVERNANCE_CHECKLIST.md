@@ -16,3 +16,10 @@ External browser, provider, deployment, monitoring, recovery, privacy/legal, and
 - [x] Real external evidence is forbidden from source control.
 - [x] Passed evidence requires redacted artifacts and approvals.
 - [x] Phase C requires exactly one passed record for each of eight evidence kinds.
+- [x] Staging is an explicit fail-closed environment identity.
+- [x] Staging requires HTTPS posture, deployment identity, database, operations monitoring, non-local RP ID, and HTTPS origins.
+- [x] Secret-file inputs are separated from source control and direct values.
+- [x] The provider-neutral deployment model does not expose PostgreSQL publicly.
+- [x] Preflight and smoke reports are sanitized and do not claim a real Passkey ceremony.
+- [x] Cloud-provider selection remains a separate reviewed decision.
+- [x] v3.8.0 remains Candidate and production readiness remains false.

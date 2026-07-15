@@ -1,17 +1,25 @@
-# Update Manifest — v3.7.1
+# Update Manifest — v3.8.0
 
 ## Core
 
-- admit truthful `local` evidence provenance;
-- add evidence-kind closure-environment policy;
-- report `nonQualifyingKinds`;
-- correct recovery-drill template environment;
-- add tests for local and recovery qualification;
-- include a governed local-evidence reconciliation helper;
+- validate explicit runtime environments;
+- enforce production-like staging controls;
+- support mutually exclusive secret-file inputs;
+- add deployment identity to logs and health/readiness;
+- add staging preflight and remote smoke tooling;
+- add provider-neutral staging Compose model;
+- add Staging Foundation Validation workflow;
 - preserve Candidate and `production_ready=false`.
 
 ## Documentation
 
-- `releases/v3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1.md`;
-- `ID2-042 — External Evidence Provenance Reconciliation`;
-- update release authority, indexes, traceability, roadmap, project board, manifests, and checksums.
+- add v3.8.0 release record;
+- add ID2-043 and ID2-044;
+- activate Cloud and Deployment staging baseline documents;
+- synchronize release authority, indexes, traceability, roadmap, manifests, and checksums.
+
+## v3.8.1 verification update
+
+- record verified core commit `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`;
+- add ID2-045 and the v3.8.1 release record;
+- preserve Candidate / production-ready false status.

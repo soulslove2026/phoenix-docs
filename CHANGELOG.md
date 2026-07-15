@@ -1,4 +1,26 @@
+## 3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1 — 2026-07-15
+
+- Recorded successful completion of all five required core workflows at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`.
+- Reconciled CI Passkey-harness behavior without weakening environment restrictions.
+- Recorded staging Compose and repository reproducibility fixes.
+- Added ID2-045 workflow-verification authority.
+- Kept Phase C Candidate and production readiness false.
+
 # Changelog
+
+## 3.8.0-identity-slice2-phase-c-staging-assurance-foundation-r1 — 2026-07-15
+
+### Added
+
+- Fail-closed governed staging runtime contract.
+- Secret-file loading, immutable deployment identity, and production-like WebAuthn/TLS/operations policy.
+- Provider-neutral staging deployment model, preflight, remote smoke tooling, and validation workflow.
+- ID2-043, ID2-044, CLOUD-001, and DEP-001.
+
+### Boundary
+
+- No actual staging deployment or new passed external-assurance record is claimed.
+- Candidate; production readiness remains false.
 
 ## 3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1 — 2026-07-15
 
