@@ -1,5 +1,5 @@
 {
-  "version": "3.7.0",
+  "version": "3.7.1",
   "status": "ratified",
   "runtime": {
     "name": "Node.js",
@@ -63,6 +63,14 @@
       "penetration_test"
     ],
     "repository_storage": "forbidden",
-    "completion_rule": "exactly one approved passed record per required kind"
+    "completion_rule": "exactly one approved passed record per required kind, in an environment authorized for that evidence kind",
+    "accepted_environments": [
+      "local",
+      "staging",
+      "production",
+      "recovery",
+      "external"
+    ],
+    "local_evidence": "valid engineering evidence but never closure-qualifying"
   }
 }

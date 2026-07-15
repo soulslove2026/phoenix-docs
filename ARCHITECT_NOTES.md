@@ -315,3 +315,8 @@ All automated internal Phase C gates are green. The architecture decision is to 
 ## v3.7.0 Evidence Architecture Decision
 
 Real assurance evidence remains outside the repository. Phoenix stores only blocked templates and validation code; final bundles contain sanitized records, redacted artifact hashes, approvals, and deterministic checksums.
+
+
+## v3.7.1 Evidence Provenance Decision
+
+Evidence validity and closure eligibility are separate concepts. The validator accepts truthful local provenance; the assessment applies an evidence-kind environment matrix and reports non-qualifying records explicitly.

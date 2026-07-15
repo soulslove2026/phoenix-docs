@@ -1,15 +1,12 @@
 # Current Release
 
-## Phoenix Identity Slice 2 Phase C v3.7.0 — External Assurance Evidence Kit Release 1
+## Phoenix Identity Slice 2 Phase C v3.7.1 — External Evidence Provenance Reconciliation Release 1
 
-**Documentation version:** `3.7.0-identity-slice2-phase-c-external-assurance-kit-r1`  
-**Core version:** `3.7.0`  
+**Documentation version:** `3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1`  
+**Core version:** `3.7.1`  
 **Status:** Candidate  
-**Internal workflow gates:** Verified  
 **Production ready:** No
 
-## Scope
+This release reconciles evidence truthfulness after a real-device Windows Hello Passkey exercise succeeded in `local-compose`. Local evidence is now valid but explicitly non-qualifying for Phase C closure.
 
-This release supplies governed templates, validation, quarantine, deterministic hashing, and completion assessment for the eight remaining external Phase C evidence classes.
-
-A green tooling workflow validates the evidence controls only. It does not replace real browser/device testing, provider delivery, operational exercises, legal approval, or independent penetration testing.
+The next gate is a governed HTTPS staging environment and a repeated real-device Passkey registration/authentication exercise using staging RP/origin configuration, independent secrets, database, observability, and sanitized evidence.

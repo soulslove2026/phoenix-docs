@@ -1,6 +1,6 @@
 {
-  "repository_version": "3.7.0-identity-slice2-phase-c-external-assurance-kit-r1",
-  "file_count": 301,
+  "repository_version": "3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1",
+  "file_count": 303,
   "files": [
     ".github/ISSUE_TEMPLATE/feature.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
@@ -244,6 +244,7 @@
     "docs/15_Identity_Slice2/039_Notification_Provider_and_Alert_Delivery_Evidence.md",
     "docs/15_Identity_Slice2/040_Key_Rotation_and_Recovery_Exercise_Evidence.md",
     "docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md",
+    "docs/15_Identity_Slice2/042_External_Evidence_Provenance_Reconciliation.md",
     "docs/15_Repository_Reconciliation/000_READ_FIRST.md",
     "docs/15_Repository_Reconciliation/001_Reconciliation_Charter.md",
     "docs/15_Repository_Reconciliation/002_Findings_and_Corrections.md",
@@ -299,6 +300,7 @@
     "releases/v3.6.2-identity-slice2-phase-c-compiled-tool-ordering-hotfix-r1.md",
     "releases/v3.6.3-identity-slice2-phase-c-internal-workflow-verification.md",
     "releases/v3.7.0-identity-slice2-phase-c-external-assurance-kit-release1.md",
+    "releases/v3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1.md",
     "scripts/check-repository.mjs",
     "templates/ADR_TEMPLATE.md",
     "templates/DOCUMENT_TEMPLATE.md",

@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1 — 2026-07-15
+
+### Corrected
+
+- Added truthful `local` provenance for controlled developer-machine evidence.
+- Added environment-qualified closure assessment through `nonQualifyingKinds`.
+- Corrected recovery-drill templates to use the `recovery` environment.
+- Added ID2-042 and synchronized release authority, indexes, traceability, manifests, and checksums.
+
+### Status
+
+- Local Windows Hello Passkey registration and authentication: passed engineering evidence.
+- External Passkey gate: still open pending staging or production evidence.
+- Candidate; production readiness remains false.
+
 ## 3.7.0-identity-slice2-phase-c-external-assurance-kit-r1 — 2026-07-14
 
 ### Added

@@ -152,3 +152,5 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-039 | Notification Provider and Alert Delivery Evidence | `docs/15_Identity_Slice2/039_Notification_Provider_and_Alert_Delivery_Evidence.md` | Candidate | Level 2 |
 | ID2-040 | Key Rotation, Recovery, and Incident Exercise Evidence | `docs/15_Identity_Slice2/040_Key_Rotation_and_Recovery_Exercise_Evidence.md` | Candidate | Level 2 |
 | ID2-041 | Privacy, Legal, and Penetration Assurance | `docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md` | Candidate | Level 2 |
+
+| ID2-042 | External Evidence Provenance Reconciliation | `docs/15_Identity_Slice2/042_External_Evidence_Provenance_Reconciliation.md` | Candidate | Level 2 |

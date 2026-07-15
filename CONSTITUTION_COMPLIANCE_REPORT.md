@@ -71,3 +71,8 @@ This evidence authorizes external assurance work but does not authorize producti
 ## v3.7.0 External Assurance Evidence Compliance
 
 The release converts every remaining manual Phase C blocker into an explicit, sanitized, approval-bearing evidence record. It refuses to equate a green tooling workflow with actual production assurance.
+
+
+## v3.7.1 Evidence Provenance Reconciliation Compliance
+
+The reconciliation enforces truth over convenience. Local evidence is recorded as local, remains useful as passed engineering evidence, and is prevented from closing a staging or production gate. Candidate status and production blockers remain intact.

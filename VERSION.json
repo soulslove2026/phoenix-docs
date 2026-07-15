@@ -1,62 +1,26 @@
 {
-  "version": "3.7.0-identity-slice2-phase-c-external-assurance-kit-r1",
-  "release": "Phoenix Identity Slice 2 Phase C \u2014 External Assurance Evidence Kit Release 1",
-  "release_date": "2026-07-14",
+  "version": "3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1",
+  "release": "Phoenix Identity Slice 2 Phase C \u2014 External Evidence Provenance Reconciliation Release 1",
+  "release_date": "2026-07-15",
   "status": "candidate",
   "production_ready": false,
   "previous_verified_release": "3.5.1-identity-slice2-phase-b-verification",
-  "next_milestone": "Execute and approve all eight external assurance evidence classes",
-  "previous_candidate_release": "3.6.1-identity-slice2-phase-c-typecheck-hotfix-r1",
+  "previous_release": "3.7.0-identity-slice2-phase-c-external-assurance-kit-r1",
+  "next_milestone": "Deploy a governed staging environment and repeat real-device Passkey validation there",
   "internal_workflow_gates": "verified",
   "verified_scope": "Phase C v3.6.2 GitHub workflow and documentation gates",
-  "core_version": "3.7.0",
-  "verification_evidence": {
-    "phoenix_core": {
-      "repository": "soulslove2026/phoenix-core",
-      "branch": "main",
-      "commit": "d5ef049",
-      "workflows": [
-        {
-          "name": "CI",
-          "result": "success",
-          "duration_seconds": 56
-        },
-        {
-          "name": "CodeQL",
-          "result": "success",
-          "duration_seconds": 72
-        },
-        {
-          "name": "Production Assurance Evidence",
-          "result": "success",
-          "duration_seconds": 57
-        }
-      ]
-    },
-    "phoenix_docs": {
-      "repository": "soulslove2026/phoenix-docs",
-      "branch": "main",
-      "commit": "f2b9d07",
-      "workflows": [
-        {
-          "name": "Documentation Check",
-          "result": "success",
-          "duration_seconds": 8
-        },
-        {
-          "name": "Documentation Integrity",
-          "result": "success",
-          "duration_seconds": 12
-        }
-      ]
-    }
+  "core_version": "3.7.1",
+  "reconciliation": {
+    "finding": "A local-compose real-device Passkey result was temporarily represented as staging because the v3.7.0 schema did not admit local provenance.",
+    "correction": "Admit local evidence, report non-qualifying environments explicitly, and preserve production_ready=false.",
+    "local_passkey_result": "passed engineering evidence; not eligible to close external assurance"
   },
   "remaining_phase_c_gates": [
-    "real-browser and real-device Passkey evidence",
-    "actual production notification-provider delivery",
-    "approved key-rotation exercise",
-    "operational alert-delivery evidence",
-    "deployment backup-and-restore exercise",
+    "qualifying staging or production real-browser and real-device Passkey evidence",
+    "actual staging or production notification-provider delivery",
+    "approved key-rotation exercise in staging or production",
+    "operational alert-delivery evidence in staging or production",
+    "recovery-environment backup-and-restore exercise",
     "incident-response exercise",
     "privacy and legal approval",
     "independent penetration testing"

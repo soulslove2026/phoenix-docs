@@ -20,3 +20,13 @@ ID2-001 through ID2-014 are the verified security foundation through v3.4.3.
 - [ID2-024 — Phase B Production Blockers](024_Phase_B_Production_Blockers.md)
 
 Phase B remains Candidate until all code, database, security, supply-chain, container, and documentation gates pass.
+
+
+## Phase C external assurance
+
+- [ID2-037 — External Assurance Evidence Kit](037_External_Assurance_Evidence_Kit.md)
+- [ID2-038 — Real-World Passkey Test Matrix](038_Real_World_Passkey_Test_Matrix.md)
+- [ID2-039 — Notification Provider and Alert Delivery Evidence](039_Notification_Provider_and_Alert_Delivery_Evidence.md)
+- [ID2-040 — Key Rotation, Recovery, and Incident Exercise Evidence](040_Key_Rotation_and_Recovery_Exercise_Evidence.md)
+- [ID2-041 — Privacy, Legal, and Penetration Assurance](041_Privacy_Legal_and_Penetration_Assurance.md)
+- [ID2-042 — External Evidence Provenance Reconciliation](042_External_Evidence_Provenance_Reconciliation.md)

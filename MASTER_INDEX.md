@@ -247,3 +247,6 @@
 - [ID2-040 — Key Rotation, Recovery, and Incident Exercise Evidence](docs/15_Identity_Slice2/040_Key_Rotation_and_Recovery_Exercise_Evidence.md)
 - [ID2-041 — Privacy, Legal, and Penetration Assurance](docs/15_Identity_Slice2/041_Privacy_Legal_and_Penetration_Assurance.md)
 - [v3.7.0 Phase C External Assurance Evidence Kit](releases/v3.7.0-identity-slice2-phase-c-external-assurance-kit-release1.md)
+
+- [ID2-042 — External Evidence Provenance Reconciliation](docs/15_Identity_Slice2/042_External_Evidence_Provenance_Reconciliation.md)
+- [v3.7.1 Phase C Evidence Provenance Reconciliation](releases/v3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1.md)

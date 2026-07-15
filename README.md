@@ -1,9 +1,9 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.7.0-identity-slice2-phase-c-external-assurance-kit-r1`  
-**Current milestone:** Phase C external assurance evidence collection kit — Candidate  
+**Current repository version:** `3.7.1-identity-slice2-phase-c-evidence-provenance-reconciliation-r1`  
+**Current milestone:** Phase C external evidence provenance reconciliation — Candidate  
 **Previous verified milestone:** Identity Slice 2 Phase B v3.5.1  
-**Next gate:** Execute, validate, and approve all eight external evidence classes  
+**Next gate:** Build governed staging and repeat the real-device Passkey exercise there  
 **Next milestone after verification:** Production assurance and external security validation  
 **Production-ready:** No
 
@@ -99,3 +99,8 @@ Commit `c590f6e` showed that CI attempted to execute the compiled incident snaps
 ## v3.7.0 External Assurance Evidence Kit
 
 The remaining Phase C blockers now have governed sanitized schemas and tooling. This release does not claim that the real exercises have passed.
+
+
+## v3.7.1 Evidence Provenance Reconciliation
+
+The first real-device Windows Hello exercise succeeded in `local-compose`. Phoenix now records that result truthfully as local passed engineering evidence while preventing it from closing the staging/production assurance gate. The assessment exposes environment mismatches through `nonQualifyingKinds`.
