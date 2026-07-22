@@ -1,14 +1,24 @@
 # Repository Integrity Report
 
-**Documentation version:** `3.8.0-identity-slice2-phase-c-staging-assurance-foundation-r1`  
-**Core version:** `3.8.0`  
-**Status:** Candidate  
+**Documentation version:** `3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1`
+**Core commit:** `de76fc518e489344e68fc74aff3944254cff9855`
+**Status:** Reconciled staging deployment verification
 **Production ready:** No
 
-The repository contains the governed staging configuration contract, secret-file interfaces, provider-neutral deployment model, preflight and smoke tooling specifications, evidence procedures, tests, workflows, release authority, exact manifests, and SHA-256 checksums.
+## Integrity result
 
-No live secrets, provider credentials, domain certificates, real staging evidence, session tokens, credential identifiers, or production data are authorized in source control. The release prepares a staging deployment but does not claim that one exists.
+The release authorities, deployment verification record, indexes, traceability records, manifest, and checksums were reconciled for the verified immutable staging deployment.
 
-## v3.8.1 authority
+The repository intentionally excludes protected staging secrets and unsanitized host evidence.
 
-Documentation is synchronized to verified core commit `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b` and includes explicit provenance and non-production boundaries.
+The public documentation records only sanitized deployment identifiers, immutable artifact provenance, control outcomes, and rollback authority.
+
+## Required verification
+
+- repository consistency check;
+- Git diff whitespace check;
+- manifest membership and count check;
+- checksum reconciliation;
+- documentation workflows on GitHub.
+
+No production-readiness claim is created by this report.

@@ -261,3 +261,6 @@
 
 - [v3.8.1 Staging Foundation Verification Release 1](releases/3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1.md)
 - [ID2-045 Staging Foundation Workflow Verification](docs/15_Identity_Slice2/045_Staging_Foundation_Workflow_Verification.md)
+
+- [DEP-002 — Staging Deployment Verification](docs/17_Deployment/002_Staging_Deployment_Verification.md)
+- [v3.8.2 Staging Deployment Verification Release 1](releases/3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1.md)

@@ -1,3 +1,22 @@
+## 3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1 — 2026-07-22
+
+### Verified
+
+- Deployed `ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b` to the governed staging environment.
+- Reconciled running image, OCI digest, OCI revision, GitHub attestation, and runtime build commit.
+- Verified Docker health, application readiness, and PostgreSQL availability.
+- Verified non-root runtime as `phoenix`.
+- Verified `/app/migrations` mode `0555` and SQL migration-file mode `0444`.
+- Recorded deployment ID `staging-20260722-001` in region `nl-ams-1`.
+- Confirmed PostgreSQL was not recreated during the Phoenix service update.
+- Added DEP-002 and the v3.8.2 deployment-verification release authority.
+
+### Boundary
+
+- Phase C remains Candidate.
+- Production readiness remains false.
+- Real-browser and real-device Passkey evidence and the remaining external-assurance gates remain open.
+
 ## 3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1 — 2026-07-15
 
 - Recorded successful completion of all five required core workflows at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`.

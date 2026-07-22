@@ -29,3 +29,15 @@ Blocked.
 ## v3.8.1 Staging Foundation Verification — Verified internal gate
 
 All five required core workflows passed at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`. Real HTTPS staging deployment and qualifying evidence remain pending.
+
+## Staging deployment verification — 2026-07-22
+
+- [x] Publish immutable Phoenix Core image to GHCR.
+- [x] Record immutable digest and artifact attestation.
+- [x] Deploy the immutable image to governed staging.
+- [x] Verify runtime user and migration immutability.
+- [x] Verify Docker health, readiness, and database availability.
+- [x] Record deployment identity and rollback authority.
+- [ ] Run qualifying staging Passkey registration and authentication.
+- [ ] Close the remaining Phase C external-assurance gates.
+- [ ] Issue an explicit production-readiness decision.

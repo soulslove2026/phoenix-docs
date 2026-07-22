@@ -1,25 +1,41 @@
-# Update Manifest — v3.8.0
+# Update Manifest
 
-## Core
+## 3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1
 
-- validate explicit runtime environments;
-- enforce production-like staging controls;
-- support mutually exclusive secret-file inputs;
-- add deployment identity to logs and health/readiness;
-- add staging preflight and remote smoke tooling;
-- add provider-neutral staging Compose model;
-- add Staging Foundation Validation workflow;
-- preserve Candidate and `production_ready=false`.
+**Date:** 2026-07-22
+**Core version:** `3.8.0`
+**Verified core commit:** `de76fc518e489344e68fc74aff3944254cff9855`
+**Status:** Verified staging deployment / Candidate phase
+**Production ready:** No
 
-## Documentation
+## Added
 
-- add v3.8.0 release record;
-- add ID2-043 and ID2-044;
-- activate Cloud and Deployment staging baseline documents;
-- synchronize release authority, indexes, traceability, roadmap, manifests, and checksums.
+- `docs/17_Deployment/002_Staging_Deployment_Verification.md`;
+- `releases/3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1.md`.
 
-## v3.8.1 verification update
+## Updated authorities
 
-- record verified core commit `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`;
-- add ID2-045 and the v3.8.1 release record;
-- preserve Candidate / production-ready false status.
+- `VERSION.json`;
+- `RELEASE.md`;
+- `RELEASE_REPORT.md`;
+- `BUNDLE_READ_FIRST.md`;
+- `CHANGELOG.md`;
+- `README.md`;
+- `DOCUMENT_INDEX.md`;
+- `MASTER_INDEX.md`;
+- `TRACEABILITY_MATRIX.md`;
+- `PROJECT_BOARD.md`;
+- `AI_CONTEXT.md`;
+- `CONSTITUTION_COMPLIANCE_REPORT.md`;
+- `REPOSITORY_INTEGRITY_REPORT.md`;
+- `docs/17_Deployment/README.md`;
+- `FILE_MANIFEST.json`;
+- `CHECKSUMS.sha256`.
+
+## Verified artifact
+
+`ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`
+
+## Boundary
+
+Staging deployment is verified. Production readiness remains false and all remaining Phase C exit gates continue to apply.
