@@ -1,10 +1,10 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1`  
-**Current milestone:** Phase C Staging Assurance Foundation — Candidate  
-**Previous verified milestone:** v3.7.1 core and documentation workflows  
-**Next gate:** Deploy the verified immutable image behind a real HTTPS staging origin and repeat the Passkey exercise  
-**Next milestone after verification:** Production assurance and external security validation  
+**Current repository version:** `3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1`
+**Current milestone:** Phase C Staging Assurance Foundation — Candidate
+**Previous verified milestone:** v3.7.1 core and documentation workflows
+**Next gate:** Deploy the verified immutable image behind a real HTTPS staging origin and repeat the Passkey exercise
+**Next milestone after verification:** Production assurance and external security validation
 **Production-ready:** No
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the authoritative source for governance, architecture, security, product, implementation, data, release evidence, and traceability.
@@ -114,3 +114,11 @@ Phoenix now defines a fail-closed staging contract, independent secret-file inpu
 ## Verified core authority
 
 All five required core workflows passed at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`. This verifies the staging foundation internally but does not claim a real staging deployment or production readiness.
+
+## Verified staging deployment — v3.8.2
+
+Phoenix Core `3.8.0` commit `de76fc518e489344e68fc74aff3944254cff9855` is deployed to the governed staging environment using immutable OCI digest `sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`.
+
+The service is running and healthy, readiness reports the database available, runtime identity is non-root, and application migration files are read-only.
+
+This is a verified staging deployment, not a production-readiness declaration. See [DEP-002](docs/17_Deployment/002_Staging_Deployment_Verification.md).

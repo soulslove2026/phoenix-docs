@@ -2,10 +2,10 @@
 
 ## Verdict
 
-**Design review:** Passed  
-**Local automated review:** Required before packaging  
-**GitHub verification:** Pending  
-**Release state:** Candidate  
+**Design review:** Passed
+**Local automated review:** Required before packaging
+**GitHub verification:** Pending
+**Release state:** Candidate
 **Production readiness:** No
 
 | Dimension | Result | Evidence |
@@ -95,3 +95,9 @@ GitHub workflow verification and an actual staging deployment remain required be
 ## v3.8.1 Staging Foundation Verification Compliance
 
 The same immutable core commit `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b` passed CI, CodeQL, production-assurance, external-assurance-control, and staging-foundation validation. No deployment or production-readiness claim is made beyond the evidence.
+
+## Staging deployment verification — v3.8.2
+
+The deployment satisfies the constitutional requirements for immutable artifact selection, source traceability, non-root runtime, read-only migration assets, health and readiness verification, database continuity, rollback authority, and truthful evidence classification.
+
+The verification does not override Phase C exit gates and does not authorize production.

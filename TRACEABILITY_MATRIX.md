@@ -154,3 +154,20 @@
 | DEP-001 | Make staging deployment observable, reversible, and evidence-bound | deployment runbook and rollback steps | Candidate |
 
 | ID2-045 | Verify staging foundation CI, security, assurance, and repository integrity on one immutable commit | five GitHub workflows at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b` | Verified internal gate |
+
+## DEP-002 — Staging Deployment Verification
+
+| Requirement | Evidence | Result |
+|---|---|---|
+| Immutable deployed artifact | `ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b` | Verified |
+| Source revision | `de76fc518e489344e68fc74aff3944254cff9855` | Verified |
+| Artifact attestation | `https://github.com/soulslove2026/phoenix-core/attestations/36564638` | Verified |
+| Runtime identity | non-root `phoenix` user | Verified |
+| Migration immutability | directory `0555`; SQL files `0444` | Verified |
+| Container health | Docker `healthy` | Verified |
+| Application readiness | `status: ready` | Verified |
+| Database readiness | `database: available` | Verified |
+| Deployment identity | `staging-20260722-001` / `nl-ams-1` | Verified |
+| PostgreSQL continuity | database service not recreated | Verified |
+| Rollback authority | protected configuration backup and previous immutable image | Recorded |
+| Production authorization | remaining Phase C gates | Open |

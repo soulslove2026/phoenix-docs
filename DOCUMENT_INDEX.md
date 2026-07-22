@@ -161,3 +161,5 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | DEP-001 | Staging Deployment Runbook | `docs/17_Deployment/001_Staging_Deployment_Runbook.md` | Candidate | Level 2 |
 
 | ID2-045 | Staging Foundation Workflow Verification | `docs/15_Identity_Slice2/045_Staging_Foundation_Workflow_Verification.md` | Verified internal gate | Level 2 |
+
+| DEP-002 | Staging Deployment Verification | `docs/17_Deployment/002_Staging_Deployment_Verification.md` | Verified staging deployment | Level 2 |
