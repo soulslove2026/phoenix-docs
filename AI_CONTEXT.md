@@ -34,7 +34,7 @@ You are working on Phoenix, an AI-native social platform designed for phased gro
 - Architecture: bounded-context modular monolith with selective future extraction
 
 ## Current Milestone
-Phoenix v3.8.0 Staging Assurance Foundation is Candidate. The next evidence-bearing action is a real HTTPS staging deployment followed by a real-device Passkey ceremony. Do not claim staging, external-assurance completion, or production readiness from templates or CI alone.
+Phoenix documentation release v3.8.3 reconciles the live roadmap with the verified governed HTTPS staging deployment. The next evidence-bearing action is an approved real-browser and real-device Passkey ceremony in that verified staging environment. Do not claim Passkey closure, external-assurance completion, or production readiness from deployment health, templates, or CI alone.
 
 ## Current staging deployment checkpoint
 
@@ -42,4 +42,4 @@ The governed staging environment is verified on Phoenix Core `3.8.0` commit `de7
 
 Deployment ID is `staging-20260722-001` in `nl-ams-1`. The service is healthy and ready, PostgreSQL is available, runtime is non-root, and migrations are read-only.
 
-Documentation release is `3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1`. Phase C remains Candidate and production readiness remains false.
+Documentation release is `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`. The roadmap authorities are reconciled with the verified staging deployment. Phase C remains Candidate and production readiness remains false.

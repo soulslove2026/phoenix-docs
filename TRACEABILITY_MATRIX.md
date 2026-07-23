@@ -171,3 +171,14 @@
 | PostgreSQL continuity | database service not recreated | Verified |
 | Rollback authority | protected configuration backup and previous immutable image | Recorded |
 | Production authorization | remaining Phase C gates | Open |
+
+## DOC-REC-001 — Staging Roadmap Reconciliation
+
+| Requirement | Evidence | Result |
+|---|---|---|
+| Live roadmap reflects the verified HTTPS staging deployment | DEP-002, `ENGINEERING_ROADMAP.md`, `PROJECT_BOARD.md` | Verified |
+| AI context does not direct agents to repeat a completed deployment | `AI_CONTEXT.md` | Verified |
+| Repository entry point identifies the correct current release and next gate | `README.md`, `VERSION.json` | Verified |
+| Historical releases remain unchanged | v3.8.0, v3.8.1, and v3.8.2 release records | Preserved |
+| Passkey assurance remains open pending real staging evidence | ID2-044 and Phase C exit gates | Open |
+| Production authorization remains blocked | `production_ready=false` | Verified |

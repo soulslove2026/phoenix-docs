@@ -1,3 +1,20 @@
+## 3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1 — 2026-07-23
+
+### Reconciled
+
+- Reconciled the live roadmap and project authorities with the verified v3.8.2 staging deployment.
+- Corrected stale statements that still described HTTPS staging deployment as pending.
+- Established Staging Passkey Assurance as the next operational gate.
+- Added explicit validation against future roadmap-state drift.
+- Preserved historical release records without rewriting their original claims.
+
+### Boundary
+
+- No Phoenix Core or staging-runtime change.
+- Phase C remains Candidate.
+- Production readiness remains false.
+- Qualifying Passkey and remaining external-assurance evidence remain open.
+
 ## 3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1 — 2026-07-22
 
 ### Verified
