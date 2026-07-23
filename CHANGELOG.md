@@ -1,3 +1,11 @@
+## 3.8.4-program-rebaseline-and-delivery-roadmap-r1 — 2026-07-23
+
+- Ratified concurrent Product, Platform Automation, and External Assurance workstreams.
+- Added operational-simplicity rules and blocked manual Passkey R3.
+- Authorized frontend entry after explicit technology and repository ratification.
+- Recorded Passkey R1/R2 as non-qualifying diagnostic lessons.
+- Preserved Phoenix Core 3.8.0, verified staging, Phase C Candidate, and `production_ready=false`.
+
 ## 3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1 — 2026-07-23
 
 ### Reconciled

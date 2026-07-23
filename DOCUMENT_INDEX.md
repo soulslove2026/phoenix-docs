@@ -163,3 +163,11 @@ Other historical and domain documents remain available through [MASTER_INDEX.md]
 | ID2-045 | Staging Foundation Workflow Verification | `docs/15_Identity_Slice2/045_Staging_Foundation_Workflow_Verification.md` | Verified internal gate | Level 2 |
 
 | DEP-002 | Staging Deployment Verification | `docs/17_Deployment/002_Staging_Deployment_Verification.md` | Verified staging deployment | Level 2 |
+
+## Program Delivery — v3.8.4
+
+- `docs/18_Program_Delivery/README.md`
+- `docs/18_Program_Delivery/001_Program_Rebaseline_and_Delivery_Model.md`
+- `docs/18_Program_Delivery/002_Operational_Simplicity_Policy.md`
+- `docs/18_Program_Delivery/003_Frontend_Entry_and_Product_Delivery_Plan.md`
+- `docs/18_Program_Delivery/004_Passkey_Assurance_Lessons_R1_R2.md`

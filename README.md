@@ -1,13 +1,15 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`
-**Current milestone:** Phase C Staging Roadmap Reconciliation — Candidate
-**Previous verified milestone:** v3.8.2 governed HTTPS staging deployment
-**Next gate:** Run governed Passkey preflight and an approved real-device ceremony on verified HTTPS staging
-**Next milestone after verification:** Remaining external assurance and production-readiness review
+**Current repository version:** `3.8.4-program-rebaseline-and-delivery-roadmap-r1`
+**Current milestone:** Program Rebaseline and Delivery Roadmap — Candidate
+**Previous verified milestone:** v3.8.3 staging-roadmap reconciliation
+**Next platform milestone:** Phoenix Core 3.9.0 Assurance Operator
+**Next product milestone:** Frontend technology/repository ratification, then `phoenix-app 0.1.0`
 **Production-ready:** No
 
-Phoenix is an AI-native social platform and platform ecosystem. This repository is the authoritative source for governance, architecture, security, product, implementation, data, release evidence, and traceability.
+Phoenix is an AI-native social platform and platform ecosystem. This repository remains the authoritative source for governance, architecture, security, product, implementation, data, release evidence, and traceability.
+
+The program now advances through concurrent Product, Platform Automation, and External Assurance workstreams. Passkey R1/R2 remain non-qualifying diagnostic attempts; manual R3 is blocked until the assurance operator is verified.
 
 ## Start here
 

@@ -265,3 +265,8 @@
 - [DEP-002 — Staging Deployment Verification](docs/17_Deployment/002_Staging_Deployment_Verification.md)
 - [v3.8.2 Staging Deployment Verification Release 1](releases/3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1.md)
 - [v3.8.3 Staging Roadmap Reconciliation Release 1](releases/3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1.md)
+
+## v3.8.4 Program Rebaseline and Delivery Roadmap
+
+- [Program Delivery](docs/18_Program_Delivery/README.md)
+- [Release record](releases/3.8.4-program-rebaseline-and-delivery-roadmap-r1.md)

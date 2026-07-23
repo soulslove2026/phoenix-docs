@@ -1,12 +1,12 @@
 {
-  "version": "3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1",
-  "release": "Phoenix Identity Slice 2 Phase C — Staging Roadmap Reconciliation Release 1",
+  "version": "3.8.4-program-rebaseline-and-delivery-roadmap-r1",
+  "release": "Phoenix Program Rebaseline and Delivery Roadmap — Release 1",
   "release_date": "2026-07-23",
   "status": "candidate",
   "production_ready": false,
-  "previous_verified_release": "3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1",
-  "previous_release": "3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1",
-  "next_milestone": "Run qualifying real-browser and real-device Passkey assurance in the verified staging environment",
+  "previous_verified_release": "3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1",
+  "previous_release": "3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1",
+  "next_milestone": "Build Phoenix Core 3.9.0 assurance operator and ratify the frontend entry decision",
   "core_version": "3.8.0",
   "staging_deployment": {
     "status": "verified",
@@ -50,5 +50,16 @@
     "privacy and legal approval",
     "independent penetration testing"
   ],
-  "verified_core_commit": "de76fc518e489344e68fc74aff3944254cff9855"
+  "verified_core_commit": "de76fc518e489344e68fc74aff3944254cff9855",
+  "program_rebaseline": {
+    "status": "ratified",
+    "delivery_model": "three concurrent workstreams",
+    "product_frontend_share_percent": 50,
+    "platform_automation_share_percent": 30,
+    "external_assurance_share_percent": 20,
+    "progress_percentages_are": "management estimates, not automated evidence",
+    "passkey_r1_r2": "non-qualifying diagnostic attempts",
+    "manual_passkey_r3": "prohibited until assurance operator is verified",
+    "frontend_entry": "authorized after explicit technology and repository ratification"
+  }
 }
