@@ -1,35 +1,19 @@
-# Repository Integrity Report
+# Repository Integrity Report — v3.8.4
 
-**Documentation version:** `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`
-**Core commit:** `de76fc518e489344e68fc74aff3944254cff9855`
-**Status:** Reconciled staging roadmap authorities
-**Production ready:** No
+## Scope
 
-## Integrity result
+Documentation-only program rebaseline built on main commit `b4df66b`.
 
-The live release authorities, engineering roadmap, AI context, project board, repository entry point, constitutional report, traceability record, manifest, and checksums are reconciled with the verified immutable staging deployment.
+## Expected state
 
-Historical release authorities remain unchanged.
+- repository version: `3.8.4-program-rebaseline-and-delivery-roadmap-r1`;
+- core version: `3.8.0`;
+- Phase C: Candidate;
+- production ready: false;
+- new domain: `docs/18_Program_Delivery`;
+- new release record: `releases/3.8.4-program-rebaseline-and-delivery-roadmap-r1.md`;
+- runtime and staging unchanged.
 
-The repository intentionally excludes protected staging secrets, unsanitized host evidence, credential material, session data, and raw WebAuthn responses.
+## Validation
 
-## Runtime boundary
-
-This release modifies documentation governance only.
-
-It does not modify Phoenix Core, the OCI image, staging services, PostgreSQL, migrations, TLS, secrets, RP ID, allowed origins, or operational credentials.
-
-## Required verification
-
-- repository consistency check;
-- Git diff whitespace check;
-- stale-roadmap assertion check;
-- manifest membership and count check;
-- checksum reconciliation;
-- documentation workflows on GitHub.
-
-## Production boundary
-
-No production-readiness claim is created by this report.
-
-Phase C remains Candidate and the Passkey and remaining external-assurance gates remain open.
+The release installer regenerates `FILE_MANIFEST.json` and `CHECKSUMS.sha256`, then runs the repository integrity script. GitHub Documentation Check and Documentation Integrity remain required before merge.

@@ -43,3 +43,12 @@ The governed staging environment is verified on Phoenix Core `3.8.0` commit `de7
 Deployment ID is `staging-20260722-001` in `nl-ams-1`. The service is healthy and ready, PostgreSQL is available, runtime is non-root, and migrations are read-only.
 
 Documentation release is `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`. The roadmap authorities are reconciled with the verified staging deployment. Phase C remains Candidate and production readiness remains false.
+
+
+## v3.8.4 Program Rebaseline Authority
+
+Phoenix Docs `3.8.4-program-rebaseline-and-delivery-roadmap-r1` is the current program authority. Preserve Phoenix Core 3.8.0 and the verified staging deployment. Phase C remains Candidate and production readiness remains false.
+
+Do not run a manual Passkey R3. The next platform release is Phoenix Core 3.9.0 Assurance Operator and Staging Automation. In parallel, prepare an explicit frontend technology and repository decision followed by `phoenix-app 0.1.0` Frontend Foundation and Product Shell.
+
+Before implementation, read PDR-001 through PDR-004. Prefer the smallest coherent vertical slice, one-command governed operations, RTL/LTR and accessibility from the first frontend release, and observable outcomes over documentation volume.

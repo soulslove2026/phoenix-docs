@@ -42,3 +42,12 @@ No application, image, staging-host, database, Docker, secret, migration, or net
 The live project authorities now reflect that the governed HTTPS staging deployment is verified and that Staging Passkey Assurance is the next open gate.
 
 Phase C remains Candidate and production readiness remains false.
+
+## 3.8.4-program-rebaseline-and-delivery-roadmap-r1
+
+**Date:** 2026-07-23
+**Core version:** `3.8.0`
+**Status:** Program rebaseline ratified / Phase C Candidate
+**Production ready:** No
+
+Added PDR-001 through PDR-004 and the v3.8.4 release record. Updated live program authorities, indexes, traceability, validation, manifest, and checksums. No runtime or infrastructure change.

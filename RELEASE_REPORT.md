@@ -1,65 +1,43 @@
 # Release Report
 
-## Phoenix v3.8.3 Staging Roadmap Reconciliation
+## Phoenix v3.8.4 Program Rebaseline and Delivery Roadmap
 
 **Date:** 2026-07-23
-**Documentation version:** `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`
+**Documentation version:** `3.8.4-program-rebaseline-and-delivery-roadmap-r1`
 **Core version:** `3.8.0`
-**Core commit:** `de76fc518e489344e68fc74aff3944254cff9855`
-**OCI digest:** `sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`
-**Deployment ID:** `staging-20260722-001`
-**Status:** Reconciled documentation authorities / Candidate phase
+**Status:** Program rebaseline ratified / Candidate phase
 **Production ready:** No
 
-## Purpose
+## Constitutional verdict
 
-Reconcile the live engineering roadmap, AI context, project board, repository entry point, and current release authorities with the verified staging deployment recorded in v3.8.2.
+The Constitution remains valid and does not require amendment. Phoenix is architecturally aligned, but operational simplicity requires corrective action after the manual Passkey exercises.
 
-## Reconciled authorities
+## Delivery decision
 
-- `AI_CONTEXT.md`;
-- `ENGINEERING_ROADMAP.md`;
-- `PROJECT_BOARD.md`;
-- `README.md`;
-- current release and repository-governance authorities;
-- constitutional and repository-integrity reporting;
-- release validation rules, manifest, and checksums.
+Phoenix now operates through three concurrent workstreams:
 
-## Preserved evidence
+- Product and frontend delivery: 50% planning share;
+- Platform and operational automation: 30%;
+- External assurance: 20%.
 
-The verified deployed artifact remains:
+The percentages express prioritization and are not automated progress evidence.
 
-`ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`
+## Current program estimate
 
-The verified runtime identity remains tied to:
+- engineering foundation and backend platform: approximately 80–85%;
+- visible user-facing product: approximately 5–10%;
+- whole-program completion: approximately 28–32%.
 
-- core commit `de76fc518e489344e68fc74aff3944254cff9855`;
-- deployment ID `staging-20260722-001`;
-- region `nl-ams-1`;
-- GitHub artifact attestation `36564638`.
+These are management estimates and must be revised when the frontend scope and release backlog are ratified.
 
-## Change boundary
+## Corrective action
 
-This is a documentation-governance reconciliation release.
+Do not repeat the manual R1/R2 process. Build a governed assurance operator that eliminates clipboard token transfer and performs preflight, bounded window control, evidence validation, cleanup, rollback, and final smoke verification.
 
-It does not change:
+## Frontend decision
 
-- Phoenix Core;
-- the OCI image;
-- the staging host;
-- Docker services;
-- PostgreSQL;
-- migrations;
-- secrets;
-- TLS;
-- RP ID or allowed origins.
+Frontend delivery is authorized in parallel with external assurance after explicit ratification of technology, repository, session security, localization, accessibility, and API-contract decisions.
 
-## Next gate
+## Runtime boundary
 
-Run the governed staging Passkey preflight and, only when every precondition is proven, conduct the approved real-browser and real-device registration and authentication ceremony.
-
-## Production boundary
-
-Staging deployment verification is not production authorization.
-
-Phase C remains Candidate and production readiness remains false.
+No Phoenix Core source, OCI artifact, server, database, container, secret, or staging configuration is changed by this release. Production readiness remains false.

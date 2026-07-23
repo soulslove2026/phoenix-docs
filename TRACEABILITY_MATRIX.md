@@ -182,3 +182,7 @@
 | Historical releases remain unchanged | v3.8.0, v3.8.1, and v3.8.2 release records | Preserved |
 | Passkey assurance remains open pending real staging evidence | ID2-044 and Phase C exit gates | Open |
 | Production authorization remains blocked | `production_ready=false` | Verified |
+| PDR-001 | Program rebaseline and concurrent delivery | Constitution Arts. 3, 66–68, 77, 80 | `docs/18_Program_Delivery/001_Program_Rebaseline_and_Delivery_Model.md` | Docs integrity | Candidate |
+| PDR-002 | Operational simplicity | Constitution Arts. 6, 67, 74, 77, 80 | `docs/18_Program_Delivery/002_Operational_Simplicity_Policy.md` | Core 3.9.0 planned | Candidate |
+| PDR-003 | Frontend entry and delivery plan | Constitution Arts. 2, 6–10, 71–75 | `docs/18_Program_Delivery/003_Frontend_Entry_and_Product_Delivery_Plan.md` | Frontend decision planned | Candidate |
+| PDR-004 | Passkey lessons and evidence truth | Constitution Arts. 66–69, 80 | `docs/18_Program_Delivery/004_Passkey_Assurance_Lessons_R1_R2.md` | R2 safe closure | Recorded |
