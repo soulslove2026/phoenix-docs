@@ -9,26 +9,28 @@
 - Phase C internal automated workflow gates
 - Local real-device Windows Hello Passkey engineering validation
 - v3.7.1 evidence provenance reconciliation workflows
+- v3.8.1 staging-foundation workflow verification
+- v3.8.2 governed HTTPS staging deployment verification
 
 ## Current milestone
 
-**v3.8.0 Phase C Staging Assurance Foundation — Candidate**
+**v3.8.3 Phase C Staging Roadmap Reconciliation — Candidate**
 
 ## Current conclusion
 
-The repository now contains the governed staging contract and deployment tooling. No real staging deployment or staging-qualified Passkey evidence is claimed.
+The governed HTTPS staging deployment is verified and is running the immutable Phoenix Core 3.8.0 artifact associated with commit `de76fc518e489344e68fc74aff3944254cff9855`.
+
+The live roadmap, AI context, repository entry point, and project board are reconciled with that verified deployment.
+
+No qualifying staging Passkey evidence or production authorization is claimed.
 
 ## Next work
 
-Verify v3.8.0 workflows, select a controlled HTTPS staging domain and host, deploy the immutable artifact, run preflight/smoke checks, and repeat Passkey registration/authentication.
+Verify the Passkey-assurance preconditions, open an approved and time-bounded assurance window, execute real-browser and real-device registration and authentication, sanitize the evidence, validate its staging provenance, and close the harness window.
 
 ## Production readiness
 
 Blocked.
-
-## v3.8.1 Staging Foundation Verification — Verified internal gate
-
-All five required core workflows passed at `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b`. Real HTTPS staging deployment and qualifying evidence remain pending.
 
 ## Staging deployment verification — 2026-07-22
 
@@ -41,3 +43,13 @@ All five required core workflows passed at `4893cd36a7c42bdfd375908b2cfd905de1ff
 - [ ] Run qualifying staging Passkey registration and authentication.
 - [ ] Close the remaining Phase C external-assurance gates.
 - [ ] Issue an explicit production-readiness decision.
+
+## Staging roadmap reconciliation — 2026-07-23
+
+- [x] Reconcile the engineering roadmap with DEP-002.
+- [x] Reconcile the AI context with the verified staging state.
+- [x] Reconcile the project board and repository entry point.
+- [x] Preserve all historical release records.
+- [x] Preserve Phase C Candidate status.
+- [x] Preserve `production_ready=false`.
+- [ ] Execute the governed Staging Passkey Assurance procedure.

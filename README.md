@@ -1,10 +1,10 @@
 # Phoenix Engineering Handbook
 
-**Current repository version:** `3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1`
-**Current milestone:** Phase C Staging Assurance Foundation — Candidate
-**Previous verified milestone:** v3.7.1 core and documentation workflows
-**Next gate:** Deploy the verified immutable image behind a real HTTPS staging origin and repeat the Passkey exercise
-**Next milestone after verification:** Production assurance and external security validation
+**Current repository version:** `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`
+**Current milestone:** Phase C Staging Roadmap Reconciliation — Candidate
+**Previous verified milestone:** v3.8.2 governed HTTPS staging deployment
+**Next gate:** Run governed Passkey preflight and an approved real-device ceremony on verified HTTPS staging
+**Next milestone after verification:** Remaining external assurance and production-readiness review
 **Production-ready:** No
 
 Phoenix is an AI-native social platform and platform ecosystem. This repository is the authoritative source for governance, architecture, security, product, implementation, data, release evidence, and traceability.

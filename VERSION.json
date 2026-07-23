@@ -1,46 +1,54 @@
 {
-    "version":  "3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1",
-    "release":  "Phoenix Identity Slice 2 Phase C — Staging Deployment Verification Release 1",
-    "release_date":  "2026-07-22",
-    "status":  "candidate",
-    "production_ready":  false,
-    "previous_verified_release":  "3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1",
-    "previous_release":  "3.8.1-identity-slice2-phase-c-staging-foundation-verification-r1",
-    "next_milestone":  "Run qualifying real-browser and real-device Passkey assurance in the verified staging environment",
-    "core_version":  "3.8.0",
-    "staging_deployment":  {
-                               "status":  "verified",
-                               "deployment_id":  "staging-20260722-001",
-                               "region":  "nl-ams-1",
-                               "environment":  "staging",
-                               "health":  "healthy",
-                               "readiness":  "ready",
-                               "database":  "available",
-                               "runtime_user":  "phoenix",
-                               "non_root_runtime":  true,
-                               "migration_directory_mode":  "0555",
-                               "migration_sql_mode":  "0444",
-                               "immutable_reference":  "ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b",
-                               "digest":  "sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b",
-                               "attestation":  "https://github.com/soulslove2026/phoenix-core/attestations/36564638",
-                               "postgres_recreated":  false
-                           },
-    "release_image_workflow":  {
-                                   "status":  "verified",
-                                   "published_to_ghcr":  true,
-                                   "immutable_digest":  "sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b",
-                                   "attested":  true,
-                                   "production_ready":  false
-                               },
-    "remaining_phase_c_gates":  [
-                                    "qualifying staging or production real-browser and real-device Passkey evidence",
-                                    "actual staging or production notification-provider delivery",
-                                    "approved key-rotation exercise in staging or production",
-                                    "operational alert-delivery evidence in staging or production",
-                                    "recovery-environment backup-and-restore exercise",
-                                    "incident-response exercise",
-                                    "privacy and legal approval",
-                                    "independent penetration testing"
-                                ],
-    "verified_core_commit":  "de76fc518e489344e68fc74aff3944254cff9855"
+  "version": "3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1",
+  "release": "Phoenix Identity Slice 2 Phase C — Staging Roadmap Reconciliation Release 1",
+  "release_date": "2026-07-23",
+  "status": "candidate",
+  "production_ready": false,
+  "previous_verified_release": "3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1",
+  "previous_release": "3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1",
+  "next_milestone": "Run qualifying real-browser and real-device Passkey assurance in the verified staging environment",
+  "core_version": "3.8.0",
+  "staging_deployment": {
+    "status": "verified",
+    "deployment_id": "staging-20260722-001",
+    "region": "nl-ams-1",
+    "environment": "staging",
+    "health": "healthy",
+    "readiness": "ready",
+    "database": "available",
+    "runtime_user": "phoenix",
+    "non_root_runtime": true,
+    "migration_directory_mode": "0555",
+    "migration_sql_mode": "0444",
+    "immutable_reference": "ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b",
+    "digest": "sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b",
+    "attestation": "https://github.com/soulslove2026/phoenix-core/attestations/36564638",
+    "postgres_recreated": false
+  },
+  "release_image_workflow": {
+    "status": "verified",
+    "published_to_ghcr": true,
+    "immutable_digest": "sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b",
+    "attested": true,
+    "production_ready": false
+  },
+  "roadmap_reconciliation": {
+    "status": "verified",
+    "scope": "documentation authorities only",
+    "runtime_changed": false,
+    "core_changed": false,
+    "staging_changed": false,
+    "next_gate": "staging_passkey_assurance"
+  },
+  "remaining_phase_c_gates": [
+    "qualifying staging or production real-browser and real-device Passkey evidence",
+    "actual staging or production notification-provider delivery",
+    "approved key-rotation exercise in staging or production",
+    "operational alert-delivery evidence in staging or production",
+    "recovery-environment backup-and-restore exercise",
+    "incident-response exercise",
+    "privacy and legal approval",
+    "independent penetration testing"
+  ],
+  "verified_core_commit": "de76fc518e489344e68fc74aff3944254cff9855"
 }

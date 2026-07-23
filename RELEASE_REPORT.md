@@ -1,42 +1,65 @@
 # Release Report
 
-## Phoenix v3.8.2 Staging Deployment Verification
+## Phoenix v3.8.3 Staging Roadmap Reconciliation
 
-**Date:** 2026-07-22
-**Documentation version:** `3.8.2-identity-slice2-phase-c-staging-deployment-verification-r1`
+**Date:** 2026-07-23
+**Documentation version:** `3.8.3-identity-slice2-phase-c-staging-roadmap-reconciliation-r1`
 **Core version:** `3.8.0`
 **Core commit:** `de76fc518e489344e68fc74aff3944254cff9855`
 **OCI digest:** `sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`
 **Deployment ID:** `staging-20260722-001`
-**Status:** Verified staging deployment / Candidate phase
+**Status:** Reconciled documentation authorities / Candidate phase
 **Production ready:** No
 
-## Result
+## Purpose
 
-The governed staging host is running the immutable GHCR image associated with the exact verified commit.
+Reconcile the live engineering roadmap, AI context, project board, repository entry point, and current release authorities with the verified staging deployment recorded in v3.8.2.
 
-The deployed service passed:
+## Reconciled authorities
 
-- Docker running and healthy checks;
-- application readiness;
-- PostgreSQL availability;
-- runtime commit and deployment-identity reconciliation;
-- non-root runtime verification;
-- read-only migration-directory and SQL-file verification;
-- OCI revision, version, digest, and attestation reconciliation.
+- `AI_CONTEXT.md`;
+- `ENGINEERING_ROADMAP.md`;
+- `PROJECT_BOARD.md`;
+- `README.md`;
+- current release and repository-governance authorities;
+- constitutional and repository-integrity reporting;
+- release validation rules, manifest, and checksums.
 
-PostgreSQL remained running during the application-service recreation.
+## Preserved evidence
 
-## Provenance
+The verified deployed artifact remains:
 
-- immutable reference: `ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`;
-- attestation: `https://github.com/soulslove2026/phoenix-core/attestations/36564638`;
-- deployment region: `nl-ams-1`.
+`ghcr.io/soulslove2026/phoenix-core@sha256:c9b9911778411d5fb2e84ce3ec33349ef29e26cc83db8cb89f2340339969cf8b`
 
-## Rollback posture
+The verified runtime identity remains tied to:
 
-A protected pre-deployment configuration backup and the previous immutable image remain available. Application rollback recreates only the Phoenix service and does not assume database rollback.
+- core commit `de76fc518e489344e68fc74aff3944254cff9855`;
+- deployment ID `staging-20260722-001`;
+- region `nl-ams-1`;
+- GitHub artifact attestation `36564638`.
 
-## Remaining boundary
+## Change boundary
 
-This release does not claim production readiness or completion of the remaining Phase C external-assurance gates. Qualifying Passkey, notification, key-rotation, alert-delivery, recovery, incident, legal, privacy, and penetration evidence remain pending.
+This is a documentation-governance reconciliation release.
+
+It does not change:
+
+- Phoenix Core;
+- the OCI image;
+- the staging host;
+- Docker services;
+- PostgreSQL;
+- migrations;
+- secrets;
+- TLS;
+- RP ID or allowed origins.
+
+## Next gate
+
+Run the governed staging Passkey preflight and, only when every precondition is proven, conduct the approved real-browser and real-device registration and authentication ceremony.
+
+## Production boundary
+
+Staging deployment verification is not production authorization.
+
+Phase C remains Candidate and production readiness remains false.

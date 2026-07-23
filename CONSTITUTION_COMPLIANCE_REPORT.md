@@ -1,16 +1,16 @@
-# Constitution Compliance Report — v3.5.0 Phase B
+# Constitution Compliance Report — v3.8.3 Staging Roadmap Reconciliation
 
 ## Verdict
 
-**Design review:** Passed
-**Local automated review:** Required before packaging
-**GitHub verification:** Pending
+**Constitutional reconciliation:** Passed
+**Local automated review:** Passed
+**GitHub verification gate:** Required before merge
 **Release state:** Candidate
 **Production readiness:** No
 
 | Dimension | Result | Evidence |
 |---|---|---|
-| Single source of truth | Candidate pass | synchronized 3.5.0 authority |
+| Single source of truth | Candidate pass | synchronized 3.8.3 live authorities |
 | Security-first architecture | Candidate pass | ID2-015–024 and core controls |
 | Traceability | Candidate pass | requirements to code/tests/gates |
 | Privacy and minimization | Candidate pass | no attestation, k-anonymity, pseudonymized context |
@@ -101,3 +101,19 @@ The same immutable core commit `4893cd36a7c42bdfd375908b2cfd905de1ff4c9b` passed
 The deployment satisfies the constitutional requirements for immutable artifact selection, source traceability, non-root runtime, read-only migration assets, health and readiness verification, database continuity, rollback authority, and truthful evidence classification.
 
 The verification does not override Phase C exit gates and does not authorize production.
+
+## v3.8.3 Staging Roadmap Reconciliation Compliance
+
+The release corrects live-authority drift without altering historical evidence.
+
+It complies with:
+
+- constitutional supremacy and conflict resolution;
+- evidence over confidence;
+- staged delivery;
+- decision-record discipline;
+- AI context-before-generation requirements;
+- truthful production boundaries;
+- reversibility and operational simplicity.
+
+The verified staging deployment remains the factual baseline. Staging Passkey Assurance remains the next open gate. Phase C remains Candidate and production readiness remains false.
